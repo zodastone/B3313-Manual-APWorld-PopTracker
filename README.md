@@ -1,6 +1,6 @@
 # PopTracker Pack for B3313 Manual Archipelago
 
-This is a [PopTracker](https://poptracker.github.io/) pack for the [B3313 Manual APWorld](TODO link). See the APWorld project for the apworld and documentation on how it works.
+This is a [PopTracker](https://poptracker.github.io/) pack for the [B3313 Manual APWorld](https://github.com/zodastone/B3313-Manual-APWorld). See the APWorld project for the apworld and documentation on how it works.
 
 This pack contains maps for each unlockable overworld chunk, and additional tabs for overworld checks and an overview of all checks.
 
