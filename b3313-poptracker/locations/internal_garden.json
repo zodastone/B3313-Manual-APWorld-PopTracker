@@ -1,0 +1,58 @@
+[
+    {
+        "name": "Internal Garden",
+        "chest_unopened_img": "/images/map_checks/star.png",
+        "chest_opened_img": "/images/map_checks/check.png",
+        "children": [
+            {
+                "name": "Bob-omb Tower",
+                "access_rules": [
+                    "internal_garden_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Bob-omb Tower - Top of the Tower",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightBackflip"
+                        ]
+                    },
+                    {
+                        "name": "Bob-omb Tower - Yellow Box Secrets",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightBackflip"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "internal_garden",
+                        "x": 445,
+                        "y": 280
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Internal Garden Courses",
+        "sections": [
+            {
+                "ref": "Internal Garden/Bob-omb Tower/Bob-omb Tower - Top of the Tower",
+                "name": "Bob-omb Tower - Top of the Tower"
+            },
+            {
+                "ref": "Internal Garden/Bob-omb Tower/Bob-omb Tower - Yellow Box Secrets",
+                "name": "Bob-omb Tower - Yellow Box Secrets"
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "overview",
+                "x": 280,
+                "y": 420
+            }
+        ]
+    }
+]

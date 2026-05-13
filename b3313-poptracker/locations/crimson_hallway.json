@@ -1,0 +1,76 @@
+[
+    {
+        "name": "Crimson Hallway",
+        "chest_unopened_img": "/images/map_checks/star.png",
+        "chest_opened_img": "/images/map_checks/check.png",
+        "children": [
+            {
+                "name": "Aquarium Limbo",
+                "access_rules": [
+                    "crimson_hallway_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Aquarium Limbo - Bottom of the Aquarium",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Aquarium Limbo - Red Coins",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "crimson_hallway",
+                        "x": 445,
+                        "y": 230
+                    }
+                ]
+            },
+            {
+                "name": "Bowser's Checkered Madness",
+                "access_rules": [
+                    "crimson_hallway_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Bowser's Checkered Madness - In the Box",
+                        "chest_unopened_img": "/images/items/red_star.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "crimson_hallway",
+                        "x": 50,
+                        "y": 230
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Crimson Hallway Courses",
+        "sections": [
+            {
+                "ref": "Crimson Hallway/Aquarium Limbo/Aquarium Limbo - Bottom of the Aquarium",
+                "name": "Aquarium Limbo - Bottom of the Aquarium"
+            },
+            {
+                "ref": "Crimson Hallway/Aquarium Limbo/Aquarium Limbo - Red Coins",
+                "name": "Aquarium Limbo - Red Coins"
+            },
+            {
+                "ref": "Crimson Hallway/Bowser's Checkered Madness/Bowser's Checkered Madness - In the Box",
+                "name": "Bowser's Checkered Madness - In the Box"
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "overview",
+                "x": 280,
+                "y": 90
+            }
+        ]
+    }
+]

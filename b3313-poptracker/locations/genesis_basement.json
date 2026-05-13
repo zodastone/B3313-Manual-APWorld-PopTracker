@@ -1,0 +1,136 @@
+[
+    {
+        "name": "Genesis Basement",
+        "chest_unopened_img": "/images/map_checks/star.png",
+        "chest_opened_img": "/images/map_checks/check.png",
+        "children": [
+            {
+                "name": "Flower Fields",
+                "access_rules": [
+                    "genesis_basement_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Flower Fields - Top of the Flagpole",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$DistLongJumpLedgeGrab, $HeightDoubleJumpWallKick"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "genesis_basement",
+                        "x": 100,
+                        "y": 235
+                    }
+                ]
+            },
+            {
+                "name": "Chroma Tundra",
+                "access_rules": [
+                    "genesis_basement_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Chroma Tundra - Blast to the Lonely Tree",
+                        "item_count": 1,
+                        "access_rules": [
+                            "triple_jump",
+                            "$DistLongJump, cannon_unlock_(chroma_tundra)",
+                            "$YamlEnabled|slope_movement, cannon_unlock_(chroma_tundra)"
+                        ]
+                    },
+                    {
+                        "name": "Chroma Tundra - Blast Away the Ice",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$DistLongJump, cannon_unlock_(chroma_tundra)",
+                            "$YamlEnabled|slope_movement, cannon_unlock_(chroma_tundra)"
+                        ]
+                    },
+                    {
+                        "name": "Chroma Tundra - Top of the Mountain",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightWallKick"
+                        ]
+                    },
+                    {
+                        "name": "Chroma Tundra - Red Coins",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$DistLongJump, cannon_unlock_(chroma_tundra)",
+                            "$DistLedgeGrab, $DistLongJump",
+                            "$YamlEnabled|slope_movement, cannon_unlock_(chroma_tundra)",
+                            "$DistLedgeGrab, $YamlEnabled|slope_movement"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "genesis_basement",
+                        "x": 320,
+                        "y": 215
+                    }
+                ]
+            },
+            {
+                "name": "Holy Yellow Switch Palace",
+                "access_rules": [
+                    "genesis_basement_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Holy Yellow Switch Palace - Yellow Switch",
+                        "chest_unopened_img": "/images/map_checks/yellow_switch.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "genesis_basement",
+                        "x": 230,
+                        "y": 355
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Genesis Basement Courses",
+        "sections": [
+            {
+                "ref": "Genesis Basement/Flower Fields/Flower Fields - Top of the Flagpole",
+                "name": ""
+            },
+            {
+                "ref": "Genesis Basement/Chroma Tundra/Chroma Tundra - Blast to the Lonely Tree",
+                "name": "Chroma Tundra - Blast to the Lonely Tree"
+            },
+            {
+                "ref": "Genesis Basement/Chroma Tundra/Chroma Tundra - Blast Away the Ice",
+                "name": "Chroma Tundra - Blast Away the Ice"
+            },
+            {
+                "ref": "Genesis Basement/Chroma Tundra/Chroma Tundra - Top of the Mountain",
+                "name": "Chroma Tundra - Top of the Mountain"
+            },
+            {
+                "ref": "Genesis Basement/Chroma Tundra/Chroma Tundra - Red Coins",
+                "name": "Chroma Tundra - Red Coins"
+            },
+            {
+                "ref": "Genesis Basement/Holy Yellow Switch Palace/Holy Yellow Switch Palace - Yellow Switch",
+                "name": "Holy Yellow Switch Palace - Yellow Switch"
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "overview",
+                "x": 280,
+                "y": 360
+            }
+        ]
+    }
+]

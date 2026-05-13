@@ -1,0 +1,75 @@
+[
+    {
+        "name": "Uncanny Courtyard",
+        "chest_unopened_img": "/images/map_checks/star.png",
+        "chest_opened_img": "/images/map_checks/check.png",
+        "children": [
+            {
+                "name": "Battle Fort",
+                "access_rules": [
+                    "uncanny_courtyard_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Battle Fort - Top of the Course",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Battle Fort - Silver Stars",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "uncanny_courtyard",
+                        "x": 327,
+                        "y": 316
+                    }
+                ]
+            },
+            {
+                "name": "Checkerboard",
+                "access_rules": [
+                    "$HeightWallKickLedgeGrab, uncanny_courtyard_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Checkerboard - Free Star",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "uncanny_courtyard",
+                        "x": 190,
+                        "y": 105
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Uncanny Courtyard Courses",
+        "sections": [
+            {
+                "ref": "Uncanny Courtyard/Battle Fort/Battle Fort - Top of the Course",
+                "name": "Battle Fort - Top of the Course"
+            },
+            {
+                "ref": "Uncanny Courtyard/Battle Fort/Battle Fort - Silver Stars",
+                "name": "Battle Fort - Silver Stars"
+            },
+            {
+                "ref": "Uncanny Courtyard/Checkerboard/Checkerboard - Free Star",
+                "name": "Checkerboard - Free Star"
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "overview",
+                "x": 530,
+                "y": 450
+            }
+        ]
+    }
+]

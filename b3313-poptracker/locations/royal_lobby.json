@@ -1,0 +1,253 @@
+[
+    {
+        "name": "Royal Lobby",
+        "chest_unopened_img": "/images/map_checks/star.png",
+        "chest_opened_img": "/images/map_checks/check.png",
+        "children": [
+            {
+                "name": "Salty Salty Shore",
+                "access_rules": [
+                    "royal_lobby_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Salty Salty Shore - On the Cliff",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Salty Salty Shore - Red Coins",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "royal_lobby",
+                        "x": 211,
+                        "y": 235
+                    }
+                ]
+            },
+            {
+                "name": "Piranha Plant Garden",
+                "access_rules": [
+                    "royal_lobby_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Piranha Plant Garden - Top of the Mountain",
+                        "item_count": 1,
+                        "access_rules": [
+                            "cannon_unlock_(piranha_plant_garden)",
+                            "climb",
+                            "$HeightBackflip"
+                        ]
+                    },
+                    {
+                        "name": "Piranha Plant Garden - Red Coins",
+                        "item_count": 1,
+                        "access_rules": [
+                            "cannon_unlock_(piranha_plant_garden), wing_cap",
+                            "triple_jump, wing_cap"
+                        ]
+                    },
+                    {
+                        "name": "Piranha's Igloo - Behind the Glass",
+                        "item_count": 1,
+                        "access_rules": [
+                            "cannon_unlock_(piranha_plant_garden), vanish_cap",
+                            "$HeightSideFlipLedgeGrab, vanish_cap"
+                        ]
+                    },
+                    {
+                        "name": "Piranha's Igloo - Pluck the Piranha Flowers",
+                        "item_count": 1,
+                        "access_rules": [
+                            "cannon_unlock_(piranha_plant_garden)",
+                            "$HeightSideFlipLedgeGrab"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "royal_lobby",
+                        "x": 268,
+                        "y": 235
+                    }
+                ]
+            },
+            {
+                "name": "Downtown City",
+                "access_rules": [
+                    "royal_lobby_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Downtown City - Flood the City",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Downtown City - Red Coins",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Downtown City - Fountain Secrets",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "royal_lobby",
+                        "x": 350,
+                        "y": 338
+                    }
+                ]
+            },
+            {
+                "name": "Tall Tall Mountain (beta)",
+                "access_rules": [
+                    "royal_lobby_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Tall Tall Mountain (beta) - Jump to the Lonely Mushroom",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$DistLongJump"
+                        ]
+                    },
+                    {
+                        "name": "Tall Tall Mountain (beta) - Breathtaking View from the Bridge",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$DistWallKickLedgeGrab",
+                            "$YamlEnabled|slope_movement, kick, wall_kick"
+                        ]
+                    },
+                    {
+                        "name": "Tall Tall Mountain (beta) - Red Coins",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$DistLongJump"
+                        ]
+                    },
+                    {
+                        "name": "Tall Tall Mountain (beta) - Catch Ukiki",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$DistWallKickLedgeGrab",
+                            "$YamlEnabled|slope_movement, kick"
+                        ]
+                    },
+                    {
+                        "name": "Tall Tall Mountain (beta) - Mysterious Mountainside",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$DistWallKickLedgeGrab",
+                            "$YamlEnabled|slope_movement, kick"
+                        ]
+                    },
+                    {
+                        "name": "Magic Mushroom Cave - Top of the Rainbow Mushroom",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$DistWallKickLedgeGrab",
+                            "$YamlEnabled|slope_movement, kick"
+                        ]
+                    },
+                    {
+                        "name": "Magic Mushroom Cave - Under the Rainbow Mushroom",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$DistLedgeGrab, climb",
+                            "$YamlEnabled|slope_movement, kick",
+                            "$DistLedgeGrab, kick"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "royal_lobby",
+                        "x": 393,
+                        "y": 282
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Royal Lobby Courses",
+        "sections": [
+            {
+                "ref": "Royal Lobby/Salty Salty Shore/Salty Salty Shore - On the Cliff",
+                "name": "Salty Salty Shore - On the Cliff"
+            },
+            {
+                "ref": "Royal Lobby/Salty Salty Shore/Salty Salty Shore - Red Coins",
+                "name": "Salty Salty Shore - Red Coins"
+            },
+            {
+                "ref": "Royal Lobby/Piranha Plant Garden/Piranha Plant Garden - Top of the Mountain",
+                "name": "Piranha Plant Garden - Top of the Mountain"
+            },
+            {
+                "ref": "Royal Lobby/Piranha Plant Garden/Piranha Plant Garden - Red Coins",
+                "name": "Piranha Plant Garden - Red Coins"
+            },
+            {
+                "ref": "Royal Lobby/Piranha Plant Garden/Piranha's Igloo - Behind the Glass",
+                "name": "Piranha's Igloo - Behind the Glass"
+            },
+            {
+                "ref": "Royal Lobby/Piranha Plant Garden/Piranha's Igloo - Pluck the Piranha Flowers",
+                "name": "Piranha's Igloo - Pluck the Piranha Flowers"
+            },
+            {
+                "ref": "Royal Lobby/Downtown City/Downtown City - Flood the City",
+                "name": "Downtown City - Flood the City"
+            },
+            {
+                "ref": "Royal Lobby/Downtown City/Downtown City - Red Coins",
+                "name": "Downtown City - Red Coins"
+            },
+            {
+                "ref": "Royal Lobby/Downtown City/Downtown City - Fountain Secrets",
+                "name": "Downtown City - Fountain Secrets"
+            },
+            {
+                "ref": "Royal Lobby/Tall Tall Mountain (beta)/Tall Tall Mountain (beta) - Jump to the Lonely Mushroom",
+                "name": "Tall Tall Mountain (beta) - Jump to the Lonely Mushroom"
+            },
+            {
+                "ref": "Royal Lobby/Tall Tall Mountain (beta)/Tall Tall Mountain (beta) - Breathtaking View from the Bridge",
+                "name": "Tall Tall Mountain (beta) - Breathtaking View from the Bridge"
+            },
+            {
+                "ref": "Royal Lobby/Tall Tall Mountain (beta)/Tall Tall Mountain (beta) - Red Coins",
+                "name": "Tall Tall Mountain (beta) - Red Coins"
+            },
+            {
+                "ref": "Royal Lobby/Tall Tall Mountain (beta)/Tall Tall Mountain (beta) - Catch Ukiki",
+                "name": "Tall Tall Mountain (beta) - Catch Ukiki"
+            },
+            {
+                "ref": "Royal Lobby/Tall Tall Mountain (beta)/Tall Tall Mountain (beta) - Mysterious Mountainside",
+                "name": "Tall Tall Mountain (beta) - Mysterious Mountainside"
+            },
+            {
+                "ref": "Royal Lobby/Tall Tall Mountain (beta)/Magic Mushroom Cave - Top of the Rainbow Mushroom",
+                "name": "Magic Mushroom Cave - Top of the Rainbow Mushroom"
+            },
+            {
+                "ref": "Royal Lobby/Tall Tall Mountain (beta)/Magic Mushroom Cave - Under the Rainbow Mushroom",
+                "name": "Magic Mushroom Cave - Under the Rainbow Mushroom"
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "overview",
+                "x": 530,
+                "y": 330
+            }
+        ]
+    }
+]

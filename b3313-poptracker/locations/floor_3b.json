@@ -1,0 +1,100 @@
+[
+    {
+        "name": "Floor 3B",
+        "chest_unopened_img": "/images/map_checks/star.png",
+        "chest_opened_img": "/images/map_checks/check.png",
+        "children": [
+            {
+                "name": "Sandstone Palace",
+                "access_rules": [
+                    "floor_3b_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Sandstone Palace - Inside the Pyramid",
+                        "item_count": 1,
+                        "access_rules": [
+                            "cannon_unlock_(sandstone_palace), vanish_cap",
+                            "$YamlEnabled|backwards_long_jump, cannon_unlock_(sandstone_palace)"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "floor_3b",
+                        "x": 55,
+                        "y": 260
+                    }
+                ]
+            },
+            {
+                "name": "Lethal Cavern",
+                "access_rules": [
+                    "$HeightBackflip, $YamlEnabled|lava_boost, floor_3b_courses",
+                    "$DistKick, floor_3b_courses, wall_kick",
+                    "$HeightBackflip, $YamlEnabled|lava_boost, plexal_basement_courses",
+                    "$DistKick, plexal_basement_courses, wall_kick"
+                ],
+                "sections": [
+                    {
+                        "name": "Lethal Cavern - Metal Cap Switch",
+                        "chest_unopened_img": "/images/map_checks/green_switch.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Lethal Cavern - Near the Ominous Cave",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Lethal Cavern - Up the Lava Falls",
+                        "item_count": 1,
+                        "access_rules": [
+                            "metal_cap",
+                            "$YamlEnabled|lava_boost"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "floor_3b",
+                        "x": 390,
+                        "y": 140
+                    },
+                    {
+                        "map": "plexal_basement",
+                        "x": 146,
+                        "y": 205
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Floor 3B Courses",
+        "sections": [
+            {
+                "ref": "Floor 3B/Sandstone Palace/Sandstone Palace - Inside the Pyramid",
+                "name": "Sandstone Palace - Inside the Pyramid"
+            },
+            {
+                "ref": "Floor 3B/Lethal Cavern/Lethal Cavern - Metal Cap Switch",
+                "name": "Lethal Cavern - Metal Cap Switch"
+            },
+            {
+                "ref": "Floor 3B/Lethal Cavern/Lethal Cavern - Near the Ominous Cave",
+                "name": "Lethal Cavern - Near the Ominous Cave"
+            },
+            {
+                "ref": "Floor 3B/Lethal Cavern/Lethal Cavern - Up the Lava Falls",
+                "name": "Lethal Cavern - Up the Lava Falls"
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "overview",
+                "x": 280,
+                "y": 300
+            }
+        ]
+    }
+]

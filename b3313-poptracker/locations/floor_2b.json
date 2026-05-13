@@ -1,0 +1,177 @@
+[
+    {
+        "name": "Floor 2B",
+        "chest_unopened_img": "/images/map_checks/star.png",
+        "chest_opened_img": "/images/map_checks/check.png",
+        "children": [
+            {
+                "name": "Midnight Meadow",
+                "access_rules": [
+                    "floor_2b_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Midnight Meadow - Silver Stars",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightWallKick"
+                        ]
+                    },
+                    {
+                        "name": "Midnight Meadow - On the Cliffside",
+                        "item_count": 1,
+                        "access_rules": [
+                            "side_flip, wall_kick",
+                            "triple_jump"
+                        ]
+                    },
+                    {
+                        "name": "Midnight Meadow - Behind the Waterfall",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "floor_2b",
+                        "x": 55,
+                        "y": 155
+                    }
+                ]
+            },
+            {
+                "name": "Wiggler's Forest Fortress",
+                "access_rules": [
+                    "floor_2b_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Wiggler's Forest Fortress - Make Wiggler Squirm",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightLedgeGrab"
+                        ]
+                    },
+                    {
+                        "name": "Wiggler's Forest Fortress - Red Coins",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$DistLongJump, $HeightLedgeGrab"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "floor_2b",
+                        "x": 360,
+                        "y": 90
+                    }
+                ]
+            },
+            {
+                "name": "Sunshine Isles",
+                "access_rules": [
+                    "floor_2b_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Sunshine Isles - Red Coins",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "floor_2b",
+                        "x": 415,
+                        "y": 230
+                    }
+                ]
+            },
+            {
+                "name": "Goomboss Battle",
+                "access_rules": [
+                    "floor_2b_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Goomboss Battle - Wall Kicks Will Work",
+                        "item_count": 1,
+                        "access_rules": [
+                            "climb"
+                        ]
+                    },
+                    {
+                        "name": "Goomboss Battle - Red Coins",
+                        "item_count": 1,
+                        "access_rules": [
+                            "triple_jump, vanish_cap, wing_cap"
+                        ]
+                    },
+                    {
+                        "name": "Goomboss' Lair - Defeat Goomboss",
+                        "chest_unopened_img": "/images/items/red_star.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "climb",
+                            "triple_jump, wing_cap"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "floor_2b",
+                        "x": 460,
+                        "y": 155
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Floor 2B Courses",
+        "sections": [
+            {
+                "ref": "Floor 2B/Midnight Meadow/Midnight Meadow - Silver Stars",
+                "name": "Midnight Meadow - Silver Stars"
+            },
+            {
+                "ref": "Floor 2B/Midnight Meadow/Midnight Meadow - On the Cliffside",
+                "name": "Midnight Meadow - On the Cliffside"
+            },
+            {
+                "ref": "Floor 2B/Midnight Meadow/Midnight Meadow - Behind the Waterfall",
+                "name": "Midnight Meadow - Behind the Waterfall"
+            },
+            {
+                "ref": "Floor 2B/Wiggler's Forest Fortress/Wiggler's Forest Fortress - Make Wiggler Squirm",
+                "name": "Wiggler's Forest Fortress - Make Wiggler Squirm"
+            },
+            {
+                "ref": "Floor 2B/Wiggler's Forest Fortress/Wiggler's Forest Fortress - Red Coins",
+                "name": "Wiggler's Forest Fortress - Red Coins"
+            },
+            {
+                "ref": "Floor 2B/Sunshine Isles/Sunshine Isles - Red Coins",
+                "name": "Sunshine Isles - Red Coins"
+            },
+            {
+                "ref": "Floor 2B/Goomboss Battle/Goomboss Battle - Wall Kicks Will Work",
+                "name": "Goomboss Battle - Wall Kicks Will Work"
+            },
+            {
+                "ref": "Floor 2B/Goomboss Battle/Goomboss Battle - Red Coins",
+                "name": "Goomboss Battle - Red Coins"
+            },
+            {
+                "ref": "Floor 2B/Goomboss Battle/Goomboss' Lair - Defeat Goomboss",
+                "name": "Goomboss' Lair - Defeat Goomboss"
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "overview",
+                "x": 280,
+                "y": 270
+            }
+        ]
+    }
+]

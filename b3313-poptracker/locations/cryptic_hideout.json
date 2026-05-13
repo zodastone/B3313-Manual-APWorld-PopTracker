@@ -1,0 +1,47 @@
+[
+    {
+        "name": "Cryptic Hideout",
+        "chest_unopened_img": "/images/map_checks/star.png",
+        "chest_opened_img": "/images/map_checks/check.png",
+        "children": [
+            {
+                "name": "Click Clock Climb",
+                "access_rules": [
+                    "cryptic_hideout_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Click Clock Climb - Top of the Clock",
+                        "item_count": 1,
+                        "access_rules": [
+                            "wall_kick"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "cryptic_hideout",
+                        "x": 250,
+                        "y": 90
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Cryptic Hideout Courses",
+        "sections": [
+            {
+                "ref": "Cryptic Hideout/Click Clock Climb/Click Clock Climb - Top of the Clock",
+                "name": "Click Clock Climb - Top of the Clock"
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "overview",
+                "x": 280,
+                "y": 120
+            }
+        ]
+    }
+]

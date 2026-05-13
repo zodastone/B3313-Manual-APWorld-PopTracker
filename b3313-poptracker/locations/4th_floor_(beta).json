@@ -1,0 +1,294 @@
+[
+    {
+        "name": "4th Floor (beta)",
+        "chest_unopened_img": "/images/map_checks/star.png",
+        "chest_opened_img": "/images/map_checks/check.png",
+        "children": [
+            {
+                "name": "yajimatest",
+                "access_rules": [
+                    "4th_floor_(beta)_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "yajimatest - In the Yellow Box",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4f_beta",
+                        "x": 135,
+                        "y": 425
+                    }
+                ]
+            },
+            {
+                "name": "Stone Island Pathway",
+                "access_rules": [
+                    "4th_floor_(beta)_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Stone Island Pathway - End of the Course",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightBackflip"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4f_beta",
+                        "x": 285,
+                        "y": 190
+                    }
+                ]
+            },
+            {
+                "name": "Collision Test",
+                "access_rules": [
+                    "4th_floor_(beta)_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Collision Test - In the Yellow Box",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4f_beta",
+                        "x": 135,
+                        "y": 300
+                    }
+                ]
+            },
+            {
+                "name": "Fire Field",
+                "access_rules": [
+                    "4th_floor_(beta)_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Fire Field - Free Star",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fire Field - Red Coins",
+                        "item_count": 1,
+                        "access_rules": [
+                            "cannon_unlock_(fire_field)",
+                            "$YamlEnabled|slope_movement, climb, kick",
+                            "$YamlEnabled|slope_movement, kick, long_jump",
+                            "$YamlEnabled|slope_movement, kick, triple_jump",
+                            "$YamlEnabled|lava_boost, $YamlEnabled|slope_movement, kick"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4f_beta",
+                        "x": 225,
+                        "y": 385
+                    }
+                ]
+            },
+            {
+                "name": "Test Course",
+                "access_rules": [
+                    "4th_floor_(beta)_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Test Course - End of the Course",
+                        "item_count": 1,
+                        "access_rules": [
+                            "wall_kick"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4f_beta",
+                        "x": 365,
+                        "y": 300
+                    }
+                ]
+            },
+            {
+                "name": "Fire Fortress",
+                "access_rules": [
+                    "4th_floor_(beta)_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Fire Fortress - Silver Stars",
+                        "item_count": 1,
+                        "access_rules": [
+                            "cannon_unlock_(fire_fortress)",
+                            "triple_jump"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4f_beta",
+                        "x": 100,
+                        "y": 230
+                    }
+                ]
+            },
+            {
+                "name": "Brown Stony Steps",
+                "access_rules": [
+                    "4th_floor_(beta)_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Brown Stony Steps - Top of the Mountain",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightDoubleJumpWallKick"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4f_beta",
+                        "x": 365,
+                        "y": 105
+                    }
+                ]
+            },
+            {
+                "name": "Sombrero Land",
+                "access_rules": [
+                    "4th_floor_(beta)_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Sombrero Land - Meet the Sombrero Man",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4f_beta",
+                        "x": 190,
+                        "y": 140
+                    }
+                ]
+            },
+            {
+                "name": "athletic2",
+                "access_rules": [
+                    "4th_floor_(beta)_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "athletic2 - Red Coins",
+                        "item_count": 1,
+                        "access_rules": [
+                            "wall_kick",
+                            "triple_jump, wing_cap"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4f_beta",
+                        "x": 220,
+                        "y": 60
+                    },
+                    {
+                        "map": "4f_beta",
+                        "x": 410,
+                        "y": 245
+                    }
+                ]
+            },
+            {
+                "name": "Snow Tunnels",
+                "access_rules": [
+                    "4th_floor_(beta)_courses",
+                    "vanilla_and_mirrored_upstairs_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Snow Tunnels - In the Maze",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4f_beta",
+                        "x": 370,
+                        "y": 360
+                    },
+                    {
+                        "map": "vanilla_upstairs",
+                        "x": 165,
+                        "y": 201
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "4th Floor (beta) Courses",
+        "sections": [
+            {
+                "ref": "4th Floor (beta)/yajimatest/yajimatest - In the Yellow Box",
+                "name": "yajimatest - In the Yellow Box"
+            },
+            {
+                "ref": "4th Floor (beta)/Stone Island Pathway/Stone Island Pathway - End of the Course",
+                "name": "Stone Island Pathway - End of the Course"
+            },
+            {
+                "ref": "4th Floor (beta)/Collision Test/Collision Test - In the Yellow Box",
+                "name": "Collision Test - In the Yellow Box"
+            },
+            {
+                "ref": "4th Floor (beta)/Fire Field/Fire Field - Free Star",
+                "name": "Fire Field - Free Star"
+            },
+            {
+                "ref": "4th Floor (beta)/Fire Field/Fire Field - Red Coins",
+                "name": "Fire Field - Red Coins"
+            },
+            {
+                "ref": "4th Floor (beta)/Test Course/Test Course - End of the Course",
+                "name": "Test Course - End of the Course"
+            },
+            {
+                "ref": "4th Floor (beta)/Fire Fortress/Fire Fortress - Silver Stars",
+                "name": "Fire Fortress - Silver Stars"
+            },
+            {
+                "ref": "4th Floor (beta)/Brown Stony Steps/Brown Stony Steps - Top of the Mountain",
+                "name": "Brown Stony Steps - Top of the Mountain"
+            },
+            {
+                "ref": "4th Floor (beta)/Sombrero Land/Sombrero Land - Meet the Sombrero Man",
+                "name": "Sombrero Land - Meet the Sombrero Man"
+            },
+            {
+                "ref": "4th Floor (beta)/athletic2/athletic2 - Red Coins",
+                "name": "athletic2 - Red Coins"
+            },
+            {
+                "ref": "4th Floor (beta)/Snow Tunnels/Snow Tunnels - In the Maze",
+                "name": "Snow Tunnels - In the Maze"
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "overview",
+                "x": 30,
+                "y": 120
+            }
+        ]
+    }
+]

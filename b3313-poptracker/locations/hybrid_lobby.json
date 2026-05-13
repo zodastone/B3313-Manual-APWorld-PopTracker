@@ -1,0 +1,78 @@
+[
+    {
+        "name": "Hybrid Lobby",
+        "chest_unopened_img": "/images/map_checks/star.png",
+        "chest_opened_img": "/images/map_checks/check.png",
+        "children": [
+            {
+                "name": "Haunted Mansion",
+                "access_rules": [
+                    "hybrid_lobby_courses, triple_jump"
+                ],
+                "sections": [
+                    {
+                        "name": "Haunted Mansion - Wall Kick up the Shaft",
+                        "item_count": 1,
+                        "access_rules": [
+                            "wall_kick"
+                        ]
+                    },
+                    {
+                        "name": "Haunted Mansion - Silver Stars",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Haunted Mansion - Top of the Mansion",
+                        "item_count": 1,
+                        "access_rules": [
+                            "dive, wall_kick",
+                            "$YamlEnabled|slope_movement, kick, wall_kick"
+                        ]
+                    },
+                    {
+                        "name": "Haunted Mansion - Red Coins",
+                        "item_count": 1,
+                        "access_rules": [
+                            "wall_kick"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hybrid_lobby",
+                        "x": 163,
+                        "y": 130
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Hybrid Lobby Courses",
+        "sections": [
+            {
+                "ref": "Hybrid Lobby/Haunted Mansion/Haunted Mansion - Wall Kick up the Shaft",
+                "name": "Haunted Mansion - Wall Kick up the Shaft"
+            },
+            {
+                "ref": "Hybrid Lobby/Haunted Mansion/Haunted Mansion - Silver Stars",
+                "name": "Haunted Mansion - Silver Stars"
+            },
+            {
+                "ref": "Hybrid Lobby/Haunted Mansion/Haunted Mansion - Top of the Mansion",
+                "name": "Haunted Mansion - Top of the Mansion"
+            },
+            {
+                "ref": "Hybrid Lobby/Haunted Mansion/Haunted Mansion - Red Coins",
+                "name": "Haunted Mansion - Red Coins"
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "overview",
+                "x": 280,
+                "y": 390
+            }
+        ]
+    }
+]

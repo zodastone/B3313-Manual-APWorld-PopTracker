@@ -1,0 +1,15 @@
+{
+    "name": "B3313 for Archipelago (Manual)",
+    "game_name": "Manual_B3313_ZodaStone",
+    "package_version": "1.0.0",
+    "package_uid": "Manual_B3313_ZodaStone",
+    "variants": {
+        "tracker": {
+            "display_name": "Map Tracker",
+            "flags": [
+                "ap",
+                "apmanual"
+            ]
+        }
+    }
+}

@@ -1,0 +1,379 @@
+[
+    {
+        "name": "Beta Lobby B",
+        "chest_unopened_img": "/images/map_checks/star.png",
+        "chest_opened_img": "/images/map_checks/check.png",
+        "children": [
+            {
+                "name": "Jolly Roger Lagoon",
+                "access_rules": [
+                    "beta_lobby_b_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Jolly Roger Lagoon - Metal Cap Switch",
+                        "chest_unopened_img": "/images/map_checks/green_switch.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Jolly Roger Lagoon - In the Underwater Cave",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Jolly Roger Lagoon - Red Coins",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "beta_lobby_b",
+                        "x": 440,
+                        "y": 200
+                    }
+                ]
+            },
+            {
+                "name": "Frosty Highlands",
+                "access_rules": [
+                    "beta_lobby_b_courses",
+                    "$HeightBackflip, beta_lobby_d_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Frosty Highlands - Top of the Mountain",
+                        "item_count": 1,
+                        "access_rules": [
+                            "triple_jump",
+                            "wall_kick"
+                        ]
+                    },
+                    {
+                        "name": "Frosty Highlands - Red Coins",
+                        "item_count": 1,
+                        "access_rules": [
+                            "triple_jump",
+                            "wall_kick"
+                        ]
+                    },
+                    {
+                        "name": "Frosty Highlands - Green Star on the Chimney",
+                        "chest_unopened_img": "/images/map_checks/green_star.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "green_comet, triple_jump",
+                            "green_comet, wall_kick"
+                        ]
+                    },
+                    {
+                        "name": "Cold Cold Crevasse - Top of the Area",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightWallKick"
+                        ]
+                    },
+                    {
+                        "name": "Cold Cold Crevasse - Silver Stars",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$DistLongJump, $HeightKick",
+                            "$HeightBackflip, $HeightKick"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "beta_lobby_b",
+                        "x": 75,
+                        "y": 200
+                    },
+                    {
+                        "map": "beta_lobby_d",
+                        "x": 75,
+                        "y": 175
+                    }
+                ]
+            },
+            {
+                "name": "Snowman's Land (beta)",
+                "access_rules": [
+                    "beta_lobby_b_courses",
+                    "beta_lobby_d_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Snowman's Land (beta) - In the Deep Freeze",
+                        "item_count": 1,
+                        "access_rules": [
+                            "ground_pound"
+                        ]
+                    },
+                    {
+                        "name": "Snowman's Land (beta) - Snowman's Big Head",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Snowman's Land (beta) - Silver Stars",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightBackflip",
+                            "climb"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "beta_lobby_b",
+                        "x": 75,
+                        "y": 175
+                    },
+                    {
+                        "map": "beta_lobby_d",
+                        "x": 75,
+                        "y": 200
+                    }
+                ]
+            },
+            {
+                "name": "Whomp's Kingdom",
+                "access_rules": [
+                    "beta_lobby_b_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Whomp's Kingdom - SMG2 Bonus Area",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Whomp's Kingdom - Top of the Tower",
+                        "item_count": 1,
+                        "access_rules": [
+                            "cannon_unlock_(whomps_kingdom)",
+                            "climb",
+                            "backflip",
+                            "wall_kick, triple_jump",
+                            "wall_kick, side_flip"
+                        ]
+                    },
+                    {
+                        "name": "Whomp's Kingdom - Red Coins",
+                        "item_count": 1,
+                        "access_rules": [
+                            "cannon_unlock_(whomps_kingdom)",
+                            "climb",
+                            "backflip",
+                            "wall_kick, triple_jump",
+                            "wall_kick, side_flip"
+                        ]
+                    },
+                    {
+                        "name": "Whomp's Prison - In a Jail Cell",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightWallKick"
+                        ]
+                    },
+                    {
+                        "name": "Whomp's Prison - Red Coins",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightWallKick"
+                        ]
+                    },
+                    {
+                        "name": "King Whomp's Battle Arena - Chip Off Whomp's Block",
+                        "chest_unopened_img": "/images/items/red_star.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "cannon_unlock_(whomps_kingdom), ground_pound"
+                        ]
+                    },
+                    {
+                        "name": "wf.z64 - Top of the Tower",
+                        "chest_unopened_img": "/images/items/red_star.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "cannon_unlock_(whomps_kingdom), ledge_grab, side_flip, wall_kick",
+                            "ledge_grab, side_flip, triple_jump, wall_kick"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "beta_lobby_b",
+                        "x": 150,
+                        "y": 175
+                    }
+                ]
+            },
+            {
+                "name": "Blazing Bully Base",
+                "access_rules": [
+                    "beta_lobby_b_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Blazing Bully Base - Boil the Big Bully",
+                        "item_count": 1,
+                        "access_rules": [
+                            "wall_kick",
+                            "triple_jump",
+                            "metal_cap",
+                            "$YamlEnabled|lava_boost"
+                        ]
+                    },
+                    {
+                        "name": "Blazing Bully Base - On a High Platform (Light)",
+                        "item_count": 1,
+                        "access_rules": [
+                            "wall_kick",
+                            "triple_jump, wing_cap"
+                        ]
+                    },
+                    {
+                        "name": "Blazing Bully Base - On a High Platform (Dark)",
+                        "item_count": 1,
+                        "access_rules": [
+                            "triple_jump, wing_cap",
+                            "$HeightKick, kick",
+                            "$HeightKick, ledge_grab",
+                            "$HeightKick, triple_jump",
+                            "$HeightKick, $YamlEnabled|lava_boost",
+                            "$HeightKick, dive"
+                        ]
+                    },
+                    {
+                        "name": "Blazing Bully Base - Red Coins",
+                        "item_count": 1,
+                        "access_rules": [
+                            "triple_jump, wing_cap",
+                            "triple_jump, wall_kick",
+                            "long_jump, wall_kick",
+                            "metal_cap, wall_kick",
+                            "$YamlEnabled|lava_boost, wall_kick"
+                        ]
+                    },
+                    {
+                        "name": "Bowser Inside the Volcano - Defeat Bowser",
+                        "chest_unopened_img": "/images/items/red_star.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "wall_kick",
+                            "triple_jump, wing_cap"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "beta_lobby_b",
+                        "x": 355,
+                        "y": 175
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Beta Lobby B Courses",
+        "sections": [
+            {
+                "ref": "Beta Lobby B/Jolly Roger Lagoon/Jolly Roger Lagoon - Metal Cap Switch",
+                "name": "Jolly Roger Lagoon - Metal Cap Switch"
+            },
+            {
+                "ref": "Beta Lobby B/Jolly Roger Lagoon/Jolly Roger Lagoon - In the Underwater Cave",
+                "name": "Jolly Roger Lagoon - In the Underwater Cave"
+            },
+            {
+                "ref": "Beta Lobby B/Jolly Roger Lagoon/Jolly Roger Lagoon - Red Coins",
+                "name": "Jolly Roger Lagoon - Red Coins"
+            },
+            {
+                "ref": "Beta Lobby B/Frosty Highlands/Frosty Highlands - Top of the Mountain",
+                "name": "Frosty Highlands - Top of the Mountain"
+            },
+            {
+                "ref": "Beta Lobby B/Frosty Highlands/Frosty Highlands - Red Coins",
+                "name": "Frosty Highlands - Red Coins"
+            },
+            {
+                "ref": "Beta Lobby B/Frosty Highlands/Frosty Highlands - Green Star on the Chimney",
+                "name": "Frosty Highlands - Green Star on the Chimney"
+            },
+            {
+                "ref": "Beta Lobby B/Frosty Highlands/Cold Cold Crevasse - Top of the Area",
+                "name": "Cold Cold Crevasse - Top of the Area"
+            },
+            {
+                "ref": "Beta Lobby B/Frosty Highlands/Cold Cold Crevasse - Silver Stars",
+                "name": "Cold Cold Crevasse - Silver Stars"
+            },
+            {
+                "ref": "Beta Lobby B/Snowman's Land (beta)/Snowman's Land (beta) - In the Deep Freeze",
+                "name": "Snowman's Land (beta) - In the Deep Freeze"
+            },
+            {
+                "ref": "Beta Lobby B/Snowman's Land (beta)/Snowman's Land (beta) - Snowman's Big Head",
+                "name": "Snowman's Land (beta) - Snowman's Big Head"
+            },
+            {
+                "ref": "Beta Lobby B/Snowman's Land (beta)/Snowman's Land (beta) - Silver Stars",
+                "name": "Snowman's Land (beta) - Silver Stars"
+            },
+            {
+                "ref": "Beta Lobby B/Whomp's Kingdom/Whomp's Kingdom - SMG2 Bonus Area",
+                "name": "Whomp's Kingdom - SMG2 Bonus Area"
+            },
+            {
+                "ref": "Beta Lobby B/Whomp's Kingdom/Whomp's Kingdom - Top of the Tower",
+                "name": "Whomp's Kingdom - Top of the Tower"
+            },
+            {
+                "ref": "Beta Lobby B/Whomp's Kingdom/Whomp's Kingdom - Red Coins",
+                "name": "Whomp's Kingdom - Red Coins"
+            },
+            {
+                "ref": "Beta Lobby B/Whomp's Kingdom/Whomp's Prison - In a Jail Cell",
+                "name": "Whomp's Prison - In a Jail Cell"
+            },
+            {
+                "ref": "Beta Lobby B/Whomp's Kingdom/Whomp's Prison - Red Coins",
+                "name": "Whomp's Prison - Red Coins"
+            },
+            {
+                "ref": "Beta Lobby B/Whomp's Kingdom/King Whomp's Battle Arena - Chip Off Whomp's Block",
+                "name": "King Whomp's Battle Arena - Chip Off Whomp's Block"
+            },
+            {
+                "ref": "Beta Lobby B/Whomp's Kingdom/wf.z64 - Top of the Tower",
+                "name": "wf.z64 - Top of the Tower"
+            },
+            {
+                "ref": "Beta Lobby B/Blazing Bully Base/Blazing Bully Base - Boil the Big Bully",
+                "name": "Blazing Bully Base - Boil the Big Bully"
+            },
+            {
+                "ref": "Beta Lobby B/Blazing Bully Base/Blazing Bully Base - On a High Platform (Light)",
+                "name": "Blazing Bully Base - On a High Platform (Light)"
+            },
+            {
+                "ref": "Beta Lobby B/Blazing Bully Base/Blazing Bully Base - On a High Platform (Dark)",
+                "name": "Blazing Bully Base - On a High Platform (Dark)"
+            },
+            {
+                "ref": "Beta Lobby B/Blazing Bully Base/Blazing Bully Base - Red Coins",
+                "name": "Blazing Bully Base - Red Coins"
+            },
+            {
+                "ref": "Beta Lobby B/Blazing Bully Base/Bowser Inside the Volcano - Defeat Bowser",
+                "name": "Bowser Inside the Volcano - Defeat Bowser"
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "overview",
+                "x": 30,
+                "y": 210
+            }
+        ]
+    }
+]

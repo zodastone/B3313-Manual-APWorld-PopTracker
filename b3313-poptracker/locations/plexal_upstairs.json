@@ -1,0 +1,267 @@
+[
+    {
+        "name": "Plexal Upstairs",
+        "chest_unopened_img": "/images/map_checks/star.png",
+        "chest_opened_img": "/images/map_checks/check.png",
+        "children": [
+            {
+                "name": "Rainbow Ride (beta)",
+                "access_rules": [
+                    "plexal_upstairs_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Rainbow Ride (beta) - Big House in the Sky",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$DistKick, $HeightBackflip"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "plexal_upstairs",
+                        "x": 207,
+                        "y": 369
+                    }
+                ]
+            },
+            {
+                "name": "Lavish Lava Mountain",
+                "access_rules": [
+                    "plexal_upstairs_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Lavish Lava Mountain - Bottom of the Green Mountain",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Lavish Lava Mountain - Defeat Mr. I",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Lavish Lava Mountain - Bottom of the Fiery Mountain",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "plexal_upstairs",
+                        "x": 333,
+                        "y": 200
+                    }
+                ]
+            },
+            {
+                "name": "Creepy Cove",
+                "access_rules": [
+                    "plexal_upstairs_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Creepy Cove - On the Sunken Ship",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Creepy Cove - Red Coins",
+                        "item_count": 1,
+                        "access_rules": [
+                            "ledge_grab",
+                            "triple_jump"
+                        ]
+                    },
+                    {
+                        "name": "Jolly Roger Coastline - Above the Lighthouse",
+                        "item_count": 1,
+                        "access_rules": [
+                            "cannon_unlock_(creepy_cove), wing_cap",
+                            "triple_jump, wing_cap"
+                        ]
+                    },
+                    {
+                        "name": "Jolly Roger Coastline - Stone Arch Secrets",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Inside the Sunken Ship - On the Highest Platform",
+                        "item_count": 1,
+                        "access_rules": [
+                            "triple_jump",
+                            "ledge_grab, side_flip"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "plexal_upstairs",
+                        "x": 256,
+                        "y": 50
+                    }
+                ]
+            },
+            {
+                "name": "Pleasant Pleasant Falls",
+                "access_rules": [
+                    "plexal_upstairs_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Pleasant Pleasant Falls - Halfway up the Climb",
+                        "item_count": 1,
+                        "access_rules": [
+                            "cannon_unlock_(pleasant_pleasant_falls)",
+                            "$DistLedgeGrab, $HeightBackflip",
+                            "$HeightBackflip, wall_kick"
+                        ]
+                    },
+                    {
+                        "name": "Pleasant Pleasant Falls - Top of the Climb",
+                        "item_count": 1,
+                        "access_rules": [
+                            "cannon_unlock_(pleasant_pleasant_falls)",
+                            "$HeightSideFlipLedgeGrab"
+                        ]
+                    },
+                    {
+                        "name": "Pleasant Pleasant Falls - Red Coins",
+                        "item_count": 1,
+                        "access_rules": [
+                            "cannon_unlock_(pleasant_pleasant_falls)",
+                            "$HeightSideFlipLedgeGrab"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "plexal_upstairs",
+                        "x": 193,
+                        "y": 131
+                    }
+                ]
+            },
+            {
+                "name": "Big Boo's Fortress",
+                "access_rules": [
+                    "plexal_upstairs_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Big Boo's Fortress - Behind Luigi's Mirror",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Big Boo's Fortress - Behind the Library Mirror",
+                        "item_count": 1,
+                        "access_rules": [
+                            "vanish_cap"
+                        ]
+                    },
+                    {
+                        "name": "Big Boo's Fortress - Defeat the Big Boo",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "plexal_upstairs",
+                        "x": 120,
+                        "y": 369
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Plexal Upstairs Courses",
+        "sections": [
+            {
+                "ref": "Plexal Upstairs/Rainbow Ride (beta)/Rainbow Ride (beta) - Big House in the Sky",
+                "name": "Rainbow Ride (beta) - Big House in the Sky"
+            },
+            {
+                "ref": "Challenge Lobby/Sky-High Pathway/Sky-High Pathway - By the Pipe",
+                "name": "Sky-High Pathway - By the Pipe"
+            },
+            {
+                "ref": "Challenge Lobby/Tower of the Wing Cap (beta)/Tower of the Wing Cap (beta) - Wing Cap Switch",
+                "name": "Tower of the Wing Cap (beta) - Wing Cap Switch"
+            },
+            {
+                "ref": "Challenge Lobby/Tower of the Wing Cap (beta)/Tower of the Wing Cap (beta) - On a High Platform",
+                "name": "Tower of the Wing Cap (beta) - On a High Platform"
+            },
+            {
+                "ref": "Plexal Upstairs/Lavish Lava Mountain/Lavish Lava Mountain - Bottom of the Green Mountain",
+                "name": "Lavish Lava Mountain - Bottom of the Green Mountain"
+            },
+            {
+                "ref": "Plexal Upstairs/Lavish Lava Mountain/Lavish Lava Mountain - Defeat Mr. I",
+                "name": "Lavish Lava Mountain - Defeat Mr. I"
+            },
+            {
+                "ref": "Plexal Upstairs/Lavish Lava Mountain/Lavish Lava Mountain - Bottom of the Fiery Mountain",
+                "name": "Lavish Lava Mountain - Bottom of the Fiery Mountain"
+            },
+            {
+                "ref": "Plexal Upstairs/Creepy Cove/Creepy Cove - On the Sunken Ship",
+                "name": "Creepy Cove - On the Sunken Ship"
+            },
+            {
+                "ref": "Plexal Upstairs/Creepy Cove/Creepy Cove - Red Coins",
+                "name": "Creepy Cove - Red Coins"
+            },
+            {
+                "ref": "Plexal Upstairs/Creepy Cove/Jolly Roger Coastline - Above the Lighthouse",
+                "name": "Jolly Roger Coastline - Above the Lighthouse"
+            },
+            {
+                "ref": "Plexal Upstairs/Creepy Cove/Jolly Roger Coastline - Stone Arch Secrets",
+                "name": "Jolly Roger Coastline - Stone Arch Secrets"
+            },
+            {
+                "ref": "Plexal Upstairs/Creepy Cove/Inside the Sunken Ship - On the Highest Platform",
+                "name": "Inside the Sunken Ship - On the Highest Platform"
+            },
+            {
+                "ref": "Plexal Upstairs/Pleasant Pleasant Falls/Pleasant Pleasant Falls - Halfway up the Climb",
+                "name": "Pleasant Pleasant Falls - Halfway up the Climb"
+            },
+            {
+                "ref": "Plexal Upstairs/Pleasant Pleasant Falls/Pleasant Pleasant Falls - Top of the Climb",
+                "name": "Pleasant Pleasant Falls - Top of the Climb"
+            },
+            {
+                "ref": "Plexal Upstairs/Pleasant Pleasant Falls/Pleasant Pleasant Falls - Red Coins",
+                "name": "Pleasant Pleasant Falls - Red Coins"
+            },
+            {
+                "ref": "Plexal Basement/Dry Town/Dry Town - Top of the Town",
+                "name": "Dry Town - Top of the Town"
+            },
+            {
+                "ref": "Plexal Basement/Dry Town/Dry Town - Door Secrets",
+                "name": "Dry Town - Door Secrets"
+            },
+            {
+                "ref": "Plexal Upstairs/Big Boo's Fortress/Big Boo's Fortress - Behind Luigi's Mirror",
+                "name": "Big Boo's Fortress - Behind Luigi's Mirror"
+            },
+            {
+                "ref": "Plexal Upstairs/Big Boo's Fortress/Big Boo's Fortress - Behind the Library Mirror",
+                "name": "Big Boo's Fortress - Behind the Library Mirror"
+            },
+            {
+                "ref": "Plexal Upstairs/Big Boo's Fortress/Big Boo's Fortress - Defeat the Big Boo",
+                "name": "Big Boo's Fortress - Defeat the Big Boo"
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "overview",
+                "x": 530,
+                "y": 240
+            }
+        ]
+    }
+]

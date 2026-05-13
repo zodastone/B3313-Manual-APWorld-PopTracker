@@ -1,0 +1,317 @@
+[
+    {
+        "name": "Star Road",
+        "chest_unopened_img": "/images/map_checks/star.png",
+        "chest_opened_img": "/images/map_checks/check.png",
+        "children": [
+            {
+                "name": "Yoshi's Beach",
+                "access_rules": [
+                    "star_road_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Yoshi's Beach - Yellow Box on a Far Island",
+                        "item_count": 1,
+                        "access_rules": [
+                            "cannon_unlock_(yoshis_beach)",
+                            "triple_jump"
+                        ]
+                    },
+                    {
+                        "name": "Yoshi's Beach - Top of the Mountain",
+                        "item_count": 1,
+                        "access_rules": [
+                            "cannon_unlock_(yoshis_beach)",
+                            "wall_kick",
+                            "triple_jump, wing_cap"
+                        ]
+                    },
+                    {
+                        "name": "Yoshi's Beach - Egg Secrets",
+                        "item_count": 1,
+                        "access_rules": [
+                            "cannon_unlock_(yoshis_beach)",
+                            "triple_jump, wing_cap"
+                        ]
+                    },
+                    {
+                        "name": "Yoshi's Beach - On a Cloud",
+                        "item_count": 1,
+                        "access_rules": [
+                            "cannon_unlock_(yoshis_beach)",
+                            "triple_jump, wing_cap",
+                            "climb"
+                        ]
+                    },
+                    {
+                        "name": "Yoshi's Beach - Red Coins",
+                        "item_count": 1,
+                        "access_rules": [
+                            "cannon_unlock_(yoshis_beach)",
+                            "triple_jump",
+                            "metal_cap, wall_kick"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "star_road",
+                        "x": 372,
+                        "y": 445
+                    }
+                ]
+            },
+            {
+                "name": "Ultra Battle Fort",
+                "access_rules": [
+                    "star_road_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Ultra Battle Fort - Top of the Tower",
+                        "item_count": 1,
+                        "access_rules": [
+                            "cannon_unlock_(ultra_battle_fort), climb, wall_kick",
+                            "cannon_unlock_(ultra_battle_fort), triple_jump, wall_kick"
+                        ]
+                    },
+                    {
+                        "name": "Ultra Battle Fort - Under the Thwomp",
+                        "item_count": 1,
+                        "access_rules": [
+                            "climb, ground_pound, wall_kick",
+                            "ground_pound, triple_jump, wall_kick"
+                        ]
+                    },
+                    {
+                        "name": "Piranha's Hidden Pillar - Make Piranha Squirm",
+                        "item_count": 1,
+                        "access_rules": [
+                            "climb, wall_kick",
+                            "triple_jump, wall_kick"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "star_road",
+                        "x": 192,
+                        "y": 445
+                    }
+                ]
+            },
+            {
+                "name": "Snow Tower",
+                "access_rules": [
+                    "star_road_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Snow Tower - Under the Ice",
+                        "item_count": 1,
+                        "access_rules": [
+                            "ground_pound"
+                        ]
+                    },
+                    {
+                        "name": "Snow Tower - On the Floating Platform",
+                        "item_count": 1,
+                        "access_rules": [
+                            "triple_jump"
+                        ]
+                    },
+                    {
+                        "name": "Snow Tower - Lil' Penguin Lost",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Snow Tower - Bottom of the Slide",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "star_road",
+                        "x": 128,
+                        "y": 280
+                    }
+                ]
+            },
+            {
+                "name": "Wet-Dry Town",
+                "access_rules": [
+                    "star_road_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Wet-Dry Town - Top of the Town",
+                        "item_count": 1,
+                        "access_rules": [
+                            "triple_jump",
+                            "backflip, ledge_grab, metal_cap",
+                            "kick, ledge_grab, metal_cap"
+                        ]
+                    },
+                    {
+                        "name": "Wet-Dry Town - Quick Race Through Downtown",
+                        "item_count": 1,
+                        "access_rules": [
+                            "climb"
+                        ]
+                    },
+                    {
+                        "name": "Wet-Dry Town - Red Coins",
+                        "item_count": 1
+                    },
+                ],
+                "map_locations": [
+                    {
+                        "map": "star_road",
+                        "x": 281,
+                        "y": 174
+                    }
+                ]
+            },
+            {
+                "name": "Corrupted Challenge",
+                "access_rules": [
+                    "star_road_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Corrupted Challenge - Green Demon Chase",
+                        "item_count": 1,
+                        "access_rules": [
+                            "long_jump, wall_kick",
+                            "dive, wall_kick",
+                            "ledge_grab, long_jump",
+                            "dive, ledge_grab",
+                            "long_jump, side_flip",
+                            "dive, side_flip"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "star_road",
+                        "x": 431,
+                        "y": 280
+                    }
+                ]
+            },
+            {
+                "name": "Endings",
+                "access_rules": [
+                    "star_road_courses, triple_jump",
+                    "$YamlEnabled|hidden_stuff, star_road_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Endings - Grand Red Star",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Yellow Switch in the Void - Yellow Switch",
+                        "chest_unopened_img": "/images/map_checks/yellow_switch.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightSideFlipLedgeGrab"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "star_road",
+                        "x": 218,
+                        "y": 160
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Star Road Courses",
+        "sections": [
+            {
+                "ref": "Star Road/Yoshi's Beach/Yoshi's Beach - Yellow Box on a Far Island",
+                "name": "Yoshi's Beach - Yellow Box on a Far Island"
+            },
+            {
+                "ref": "Star Road/Yoshi's Beach/Yoshi's Beach - Top of the Mountain",
+                "name": "Yoshi's Beach - Top of the Mountain"
+            },
+            {
+                "ref": "Star Road/Yoshi's Beach/Yoshi's Beach - Egg Secrets",
+                "name": "Yoshi's Beach - Egg Secrets"
+            },
+            {
+                "ref": "Star Road/Yoshi's Beach/Yoshi's Beach - On a Cloud",
+                "name": "Yoshi's Beach - On a Cloud"
+            },
+            {
+                "ref": "Star Road/Yoshi's Beach/Yoshi's Beach - Red Coins",
+                "name": "Yoshi's Beach - Red Coins"
+            },
+            {
+                "ref": "Star Road/Ultra Battle Fort/Ultra Battle Fort - Top of the Tower",
+                "name": "Ultra Battle Fort - Top of the Tower"
+            },
+            {
+                "ref": "Star Road/Ultra Battle Fort/Ultra Battle Fort - Under the Thwomp",
+                "name": "Ultra Battle Fort - Under the Thwomp"
+            },
+            {
+                "ref": "Star Road/Ultra Battle Fort/Piranha's Hidden Pillar - Make Piranha Squirm",
+                "name": "Piranha's Hidden Pillar - Make Piranha Squirm"
+            },
+            {
+                "ref": "Star Road/Snow Tower/Snow Tower - Under the Ice",
+                "name": "Snow Tower - Under the Ice"
+            },
+            {
+                "ref": "Star Road/Snow Tower/Snow Tower - On the Floating Platform",
+                "name": "Snow Tower - On the Floating Platform"
+            },
+            {
+                "ref": "Star Road/Snow Tower/Snow Tower - Lil' Penguin Lost",
+                "name": "Snow Tower - Lil' Penguin Lost"
+            },
+            {
+                "ref": "Star Road/Snow Tower/Snow Tower - Bottom of the Slide",
+                "name": "Snow Tower - Bottom of the Slide"
+            },
+            {
+                "ref": "Star Road/Wet-Dry Town/Wet-Dry Town - Top of the Town",
+                "name": "Wet-Dry Town - Top of the Town"
+            },
+            {
+                "ref": "Star Road/Wet-Dry Town/Wet-Dry Town - Quick Race Through Downtown",
+                "name": "Wet-Dry Town - Quick Race Through Downtown"
+            },
+            {
+                "ref": "Star Road/Wet-Dry Town/Wet-Dry Town - Red Coins",
+                "name": "Wet-Dry Town - Red Coins"
+            },
+            {
+                "ref": "Star Road/Corrupted Challenge/Corrupted Challenge - Green Demon Chase",
+                "name": "Corrupted Challenge - Green Demon Chase"
+            },
+            {
+                "ref": "Star Road/Endings/Endings - Grand Red Star",
+                "name": "Endings - Grand Red Star"
+            },
+            {
+                "ref": "Star Road/Endings/Yellow Switch in the Void - Yellow Switch",
+                "name": "Yellow Switch in the Void - Yellow Switch"
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "overview",
+                "x": 530,
+                "y": 390
+            }
+        ]
+    }
+]

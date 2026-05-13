@@ -1,0 +1,172 @@
+[
+    {
+        "name": "Bowser's Floor and Endgame",
+        "chest_unopened_img": "/images/map_checks/star.png",
+        "chest_opened_img": "/images/map_checks/check.png",
+        "children": [
+            {
+                "name": "Bob-omb Village",
+                "access_rules": [
+                    "bowsers_floor_and_endgame_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Bob-omb Village - Top of the Path",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightBackflip",
+                            "$YamlEnabled|slope_movement"
+                        ]
+                    },
+                    {
+                        "name": "Bob-omb Village - Red Coins",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightBackflip",
+                            "$YamlEnabled|slope_movement"
+                        ]
+                    },
+                    {
+                        "name": "Bob-omb Village - House Secrets",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightBackflip",
+                            "$YamlEnabled|slope_movement"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bowser_floor",
+                        "x": 95,
+                        "y": 185
+                    }
+                ]
+            },
+            {
+                "name": "Peach's Cell",
+                "access_rules": [
+                    "bowsers_floor_and_endgame_courses, $HeightKick"
+                ],
+                "sections": [
+                    {
+                        "name": "Peach's Cell - Through the Spotlights",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bowser_floor",
+                        "x": 135,
+                        "y": 150
+                    }
+                ]
+            },
+            {
+                "name": "Randomized Realm",
+                "access_rules": [
+                    "bowsers_floor_and_endgame_courses, $HeightKick"
+                ],
+                "sections": [
+                    {
+                        "name": "Randomized Realm - Pluck the Piranha Flowers",
+                        "item_count": 1,
+                        "access_rules": [
+                            "triple_jump, wing_cap",
+                            "triple_jump, ledge_grab, side_flip, wall_kick"
+                        ]
+                    },
+                    {
+                        "name": "Randomized Realm - Red Coins",
+                        "item_count": 1,
+                        "access_rules": [
+                            "triple_jump, wing_cap",
+                            "triple_jump, climb, ledge_grab, side_flip, wall_kick"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bowser_floor",
+                        "x": 135,
+                        "y": 125
+                    }
+                ]
+            },
+            {
+                "name": "Eternal Fort",
+                "access_rules": [
+                    "$HasEternalFortRedStars, bowsers_floor_and_endgame_courses, $HeightKick, triple_jump, wing_cap",
+                    "$HasEternalFortRedStars, bowsers_floor_and_endgame_courses, $HeightKick, ledge_grab, side_flip, triple_jump, wall_kick"
+                ],
+                "sections": [
+                    {
+                        "name": "Eternal Fort - Defeat Bowser",
+                        "item_count": 1,
+                        "access_rules": [
+                            "climb, $DistLedgeGrab"
+                        ]
+                    },
+                    {
+                        "name": "Game Beaten",
+                        "item_count": 1,
+                        "access_rules": [
+                            "dead_bowser"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "bowser_floor",
+                        "x": 135,
+                        "y": 100
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Bowser's Floor and Endgame Courses",
+        "sections": [
+            {
+                "ref": "Bowser's Floor and Endgame/Bob-omb Village/Bob-omb Village - Top of the Path",
+                "name": "Bob-omb Village - Top of the Path"
+            },
+            {
+                "ref": "Bowser's Floor and Endgame/Bob-omb Village/Bob-omb Village - Red Coins",
+                "name": "Bob-omb Village - Red Coins"
+            },
+            {
+                "ref": "Bowser's Floor and Endgame/Bob-omb Village/Bob-omb Village - House Secrets",
+                "name": "Bob-omb Village - House Secrets"
+            },
+            {
+                "ref": "Bowser's Floor and Endgame/Peach's Cell/Peach's Cell - Through the Spotlights",
+                "name": "Peach's Cell - Through the Spotlights"
+            },
+            {
+                "ref": "Bowser's Floor and Endgame/Randomized Realm/Randomized Realm - Pluck the Piranha Flowers",
+                "name": "Randomized Realm - Pluck the Piranha Flowers"
+            },
+            {
+                "ref": "Bowser's Floor and Endgame/Randomized Realm/Randomized Realm - Red Coins",
+                "name": "Randomized Realm - Red Coins"
+            },
+            {
+                "ref": "Bowser's Floor and Endgame/Eternal Fort/Eternal Fort - Defeat Bowser",
+                "name": "Eternal Fort - Defeat Bowser"
+            },
+            {
+                "ref": "Bowser's Floor and Endgame/Eternal Fort/Game Beaten",
+                "name": "Game Beaten"
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "overview",
+                "x": 30,
+                "y": 360
+            }
+        ]
+    }
+]

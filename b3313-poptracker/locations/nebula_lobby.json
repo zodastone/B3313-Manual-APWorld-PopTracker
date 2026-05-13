@@ -1,0 +1,504 @@
+[
+    {
+        "name": "Nebula Lobby",
+        "chest_unopened_img": "/images/map_checks/star.png",
+        "chest_opened_img": "/images/map_checks/check.png",
+        "children": [
+            {
+                "name": "Secret of the Plexus",
+                "access_rules": [
+                    "nebula_lobby_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Secret of the Plexus - End of the Course",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$DistLedgeGrab"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "nebula_lobby",
+                        "x": 390,
+                        "y": 165
+                    }
+                ]
+            },
+            {
+                "name": "Tick Tock Slide",
+                "access_rules": [
+                    "$HeightLedgeGrab, nebula_lobby_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Tick Tock Slide - Bottom of the Slide",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "nebula_lobby",
+                        "x": 390,
+                        "y": 80
+                    }
+                ]
+            },
+            {
+                "name": "Dire Bubble",
+                "access_rules": [
+                    "nebula_lobby_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Dire Bubble - On the Back Platform",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Dire Bubble - Silver Stars",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Dire Bubble - Below the Grate",
+                        "item_count": 1,
+                        "access_rules": [
+                            "vanish_cap"
+                        ]
+                    },
+                    {
+                        "name": "Dire Bubble - The Manta Ray's Reward",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Dire Bubble - Save the Drowning Goomba",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Dire Bubble - Defeat the Chuckyas",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "nebula_lobby",
+                        "x": 435,
+                        "y": 30
+                    }
+                ]
+            },
+            {
+                "name": "Skyhigh Pipelands",
+                "access_rules": [
+                    "$DistKick, nebula_lobby_courses, wall_kick"
+                ],
+                "sections": [
+                    {
+                        "name": "Skyhigh Pipelands - End of the Course",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Skyhigh Pipelands - Red Coins",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "nebula_lobby",
+                        "x": 325,
+                        "y": 270
+                    }
+                ]
+            },
+            {
+                "name": "Chomp's Cloudy Isles",
+                "access_rules": [
+                    "nebula_lobby_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Chomp's Cloudy Isles - Behind Chain Chomp's Gate",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chomp's Cloudy Isles - Red Coins",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "nebula_lobby",
+                        "x": 325,
+                        "y": 350
+                    }
+                ]
+            },
+            {
+                "name": "Blazing Bullet Factory",
+                "access_rules": [
+                    "nebula_lobby_courses, vanish_cap, wall_kick",
+                    "ledge_grab, nebula_lobby_courses, vanish_cap",
+                    "backflip, nebula_lobby_courses, vanish_cap",
+                    "nebula_lobby_courses, side_flip, vanish_cap"
+                ],
+                "sections": [
+                    {
+                        "name": "Blazing Bullet Factory - Raid the Vault",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blazing Bullet Factory - Talk to the Foreman",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blazing Bullet Factory - Red Coins",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightWallKickLedgeGrab"
+                        ]
+                    },
+                    {
+                        "name": "Scorched Tar Land - Boil the Big Bully Spot",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Scorched Tar Land - Red Coins",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "nebula_lobby",
+                        "x": 410,
+                        "y": 350
+                    }
+                ]
+            },
+            {
+                "name": "Snow Ravine",
+                "access_rules": [
+                    "nebula_lobby_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Snow Ravine - On a High Platform",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Snow Ravine - Blast Away the Ice",
+                        "item_count": 1,
+                        "access_rules": [
+                            "cannon_unlock_(snow_ravine)"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "nebula_lobby",
+                        "x": 410,
+                        "y": 270
+                    }
+                ]
+            },
+            {
+                "name": "Rustic Swampland",
+                "access_rules": [
+                    "nebula_lobby_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Rustic Swampland - Silver Stars",
+                        "item_count": 1,
+                        "access_rules": [
+                            "triple_jump",
+                            "long_jump, $YamlEnabled|slope_movement",
+                            "long_jump, climb, wall_kick"
+                        ]
+                    },
+                    {
+                        "name": "Rustic Swampland - Red Coins",
+                        "item_count": 1,
+                        "access_rules": [
+                            "triple_jump",
+                            "long_jump, ledge_grab, $YamlEnabled|slope_movement",
+                            "long_jump, ledge_grab, climb, wall_kick"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "nebula_lobby",
+                        "x": 245,
+                        "y": 175
+                    }
+                ]
+            },
+            {
+                "name": "Blackrock Mountain",
+                "access_rules": [
+                    "nebula_lobby_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Blackrock Mountain - Across the Teeter-Totter Platform",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blackrock Mountain - Top of the Mountain",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "nebula_lobby",
+                        "x": 165,
+                        "y": 90
+                    }
+                ]
+            },
+            {
+                "name": "Wet-Dry Ruins",
+                "access_rules": [
+                    "nebula_lobby_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Wet-Dry Ruins - Climb the Blue Pillar",
+                        "item_count": 1,
+                        "access_rules": [
+                            "wall_kick",
+                            "ledge_grab, side_flip"
+                        ]
+                    },
+                    {
+                        "name": "Wet-Dry Ruins - Top of the Flooded Ruins",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$DistLongJump, climb, wall_kick",
+                            "$DistLongJump, climb, ledge_grab, side_flip"
+                        ]
+                    },
+                    {
+                        "name": "Wet-Dry Ruins - Inside the House",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightBackflip, climb",
+                            "$HeightBackflip, $YamlEnabled|hidden_stuff"
+                        ]
+                    },
+                    {
+                        "name": "Wet-Dry Ruins - Red Coins",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightBackflip"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "nebula_lobby",
+                        "x": 245,
+                        "y": 90
+                    }
+                ]
+            },
+            {
+                "name": "Captain Fly Guy's Tower",
+                "access_rules": [
+                    "nebula_lobby_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Captain Fly Guy's Tower - Defeat Captain Fly Guy",
+                        "chest_unopened_img": "/images/items/red_star.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "dive, side_flip"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "nebula_lobby",
+                        "x": 40,
+                        "y": 85
+                    }
+                ]
+            },
+            {
+                "name": "Snowman's Frozen Desert",
+                "access_rules": [
+                    "nebula_lobby_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Snowman's Frozen Desert - Top of the Mountain",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Snowman's Frozen Desert - In the Deep Freeze",
+                        "item_count": 1,
+                        "access_rules": [
+                            "ground_pound"
+                        ]
+                    },
+                    {
+                        "name": "Snowman's Frozen Desert - Pillar Secrets",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "nebula_lobby",
+                        "x": 475,
+                        "y": 167
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Nebula Lobby Courses",
+        "sections": [
+            {
+                "ref": "Nebula Lobby/Secret of the Plexus/Secret of the Plexus - End of the Course",
+                "name": "Secret of the Plexus - End of the Course"
+            },
+            {
+                "ref": "Nebula Lobby/Tick Tock Slide/Tick Tock Slide - Bottom of the Slide",
+                "name": "Tick Tock Slide - Bottom of the Slide"
+            },
+            {
+                "ref": "Nebula Lobby/Dire Bubble/Dire Bubble - On the Back Platform",
+                "name": "Dire Bubble - On the Back Platform"
+            },
+            {
+                "ref": "Nebula Lobby/Dire Bubble/Dire Bubble - Silver Stars",
+                "name": "Dire Bubble - Silver Stars"
+            },
+            {
+                "ref": "Nebula Lobby/Dire Bubble/Dire Bubble - Below the Grate",
+                "name": "Dire Bubble - Below the Grate"
+            },
+            {
+                "ref": "Nebula Lobby/Dire Bubble/Dire Bubble - The Manta Ray's Reward",
+                "name": "Dire Bubble - The Manta Ray's Reward"
+            },
+            {
+                "ref": "Nebula Lobby/Dire Bubble/Dire Bubble - Save the Drowning Goomba",
+                "name": "Dire Bubble - Save the Drowning Goomba"
+            },
+            {
+                "ref": "Nebula Lobby/Dire Bubble/Dire Bubble - Defeat the Chuckyas",
+                "name": "Dire Bubble - Defeat the Chuckyas"
+            },
+            {
+                "ref": "Nebula Lobby/Skyhigh Pipelands/Skyhigh Pipelands - End of the Course",
+                "name": "Skyhigh Pipelands - End of the Course"
+            },
+            {
+                "ref": "Nebula Lobby/Skyhigh Pipelands/Skyhigh Pipelands - Red Coins",
+                "name": "Skyhigh Pipelands - Red Coins"
+            },
+            {
+                "ref": "Nebula Lobby/Chomp's Cloudy Isles/Chomp's Cloudy Isles - Behind Chain Chomp's Gate",
+                "name": "Chomp's Cloudy Isles - Behind Chain Chomp's Gate"
+            },
+            {
+                "ref": "Nebula Lobby/Chomp's Cloudy Isles/Chomp's Cloudy Isles - Red Coins",
+                "name": "Chomp's Cloudy Isles - Red Coins"
+            },
+            {
+                "ref": "Nebula Lobby/Blazing Bullet Factory/Blazing Bullet Factory - Raid the Vault",
+                "name": "Blazing Bullet Factory - Raid the Vault"
+            },
+            {
+                "ref": "Nebula Lobby/Blazing Bullet Factory/Blazing Bullet Factory - Talk to the Foreman",
+                "name": "Blazing Bullet Factory - Talk to the Foreman"
+            },
+            {
+                "ref": "Nebula Lobby/Blazing Bullet Factory/Blazing Bullet Factory - Red Coins",
+                "name": "Blazing Bullet Factory - Red Coins"
+            },
+            {
+                "ref": "Nebula Lobby/Blazing Bullet Factory/Scorched Tar Land - Boil the Big Bully Spot",
+                "name": "Scorched Tar Land - Boil the Big Bully Spot"
+            },
+            {
+                "ref": "Nebula Lobby/Blazing Bullet Factory/Scorched Tar Land - Red Coins",
+                "name": "Scorched Tar Land - Red Coins"
+            },
+            {
+                "ref": "Nebula Lobby/Snow Ravine/Snow Ravine - On a High Platform",
+                "name": "Snow Ravine - On a High Platform"
+            },
+            {
+                "ref": "Nebula Lobby/Snow Ravine/Snow Ravine - Blast Away the Ice",
+                "name": "Snow Ravine - Blast Away the Ice"
+            },
+            {
+                "ref": "Nebula Lobby/Rustic Swampland/Rustic Swampland - Silver Stars",
+                "name": "Rustic Swampland - Silver Stars"
+            },
+            {
+                "ref": "Nebula Lobby/Rustic Swampland/Rustic Swampland - Red Coins",
+                "name": "Rustic Swampland - Red Coins"
+            },
+            {
+                "ref": "Nebula Lobby/Blackrock Mountain/Blackrock Mountain - Across the Teeter-Totter Platform",
+                "name": "Blackrock Mountain - Across the Teeter-Totter Platform"
+            },
+            {
+                "ref": "Nebula Lobby/Blackrock Mountain/Blackrock Mountain - Top of the Mountain",
+                "name": "Blackrock Mountain - Top of the Mountain"
+            },
+            {
+                "ref": "Elder Koopa's Library/Bedrock Magmas/Bedrock Magmas - Past the Motos",
+                "name": "Bedrock Magmas - Past the Motos"
+            },
+            {
+                "ref": "Elder Koopa's Library/Bedrock Magmas/Bedrock Magmas - Top of the Course",
+                "name": "Bedrock Magmas - Top of the Course"
+            },
+            {
+                "ref": "Nebula Lobby/Wet-Dry Ruins/Wet-Dry Ruins - Climb the Blue Pillar",
+                "name": "Wet-Dry Ruins - Climb the Blue Pillar"
+            },
+            {
+                "ref": "Nebula Lobby/Wet-Dry Ruins/Wet-Dry Ruins - Top of the Flooded Ruins",
+                "name": "Wet-Dry Ruins - Top of the Flooded Ruins"
+            },
+            {
+                "ref": "Nebula Lobby/Wet-Dry Ruins/Wet-Dry Ruins - Inside the House",
+                "name": "Wet-Dry Ruins - Inside the House"
+            },
+            {
+                "ref": "Nebula Lobby/Wet-Dry Ruins/Wet-Dry Ruins - Red Coins",
+                "name": "Wet-Dry Ruins - Red Coins"
+            },
+            {
+                "ref": "Nebula Lobby/Captain Fly Guy's Tower/Captain Fly Guy's Tower - Defeat Captain Fly Guy",
+                "name": "Captain Fly Guy's Tower - Defeat Captain Fly Guy"
+            },
+            {
+                "ref": "Nebula Lobby/Snowman's Frozen Desert/Snowman's Frozen Desert - Top of the Mountain",
+                "name": "Snowman's Frozen Desert - Top of the Mountain"
+            },
+            {
+                "ref": "Nebula Lobby/Snowman's Frozen Desert/Snowman's Frozen Desert - In the Deep Freeze",
+                "name": "Snowman's Frozen Desert - In the Deep Freeze"
+            },
+            {
+                "ref": "Nebula Lobby/Snowman's Frozen Desert/Snowman's Frozen Desert - Pillar Secrets",
+                "name": "Snowman's Frozen Desert - Pillar Secrets"
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "overview",
+                "x": 530,
+                "y": 30
+            }
+        ]
+    }
+]

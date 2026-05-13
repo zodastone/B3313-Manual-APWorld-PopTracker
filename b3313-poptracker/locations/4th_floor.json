@@ -1,0 +1,58 @@
+[
+    {
+        "name": "4th Floor",
+        "chest_unopened_img": "/images/map_checks/star.png",
+        "chest_opened_img": "/images/map_checks/check.png",
+        "children": [
+            {
+                "name": "Deep-Water Station",
+                "access_rules": [
+                    "4th_floor_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Deep-Water Station - At the Midway Point",
+                        "item_count": 1,
+                        "access_rules": [
+                            "wall_kick"
+                        ]
+                    },
+                    {
+                        "name": "Deep-Water Station - In the Underwater Tunnel",
+                        "item_count": 1,
+                        "access_rules": [
+                            "wall_kick"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4f",
+                        "x": 140,
+                        "y": 215
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "4th Floor Courses",
+        "sections": [
+            {
+                "ref": "4th Floor/Deep-Water Station/Deep-Water Station - At the Midway Point",
+                "name": "Deep-Water Station - At the Midway Point"
+            },
+            {
+                "ref": "4th Floor/Deep-Water Station/Deep-Water Station - In the Underwater Tunnel",
+                "name": "Deep-Water Station - In the Underwater Tunnel"
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "overview",
+                "x": 30,
+                "y": 90
+            }
+        ]
+    }
+]

@@ -1,0 +1,183 @@
+[
+    {
+        "name": "Plexal Hallway",
+        "chest_unopened_img": "/images/map_checks/star.png",
+        "chest_opened_img": "/images/map_checks/check.png",
+        "children": [
+            {
+                "name": "Grim Green Forest",
+                "access_rules": [
+                    "plexal_hallway_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Grim Green Forest - Under the Canopy",
+                        "item_count": 1,
+                        "access_rules": [
+                            "ledge_grab",
+                            "backflip",
+                            "$DistKick, climb",
+                            "climb, wall_kick"
+                        ]
+                    },
+                    {
+                        "name": "Grim Green Forest - Red Coins",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightLedgeGrab"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "plexal_hallway",
+                        "x": 190,
+                        "y": 400
+                    }
+                ]
+            },
+            {
+                "name": "Thwomp's Fortress",
+                "access_rules": [
+                    "plexal_hallway_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Thwomp's Fortress - Top of the Tower",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightBackflip"
+                        ]
+                    },
+                    {
+                        "name": "Thwomp's Fortress - Silver Stars",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightBackflip",
+                            "$YamlEnabled|lava_boost"
+                        ]
+                    },
+                    {
+                        "name": "Thwomp's Fortress - Green Star on the Checker Platform",
+                        "chest_unopened_img": "/images/map_checks/green_star.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$DistLongJump, $HeightBackflip, green_comet",
+                            "$DistLongJump, $YamlEnabled|lava_boost, green_comet"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "plexal_hallway",
+                        "x": 310,
+                        "y": 400
+                    }
+                ]
+            },
+            {
+                "name": "Rocky Trek",
+                "access_rules": [
+                    "plexal_hallway_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Rocky Trek - Top of the Mountain",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightWallKick"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "plexal_hallway",
+                        "x": 190,
+                        "y": 232
+                    }
+                ]
+            },
+            {
+                "name": "Cave City",
+                "access_rules": [
+                    "plexal_hallway_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Cave City - Elevate for Silver Stars",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightBackflip"
+                        ]
+                    },
+                    {
+                        "name": "Cave City - Back Alley Silver Stars",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cave City - Top of the Side Area",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightBackflip"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "plexal_hallway",
+                        "x": 310,
+                        "y": 210
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Plexal Hallway Courses",
+        "sections": [
+            {
+                "ref": "Plexal Hallway/Grim Green Forest/Grim Green Forest - Under the Canopy",
+                "name": "Grim Green Forest - Under the Canopy"
+            },
+            {
+                "ref": "Plexal Hallway/Grim Green Forest/Grim Green Forest - Red Coins",
+                "name": "Grim Green Forest - Red Coins"
+            },
+            {
+                "ref": "Plexal Hallway/Thwomp's Fortress/Thwomp's Fortress - Top of the Tower",
+                "name": "Thwomp's Fortress - Top of the Tower"
+            },
+            {
+                "ref": "Plexal Hallway/Thwomp's Fortress/Thwomp's Fortress - Silver Stars",
+                "name": "Thwomp's Fortress - Silver Stars"
+            },
+            {
+                "ref": "Plexal Hallway/Thwomp's Fortress/Thwomp's Fortress - Green Star on the Checker Platform",
+                "name": "Thwomp's Fortress - Green Star on the Checker Platform"
+            },
+            {
+                "ref": "Plexal Hallway/Rocky Trek/Rocky Trek - Top of the Mountain",
+                "name": "Rocky Trek - Top of the Mountain"
+            },
+            {
+                "ref": "Plexal Hallway/Cave City/Cave City - Elevate for Silver Stars",
+                "name": "Cave City - Elevate for Silver Stars"
+            },
+            {
+                "ref": "Plexal Hallway/Cave City/Cave City - Back Alley Silver Stars",
+                "name": "Cave City - Back Alley Silver Stars"
+            },
+            {
+                "ref": "Plexal Hallway/Cave City/Cave City - Top of the Side Area",
+                "name": "Cave City - Top of the Side Area"
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "overview",
+                "x": 530,
+                "y": 180
+            }
+        ]
+    }
+]

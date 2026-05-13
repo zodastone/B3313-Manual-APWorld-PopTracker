@@ -1,0 +1,84 @@
+[
+    {
+        "name": "Elder Koopa's Library",
+        "chest_unopened_img": "/images/map_checks/star.png",
+        "chest_opened_img": "/images/map_checks/check.png",
+        "children": [
+            {
+                "name": "Spiky Sand Land",
+                "access_rules": [
+                    "elder_koopas_library_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Spiky Sand Land - Silver Stars",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "elder_library",
+                        "x": 230,
+                        "y": 205
+                    }
+                ]
+            },
+            {
+                "name": "Bedrock Magmas",
+                "access_rules": [
+                    "elder_koopas_library_courses",
+                    "nebula_lobby_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Bedrock Magmas - Past the Motos",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bedrock Magmas - Top of the Course",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightLedgeGrab"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "elder_library",
+                        "x": 330,
+                        "y": 205
+                    },
+                    {
+                        "map": "nebula_lobby",
+                        "x": 165,
+                        "y": 65
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Elder Koopa's Library Courses",
+        "sections": [
+            {
+                "ref": "Elder Koopa's Library/Spiky Sand Land/Spiky Sand Land - Silver Stars",
+                "name": "Spiky Sand Land - Silver Stars"
+            },
+            {
+                "ref": "Elder Koopa's Library/Bedrock Magmas/Bedrock Magmas - Past the Motos",
+                "name": "Bedrock Magmas - Past the Motos"
+            },
+            {
+                "ref": "Elder Koopa's Library/Bedrock Magmas/Bedrock Magmas - Top of the Course",
+                "name": "Bedrock Magmas - Top of the Course"
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "overview",
+                "x": 280,
+                "y": 150
+            }
+        ]
+    }
+]

@@ -1,0 +1,442 @@
+[
+    {
+        "name": "Overworld",
+        "chest_unopened_img": "/images/map_checks/star.png",
+        "chest_opened_img": "/images/map_checks/check.png",
+        "children": [
+            {
+                "name": "Toads",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Bowser's Castle - Nighttime Chat with Toad",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bowser's Domain - Visit the Jailed Toad",
+                        "item_count": 1,
+                        "access_rules": [
+                            "vanish_cap"
+                        ]
+                    },
+                    {
+                        "name": "Elder Koopa's Library - Talk to Toad",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Floor 3B - Talk to Toad",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Nightmare Basement - Talk to Toad",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Polygonal Chaos - Talk to Toad",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mirrored Upstairs - Talk to Toad",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Vanilla Lobby - Talk to Toad",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 155,
+                        "y": 190
+                    }
+                ]
+            },
+            {
+                "name": "Green Stars",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Aquarium Lobby - Green Star in the Aquarium",
+                        "chest_unopened_img": "/images/map_checks/green_star.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "green_comet"
+                        ]
+                    },
+                    {
+                        "name": "Bros' House - Green Star in the Box",
+                        "chest_unopened_img": "/images/map_checks/green_star.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "green_comet"
+                        ]
+                    },
+                    {
+                        "name": "Crumbling Castle - Green Star Past the Broken Door",
+                        "chest_unopened_img": "/images/map_checks/green_star.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "green_comet"
+                        ]
+                    },
+                    {
+                        "name": "Floating Hotel - Green Star at the Many Doors",
+                        "chest_unopened_img": "/images/map_checks/green_star.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "green_comet"
+                        ]
+                    },
+                    {
+                        "name": "Forest Maze - Green Star in the Box",
+                        "chest_unopened_img": "/images/map_checks/green_star.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "green_comet"
+                        ]
+                    },
+                    {
+                        "name": "Lunar Tower - Green Star on the Checker Platform",
+                        "chest_unopened_img": "/images/map_checks/green_star.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "green_comet, triple_jump, wing_cap",
+                            "$YamlEnabled|hidden_stuff, green_comet, wing_cap"
+                        ]
+                    },
+                    {
+                        "name": "Nebula Lobby - Green Star in the Window",
+                        "chest_unopened_img": "/images/map_checks/green_star.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "green_comet, vanish_cap"
+                        ]
+                    },
+                    {
+                        "name": "Nightmare Basement - Green Star Past the DDD Door",
+                        "chest_unopened_img": "/images/map_checks/green_star.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "green_comet"
+                        ]
+                    },
+                    {
+                        "name": "Peaceful Grounds - Green Star Atop the Castle",
+                        "chest_unopened_img": "/images/map_checks/green_star.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "green_comet, $YamlEnabled|slope_movement, kick, ledge_grab, side_flip, wall_kick",
+                            "climb, green_comet, ledge_grab, side_flip, triple_jump, wall_kick"
+                        ]
+                    },
+                    {
+                        "name": "Uncanny Courtyard - Green Star in the Maze",
+                        "chest_unopened_img": "/images/map_checks/green_star.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "green_comet, wall_kick"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 155,
+                        "y": 220
+                    }
+                ]
+            },
+            {
+                "name": "Flying",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Floating Hotel - Silver Stars",
+                        "item_count": 1,
+                        "access_rules": [
+                            "triple_jump, wing_cap"
+                        ]
+                    },
+                    {
+                        "name": "Solar Tower - Red Coins",
+                        "item_count": 1,
+                        "access_rules": [
+                            "triple_jump, wing_cap"
+                        ]
+                    },
+                    {
+                        "name": "Stellar Tower - Red Coins",
+                        "item_count": 1,
+                        "access_rules": [
+                            "triple_jump, wing_cap"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 155,
+                        "y": 250
+                    }
+                ]
+            },
+            {
+                "name": "Uncanny Courtyard",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Uncanny Courtyard - MIPS 1",
+                        "item_count": 1,
+                        "access_rules": [
+                            "backflip",
+                            "side_flip",
+                            "triple_jump",
+                            "climb"
+                        ]
+                    },
+                    {
+                        "name": "Uncanny Courtyard - MIPS 2",
+                        "item_count": 1,
+                        "access_rules": [
+                            "backflip",
+                            "side_flip",
+                            "triple_jump",
+                            "climb"
+                        ]
+                    },
+                    {
+                        "name": "Uncanny Courtyard - Red Coins",
+                        "item_count": 1,
+                        "access_rules": [
+                            "wall_kick",
+                            "climb",
+                            "$YamlEnabled|hidden_stuff"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 155,
+                        "y": 280
+                    }
+                ]
+            },
+            {
+                "name": "Miscellaneous",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Floor 2B - In the Box",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightBackflip",
+                            "$YamlEnabled|slope_movement"
+                        ]
+                    },
+                    {
+                        "name": "Imperfect Sanctuary Lobby - Follow Peach's Call",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightBackflip"
+                        ]
+                    },
+                    {
+                        "name": "Mr. I's Maze - Silver Stars",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Nightmare Basement - Past the SSL Wall",
+                        "item_count": 1,
+                        "access_rules": [
+                            "vanish_cap"
+                        ]
+                    },
+                    {
+                        "name": "Orange Hall - Behind the Window",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightBackflip"
+                        ]
+                    },
+                    {
+                        "name": "Plexal Hallway - Off the Back Ledge",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Star - Silver Stars",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Toad's Hedge Maze - Red Coins",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Toad's Rec Room - Find the Right Box",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Basement Maze - Yellow Box on Blue Box",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 155,
+                        "y": 310
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Overworld Locations",
+        "sections": [
+            {
+                "ref": "Overworld/Toads/Bowser's Castle - Nighttime Chat with Toad",
+                "name": "Bowser's Castle - Nighttime Chat with Toad"
+            },
+            {
+                "ref": "Overworld/Toads/Bowser's Domain - Visit the Jailed Toad",
+                "name": "Bowser's Domain - Visit the Jailed Toad"
+            },
+            {
+                "ref": "Overworld/Toads/Elder Koopa's Library - Talk to Toad",
+                "name": "Elder Koopa's Library - Talk to Toad"
+            },
+            {
+                "ref": "Overworld/Toads/Floor 3B - Talk to Toad",
+                "name": "Floor 3B - Talk to Toad"
+            },
+            {
+                "ref": "Overworld/Toads/Nightmare Basement - Talk to Toad",
+                "name": "Nightmare Basement - Talk to Toad"
+            },
+            {
+                "ref": "Overworld/Toads/Polygonal Chaos - Talk to Toad",
+                "name": "Polygonal Chaos - Talk to Toad"
+            },
+            {
+                "ref": "Overworld/Toads/Mirrored Upstairs - Talk to Toad",
+                "name": "Mirrored Upstairs - Talk to Toad"
+            },
+            {
+                "ref": "Overworld/Toads/Vanilla Lobby - Talk to Toad",
+                "name": "Vanilla Lobby - Talk to Toad"
+            },
+            {
+                "ref": "Overworld/Green Stars/Aquarium Lobby - Green Star in the Aquarium",
+                "name": "Aquarium Lobby - Green Star in the Aquarium"
+            },
+            {
+                "ref": "Overworld/Green Stars/Bros' House - Green Star in the Box",
+                "name": "Bros' House - Green Star in the Box"
+            },
+            {
+                "ref": "Overworld/Green Stars/Crumbling Castle - Green Star Past the Broken Door",
+                "name": "Crumbling Castle - Green Star Past the Broken Door"
+            },
+            {
+                "ref": "Overworld/Green Stars/Floating Hotel - Green Star at the Many Doors",
+                "name": "Floating Hotel - Green Star at the Many Doors"
+            },
+            {
+                "ref": "Overworld/Green Stars/Forest Maze - Green Star in the Box",
+                "name": "Forest Maze - Green Star in the Box"
+            },
+            {
+                "ref": "Overworld/Green Stars/Lunar Tower - Green Star on the Checker Platform",
+                "name": "Lunar Tower - Green Star on the Checker Platform"
+            },
+            {
+                "ref": "Overworld/Green Stars/Nebula Lobby - Green Star in the Window",
+                "name": "Nebula Lobby - Green Star in the Window"
+            },
+            {
+                "ref": "Overworld/Green Stars/Nightmare Basement - Green Star Past the DDD Door",
+                "name": "Nightmare Basement - Green Star Past the DDD Door"
+            },
+            {
+                "ref": "Overworld/Green Stars/Peaceful Grounds - Green Star Atop the Castle",
+                "name": "Peaceful Grounds - Green Star Atop the Castle"
+            },
+            {
+                "ref": "Overworld/Green Stars/Uncanny Courtyard - Green Star in the Maze",
+                "name": "Uncanny Courtyard - Green Star in the Maze"
+            },
+            {
+                "ref": "Overworld/Flying/Floating Hotel - Silver Stars",
+                "name": "Floating Hotel - Silver Stars"
+            },
+            {
+                "ref": "Overworld/Flying/Solar Tower - Red Coins",
+                "name": "Solar Tower - Red Coins"
+            },
+            {
+                "ref": "Overworld/Flying/Stellar Tower - Red Coins",
+                "name": "Stellar Tower - Red Coins"
+            },
+            {
+                "ref": "Overworld/Uncanny Courtyard/Uncanny Courtyard - MIPS 1",
+                "name": "Uncanny Courtyard - MIPS 1"
+            },
+            {
+                "ref": "Overworld/Uncanny Courtyard/Uncanny Courtyard - MIPS 2",
+                "name": "Uncanny Courtyard - MIPS 2"
+            },
+            {
+                "ref": "Overworld/Uncanny Courtyard/Uncanny Courtyard - Red Coins",
+                "name": "Uncanny Courtyard - Red Coins"
+            },
+            {
+                "ref": "Overworld/Miscellaneous/Floor 2B - In the Box",
+                "name": "Floor 2B - In the Box"
+            },
+            {
+                "ref": "Overworld/Miscellaneous/Imperfect Sanctuary Lobby - Follow Peach's Call",
+                "name": "Imperfect Sanctuary Lobby - Follow Peach's Call"
+            },
+            {
+                "ref": "Overworld/Miscellaneous/Mr. I's Maze - Silver Stars",
+                "name": "Mr. I's Maze - Silver Stars"
+            },
+            {
+                "ref": "Overworld/Miscellaneous/Nightmare Basement - Past the SSL Wall",
+                "name": "Nightmare Basement - Past the SSL Wall"
+            },
+            {
+                "ref": "Overworld/Miscellaneous/Orange Hall - Behind the Window",
+                "name": "Orange Hall - Behind the Window"
+            },
+            {
+                "ref": "Overworld/Miscellaneous/Plexal Hallway - Off the Back Ledge",
+                "name": "Plexal Hallway - Off the Back Ledge"
+            },
+            {
+                "ref": "Overworld/Miscellaneous/The Star - Silver Stars",
+                "name": "The Star - Silver Stars"
+            },
+            {
+                "ref": "Overworld/Miscellaneous/Toad's Hedge Maze - Red Coins",
+                "name": "Toad's Hedge Maze - Red Coins"
+            },
+            {
+                "ref": "Overworld/Miscellaneous/Toad's Rec Room - Find the Right Box",
+                "name": "Toad's Rec Room - Find the Right Box"
+            },
+            {
+                "ref": "Overworld/Miscellaneous/Basement Maze - Yellow Box on Blue Box",
+                "name": "Basement Maze - Yellow Box on Blue Box"
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "overview",
+                "x": 30,
+                "y": 30
+            }
+        ]
+    }
+]

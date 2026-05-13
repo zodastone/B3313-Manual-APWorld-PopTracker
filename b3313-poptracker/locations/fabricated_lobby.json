@@ -1,0 +1,165 @@
+[
+    {
+        "name": "Fabricated Lobby",
+        "chest_unopened_img": "/images/map_checks/star.png",
+        "chest_opened_img": "/images/map_checks/check.png",
+        "children": [
+            {
+                "name": "Water Land (fabricated)",
+                "access_rules": [
+                    "fabricated_lobby_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Water Land (fabricated) - Silver Stars",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "fabricated_lobby",
+                        "x": 440,
+                        "y": 200
+                    }
+                ]
+            },
+            {
+                "name": "Fire Bubble (fabricated)",
+                "access_rules": [
+                    "fabricated_lobby_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Fire Bubble (fabricated) - End of the Course",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$DistKick",
+                            "$YamlEnabled|lava_boost"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "fabricated_lobby",
+                        "x": 355,
+                        "y": 175
+                    }
+                ]
+            },
+            {
+                "name": "Mountain (fabricated)",
+                "access_rules": [
+                    "cannon_unlock_(mountain_(fabricated)), fabricated_lobby_courses",
+                    "climb, fabricated_lobby_courses",
+                    "$HeightWallKickLedgeGrab, fabricated_lobby_courses",
+                    "$YamlEnabled|slope_movement, dive, fabricated_lobby_courses, long_jump",
+                    "$YamlEnabled|slope_movement, dive, fabricated_lobby_courses, kick"
+                ],
+                "sections": [
+                    {
+                        "name": "Mountain (fabricated) - Top of the Tower",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mountain (fabricated) - On the Floating Platform",
+                        "item_count": 1,
+                        "access_rules": [
+                            "cannon_unlock_(mountain_(fabricated))",
+                            "climb",
+                            "triple_jump"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "fabricated_lobby",
+                        "x": 150,
+                        "y": 175
+                    }
+                ]
+            },
+            {
+                "name": "Snow Slider (fabricated)",
+                "access_rules": [
+                    "fabricated_lobby_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Snow Slider (fabricated) - Bottom of the Mountain",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Snow Slider (fabricated) - Lil' Penguin Lost",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "fabricated_lobby",
+                        "x": 75,
+                        "y": 200
+                    }
+                ]
+            },
+            {
+                "name": "Fabricated Lobby (Corrupted)",
+                "access_rules": [
+                    "fabricated_lobby_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Fabricated Lobby (Corrupted) - Timer Challenge",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "fabricated_lobby",
+                        "x": 250,
+                        "y": 360
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Fabricated Lobby Courses",
+        "sections": [
+            {
+                "ref": "Fabricated Lobby/Water Land (fabricated)/Water Land (fabricated) - Silver Stars",
+                "name": "Water Land (fabricated) - Silver Stars"
+            },
+            {
+                "ref": "Fabricated Lobby/Fire Bubble (fabricated)/Fire Bubble (fabricated) - End of the Course",
+                "name": "Fire Bubble (fabricated) - End of the Course"
+            },
+            {
+                "ref": "Fabricated Lobby/Mountain (fabricated)/Mountain (fabricated) - Top of the Tower",
+                "name": "Mountain (fabricated) - Top of the Tower"
+            },
+            {
+                "ref": "Fabricated Lobby/Mountain (fabricated)/Mountain (fabricated) - On the Floating Platform",
+                "name": "Mountain (fabricated) - On the Floating Platform"
+            },
+            {
+                "ref": "Fabricated Lobby/Snow Slider (fabricated)/Snow Slider (fabricated) - Bottom of the Mountain",
+                "name": "Snow Slider (fabricated) - Bottom of the Mountain"
+            },
+            {
+                "ref": "Fabricated Lobby/Snow Slider (fabricated)/Snow Slider (fabricated) - Lil' Penguin Lost",
+                "name": "Snow Slider (fabricated) - Lil' Penguin Lost"
+            },
+            {
+                "ref": "Fabricated Lobby/Fabricated Lobby (Corrupted)/Fabricated Lobby (Corrupted) - Timer Challenge",
+                "name": "Fabricated Lobby (Corrupted) - Timer Challenge"
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "overview",
+                "x": 280,
+                "y": 210
+            }
+        ]
+    }
+]

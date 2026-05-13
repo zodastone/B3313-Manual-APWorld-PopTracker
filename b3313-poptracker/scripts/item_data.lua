@@ -1,0 +1,19 @@
+ITEM_GROUPS = {
+	["Victory Items"] = {"dead_bowser"},
+	["Moves"] = {"triple_jump", "long_jump", "backflip", "side_flip", "wall_kick", "dive", "ground_pound", "kick", "climb", "ledge_grab"},
+	["Caps"] = {"wing_cap", "metal_cap", "vanish_cap"},
+	["Comets"] = {"green_comet"},
+	["Red Stars"] = {"red_star"},
+	["Cannons"] = {"cannon_unlock_(big_blue_skylands)", "cannon_unlock_(blackrock_mountain)", "cannon_unlock_(bob-omb_grassyfield)", "cannon_unlock_(bob-omb_battlefield_(beta))", "cannon_unlock_(chroma_tundra)", "cannon_unlock_(creepy_cove)", "cannon_unlock_(dream_battlefield)", "cannon_unlock_(dry_town)", "cannon_unlock_(fire_field)", "cannon_unlock_(fire_fortress)", "cannon_unlock_(fly_guys_hill)", "cannon_unlock_(flying_fortress)", "cannon_unlock_(goomba_hills)", "cannon_unlock_(grassy_highlands)", "cannon_unlock_(misty_beach)", "cannon_unlock_(mountain_(b-roll))", "cannon_unlock_(mountain_(shoshinkai))", "cannon_unlock_(mountain_(fabricated))", "cannon_unlock_(piranha_plant_garden)", "cannon_unlock_(pleasant_pleasant_falls)", "cannon_unlock_(sandstone_palace)", "cannon_unlock_(shifting_sand_land_(beta))", "cannon_unlock_(snow_ravine)", "cannon_unlock_(snowmans_darkness)", "cannon_unlock_(river_mountain)", "cannon_unlock_(river_mountain_(beta))", "cannon_unlock_(tall_tall_treetops)", "cannon_unlock_(tiny-huge_island_(beta))", "cannon_unlock_(tower_of_the_wing_cap_(beta))", "cannon_unlock_(toxic_ruins)", "cannon_unlock_(ultra_battle_fort)", "cannon_unlock_(wet-dry_paradise)", "cannon_unlock_(wet-dry_world_(beta))", "cannon_unlock_(whomps_kingdom)", "cannon_unlock_(yoshis_beach)", "cannon_unlock_(floating_hotel)", "cannon_unlock_(vanilla_castle_grounds)", "cannon_unlock_(wing_mario_over_the_floating_islands)"},
+	["Course Unlocks"] = {"3rd_floor_(beta)_courses", "4th_floor_courses", "4th_floor_(beta)_courses", "basement_annex_courses", "beta_lobby_a_courses", "beta_lobby_b_courses", "beta_lobby_c_courses", "beta_lobby_d_courses", "beta_lobby_e_courses", "bowsers_domain_courses", "bowsers_floor_and_endgame_courses", "castle_bathroom_courses", "castle_grounds_courses", "challenge_lobby_courses", "courtyard_(fabricated)_courses", "crescent_castle_courses", "crimson_hallway_courses", "cryptic_hideout_courses", "elder_koopas_library_courses", "fabricated_castle_grounds_courses", "fabricated_lobby_courses", "fake_lobby_courses", "floor_2b_courses", "floor_3b_courses", "floor_4b_courses", "genesis_basement_courses", "hybrid_lobby_courses", "internal_garden_courses", "internal_sewer_system_courses", "nebula_lobby_courses", "orange_hall_courses", "painting_museum_courses", "parallel_lobby_courses", "plexal_basement_courses", "plexal_hallway_courses", "plexal_lobby_courses", "plexal_upstairs_courses", "polygonal_chaos_courses", "purple_lobby_and_upstairs_courses", "royal_lobby_courses", "silent_hall_courses", "star_road_courses", "stellar_tower_courses", "uncanny_courtyard_courses", "vanilla_basement_maze_courses", "vanilla_courtyard_courses", "vanilla_lobby_courses", "vanilla_and_mirrored_upstairs_courses"}
+}
+
+
+ITEM_VALUES = {
+
+}
+
+
+STAGE_MAPPINGS = {
+	["red_star_locations"] = {[0] = 0, [1] = 1, [2] = 2}
+}

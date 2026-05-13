@@ -1,0 +1,207 @@
+[
+    {
+        "name": "Beta Lobby E",
+        "chest_unopened_img": "/images/map_checks/star.png",
+        "chest_opened_img": "/images/map_checks/check.png",
+        "children": [
+            {
+                "name": "Water Land (B-Roll)",
+                "access_rules": [
+                    "beta_lobby_e_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Water Land (B-Roll) - Through the Jet Stream",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Water Land (B-Roll) - Board Bowser's Sub",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Water Land (B-Roll) - Chests in the Current",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Inside the Submarine - Red Coins",
+                        "item_count": 1,
+                        "access_rules": [
+                            "climb, triple_jump"
+                        ]
+                    },
+                    {
+                        "name": "Bowser in the Sub - Defeat Bowser",
+                        "chest_unopened_img": "/images/items/red_star.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightWallKick, climb"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "beta_lobby_e",
+                        "x": 440,
+                        "y": 200
+                    }
+                ]
+            },
+            {
+                "name": "Fire Bubble (Shoshinkai)",
+                "access_rules": [
+                    "beta_lobby_e_courses",
+                    "vanilla_basement_maze_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Fire Bubble (Shoshinkai) - Boil the Big Bully Spot",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fire Bubble (Shoshinkai) - Boil the Bullies",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "beta_lobby_e",
+                        "x": 355,
+                        "y": 175
+                    },
+                    {
+                        "map": "vanilla_basement",
+                        "x": 133,
+                        "y": 151
+                    }
+                ]
+            },
+            {
+                "name": "Mountain (Shoshinkai)",
+                "access_rules": [
+                    "beta_lobby_e_courses, cannon_unlock_(mountain_(shoshinkai))",
+                    "beta_lobby_e_courses, climb",
+                    "$HeightWallKickLedgeGrab, beta_lobby_e_courses",
+                    "beta_lobby_e_courses, $YamlEnabled|slope_movement, dive, long_jump",
+                    "$YamlEnabled|slope_movement, beta_lobby_e_courses, dive, kick"
+                ],
+                "sections": [
+                    {
+                        "name": "Mountain (Shoshinkai) - Top of the Tower",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mountain (Shoshinkai) - Tower Hidden 1-Up Spot",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mountain (Shoshinkai) - On the Floating Platform",
+                        "item_count": 1,
+                        "access_rules": [
+                            "cannon_unlock_(mountain_(shoshinkai))",
+                            "climb",
+                            "$DistKick"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "beta_lobby_e",
+                        "x": 150,
+                        "y": 175
+                    }
+                ]
+            },
+            {
+                "name": "Snow Slider (Shoshinkai)",
+                "access_rules": [
+                    "beta_lobby_e_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Snow Slider (Shoshinkai) - Bottom of the Mountain",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Snow Slider (Shoshinkai) - Lil' Penguin Lost",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "beta_lobby_e",
+                        "x": 75,
+                        "y": 200
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Beta Lobby E Courses",
+        "sections": [
+            {
+                "ref": "Beta Lobby E/Water Land (B-Roll)/Water Land (B-Roll) - Through the Jet Stream",
+                "name": "Water Land (B-Roll) - Through the Jet Stream"
+            },
+            {
+                "ref": "Beta Lobby E/Water Land (B-Roll)/Water Land (B-Roll) - Board Bowser's Sub",
+                "name": "Water Land (B-Roll) - Board Bowser's Sub"
+            },
+            {
+                "ref": "Beta Lobby E/Water Land (B-Roll)/Water Land (B-Roll) - Chests in the Current",
+                "name": "Water Land (B-Roll) - Chests in the Current"
+            },
+            {
+                "ref": "Beta Lobby E/Water Land (B-Roll)/Inside the Submarine - Red Coins",
+                "name": "Inside the Submarine - Red Coins"
+            },
+            {
+                "ref": "Beta Lobby E/Water Land (B-Roll)/Bowser in the Sub - Defeat Bowser",
+                "name": "Bowser in the Sub - Defeat Bowser"
+            },
+            {
+                "ref": "Beta Lobby E/Fire Bubble (Shoshinkai)/Fire Bubble (Shoshinkai) - Boil the Big Bully Spot",
+                "name": "Fire Bubble (Shoshinkai) - Boil the Big Bully Spot"
+            },
+            {
+                "ref": "Beta Lobby E/Fire Bubble (Shoshinkai)/Fire Bubble (Shoshinkai) - Boil the Bullies",
+                "name": "Fire Bubble (Shoshinkai) - Boil the Bullies"
+            },
+            {
+                "ref": "Beta Lobby A/Melting Magma Mound/Melting Magma Mound - Top of the Volcano",
+                "name": "Melting Magma Mound - Top of the Volcano"
+            },
+            {
+                "ref": "Beta Lobby A/Melting Magma Mound/Melting Magma Mound - Red Coins",
+                "name": "Melting Magma Mound - Red Coins"
+            },
+            {
+                "ref": "Beta Lobby E/Mountain (Shoshinkai)/Mountain (Shoshinkai) - Top of the Tower",
+                "name": "Mountain (Shoshinkai) - Top of the Tower"
+            },
+            {
+                "ref": "Beta Lobby E/Mountain (Shoshinkai)/Mountain (Shoshinkai) - Tower Hidden 1-Up Spot",
+                "name": "Mountain (Shoshinkai) - Tower Hidden 1-Up Spot"
+            },
+            {
+                "ref": "Beta Lobby E/Mountain (Shoshinkai)/Mountain (Shoshinkai) - On the Floating Platform",
+                "name": "Mountain (Shoshinkai) - On the Floating Platform"
+            },
+            {
+                "ref": "Beta Lobby E/Snow Slider (Shoshinkai)/Snow Slider (Shoshinkai) - Bottom of the Mountain",
+                "name": "Snow Slider (Shoshinkai) - Bottom of the Mountain"
+            },
+            {
+                "ref": "Beta Lobby E/Snow Slider (Shoshinkai)/Snow Slider (Shoshinkai) - Lil' Penguin Lost",
+                "name": "Snow Slider (Shoshinkai) - Lil' Penguin Lost"
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "overview",
+                "x": 30,
+                "y": 300
+            }
+        ]
+    }
+]

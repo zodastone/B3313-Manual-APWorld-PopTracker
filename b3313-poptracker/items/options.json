@@ -1,0 +1,97 @@
+[
+    {
+        "name": "red_star_locations",
+        "loop": true,
+        "codes": "red_star_locations",
+        "inherit_codes": false,
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/options/red_star_locations_vanilla.png",
+                "codes": "red_star_locations_vanilla",
+                "inherit_codes": false,
+                "name": "vanilla"
+            },
+            {
+                "img": "images/options/red_star_locations_local.png",
+                "codes": "red_star_locations_local",
+                "inherit_codes": false,
+                "name": "local"
+            },
+            {
+                "img": "images/options/red_star_locations_anywhere.png",
+                "codes": "red_star_locations_anywhere",
+                "inherit_codes": false,
+                "name": "anywhere"
+            }
+        ]
+    },
+    {
+        "name": "total_red_stars",
+        "loop": true,
+        "codes": "total_red_stars",
+        "type": "consumable",
+        "img": "images/options/total_red_stars.png",
+        "min_quantity": 0,
+        "max_quantity": 33
+    },
+    {
+        "name": "eternal_fort_red_stars",
+        "loop": true,
+        "codes": "eternal_fort_red_stars",
+        "type": "consumable",
+        "img": "images/options/eternal_fort_red_stars.png",
+        "min_quantity": 0,
+        "max_quantity": 33
+    },
+    {
+        "name": "slope_movement",
+        "loop": true,
+        "codes": "slope_movement",
+        "type": "toggle",
+        "img": "images/options/slope_movement.png"
+    },
+    {
+        "name": "hidden_stuff",
+        "loop": true,
+        "codes": "hidden_stuff",
+        "type": "toggle",
+        "img": "images/options/hidden_stuff.png"
+    },
+    {
+        "name": "lava_boost",
+        "loop": true,
+        "codes": "lava_boost",
+        "type": "toggle",
+        "img": "images/options/lava_boost.png"
+    },
+    {
+        "name": "bomb_clip",
+        "loop": true,
+        "codes": "bomb_clip",
+        "type": "toggle",
+        "img": "images/options/bomb_clip.png"
+    },
+    {
+        "name": "backwards_long_jump",
+        "loop": true,
+        "codes": "backwards_long_jump",
+        "type": "toggle",
+        "img": "images/options/backwards_long_jump.png"
+    },
+    {
+        "name": "fly_guy",
+        "loop": true,
+        "codes": "fly_guy",
+        "type": "toggle",
+        "img": "images/options/fly_guy.png"
+    },
+    {
+        "name": "fast_swim",
+        "loop": true,
+        "codes": "fast_swim",
+        "type": "toggle",
+        "img": "images/options/fast_swim.png"
+    }
+]

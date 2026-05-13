@@ -1,0 +1,68 @@
+[
+    {
+        "name": "Castle Bathroom",
+        "chest_unopened_img": "/images/map_checks/star.png",
+        "chest_opened_img": "/images/map_checks/check.png",
+        "children": [
+            {
+                "name": "River Mountain (beta)",
+                "access_rules": [
+                    "castle_bathroom_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "River Mountain (beta) - Top of the Mountain",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "River Mountain (beta) - Silver Stars",
+                        "item_count": 1,
+                        "access_rules": [
+                            "triple_jump",
+                            "cannon_unlock_(river_mountain_(beta))"
+                        ]
+                    },
+                    {
+                        "name": "Bob-omb Cavern - Fake Yellow Switch",
+                        "item_count": 1,
+                        "access_rules": [
+                            "triple_jump",
+                            "$DistLongJump, $HeightLedgeGrab, cannon_unlock_(river_mountain_(beta))"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "castle_bathroom",
+                        "x": 235,
+                        "y": 350
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Castle Bathroom Courses",
+        "sections": [
+            {
+                "ref": "Castle Bathroom/River Mountain (beta)/River Mountain (beta) - Top of the Mountain",
+                "name": "River Mountain (beta) - Top of the Mountain"
+            },
+            {
+                "ref": "Castle Bathroom/River Mountain (beta)/River Mountain (beta) - Silver Stars",
+                "name": "River Mountain (beta) - Silver Stars"
+            },
+            {
+                "ref": "Castle Bathroom/River Mountain (beta)/Bob-omb Cavern - Fake Yellow Switch",
+                "name": "Bob-omb Cavern - Fake Yellow Switch"
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "overview",
+                "x": 30,
+                "y": 390
+            }
+        ]
+    }
+]

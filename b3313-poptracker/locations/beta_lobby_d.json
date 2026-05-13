@@ -1,0 +1,247 @@
+[
+    {
+        "name": "Beta Lobby D",
+        "chest_unopened_img": "/images/map_checks/star.png",
+        "chest_opened_img": "/images/map_checks/check.png",
+        "children": [
+            {
+                "name": "River Mountain",
+                "access_rules": [
+                    "beta_lobby_d_courses",
+                    "vanilla_lobby_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "River Mountain - Top of the Mountain",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "River Mountain - Red Coins",
+                        "item_count": 1,
+                        "access_rules": [
+                            "cannon_unlock_(river_mountain)"
+                        ]
+                    },
+                    {
+                        "name": "River Mountain - Shoot to the Island in the Sky",
+                        "item_count": 1,
+                        "access_rules": [
+                            "cannon_unlock_(river_mountain)"
+                        ]
+                    },
+                    {
+                        "name": "Inside the Summit - Defeat Prince Bob-omb",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Inside the Summit - Top of the Area",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Inside the Summit - Behind the Gate",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$YamlEnabled|bomb_clip",
+                            "climb",
+                            "side_flip, wall_kick"
+                        ]
+                    },
+                    {
+                        "name": "Dark Downtown - Red Coins",
+                        "item_count": 1,
+                        "access_rules": [
+                            "climb, long_jump",
+                            "$HeightSideFlip",
+                            "$HeightBackflip, $YamlEnabled|slope_movement, kick"
+                        ]
+                    },
+                    {
+                        "name": "Dark Downtown - By the Pipe",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightSideFlip",
+                            "$HeightBackflip, $YamlEnabled|slope_movement, kick",
+                            "$HeightBackflip, climb, long_jump"
+                        ]
+                    },
+                    {
+                        "name": "Ice Cold Warzone - Top of the Mountain",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightSideFlip",
+                            "$HeightBackflip, $YamlEnabled|slope_movement, kick",
+                            "$HeightBackflip, climb, long_jump"
+                        ]
+                    },
+                    {
+                        "name": "Limitless Lighthouse - Top of the Lighthouse",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightSideFlip",
+                            "$HeightBackflip, $YamlEnabled|slope_movement, kick",
+                            "$HeightBackflip, climb, long_jump"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "beta_lobby_d",
+                        "x": 150,
+                        "y": 175
+                    },
+                    {
+                        "map": "vanilla_lobby",
+                        "x": 46,
+                        "y": 203
+                    }
+                ]
+            },
+            {
+                "name": "Bob-omb Battlefield (beta)",
+                "access_rules": [
+                    "vanilla_lobby_courses",
+                    "$HeightBackflip, $HeightSideFlip, beta_lobby_d_courses, cannon_unlock_(river_mountain)",
+                    "$HeightBackflip, $YamlEnabled|slope_movement, beta_lobby_d_courses, kick",
+                    "$HeightBackflip, beta_lobby_d_courses, cannon_unlock_(river_mountain), climb, long_jump"
+                ],
+                "sections": [
+                    {
+                        "name": "Bob-omb Battlefield (beta) - Top of the Mountain",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bob-omb Battlefield (beta) - Shoot to the Floating Island",
+                        "item_count": 1,
+                        "access_rules": [
+                            "cannon_unlock_(bob-omb_battlefield_(beta))",
+                            "triple_jump"
+                        ]
+                    },
+                    {
+                        "name": "Bob-omb Battlefield (beta) - Behind Chain Chomp's Gate",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chomp Caverns - Top of the Cavern",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightBackflip, $DistKick"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "beta_lobby_d",
+                        "x": 150,
+                        "y": 150
+                    },
+                    {
+                        "map": "vanilla_lobby",
+                        "x": 71,
+                        "y": 203
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Beta Lobby D Courses",
+        "sections": [
+            {
+                "ref": "Beta Lobby B/Snowman's Land (beta)/Snowman's Land (beta) - In the Deep Freeze",
+                "name": "Snowman's Land (beta) - In the Deep Freeze"
+            },
+            {
+                "ref": "Beta Lobby B/Snowman's Land (beta)/Snowman's Land (beta) - Snowman's Big Head",
+                "name": "Snowman's Land (beta) - Snowman's Big Head"
+            },
+            {
+                "ref": "Beta Lobby B/Snowman's Land (beta)/Snowman's Land (beta) - Silver Stars",
+                "name": "Snowman's Land (beta) - Silver Stars"
+            },
+            {
+                "ref": "Beta Lobby B/Frosty Highlands/Frosty Highlands - Top of the Mountain",
+                "name": "Frosty Highlands - Top of the Mountain"
+            },
+            {
+                "ref": "Beta Lobby B/Frosty Highlands/Frosty Highlands - Red Coins",
+                "name": "Frosty Highlands - Red Coins"
+            },
+            {
+                "ref": "Beta Lobby B/Frosty Highlands/Frosty Highlands - Green Star on the Chimney",
+                "name": "Frosty Highlands - Green Star on the Chimney"
+            },
+            {
+                "ref": "Beta Lobby B/Frosty Highlands/Cold Cold Crevasse - Top of the Area",
+                "name": "Cold Cold Crevasse - Top of the Area"
+            },
+            {
+                "ref": "Beta Lobby B/Frosty Highlands/Cold Cold Crevasse - Silver Stars",
+                "name": "Cold Cold Crevasse - Silver Stars"
+            },
+            {
+                "ref": "Beta Lobby D/River Mountain/River Mountain - Top of the Mountain",
+                "name": "River Mountain - Top of the Mountain"
+            },
+            {
+                "ref": "Beta Lobby D/River Mountain/River Mountain - Red Coins",
+                "name": "River Mountain - Red Coins"
+            },
+            {
+                "ref": "Beta Lobby D/River Mountain/River Mountain - Shoot to the Island in the Sky",
+                "name": "River Mountain - Shoot to the Island in the Sky"
+            },
+            {
+                "ref": "Beta Lobby D/River Mountain/Inside the Summit - Defeat Prince Bob-omb",
+                "name": "Inside the Summit - Defeat Prince Bob-omb"
+            },
+            {
+                "ref": "Beta Lobby D/River Mountain/Inside the Summit - Top of the Area",
+                "name": "Inside the Summit - Top of the Area"
+            },
+            {
+                "ref": "Beta Lobby D/River Mountain/Inside the Summit - Behind the Gate",
+                "name": "Inside the Summit - Behind the Gate"
+            },
+            {
+                "ref": "Beta Lobby D/River Mountain/Dark Downtown - Red Coins",
+                "name": "Dark Downtown - Red Coins"
+            },
+            {
+                "ref": "Beta Lobby D/River Mountain/Dark Downtown - By the Pipe",
+                "name": "Dark Downtown - By the Pipe"
+            },
+            {
+                "ref": "Beta Lobby D/River Mountain/Ice Cold Warzone - Top of the Mountain",
+                "name": "Ice Cold Warzone - Top of the Mountain"
+            },
+            {
+                "ref": "Beta Lobby D/River Mountain/Limitless Lighthouse - Top of the Lighthouse",
+                "name": "Limitless Lighthouse - Top of the Lighthouse"
+            },
+            {
+                "ref": "Beta Lobby D/Bob-omb Battlefield (beta)/Bob-omb Battlefield (beta) - Top of the Mountain",
+                "name": "Bob-omb Battlefield (beta) - Top of the Mountain"
+            },
+            {
+                "ref": "Beta Lobby D/Bob-omb Battlefield (beta)/Bob-omb Battlefield (beta) - Shoot to the Floating Island",
+                "name": "Bob-omb Battlefield (beta) - Shoot to the Floating Island"
+            },
+            {
+                "ref": "Beta Lobby D/Bob-omb Battlefield (beta)/Bob-omb Battlefield (beta) - Behind Chain Chomp's Gate",
+                "name": "Bob-omb Battlefield (beta) - Behind Chain Chomp's Gate"
+            },
+            {
+                "ref": "Beta Lobby D/Bob-omb Battlefield (beta)/Chomp Caverns - Top of the Cavern",
+                "name": "Chomp Caverns - Top of the Cavern"
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "overview",
+                "x": 30,
+                "y": 270
+            }
+        ]
+    }
+]

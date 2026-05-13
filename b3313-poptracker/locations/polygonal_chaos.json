@@ -1,0 +1,122 @@
+[
+    {
+        "name": "Polygonal Chaos",
+        "chest_unopened_img": "/images/map_checks/star.png",
+        "chest_opened_img": "/images/map_checks/check.png",
+        "children": [
+            {
+                "name": "SGI Indy",
+                "access_rules": [
+                    "polygonal_chaos_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "SGI Indy - Top of Near-Right Corner",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$YamlEnabled|slope_movement, kick, wall_kick",
+                            "$YamlEnabled|slope_movement, dive, side_flip, wall_kick",
+                            "ledge_grab, side_flip, triple_jump, wall_kick"
+                        ]
+                    },
+                    {
+                        "name": "SGI Indy - 2nd Floor Near-Left Yellow Area",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$YamlEnabled|slope_movement, kick, triple_jump, wall_kick",
+                            "$YamlEnabled|slope_movement, dive, side_flip, triple_jump, wall_kick",
+                            "ledge_grab, side_flip, triple_jump, wall_kick"
+                        ]
+                    },
+                    {
+                        "name": "SGI Indy - 3rd Floor Processor",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$DistLongJump, wall_kick"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "polygonal chaos",
+                        "x": 355,
+                        "y": 124
+                    }
+                ]
+            },
+            {
+                "name": "MIPS's Forest",
+                "access_rules": [
+                    "polygonal_chaos_courses",
+                    "purple_lobby_and_upstairs_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "MIPS's Forest - Talk to MIPS",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "polygonal chaos",
+                        "x": 356,
+                        "y": 287
+                    },
+                    {
+                        "map": "purple",
+                        "x": 355,
+                        "y": 265
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Polygonal Chaos Courses",
+        "sections": [
+            {
+                "ref": "Polygonal Chaos/SGI Indy/SGI Indy - Top of Near-Right Corner",
+                "name": "SGI Indy - Top of Near-Right Corner"
+            },
+            {
+                "ref": "Polygonal Chaos/SGI Indy/SGI Indy - 2nd Floor Near-Left Yellow Area",
+                "name": "SGI Indy - 2nd Floor Near-Left Yellow Area"
+            },
+            {
+                "ref": "Polygonal Chaos/SGI Indy/SGI Indy - 3rd Floor Processor",
+                "name": "SGI Indy - 3rd Floor Processor"
+            },
+            {
+                "ref": "Polygonal Chaos/MIPS's Forest/MIPS's Forest - Talk to MIPS",
+                "name": "MIPS's Forest - Talk to MIPS"
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "overview",
+                "x": 530,
+                "y": 270
+            }
+        ]
+    },
+    {
+        "name": "Purple Lobby and Upstairs Courses",
+        "sections": [
+            {
+                "ref": "Polygonal Chaos/MIPS's Forest/MIPS's Forest - Talk to MIPS",
+                "name": "MIPS's Forest - Talk to MIPS"
+            },
+            {
+                "ref": "Beta Lobby C/Bowser in the Dark World (Shoshinkai)/Bowser in the Dark World (Shoshinkai) - Defeat Bowser",
+                "name": "Bowser in the Dark World (Shoshinkai) - Defeat Bowser"
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "overview",
+                "x": 530,
+                "y": 300
+            }
+        ]
+    }
+]

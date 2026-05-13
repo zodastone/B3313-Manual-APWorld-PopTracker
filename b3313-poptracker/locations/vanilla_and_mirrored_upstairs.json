@@ -1,0 +1,301 @@
+[
+    {
+        "name": "Vanilla and Mirrored Upstairs",
+        "chest_unopened_img": "/images/map_checks/star.png",
+        "chest_opened_img": "/images/map_checks/check.png",
+        "children": [
+            {
+                "name": "Wet-Dry Paradise",
+                "access_rules": [
+                    "vanilla_and_mirrored_upstairs_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Wet-Dry Paradise - Pluck the Piranha Flowers",
+                        "item_count": 1,
+                        "access_rules": [
+                            "cannon_unlock_(wet-dry_paradise)",
+                            "$HeightDoubleJumpWallKick",
+                            "$YamlEnabled|slope_movement, wall_kick",
+                            "$YamlEnabled|slope_movement, $HeightWallKick, climb"
+                        ]
+                    },
+                    {
+                        "name": "Wet-Dry Paradise - Destroy the Crystals",
+                        "item_count": 1,
+                        "access_rules": [
+                            "cannon_unlock_(wet-dry_paradise)",
+                            "$HeightWallKick"
+                        ]
+                    },
+                    {
+                        "name": "Wet-Dry Paradise - Ring Secrets",
+                        "item_count": 1,
+                        "access_rules": [
+                            "cannon_unlock_(wet-dry_paradise)"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "vanilla_upstairs",
+                        "x": 114,
+                        "y": 435
+                    }
+                ]
+            },
+            {
+                "name": "Snowman's Darkness",
+                "access_rules": [
+                    "vanilla_and_mirrored_upstairs_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Snowman's Darkness - Blast Away the Ice",
+                        "item_count": 1,
+                        "access_rules": [
+                            "cannon_unlock_(snowmans_darkness)"
+                        ]
+                    },
+                    {
+                        "name": "Chief Chilly's Ring - Defeat Chief Chilly",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "vanilla_upstairs",
+                        "x": 262,
+                        "y": 354
+                    }
+                ]
+            },
+            {
+                "name": "Wet-Dry World (beta)",
+                "access_rules": [
+                    "vanilla_and_mirrored_upstairs_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Wet-Dry World (beta) - Yellow Box Secrets",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wet-Dry World (beta) - Top of the Town",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightLedgeGrab",
+                            "kick"
+                        ]
+                    },
+                    {
+                        "name": "Wet-Dry World (beta) - Behind the Grate",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightLedgeGrab, ledge_grab",
+                            "$HeightLedgeGrab, cannon_unlock_(wet-dry_world_(beta))",
+                            "$HeightLedgeGrab, triple_jump",
+                            "$YamlEnabled|slope_movement, kick, ledge_grab",
+                            "cannon_unlock_(wet-dry_world_(beta)), $YamlEnabled|slope_movement, kick",
+                            "$YamlEnabled|slope_movement, kick, triple_jump"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "vanilla_upstairs",
+                        "x": 383,
+                        "y": 435
+                    }
+                ]
+            },
+            {
+                "name": "Grassy Snowy Summit",
+                "access_rules": [
+                    "vanilla_and_mirrored_upstairs_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Grassy Snowy Summit - Scale the Mountain",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Grassy Snowy Summit - Breathtaking View from the Bridge",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "vanilla_upstairs",
+                        "x": 382,
+                        "y": 193
+                    }
+                ]
+            },
+            {
+                "name": "Clockwork Innards",
+                "access_rules": [
+                    "vanilla_and_mirrored_upstairs_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Clockwork Innards - Top of the Clock",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightBackflip, climb"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "vanilla_upstairs",
+                        "x": 297,
+                        "y": 52
+                    }
+                ]
+            },
+            {
+                "name": "Fire Bubble 2",
+                "access_rules": [
+                    "vanilla_and_mirrored_upstairs_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Fire Bubble 2 - End of the Maze",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fire Bubble 2 - Climb the Structure",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightWallKick"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "vanilla_upstairs",
+                        "x": 178,
+                        "y": 99
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Vanilla and Mirrored Upstairs Courses",
+        "sections": [
+            {
+                "ref": "Vanilla and Mirrored Upstairs/Wet-Dry Paradise/Wet-Dry Paradise - Pluck the Piranha Flowers",
+                "name": "Wet-Dry Paradise - Pluck the Piranha Flowers"
+            },
+            {
+                "ref": "Vanilla and Mirrored Upstairs/Wet-Dry Paradise/Wet-Dry Paradise - Destroy the Crystals",
+                "name": "Wet-Dry Paradise - Destroy the Crystals"
+            },
+            {
+                "ref": "Vanilla and Mirrored Upstairs/Wet-Dry Paradise/Wet-Dry Paradise - Ring Secrets",
+                "name": "Wet-Dry Paradise - Ring Secrets"
+            },
+            {
+                "ref": "Vanilla and Mirrored Upstairs/Snowman's Darkness/Snowman's Darkness - Blast Away the Ice",
+                "name": "Snowman's Darkness - Blast Away the Ice"
+            },
+            {
+                "ref": "Vanilla and Mirrored Upstairs/Snowman's Darkness/Chief Chilly's Ring - Defeat Chief Chilly",
+                "name": "Chief Chilly's Ring - Defeat Chief Chilly"
+            },
+            {
+                "ref": "Vanilla and Mirrored Upstairs/Wet-Dry World (beta)/Wet-Dry World (beta) - Yellow Box Secrets",
+                "name": "Wet-Dry World (beta) - Yellow Box Secrets"
+            },
+            {
+                "ref": "Vanilla and Mirrored Upstairs/Wet-Dry World (beta)/Wet-Dry World (beta) - Top of the Town",
+                "name": "Wet-Dry World (beta) - Top of the Town"
+            },
+            {
+                "ref": "Vanilla and Mirrored Upstairs/Wet-Dry World (beta)/Wet-Dry World (beta) - Behind the Grate",
+                "name": "Wet-Dry World (beta) - Behind the Grate"
+            },
+            {
+                "ref": "Plexal Basement/Dry Town/Dry Town - Top of the Town",
+                "name": "Dry Town - Top of the Town"
+            },
+            {
+                "ref": "Plexal Basement/Dry Town/Dry Town - Door Secrets",
+                "name": "Dry Town - Door Secrets"
+            },
+            {
+                "ref": "Plexal Basement/Tiny-Huge Island (beta)/Tiny-Huge Island (beta) - Pluck the Piranha Flowers",
+                "name": "Tiny-Huge Island (beta) - Pluck the Piranha Flowers"
+            },
+            {
+                "ref": "Plexal Basement/Tiny-Huge Island (beta)/Tiny-Huge Island (beta) - The Tip Top of the Huge Island",
+                "name": "Tiny-Huge Island (beta) - The Tip Top of the Huge Island"
+            },
+            {
+                "ref": "Plexal Basement/Tiny-Huge Island (beta)/Tiny-Huge Island (beta) - Above the Huge Island Lake",
+                "name": "Tiny-Huge Island (beta) - Above the Huge Island Lake"
+            },
+            {
+                "ref": "Plexal Basement/Tiny-Huge Island (beta)/Tiny-Huge Island (beta) - Above the Tiny Island Lake",
+                "name": "Tiny-Huge Island (beta) - Above the Tiny Island Lake"
+            },
+            {
+                "ref": "Plexal Basement/Tiny-Huge Island (beta)/Tiny-Huge Island (beta) - Red Coins",
+                "name": "Tiny-Huge Island (beta) - Red Coins"
+            },
+            {
+                "ref": "Plexal Basement/Tiny-Huge Island (beta)/Wiggler's Cave - Make Wiggler Squirm",
+                "name": "Wiggler's Cave - Make Wiggler Squirm"
+            },
+            {
+                "ref": "Plexal Basement/Tiny-Huge Island (beta)/Wiggler's Cave - Silver Stars",
+                "name": "Wiggler's Cave - Silver Stars"
+            },
+            {
+                "ref": "Vanilla and Mirrored Upstairs/Grassy Snowy Summit/Grassy Snowy Summit - Scale the Mountain",
+                "name": "Grassy Snowy Summit - Scale the Mountain"
+            },
+            {
+                "ref": "Vanilla and Mirrored Upstairs/Grassy Snowy Summit/Grassy Snowy Summit - Breathtaking View from the Bridge",
+                "name": "Grassy Snowy Summit - Breathtaking View from the Bridge"
+            },
+            {
+                "ref": "Vanilla and Mirrored Upstairs/Clockwork Innards/Clockwork Innards - Top of the Clock",
+                "name": "Clockwork Innards - Top of the Clock"
+            },
+            {
+                "ref": "Vanilla and Mirrored Upstairs/Fire Bubble 2/Fire Bubble 2 - End of the Maze",
+                "name": "Fire Bubble 2 - End of the Maze"
+            },
+            {
+                "ref": "Vanilla and Mirrored Upstairs/Fire Bubble 2/Fire Bubble 2 - Climb the Structure",
+                "name": "Fire Bubble 2 - Climb the Structure"
+            },
+            {
+                "ref": "4th Floor (beta)/Snow Tunnels/Snow Tunnels - In the Maze",
+                "name": "Snow Tunnels - In the Maze"
+            },
+            {
+                "ref": "Vanilla Lobby/Flying Fortress/Flying Fortress - Tower Hidden 1-Up Spot",
+                "name": "Flying Fortress - Tower Hidden 1-Up Spot"
+            },
+            {
+                "ref": "Vanilla Lobby/Flying Fortress/Flying Fortress - Red Coins",
+                "name": "Flying Fortress - Red Coins"
+            },
+            {
+                "ref": "Vanilla Lobby/Flying Fortress/Flying Fortress - Top of the Tower",
+                "name": "Flying Fortress - Top of the Tower"
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "overview",
+                "x": 780,
+                "y": 120
+            }
+        ]
+    }
+]

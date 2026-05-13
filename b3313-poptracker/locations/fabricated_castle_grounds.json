@@ -1,0 +1,68 @@
+[
+    {
+        "name": "Fabricated Castle Grounds",
+        "chest_unopened_img": "/images/map_checks/star.png",
+        "chest_opened_img": "/images/map_checks/check.png",
+        "children": [
+            {
+                "name": "Wet-Dry Moat",
+                "access_rules": [
+                    "fabricated_castle_grounds_courses, ledge_grab",
+                    "fabricated_castle_grounds_courses, $YamlEnabled|hidden_stuff, climb, kick",
+                    "fabricated_castle_grounds_courses, $YamlEnabled|hidden_stuff, climb, triple_jump",
+                ],
+                "sections": [
+                    {
+                        "name": "Wet-Dry Moat - On a Floating Platform",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightLedgeGrab"
+                        ]
+                    },
+                    {
+                        "name": "Wet-Dry Moat - Behind the Grate",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightLedgeGrab"
+                        ]
+                    },
+                    {
+                        "name": "Wet-Dry Moat - Red Coins",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "fabricated_grounds",
+                        "x": 245,
+                        "y": 255
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Fabricated Castle Grounds Courses",
+        "sections": [
+            {
+                "ref": "Fabricated Castle Grounds/Wet-Dry Moat/Wet-Dry Moat - On a Floating Platform",
+                "name": "Wet-Dry Moat - On a Floating Platform"
+            },
+            {
+                "ref": "Fabricated Castle Grounds/Wet-Dry Moat/Wet-Dry Moat - Behind the Grate",
+                "name": "Wet-Dry Moat - Behind the Grate"
+            },
+            {
+                "ref": "Fabricated Castle Grounds/Wet-Dry Moat/Wet-Dry Moat - Red Coins",
+                "name": "Wet-Dry Moat - Red Coins"
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "overview",
+                "x": 280,
+                "y": 180
+            }
+        ]
+    }
+]

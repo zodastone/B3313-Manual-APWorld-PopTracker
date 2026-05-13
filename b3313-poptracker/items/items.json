@@ -1,0 +1,718 @@
+[
+    {
+        "name": "Dead Bowser",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/dead_bowser.png",
+        "codes": "dead_bowser"
+    },
+    {
+        "name": "Triple Jump",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/triple_jump.png",
+        "codes": "triple_jump"
+    },
+    {
+        "name": "Long Jump",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/long_jump.png",
+        "codes": "long_jump"
+    },
+    {
+        "name": "Backflip",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/backflip.png",
+        "codes": "backflip"
+    },
+    {
+        "name": "Side Flip",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/side_flip.png",
+        "codes": "side_flip"
+    },
+    {
+        "name": "Wall Kick",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/wall_kick.png",
+        "codes": "wall_kick"
+    },
+    {
+        "name": "Dive",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/dive.png",
+        "codes": "dive"
+    },
+    {
+        "name": "Ground Pound",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/ground_pound.png",
+        "codes": "ground_pound"
+    },
+    {
+        "name": "Kick",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/kick.png",
+        "codes": "kick"
+    },
+    {
+        "name": "Climb",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/climb.png",
+        "codes": "climb"
+    },
+    {
+        "name": "Ledge Grab",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/ledge_grab.png",
+        "codes": "ledge_grab"
+    },
+    {
+        "name": "Wing Cap",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/wing_cap.png",
+        "codes": "wing_cap"
+    },
+    {
+        "name": "Metal Cap",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/metal_cap.png",
+        "codes": "metal_cap"
+    },
+    {
+        "name": "Vanish Cap",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/vanish_cap.png",
+        "codes": "vanish_cap"
+    },
+    {
+        "name": "Green Comet",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/green_comet.png",
+        "codes": "green_comet"
+    },
+    {
+        "name": "Red Star",
+        "type": "consumable",
+        "loop": "true",
+        "img": "images/items/red_star.png",
+        "codes": "red_star",
+        "min_quantity": 0,
+        "max_quantity": 33
+    },
+    {
+        "name": "Cannon Unlock (Big Blue Skylands)",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/cannon_unlock_(big_blue_skylands).png",
+        "codes": "cannon_unlock_(big_blue_skylands)"
+    },
+    {
+        "name": "Cannon Unlock (Blackrock Mountain)",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/cannon_unlock_(blackrock_mountain).png",
+        "codes": "cannon_unlock_(blackrock_mountain)"
+    },
+    {
+        "name": "Cannon Unlock (Bob-omb Grassyfield)",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/cannon_unlock_(bob-omb_grassyfield).png",
+        "codes": "cannon_unlock_(bob-omb_grassyfield)"
+    },
+    {
+        "name": "Cannon Unlock (Bob-omb Battlefield (beta))",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/cannon_unlock_(bob-omb_battlefield_(beta)).png",
+        "codes": "cannon_unlock_(bob-omb_battlefield_(beta))"
+    },
+    {
+        "name": "Cannon Unlock (Chroma Tundra)",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/cannon_unlock_(chroma_tundra).png",
+        "codes": "cannon_unlock_(chroma_tundra)"
+    },
+    {
+        "name": "Cannon Unlock (Creepy Cove)",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/cannon_unlock_(creepy_cove).png",
+        "codes": "cannon_unlock_(creepy_cove)"
+    },
+    {
+        "name": "Cannon Unlock (Dream Battlefield)",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/cannon_unlock_(dream_battlefield).png",
+        "codes": "cannon_unlock_(dream_battlefield)"
+    },
+    {
+        "name": "Cannon Unlock (Dry Town)",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/cannon_unlock_(dry_town).png",
+        "codes": "cannon_unlock_(dry_town)"
+    },
+    {
+        "name": "Cannon Unlock (Fire Field)",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/cannon_unlock_(fire_field).png",
+        "codes": "cannon_unlock_(fire_field)"
+    },
+    {
+        "name": "Cannon Unlock (Fire Fortress)",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/cannon_unlock_(fire_fortress).png",
+        "codes": "cannon_unlock_(fire_fortress)"
+    },
+    {
+        "name": "Cannon Unlock (Fly Guy's Hill)",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/cannon_unlock_(fly_guys_hill).png",
+        "codes": "cannon_unlock_(fly_guys_hill)"
+    },
+    {
+        "name": "Cannon Unlock (Flying Fortress)",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/cannon_unlock_(flying_fortress).png",
+        "codes": "cannon_unlock_(flying_fortress)"
+    },
+    {
+        "name": "Cannon Unlock (Goomba Hills)",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/cannon_unlock_(goomba_hills).png",
+        "codes": "cannon_unlock_(goomba_hills)"
+    },
+    {
+        "name": "Cannon Unlock (Grassy Highlands)",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/cannon_unlock_(grassy_highlands).png",
+        "codes": "cannon_unlock_(grassy_highlands)"
+    },
+    {
+        "name": "Cannon Unlock (Misty Beach)",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/cannon_unlock_(misty_beach).png",
+        "codes": "cannon_unlock_(misty_beach)"
+    },
+    {
+        "name": "Cannon Unlock (Mountain (B-Roll))",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/cannon_unlock_(mountain_(b-roll)).png",
+        "codes": "cannon_unlock_(mountain_(b-roll))"
+    },
+    {
+        "name": "Cannon Unlock (Mountain (Shoshinkai))",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/cannon_unlock_(mountain_(shoshinkai)).png",
+        "codes": "cannon_unlock_(mountain_(shoshinkai))"
+    },
+    {
+        "name": "Cannon Unlock (Mountain (fabricated))",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/cannon_unlock_(mountain_(fabricated)).png",
+        "codes": "cannon_unlock_(mountain_(fabricated))"
+    },
+    {
+        "name": "Cannon Unlock (Piranha Plant Garden)",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/cannon_unlock_(piranha_plant_garden).png",
+        "codes": "cannon_unlock_(piranha_plant_garden)"
+    },
+    {
+        "name": "Cannon Unlock (Pleasant Pleasant Falls)",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/cannon_unlock_(pleasant_pleasant_falls).png",
+        "codes": "cannon_unlock_(pleasant_pleasant_falls)"
+    },
+    {
+        "name": "Cannon Unlock (Sandstone Palace)",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/cannon_unlock_(sandstone_palace).png",
+        "codes": "cannon_unlock_(sandstone_palace)"
+    },
+    {
+        "name": "Cannon Unlock (Shifting Sand Land (beta))",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/cannon_unlock_(shifting_sand_land_(beta)).png",
+        "codes": "cannon_unlock_(shifting_sand_land_(beta))"
+    },
+    {
+        "name": "Cannon Unlock (Snow Ravine)",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/cannon_unlock_(snow_ravine).png",
+        "codes": "cannon_unlock_(snow_ravine)"
+    },
+    {
+        "name": "Cannon Unlock (Snowman's Darkness)",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/cannon_unlock_(snowmans_darkness).png",
+        "codes": "cannon_unlock_(snowmans_darkness)"
+    },
+    {
+        "name": "Cannon Unlock (River Mountain)",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/cannon_unlock_(river_mountain).png",
+        "codes": "cannon_unlock_(river_mountain)"
+    },
+    {
+        "name": "Cannon Unlock (River Mountain (beta))",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/cannon_unlock_(river_mountain_(beta)).png",
+        "codes": "cannon_unlock_(river_mountain_(beta))"
+    },
+    {
+        "name": "Cannon Unlock (Tall Tall Treetops)",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/cannon_unlock_(tall_tall_treetops).png",
+        "codes": "cannon_unlock_(tall_tall_treetops)"
+    },
+    {
+        "name": "Cannon Unlock (Tiny-Huge Island (beta))",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/cannon_unlock_(tiny-huge_island_(beta)).png",
+        "codes": "cannon_unlock_(tiny-huge_island_(beta))"
+    },
+    {
+        "name": "Cannon Unlock (Tower of the Wing Cap (beta))",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/cannon_unlock_(tower_of_the_wing_cap_(beta)).png",
+        "codes": "cannon_unlock_(tower_of_the_wing_cap_(beta))"
+    },
+    {
+        "name": "Cannon Unlock (Toxic Ruins)",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/cannon_unlock_(toxic_ruins).png",
+        "codes": "cannon_unlock_(toxic_ruins)"
+    },
+    {
+        "name": "Cannon Unlock (Ultra Battle Fort)",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/cannon_unlock_(ultra_battle_fort).png",
+        "codes": "cannon_unlock_(ultra_battle_fort)"
+    },
+    {
+        "name": "Cannon Unlock (Wet-Dry Paradise)",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/cannon_unlock_(wet-dry_paradise).png",
+        "codes": "cannon_unlock_(wet-dry_paradise)"
+    },
+    {
+        "name": "Cannon Unlock (Wet-Dry World (beta))",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/cannon_unlock_(wet-dry_world_(beta)).png",
+        "codes": "cannon_unlock_(wet-dry_world_(beta))"
+    },
+    {
+        "name": "Cannon Unlock (Whomp's Kingdom)",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/cannon_unlock_(whomps_kingdom).png",
+        "codes": "cannon_unlock_(whomps_kingdom)"
+    },
+    {
+        "name": "Cannon Unlock (Yoshi's Beach)",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/cannon_unlock_(yoshis_beach).png",
+        "codes": "cannon_unlock_(yoshis_beach)"
+    },
+    {
+        "name": "Cannon Unlock (Floating Hotel)",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/cannon_unlock_(floating_hotel).png",
+        "codes": "cannon_unlock_(floating_hotel)"
+    },
+    {
+        "name": "Cannon Unlock (Vanilla Castle Grounds)",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/cannon_unlock_(vanilla_castle_grounds).png",
+        "codes": "cannon_unlock_(vanilla_castle_grounds)"
+    },
+    {
+        "name": "Cannon Unlock (Wing Mario over the Floating Islands)",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/cannon_unlock_(wing_mario_over_the_floating_islands).png",
+        "codes": "cannon_unlock_(wing_mario_over_the_floating_islands)"
+    },
+    {
+        "name": "3rd Floor (beta) Courses",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/3rd_floor_(beta)_courses.png",
+        "codes": "3rd_floor_(beta)_courses"
+    },
+    {
+        "name": "4th Floor Courses",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/4th_floor_courses.png",
+        "codes": "4th_floor_courses"
+    },
+    {
+        "name": "4th Floor (beta) Courses",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/4th_floor_(beta)_courses.png",
+        "codes": "4th_floor_(beta)_courses"
+    },
+    {
+        "name": "Basement Annex Courses",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/basement_annex_courses.png",
+        "codes": "basement_annex_courses"
+    },
+    {
+        "name": "Beta Lobby A Courses",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/beta_lobby_a_courses.png",
+        "codes": "beta_lobby_a_courses"
+    },
+    {
+        "name": "Beta Lobby B Courses",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/beta_lobby_b_courses.png",
+        "codes": "beta_lobby_b_courses"
+    },
+    {
+        "name": "Beta Lobby C Courses",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/beta_lobby_c_courses.png",
+        "codes": "beta_lobby_c_courses"
+    },
+    {
+        "name": "Beta Lobby D Courses",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/beta_lobby_d_courses.png",
+        "codes": "beta_lobby_d_courses"
+    },
+    {
+        "name": "Beta Lobby E Courses",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/beta_lobby_e_courses.png",
+        "codes": "beta_lobby_e_courses"
+    },
+    {
+        "name": "Bowser's Domain Courses",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/bowsers_domain_courses.png",
+        "codes": "bowsers_domain_courses"
+    },
+    {
+        "name": "Bowser's Floor and Endgame Courses",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/bowsers_floor_and_endgame_courses.png",
+        "codes": "bowsers_floor_and_endgame_courses"
+    },
+    {
+        "name": "Castle Bathroom Courses",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/castle_bathroom_courses.png",
+        "codes": "castle_bathroom_courses"
+    },
+    {
+        "name": "Castle Grounds Courses",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/castle_grounds_courses.png",
+        "codes": "castle_grounds_courses"
+    },
+    {
+        "name": "Challenge Lobby Courses",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/challenge_lobby_courses.png",
+        "codes": "challenge_lobby_courses"
+    },
+    {
+        "name": "Courtyard (fabricated) Courses",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/courtyard_(fabricated)_courses.png",
+        "codes": "courtyard_(fabricated)_courses"
+    },
+    {
+        "name": "Crescent Castle Courses",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/crescent_castle_courses.png",
+        "codes": "crescent_castle_courses"
+    },
+    {
+        "name": "Crimson Hallway Courses",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/crimson_hallway_courses.png",
+        "codes": "crimson_hallway_courses"
+    },
+    {
+        "name": "Cryptic Hideout Courses",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/cryptic_hideout_courses.png",
+        "codes": "cryptic_hideout_courses"
+    },
+    {
+        "name": "Elder Koopa's Library Courses",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/elder_koopas_library_courses.png",
+        "codes": "elder_koopas_library_courses"
+    },
+    {
+        "name": "Fabricated Castle Grounds Courses",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/fabricated_castle_grounds_courses.png",
+        "codes": "fabricated_castle_grounds_courses"
+    },
+    {
+        "name": "Fabricated Lobby Courses",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/fabricated_lobby_courses.png",
+        "codes": "fabricated_lobby_courses"
+    },
+    {
+        "name": "Fake Lobby Courses",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/fake_lobby_courses.png",
+        "codes": "fake_lobby_courses"
+    },
+    {
+        "name": "Floor 2B Courses",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/floor_2b_courses.png",
+        "codes": "floor_2b_courses"
+    },
+    {
+        "name": "Floor 3B Courses",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/floor_3b_courses.png",
+        "codes": "floor_3b_courses"
+    },
+    {
+        "name": "Floor 4B Courses",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/floor_4b_courses.png",
+        "codes": "floor_4b_courses"
+    },
+    {
+        "name": "Genesis Basement Courses",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/genesis_basement_courses.png",
+        "codes": "genesis_basement_courses"
+    },
+    {
+        "name": "Hybrid Lobby Courses",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/hybrid_lobby_courses.png",
+        "codes": "hybrid_lobby_courses"
+    },
+    {
+        "name": "Internal Garden Courses",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/internal_garden_courses.png",
+        "codes": "internal_garden_courses"
+    },
+    {
+        "name": "Internal Sewer System Courses",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/internal_sewer_system_courses.png",
+        "codes": "internal_sewer_system_courses"
+    },
+    {
+        "name": "Nebula Lobby Courses",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/nebula_lobby_courses.png",
+        "codes": "nebula_lobby_courses"
+    },
+    {
+        "name": "Orange Hall Courses",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/orange_hall_courses.png",
+        "codes": "orange_hall_courses"
+    },
+    {
+        "name": "Painting Museum Courses",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/painting_museum_courses.png",
+        "codes": "painting_museum_courses"
+    },
+    {
+        "name": "Parallel Lobby Courses",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/parallel_lobby_courses.png",
+        "codes": "parallel_lobby_courses"
+    },
+    {
+        "name": "Plexal Basement Courses",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/plexal_basement_courses.png",
+        "codes": "plexal_basement_courses"
+    },
+    {
+        "name": "Plexal Hallway Courses",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/plexal_hallway_courses.png",
+        "codes": "plexal_hallway_courses"
+    },
+    {
+        "name": "Plexal Lobby Courses",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/plexal_lobby_courses.png",
+        "codes": "plexal_lobby_courses"
+    },
+    {
+        "name": "Plexal Upstairs Courses",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/plexal_upstairs_courses.png",
+        "codes": "plexal_upstairs_courses"
+    },
+    {
+        "name": "Polygonal Chaos Courses",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/polygonal_chaos_courses.png",
+        "codes": "polygonal_chaos_courses"
+    },
+    {
+        "name": "Purple Lobby and Upstairs Courses",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/purple_lobby_and_upstairs_courses.png",
+        "codes": "purple_lobby_and_upstairs_courses"
+    },
+    {
+        "name": "Royal Lobby Courses",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/royal_lobby_courses.png",
+        "codes": "royal_lobby_courses"
+    },
+    {
+        "name": "Silent Hall Courses",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/silent_hall_courses.png",
+        "codes": "silent_hall_courses"
+    },
+    {
+        "name": "Star Road Courses",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/star_road_courses.png",
+        "codes": "star_road_courses"
+    },
+    {
+        "name": "Stellar Tower Courses",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/stellar_tower_courses.png",
+        "codes": "stellar_tower_courses"
+    },
+    {
+        "name": "Uncanny Courtyard Courses",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/uncanny_courtyard_courses.png",
+        "codes": "uncanny_courtyard_courses"
+    },
+    {
+        "name": "Vanilla Basement Maze Courses",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/vanilla_basement_maze_courses.png",
+        "codes": "vanilla_basement_maze_courses"
+    },
+    {
+        "name": "Vanilla Courtyard Courses",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/vanilla_courtyard_courses.png",
+        "codes": "vanilla_courtyard_courses"
+    },
+    {
+        "name": "Vanilla Lobby Courses",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/vanilla_lobby_courses.png",
+        "codes": "vanilla_lobby_courses"
+    },
+    {
+        "name": "Vanilla and Mirrored Upstairs Courses",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/vanilla_and_mirrored_upstairs_courses.png",
+        "codes": "vanilla_and_mirrored_upstairs_courses"
+    }
+]

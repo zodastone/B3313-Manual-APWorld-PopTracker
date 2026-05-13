@@ -1,0 +1,518 @@
+[
+    {
+        "name": "Parallel Lobby",
+        "chest_unopened_img": "/images/map_checks/star.png",
+        "chest_opened_img": "/images/map_checks/check.png",
+        "children": [
+            {
+                "name": "Wing Mario over the Floating Islands",
+                "access_rules": [
+                    "parallel_lobby_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Wing Mario over the Floating Islands - Red Coins",
+                        "item_count": 1,
+                        "access_rules": [
+                            "triple_jump, wing_cap"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "parallel_lobby",
+                        "x": 170,
+                        "y": 125
+                    }
+                ]
+            },
+            {
+                "name": "Treetop Ride",
+                "access_rules": [
+                    "parallel_lobby_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Treetop Ride - Red Coins",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Treetop Ride - Silver Stars",
+                        "item_count": 1,
+                        "access_rules": [
+                            "wall_kick",
+                            "$DistKick, $HeightLedgeGrab, climb"
+                        ]
+                    },
+                    {
+                        "name": "Treetop Ride - Tricky Triangles!",
+                        "item_count": 1,
+                        "access_rules": [
+                            "wall_kick",
+                            "$DistKick, climb"
+                        ]
+                    },
+                    {
+                        "name": "Treetop Ride - Top of the Big Tree",
+                        "item_count": 1,
+                        "access_rules": [
+                            "climb, wall_kick",
+                            "climb, $DistKick"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "parallel_lobby",
+                        "x": 290,
+                        "y": 125
+                    }
+                ]
+            },
+            {
+                "name": "Frosty Flowering Peak",
+                "access_rules": [
+                    "parallel_lobby_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Frosty Flowering Peak - Catch Ukiki",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Frosty Flowering Peak - Bottom of the Frosty Peak",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "parallel_lobby",
+                        "x": 130,
+                        "y": 268
+                    }
+                ]
+            },
+            {
+                "name": "Steep Green Summit",
+                "access_rules": [
+                    "parallel_lobby_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Steep Green Summit - Catch Ukiki",
+                        "item_count": 1,
+                        "access_rules": [
+                            "climb",
+                            "$YamlEnabled|slope_movement, kick, triple_jump"
+                        ]
+                    },
+                    {
+                        "name": "Steep Green Summit - Scale the Mountain",
+                        "item_count": 1,
+                        "access_rules": [
+                            "climb",
+                            "$HeightBackflip, $YamlEnabled|slope_movement, kick"
+                        ]
+                    },
+                    {
+                        "name": "Steep Green Summit - Mysterious Mountainside",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightKick, climb",
+                            "$HeightBackflip, $HeightKick, $YamlEnabled|slope_movement, kick"
+                        ]
+                    },
+                    {
+                        "name": "Monkey Slide (beta) - Four Corners Secret",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightKick, climb",
+                            "$HeightBackflip, $HeightKick, $YamlEnabled|slope_movement, kick"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "parallel_lobby",
+                        "x": 257,
+                        "y": 327
+                    }
+                ]
+            },
+            {
+                "name": "No Man's Land",
+                "access_rules": [
+                    "$HeightBackflip, parallel_lobby_courses, vanish_cap"
+                ],
+                "sections": [
+                    {
+                        "name": "No Man's Land - Whirl from the Freezing Pond Spot",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "No Man's Land - Lil' Penguin Lost",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "No Man's Land - Chill with the Bully",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "parallel_lobby",
+                        "x": 271,
+                        "y": 425
+                    }
+                ]
+            },
+            {
+                "name": "The City",
+                "access_rules": [
+                    "parallel_lobby_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "The City - Behind the Grate",
+                        "item_count": 1,
+                        "access_rules": [
+                            "vanish_cap"
+                        ]
+                    },
+                    {
+                        "name": "The City - Destroy the Bob-omb's Books",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The City - Flood the Town",
+                        "item_count": 1,
+                        "access_rules": [
+                            "wall_kick"
+                        ]
+                    },
+                    {
+                        "name": "The City - Kill the Top Bob-omb",
+                        "item_count": 1,
+                        "access_rules": [
+                            "wall_kick"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "parallel_lobby",
+                        "x": 370,
+                        "y": 300
+                    }
+                ]
+            },
+            {
+                "name": "Curly's Fire Bubble",
+                "access_rules": [
+                    "parallel_lobby_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Curly's Fire Bubble - Across the Floating Planks",
+                        "item_count": 1,
+                        "access_rules": [
+                            "kick",
+                            "$DistLongJump",
+                            "$YamlEnabled|lava_boost"
+                        ]
+                    },
+                    {
+                        "name": "Curly's Fire Bubble - Boil the Big Bully",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Curly's Fire Bubble - Top of the Tower",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightKick"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "parallel_lobby",
+                        "x": 260,
+                        "y": 276
+                    }
+                ]
+            },
+            {
+                "name": "Hazy Memory Cave",
+                "access_rules": [
+                    "parallel_lobby_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Hazy Memory Cave - Swimming Beast in the Cavern",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$DistKick, $DistLongJump",
+                            "$DistLongJump, $HeightKick",
+                            "$DistKick, $YamlEnabled|fast_swim",
+                            "$HeightKick, $YamlEnabled|fast_swim",
+                            "$DistKick, $YamlEnabled|slope_movement, kick",
+                            "$HeightKick, $YamlEnabled|slope_movement, kick"
+                        ]
+                    },
+                    {
+                        "name": "Hazy Memory Cave - Elevate for a Star",
+                        "item_count": 1,
+                        "access_rules": [
+                            "backflip",
+                            "wall_kick",
+                            "triple_jump"
+                        ]
+                    },
+                    {
+                        "name": "Hazy Memory Cave - Metal Mario Can Move!",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$DistKick",
+                            "$HeightKick"
+                        ]
+                    },
+                    {
+                        "name": "Hazy Memory Cave - Navigating the Toxic Maze",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightKick"
+                        ]
+                    },
+                    {
+                        "name": "Hazy Memory Cave - Watch for Rolling Rocks",
+                        "item_count": 1,
+                        "access_rules": [
+                            "wall_kick"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "parallel_lobby",
+                        "x": 309,
+                        "y": 231
+                    }
+                ]
+            },
+            {
+                "name": "Underwater Maze",
+                "access_rules": [
+                    "parallel_lobby_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Underwater Maze - End of the Maze",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "parallel_lobby",
+                        "x": 235,
+                        "y": 435
+                    }
+                ]
+            },
+            {
+                "name": "Frosty Mountains",
+                "access_rules": [
+                    "parallel_lobby_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Frosty Mountains - Defeat the Giant Ice Motos",
+                        "item_count": 1,
+                        "access_rules": [
+                            "backflip",
+                            "side_flip",
+                            "triple_jump"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "parallel_lobby",
+                        "x": 185,
+                        "y": 435
+                    }
+                ]
+            },
+            {
+                "name": "Bowser's Airship",
+                "access_rules": [
+                    "parallel_lobby_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Bowser in the Airship Cabin - Defeat Bowser",
+                        "chest_unopened_img": "/images/items/red_star.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightBackflip"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "parallel_lobby",
+                        "x": 230,
+                        "y": 30
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": " Courses",
+        "sections": [
+            {
+                "ref": "//",
+                "name": ""
+            },
+        ],
+        "map_locations": [
+            {
+                "map": "overview",
+                "x": 530,
+                "y": 120
+            }
+        ]
+    },
+    {
+        "name": "Parallel Lobby Courses",
+        "sections": [
+            {
+                "ref": "Parallel Lobby/Wing Mario over the Floating Islands/Wing Mario over the Floating Islands - Red Coins",
+                "name": "Wing Mario over the Floating Islands - Red Coins"
+            },
+            {
+                "ref": "Parallel Lobby/Treetop Ride/Treetop Ride - Red Coins",
+                "name": "Treetop Ride - Red Coins"
+            },
+            {
+                "ref": "Parallel Lobby/Treetop Ride/Treetop Ride - Silver Stars",
+                "name": "Treetop Ride - Silver Stars"
+            },
+            {
+                "ref": "Parallel Lobby/Treetop Ride/Treetop Ride - Tricky Triangles!",
+                "name": "Treetop Ride - Tricky Triangles!"
+            },
+            {
+                "ref": "Parallel Lobby/Treetop Ride/Treetop Ride - Top of the Big Tree",
+                "name": "Treetop Ride - Top of the Big Tree"
+            },
+            {
+                "ref": "Parallel Lobby/Frosty Flowering Peak/Frosty Flowering Peak - Catch Ukiki",
+                "name": "Frosty Flowering Peak - Catch Ukiki"
+            },
+            {
+                "ref": "Parallel Lobby/Frosty Flowering Peak/Frosty Flowering Peak - Bottom of the Frosty Peak",
+                "name": "Frosty Flowering Peak - Bottom of the Frosty Peak"
+            },
+            {
+                "ref": "Parallel Lobby/Steep Green Summit/Steep Green Summit - Catch Ukiki",
+                "name": "Steep Green Summit - Catch Ukiki"
+            },
+            {
+                "ref": "Parallel Lobby/Steep Green Summit/Steep Green Summit - Scale the Mountain",
+                "name": "Steep Green Summit - Scale the Mountain"
+            },
+            {
+                "ref": "Parallel Lobby/Steep Green Summit/Steep Green Summit - Mysterious Mountainside",
+                "name": "Steep Green Summit - Mysterious Mountainside"
+            },
+            {
+                "ref": "Parallel Lobby/Steep Green Summit/Monkey Slide (beta) - Four Corners Secret",
+                "name": "Monkey Slide (beta) - Four Corners Secret"
+            },
+            {
+                "ref": "Parallel Lobby/No Man's Land/No Man's Land - Whirl from the Freezing Pond Spot",
+                "name": "No Man's Land - Whirl from the Freezing Pond Spot"
+            },
+            {
+                "ref": "Parallel Lobby/No Man's Land/No Man's Land - Lil' Penguin Lost",
+                "name": "No Man's Land - Lil' Penguin Lost"
+            },
+            {
+                "ref": "Parallel Lobby/No Man's Land/No Man's Land - Chill with the Bully",
+                "name": "No Man's Land - Chill with the Bully"
+            },
+            {
+                "ref": "Parallel Lobby/The City/The City - Behind the Grate",
+                "name": "The City - Behind the Grate"
+            },
+            {
+                "ref": "Parallel Lobby/The City/The City - Destroy the Bob-omb's Books",
+                "name": "The City - Destroy the Bob-omb's Books"
+            },
+            {
+                "ref": "Parallel Lobby/The City/The City - Flood the Town",
+                "name": "The City - Flood the Town"
+            },
+            {
+                "ref": "Parallel Lobby/The City/The City - Kill the Top Bob-omb",
+                "name": "The City - Kill the Top Bob-omb"
+            },
+            {
+                "ref": "Parallel Lobby/Curly's Fire Bubble/Curly's Fire Bubble - Across the Floating Planks",
+                "name": "Curly's Fire Bubble - Across the Floating Planks"
+            },
+            {
+                "ref": "Parallel Lobby/Curly's Fire Bubble/Curly's Fire Bubble - Boil the Big Bully",
+                "name": "Curly's Fire Bubble - Boil the Big Bully"
+            },
+            {
+                "ref": "Parallel Lobby/Curly's Fire Bubble/Curly's Fire Bubble - Top of the Tower",
+                "name": "Curly's Fire Bubble - Top of the Tower"
+            },
+            {
+                "ref": "Parallel Lobby/Hazy Memory Cave/Hazy Memory Cave - Swimming Beast in the Cavern",
+                "name": "Hazy Memory Cave - Swimming Beast in the Cavern"
+            },
+            {
+                "ref": "Parallel Lobby/Hazy Memory Cave/Hazy Memory Cave - Elevate for a Star",
+                "name": "Hazy Memory Cave - Elevate for a Star"
+            },
+            {
+                "ref": "Parallel Lobby/Hazy Memory Cave/Hazy Memory Cave - Metal Mario Can Move!",
+                "name": "Hazy Memory Cave - Metal Mario Can Move!"
+            },
+            {
+                "ref": "Parallel Lobby/Hazy Memory Cave/Hazy Memory Cave - Navigating the Toxic Maze",
+                "name": "Hazy Memory Cave - Navigating the Toxic Maze"
+            },
+            {
+                "ref": "Parallel Lobby/Hazy Memory Cave/Hazy Memory Cave - Watch for Rolling Rocks",
+                "name": "Hazy Memory Cave - Watch for Rolling Rocks"
+            },
+            {
+                "ref": "Parallel Lobby/Underwater Maze/Underwater Maze - End of the Maze",
+                "name": "Underwater Maze - End of the Maze"
+            },
+            {
+                "ref": "Parallel Lobby/Frosty Mountains/Frosty Mountains - Defeat the Giant Ice Motos",
+                "name": "Frosty Mountains - Defeat the Giant Ice Motos"
+            },
+            {
+                "ref": "Parallel Lobby/Bowser's Airship/Bowser in the Airship Cabin - Defeat Bowser",
+                "name": "Bowser in the Airship Cabin - Defeat Bowser"
+            },
+            {
+                "ref": "Beta Lobby C/Bowser in the Dark World (Shoshinkai)/Bowser in the Dark World (Shoshinkai) - Defeat Bowser",
+                "name": "Bowser in the Dark World (Shoshinkai) - Defeat Bowser"
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "overview",
+                "x": 530,
+                "y": 120
+            }
+        ]
+    }
+]

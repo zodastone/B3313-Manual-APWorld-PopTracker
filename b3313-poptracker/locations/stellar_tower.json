@@ -1,0 +1,169 @@
+[
+    {
+        "name": "Stellar Tower",
+        "chest_unopened_img": "/images/map_checks/star.png",
+        "chest_opened_img": "/images/map_checks/check.png",
+        "children": [
+            {
+                "name": "Mountainside Village",
+                "access_rules": [
+                    "stellar_tower_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Mountainside Village - Top of the Path",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mountainside Village - Silver Stars",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "stellar_tower",
+                        "x": 311,
+                        "y": 335
+                    }
+                ]
+            },
+            {
+                "name": "Bob-omb Grassyfield",
+                "access_rules": [
+                    "stellar_tower_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Bob-omb Grassyfield - Top of the Mountain",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bob-omb Grassyfield - Above the Big Tree",
+                        "item_count": 1,
+                        "access_rules": [
+                            "cannon_unlock_(bob-omb_grassyfield)",
+                            "triple_jump"
+                        ]
+                    },
+                    {
+                        "name": "Bob-omb Grassyfield - Behind Chain Chomp's Gate",
+                        "item_count": 1,
+                        "access_rules": [
+                            "vanish_cap"
+                        ]
+                    },
+                    {
+                        "name": "Bob-omb Grassyfield - Tree Secrets",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "stellar_tower",
+                        "x": 311,
+                        "y": 432
+                    }
+                ]
+            },
+            {
+                "name": "Misty Beach",
+                "access_rules": [
+                    "stellar_tower_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Misty Beach - Timed Box Secrets",
+                        "item_count": 1,
+                        "access_rules": [
+                            "metal_cap",
+                            "$YamlEnabled|hidden_stuff"
+                        ]
+                    },
+                    {
+                        "name": "Misty Beach - On a Floating Island",
+                        "item_count": 1,
+                        "access_rules": [
+                            "cannon_unlock_(misty_beach)",
+                            "triple_jump, wing_cap"
+                        ]
+                    },
+                    {
+                        "name": "Misty Beach - Behind the Grate",
+                        "item_count": 1,
+                        "access_rules": [
+                            "vanish_cap"
+                        ]
+                    },
+                    {
+                        "name": "Misty Beach - Inside the Mound",
+                        "item_count": 1,
+                        "access_rules": [
+                            "wall_kick",
+                            "cannon_unlock_(misty_beach)",
+                            "triple_jump, wing_cap"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "stellar_tower",
+                        "x": 311,
+                        "y": 128
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Stellar Tower Courses",
+        "sections": [
+            {
+                "ref": "Stellar Tower/Mountainside Village/Mountainside Village - Top of the Path",
+                "name": "Mountainside Village - Top of the Path"
+            },
+            {
+                "ref": "Stellar Tower/Mountainside Village/Mountainside Village - Silver Stars",
+                "name": "Mountainside Village - Silver Stars"
+            },
+            {
+                "ref": "Stellar Tower/Bob-omb Grassyfield/Bob-omb Grassyfield - Top of the Mountain",
+                "name": "Bob-omb Grassyfield - Top of the Mountain"
+            },
+            {
+                "ref": "Stellar Tower/Bob-omb Grassyfield/Bob-omb Grassyfield - Above the Big Tree",
+                "name": "Bob-omb Grassyfield - Above the Big Tree"
+            },
+            {
+                "ref": "Stellar Tower/Bob-omb Grassyfield/Bob-omb Grassyfield - Behind Chain Chomp's Gate",
+                "name": "Bob-omb Grassyfield - Behind Chain Chomp's Gate"
+            },
+            {
+                "ref": "Stellar Tower/Bob-omb Grassyfield/Bob-omb Grassyfield - Tree Secrets",
+                "name": "Bob-omb Grassyfield - Tree Secrets"
+            },
+            {
+                "ref": "Stellar Tower/Misty Beach/Misty Beach - Timed Box Secrets",
+                "name": "Misty Beach - Timed Box Secrets"
+            },
+            {
+                "ref": "Stellar Tower/Misty Beach/Misty Beach - On a Floating Island",
+                "name": "Misty Beach - On a Floating Island"
+            },
+            {
+                "ref": "Stellar Tower/Misty Beach/Misty Beach - Behind the Grate",
+                "name": "Misty Beach - Behind the Grate"
+            },
+            {
+                "ref": "Stellar Tower/Misty Beach/Misty Beach - Inside the Mound",
+                "name": "Misty Beach - Inside the Mound"
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "overview",
+                "x": 530,
+                "y": 420
+            }
+        ]
+    }
+]

@@ -1,0 +1,649 @@
+{
+    "tracker_map": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Overview",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "overview"
+                    ]
+                }
+            },
+            {
+                "title": "Overworld",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "overworld"
+                    ]
+                }
+            },
+            {
+                "title": "3-4",
+                "content": {
+                    "type": "layout",
+                    "key": "3-4"
+                }
+            },
+            {
+                "title": "B",
+                "content": {
+                    "type": "layout",
+                    "key": "b"
+                }
+            },
+            {
+                "title": "C-E",
+                "content": {
+                    "type": "layout",
+                    "key": "ce"
+                }
+            },
+            {
+                "title": "F",
+                "content": {
+                    "type": "layout",
+                    "key": "f"
+                }
+            },
+            {
+                "title": "G-O",
+                "content": {
+                    "type": "layout",
+                    "key": "go"
+                }
+            },
+            {
+                "title": "P",
+                "content": {
+                    "type": "layout",
+                    "key": "p"
+                }
+            },
+            {
+                "title": "R-U",
+                "content": {
+                    "type": "layout",
+                    "key": "ru"
+                }
+            },
+            {
+                "title": "V",
+                "content": {
+                    "type": "layout",
+                    "key": "v"
+                }
+            }
+        ]
+    },
+    "3-4": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "3rd Floor (beta)",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "3f_beta"
+                    ]
+                }
+            },
+            {
+                "title": "4th Floor",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "4f"
+                    ]
+                }
+            },
+            {
+                "title": "4th Floor (beta)",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "4f_beta"
+                    ]
+                }
+            }
+        ]
+    },
+    "b": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Basement Annex",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "basement_annex"
+                    ]
+                }
+            },
+            {
+                "title": "Beta",
+                "content": {
+                    "type": "layout",
+                    "key": "beta"
+                }
+            },
+            {
+                "title": "Bowser",
+                "content": {
+                    "type": "layout",
+                    "key": "bowser"
+                }
+            }
+        ]
+    },
+    "beta": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Beta Lobby A",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "beta_lobby_a"
+                    ]
+                }
+            },
+            {
+                "title": "Beta Lobby B",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "beta_lobby_b"
+                    ]
+                }
+            },
+            {
+                "title": "Beta Lobby C",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "beta_lobby_c"
+                    ]
+                }
+            },
+            {
+                "title": "Beta Lobby D",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "beta_lobby_d"
+                    ]
+                }
+            },
+            {
+                "title": "Beta Lobby E",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "beta_lobby_e"
+                    ]
+                }
+            }
+        ]
+    },
+    "bowser": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Bowser's Domain",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "bowser_domain"
+                    ]
+                }
+            },
+            {
+                "title": "Bowser's Floor and Endgame",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "bowser_floor"
+                    ]
+                }
+            }
+        ]
+    },
+    "ce": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Ca-Co",
+                "content": {
+                    "type": "layout",
+                    "key": "caco"
+                }
+            },
+            {
+                "title": "Cr-E",
+                "content": {
+                    "type": "layout",
+                    "key": "cre"
+                }
+            }
+        ]
+    },
+    "caco": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Castle Bathroom",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "castle_bathroom"
+                    ]
+                }
+            },
+            {
+                "title": "Castle Grounds",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "castle_grounds"
+                    ]
+                }
+            },
+            {
+                "title": "Challenge Lobby",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "challenge_lobby"
+                    ]
+                }
+            },
+            {
+                "title": "Courtyard (fabricated)",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "courtyard_fabricated"
+                    ]
+                }
+            }
+        ]
+    },
+    "cre": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Crescent Castle",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "crescent_castle"
+                    ]
+                }
+            },
+            {
+                "title": "Crimson Hallway",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "crimson_hallway"
+                    ]
+                }
+            },
+            {
+                "title": "Cryptic Hideout",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "cryptic_hideout"
+                    ]
+                }
+            },
+            {
+                "title": "Elder Koopa's Library",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "elder_library"
+                    ]
+                }
+            }
+        ]
+    },
+    "f": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Fa",
+                "content": {
+                    "type": "layout",
+                    "key": "fa"
+                }
+            },
+            {
+                "title": "Fl",
+                "content": {
+                    "type": "layout",
+                    "key": "fl"
+                }
+            }
+        ]
+    },
+    "fa": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Fabricated Grounds",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "fabricated_grounds"
+                    ]
+                }
+            },
+            {
+                "title": "Fabricated Lobby",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "fabricated_lobby"
+                    ]
+                }
+            },
+            {
+                "title": "Fake Lobby",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "fake_lobby"
+                    ]
+                }
+            }
+        ]
+    },
+    "fl": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Floor 2B",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "floor_2b"
+                    ]
+                }
+            },
+            {
+                "title": "Floor 3B",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "floor_3b"
+                    ]
+                }
+            },
+            {
+                "title": "Floor 4B",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "floor_4b"
+                    ]
+                }
+            }
+        ]
+    },
+    "go": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Genesis Basement",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "genesis_basement"
+                    ]
+                }
+            },
+            {
+                "title": "Hybrid Lobby",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "hybrid_lobby"
+                    ]
+                }
+            },
+            {
+                "title": "Internal Garden",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "internal_garden"
+                    ]
+                }
+            },
+            {
+                "title": "Internal Sewer System",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "internal_sewer_system"
+                    ]
+                }
+            },
+            {
+                "title": "Nebula Lobby",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "nebula_lobby"
+                    ]
+                }
+            },
+            {
+                "title": "Orange Hall",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "orange_hall"
+                    ]
+                }
+            }
+        ]
+    },
+    "p": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Pa",
+                "content": {
+                    "type": "layout",
+                    "key": "pa"
+                }
+            },
+            {
+                "title": "Plexal",
+                "content": {
+                    "type": "layout",
+                    "key": "pl"
+                }
+            },
+            {
+                "title": "Polygonal Chaos",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "polygonal chaos"
+                    ]
+                }
+            },
+            {
+                "title": "Purple Lobby and Upstairs",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "purple"
+                    ]
+                }
+            }
+        ]
+    },
+    "pa": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Painting Museum",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "painting_museum"
+                    ]
+                }
+            },
+            {
+                "title": "Parallel Lobby",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "parallel_lobby"
+                    ]
+                }
+            }
+        ]
+    },
+    "pl": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Plexal Basement",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "plexal_basement"
+                    ]
+                }
+            },
+            {
+                "title": "Plexal Hallway",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "plexal_hallway"
+                    ]
+                }
+            },
+            {
+                "title": "Plexal Lobby",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "plexal_lobby"
+                    ]
+                }
+            },
+            {
+                "title": "Plexal Upstairs",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "plexal_upstairs"
+                    ]
+                }
+            }
+        ]
+    },
+    "ru": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Royal Lobby",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "royal_lobby"
+                    ]
+                }
+            },
+            {
+                "title": "Silent Hall",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "silent_hall"
+                    ]
+                }
+            },
+            {
+                "title": "Star Road",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "star_road"
+                    ]
+                }
+            },
+            {
+                "title": "Stellar Tower",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "stellar_tower"
+                    ]
+                }
+            },
+            {
+                "title": "Uncanny Courtyard",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "uncanny_courtyard"
+                    ]
+                }
+            }
+        ]
+    },
+    "v": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Vanilla Basement Maze",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "vanilla_basement"
+                    ]
+                }
+            },
+            {
+                "title": "Vanilla Courtyard",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "vanilla_courtyard"
+                    ]
+                }
+            },
+            {
+                "title": "Vanilla Lobby",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "vanilla_lobby"
+                    ]
+                }
+            },
+            {
+                "title": "Vanilla Upstairs",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "vanilla_upstairs"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,173 @@
+[
+    {
+        "name": "Vanilla Basement Maze",
+        "chest_unopened_img": "/images/map_checks/star.png",
+        "chest_opened_img": "/images/map_checks/check.png",
+        "children": [
+            {
+                "name": "Chroma Tundra (beta)",
+                "access_rules": [
+                    "vanilla_basement_maze_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Chroma Tundra (beta) - Top of the Frozen Tower",
+                        "item_count": 1,
+                        "access_rules": [
+                            "triple_jump, wall_kick",
+                            "climb, wall_kick"
+                        ]
+                    },
+                    {
+                        "name": "Shifting Sand Land (beta) - Top of the Pyramid",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Shifting Sand Land (beta) - Stomp on the Condor",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pyramid of Old - Climb the Inside of the Pyramid",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightBackflip, climb"
+                        ]
+                    },
+                    {
+                        "name": "Pyramid of Old - Wall Kick Spot",
+                        "item_count": 1,
+                        "access_rules": [
+                            "wall_kick"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "vanilla_basement",
+                        "x": 60,
+                        "y": 257
+                    }
+                ]
+            },
+            {
+                "name": "Cave Dungeon",
+                "access_rules": [
+                    "vanilla_basement_maze_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Cave Dungeon - Watch for Rolling Rocks",
+                        "item_count": 1,
+                        "access_rules": [
+                            "wall_kick"
+                        ]
+                    },
+                    {
+                        "name": "Cave Dungeon - Red Coins",
+                        "item_count": 1,
+                        "access_rules": [
+                            "climb"
+                        ]
+                    },
+                    {
+                        "name": "Cave Dungeon - Silver Stars",
+                        "item_count": 1,
+                        "access_rules": [
+                            "climb"
+                        ]
+                    },
+                    {
+                        "name": "Cave Dungeon - Behind the Grate",
+                        "item_count": 1,
+                        "access_rules": [
+                            "climb, vanish_cap"
+                        ]
+                    },
+                    {
+                        "name": "Scuttlebug's Nest - Defeat the Giant Scuttlebug",
+                        "chest_unopened_img": "/images/items/red_star.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightLedgeGrab"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "vanilla_basement",
+                        "x": 310,
+                        "y": 90
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Vanilla Basement Maze Courses",
+        "sections": [
+            {
+                "ref": "Vanilla Basement Maze/Chroma Tundra (beta)/Chroma Tundra (beta) - Top of the Frozen Tower",
+                "name": "Chroma Tundra (beta) - Top of the Frozen Tower"
+            },
+            {
+                "ref": "Vanilla Basement Maze/Chroma Tundra (beta)/Shifting Sand Land (beta) - Top of the Pyramid",
+                "name": "Shifting Sand Land (beta) - Top of the Pyramid"
+            },
+            {
+                "ref": "Vanilla Basement Maze/Chroma Tundra (beta)/Shifting Sand Land (beta) - Stomp on the Condor",
+                "name": "Shifting Sand Land (beta) - Stomp on the Condor"
+            },
+            {
+                "ref": "Vanilla Basement Maze/Chroma Tundra (beta)/Pyramid of Old - Climb the Inside of the Pyramid",
+                "name": "Pyramid of Old - Climb the Inside of the Pyramid"
+            },
+            {
+                "ref": "Vanilla Basement Maze/Chroma Tundra (beta)/Pyramid of Old - Wall Kick Spot",
+                "name": "Pyramid of Old - Wall Kick Spot"
+            },
+            {
+                "ref": "Vanilla Basement Maze/Cave Dungeon/Cave Dungeon - Watch for Rolling Rocks",
+                "name": "Cave Dungeon - Watch for Rolling Rocks"
+            },
+            {
+                "ref": "Vanilla Basement Maze/Cave Dungeon/Cave Dungeon - Red Coins",
+                "name": "Cave Dungeon - Red Coins"
+            },
+            {
+                "ref": "Vanilla Basement Maze/Cave Dungeon/Cave Dungeon - Silver Stars",
+                "name": "Cave Dungeon - Silver Stars"
+            },
+            {
+                "ref": "Vanilla Basement Maze/Cave Dungeon/Cave Dungeon - Behind the Grate",
+                "name": "Cave Dungeon - Behind the Grate"
+            },
+            {
+                "ref": "Vanilla Basement Maze/Cave Dungeon/Scuttlebug's Nest - Defeat the Giant Scuttlebug",
+                "name": "Scuttlebug's Nest - Defeat the Giant Scuttlebug"
+            },
+            {
+                "ref": "Beta Lobby E/Fire Bubble (Shoshinkai)/Fire Bubble (Shoshinkai) - Boil the Big Bully Spot",
+                "name": "Fire Bubble (Shoshinkai) - Boil the Big Bully Spot"
+            },
+            {
+                "ref": "Beta Lobby E/Fire Bubble (Shoshinkai)/Fire Bubble (Shoshinkai) - Boil the Bullies",
+                "name": "Fire Bubble (Shoshinkai) - Boil the Bullies"
+            },
+            {
+                "ref": "Beta Lobby A/Melting Magma Mound/Melting Magma Mound - Top of the Volcano",
+                "name": "Melting Magma Mound - Top of the Volcano"
+            },
+            {
+                "ref": "Beta Lobby A/Melting Magma Mound/Melting Magma Mound - Red Coins",
+                "name": "Melting Magma Mound - Red Coins"
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "overview",
+                "x": 780,
+                "y": 30
+            }
+        ]
+    }
+]

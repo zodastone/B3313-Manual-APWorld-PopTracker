@@ -1,0 +1,309 @@
+[
+    {
+        "name": "Vanilla Lobby",
+        "chest_unopened_img": "/images/map_checks/star.png",
+        "chest_opened_img": "/images/map_checks/check.png",
+        "children": [
+            {
+                "name": "Bowser in the Dark World (beta)",
+                "access_rules": [
+                    "vanilla_lobby_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Bowser in the Dark World (December '95) - Defeat Bowser",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightLedgeGrab"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "vanilla_lobby",
+                        "x": 40,
+                        "y": 119
+                    }
+                ]
+            },
+            {
+                "name": "Cool Cool Mountain (beta)",
+                "access_rules": [
+                    "vanilla_lobby_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Cool Cool Mountain (beta) - Lil' Penguin Lost",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cool Cool Mountain (beta) - Red Coin Star Spot",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cool Cool Mountain (beta) - Bottom of the Mountain",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cool Cool Mountain (beta) - Bottom of the Slide",
+                        "item_count": 1,
+                        "access_rules": [
+                            "wall_kick"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "vanilla_lobby",
+                        "x": 146,
+                        "y": 165
+                    }
+                ]
+            },
+            {
+                "name": "Flying Fortress",
+                "access_rules": [
+                    "vanilla_lobby_courses",
+                    "vanilla_and_mirrored_upstairs_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Flying Fortress - Tower Hidden 1-Up Spot",
+                        "item_count": 1,
+                        "access_rules": [
+                            "cannon_unlock_(flying_fortress)",
+                            "climb",
+                            "$HeightKick"
+                        ]
+                    },
+                    {
+                        "name": "Flying Fortress - Red Coins",
+                        "item_count": 1,
+                        "access_rules": [
+                            "cannon_unlock_(flying_fortress)",
+                            "climb",
+                            "$HeightKick"
+                        ]
+                    },
+                    {
+                        "name": "Flying Fortress - Top of the Tower",
+                        "item_count": 1,
+                        "access_rules": [
+                            "cannon_unlock_(flying_fortress), wing_cap",
+                            "side_flip",
+                            "triple_jump",
+                            "$YamlEnabled|slope_movement, cannon_unlock_(flying_fortress), kick",
+                            "$YamlEnabled|slope_movement, climb, kick",
+                            "$HeightKick, $YamlEnabled|slope_movement, kick"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "vanilla_lobby",
+                        "x": 357,
+                        "y": 165
+                    },
+                    {
+                        "map": "vanilla_upstairs",
+                        "x": 63,
+                        "y": 201
+                    }
+                ]
+            },
+            {
+                "name": "Fish Tank",
+                "access_rules": [
+                    "$HeightLedgeGrab, vanilla_lobby_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Fish Tank - Red Coins",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "vanilla_lobby",
+                        "x": 426,
+                        "y": 202
+                    }
+                ]
+            },
+            {
+                "name": "Jolly Roger Docks",
+                "access_rules": [
+                    "vanilla_lobby_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Jolly Roger Docks - On the Ship",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Jolly Roger Docks - Red Coins",
+                        "item_count": 1,
+                        "access_rules": [
+                            "wall_kick",
+                            "triple_jump"
+                        ]
+                    },
+                    {
+                        "name": "Jolly Roger Docks - Map Secrets",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Jolly Roger Docks - Climb the Back Room",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$DistLongJump, wall_kick"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "vanilla_lobby",
+                        "x": 461,
+                        "y": 197
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Vanilla Lobby Courses",
+        "sections": [
+            {
+                "ref": "Plexal Lobby/Big Boo's Haunted Forest/Big Boo's Haunted Forest - Wall Kick up the Shaft",
+                "name": "Big Boo's Haunted Forest - Wall Kick up the Shaft"
+            },
+            {
+                "ref": "Plexal Lobby/Big Boo's Haunted Forest/Big Boo's Haunted Forest - Silver Stars",
+                "name": "Big Boo's Haunted Forest - Silver Stars"
+            },
+            {
+                "ref": "Plexal Lobby/Big Boo's Haunted Forest/Big Boo's Haunted Forest - Bottom of the Slide",
+                "name": "Big Boo's Haunted Forest - Bottom of the Slide"
+            },
+            {
+                "ref": "Plexal Lobby/Big Boo's Haunted Forest/Big Boo's Haunted Forest - Defeat the Big Boo",
+                "name": "Big Boo's Haunted Forest - Defeat the Big Boo"
+            },
+            {
+                "ref": "Vanilla Lobby/Bowser in the Dark World (beta)/Bowser in the Dark World (December '95) - Defeat Bowser",
+                "name": "Bowser in the Dark World (December '95) - Defeat Bowser"
+            },
+            {
+                "ref": "Beta Lobby D/Bob-omb Battlefield (beta)/Bob-omb Battlefield (beta) - Top of the Mountain",
+                "name": "Bob-omb Battlefield (beta) - Top of the Mountain"
+            },
+            {
+                "ref": "Beta Lobby D/Bob-omb Battlefield (beta)/Bob-omb Battlefield (beta) - Shoot to the Floating Island",
+                "name": "Bob-omb Battlefield (beta) - Shoot to the Floating Island"
+            },
+            {
+                "ref": "Beta Lobby D/Bob-omb Battlefield (beta)/Bob-omb Battlefield (beta) - Behind Chain Chomp's Gate",
+                "name": "Bob-omb Battlefield (beta) - Behind Chain Chomp's Gate"
+            },
+            {
+                "ref": "Beta Lobby D/Bob-omb Battlefield (beta)/Chomp Caverns - Top of the Cavern",
+                "name": "Chomp Caverns - Top of the Cavern"
+            },
+            {
+                "ref": "Beta Lobby D/River Mountain/River Mountain - Top of the Mountain",
+                "name": "River Mountain - Top of the Mountain"
+            },
+            {
+                "ref": "Beta Lobby D/River Mountain/River Mountain - Red Coins",
+                "name": "River Mountain - Red Coins"
+            },
+            {
+                "ref": "Beta Lobby D/River Mountain/River Mountain - Shoot to the Island in the Sky",
+                "name": "River Mountain - Shoot to the Island in the Sky"
+            },
+            {
+                "ref": "Beta Lobby D/River Mountain/Inside the Summit - Defeat Prince Bob-omb",
+                "name": "Inside the Summit - Defeat Prince Bob-omb"
+            },
+            {
+                "ref": "Beta Lobby D/River Mountain/Inside the Summit - Top of the Area",
+                "name": "Inside the Summit - Top of the Area"
+            },
+            {
+                "ref": "Beta Lobby D/River Mountain/Inside the Summit - Behind the Gate",
+                "name": "Inside the Summit - Behind the Gate"
+            },
+            {
+                "ref": "Beta Lobby D/River Mountain/Dark Downtown - Red Coins",
+                "name": "Dark Downtown - Red Coins"
+            },
+            {
+                "ref": "Beta Lobby D/River Mountain/Dark Downtown - By the Pipe",
+                "name": "Dark Downtown - By the Pipe"
+            },
+            {
+                "ref": "Beta Lobby D/River Mountain/Ice Cold Warzone - Top of the Mountain",
+                "name": "Ice Cold Warzone - Top of the Mountain"
+            },
+            {
+                "ref": "Beta Lobby D/River Mountain/Limitless Lighthouse - Top of the Lighthouse",
+                "name": "Limitless Lighthouse - Top of the Lighthouse"
+            },
+            {
+                "ref": "Vanilla Lobby/Cool Cool Mountain (beta)/Cool Cool Mountain (beta) - Lil' Penguin Lost",
+                "name": "Cool Cool Mountain (beta) - Lil' Penguin Lost"
+            },
+            {
+                "ref": "Vanilla Lobby/Cool Cool Mountain (beta)/Cool Cool Mountain (beta) - Red Coin Star Spot",
+                "name": "Cool Cool Mountain (beta) - Red Coin Star Spot"
+            },
+            {
+                "ref": "Vanilla Lobby/Cool Cool Mountain (beta)/Cool Cool Mountain (beta) - Bottom of the Mountain",
+                "name": "Cool Cool Mountain (beta) - Bottom of the Mountain"
+            },
+            {
+                "ref": "Vanilla Lobby/Cool Cool Mountain (beta)/Cool Cool Mountain (beta) - Bottom of the Slide",
+                "name": "Cool Cool Mountain (beta) - Bottom of the Slide"
+            },
+            {
+                "ref": "Vanilla Lobby/Flying Fortress/Flying Fortress - Tower Hidden 1-Up Spot",
+                "name": "Flying Fortress - Tower Hidden 1-Up Spot"
+            },
+            {
+                "ref": "Vanilla Lobby/Flying Fortress/Flying Fortress - Red Coins",
+                "name": "Flying Fortress - Red Coins"
+            },
+            {
+                "ref": "Vanilla Lobby/Flying Fortress/Flying Fortress - Top of the Tower",
+                "name": "Flying Fortress - Top of the Tower"
+            },
+            {
+                "ref": "Vanilla Lobby/Fish Tank/Fish Tank - Red Coins",
+                "name": "Fish Tank - Red Coins"
+            },
+            {
+                "ref": "Vanilla Lobby/Jolly Roger Docks/Jolly Roger Docks - On the Ship",
+                "name": "Jolly Roger Docks - On the Ship"
+            },
+            {
+                "ref": "Vanilla Lobby/Jolly Roger Docks/Jolly Roger Docks - Red Coins",
+                "name": "Jolly Roger Docks - Red Coins"
+            },
+            {
+                "ref": "Vanilla Lobby/Jolly Roger Docks/Jolly Roger Docks - Map Secrets",
+                "name": "Jolly Roger Docks - Map Secrets"
+            },
+            {
+                "ref": "Vanilla Lobby/Jolly Roger Docks/Jolly Roger Docks - Climb the Back Room",
+                "name": "Jolly Roger Docks - Climb the Back Room"
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "overview",
+                "x": 780,
+                "y": 90
+            }
+        ]
+    }
+]

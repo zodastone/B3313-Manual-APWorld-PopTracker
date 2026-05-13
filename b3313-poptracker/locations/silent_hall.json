@@ -1,0 +1,117 @@
+[
+    {
+        "name": "Silent Hall",
+        "chest_unopened_img": "/images/map_checks/star.png",
+        "chest_opened_img": "/images/map_checks/check.png",
+        "children": [
+            {
+                "name": "Uncanny Moat",
+                "access_rules": [
+                    "silent_hall_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Uncanny Moat - Vanish Cap Switch",
+                        "chest_unopened_img": "/images/map_checks/blue_switch.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$DistLongJump"
+                        ]
+                    },
+                    {
+                        "name": "Uncanny Moat - Under the Grate",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightKick, vanish_cap"
+                        ]
+                    },
+                    {
+                        "name": "Uncanny Moat - Red Coins",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$DistLongJump, wall_kick",
+                            "$DistLongJump, triple_jump, vanish_cap"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "silent_hall",
+                        "x": 263,
+                        "y": 120
+                    }
+                ]
+            },
+            {
+                "name": "Vanish Cap within the Plexus",
+                "access_rules": [
+                    "silent_hall_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Vanish Cap within the Plexus - Vanish Cap Switch",
+                        "chest_unopened_img": "/images/map_checks/blue_switch.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Vanish Cap within the Plexus - Behind the Left Grate",
+                        "item_count": 1,
+                        "access_rules": [
+                            "vanish_cap"
+                        ]
+                    },
+                    {
+                        "name": "Vanish Cap within the Plexus - Behind the Back Grate",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightSideFlip, vanish_cap"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "silent_hall",
+                        "x": 238,
+                        "y": 120
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Silent Hall Courses",
+        "sections": [
+            {
+                "ref": "Silent Hall/Uncanny Moat/Uncanny Moat - Vanish Cap Switch",
+                "name": "Uncanny Moat - Vanish Cap Switch"
+            },
+            {
+                "ref": "Silent Hall/Uncanny Moat/Uncanny Moat - Under the Grate",
+                "name": "Uncanny Moat - Under the Grate"
+            },
+            {
+                "ref": "Silent Hall/Uncanny Moat/Uncanny Moat - Red Coins",
+                "name": "Uncanny Moat - Red Coins"
+            },
+            {
+                "ref": "Silent Hall/Vanish Cap within the Plexus/Vanish Cap within the Plexus - Vanish Cap Switch",
+                "name": "Vanish Cap within the Plexus - Vanish Cap Switch"
+            },
+            {
+                "ref": "Silent Hall/Vanish Cap within the Plexus/Vanish Cap within the Plexus - Behind the Left Grate",
+                "name": "Vanish Cap within the Plexus - Behind the Left Grate"
+            },
+            {
+                "ref": "Silent Hall/Vanish Cap within the Plexus/Vanish Cap within the Plexus - Behind the Back Grate",
+                "name": "Vanish Cap within the Plexus - Behind the Back Grate"
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "overview",
+                "x": 530,
+                "y": 360
+            }
+        ]
+    }
+]

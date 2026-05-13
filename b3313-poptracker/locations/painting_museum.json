@@ -1,0 +1,166 @@
+[
+    {
+        "name": "Painting Museum",
+        "chest_unopened_img": "/images/map_checks/star.png",
+        "chest_opened_img": "/images/map_checks/check.png",
+        "children": [
+            {
+                "name": "Tall Mountain",
+                "access_rules": [
+                    "painting_museum_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Tall Mountain - Behind the Waterfall",
+                        "item_count": 1,
+                        "access_rules": [
+                            "wall_kick",
+                            "climb",
+                            "$YamlEnabled|fly_guy"
+                        ]
+                    },
+                    {
+                        "name": "Tall Mountain - Scale the Mountain",
+                        "item_count": 1,
+                        "access_rules": [
+                            "wall_kick",
+                            "climb"
+                        ]
+                    },
+                    {
+                        "name": "Tall Mountain - Red Coins",
+                        "item_count": 1,
+                        "access_rules": [
+                            "wall_kick",
+                            "climb"
+                        ]
+                    },
+                    {
+                        "name": "Tall Mountain - Jump to the Lonely Mushroom",
+                        "item_count": 1,
+                        "access_rules": [
+                            "wall_kick",
+                            "climb"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "painting_museum",
+                        "x": 210,
+                        "y": 300
+                    }
+                ]
+            },
+            {
+                "name": "Dream Castle",
+                "access_rules": [
+                    "painting_museum_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Dream Castle - Under the Grate",
+                        "chest_unopened_img": "/images/items/red_star.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "climb, ledge_grab, vanish_cap",
+                            "climb, ledge_grab, $YamlEnabled|hidden_stuff",
+                            "triple_jump, vanish_cap",
+                            "triple_jump, $YamlEnabled|hidden_stuff"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "painting_museum",
+                        "x": 250,
+                        "y": 320
+                    }
+                ]
+            },
+            {
+                "name": "Dry Square",
+                "access_rules": [
+                    "painting_museum_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Dry Square - Behind the Lower Grate",
+                        "item_count": 1,
+                        "access_rules": [
+                            "vanish_cap, wall_kick",
+                            "vanish_cap, $YamlEnabled|slope_movement, backflip",
+                            "vanish_cap, $YamlEnabled|slope_movement, side_flip",
+                            "vanish_cap, $YamlEnabled|slope_movement, triple_jump"
+                        ]
+                    },
+                    {
+                        "name": "Dry Square - In the Cage",
+                        "item_count": 1,
+                        "access_rules": [
+                            "vanish_cap, wall_kick"
+                        ]
+                    },
+                    {
+                        "name": "Dry Square - Yellow Box Secrets",
+                        "item_count": 1,
+                        "access_rules": [
+                            "vanish_cap, wall_kick"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "painting_museum",
+                        "x": 55,
+                        "y": 90
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Painting Museum Courses",
+        "sections": [
+            {
+                "ref": "Painting Museum/Tall Mountain/Tall Mountain - Behind the Waterfall",
+                "name": "Tall Mountain - Behind the Waterfall"
+            },
+            {
+                "ref": "Painting Museum/Tall Mountain/Tall Mountain - Scale the Mountain",
+                "name": "Tall Mountain - Scale the Mountain"
+            },
+            {
+                "ref": "Painting Museum/Tall Mountain/Tall Mountain - Red Coins",
+                "name": "Tall Mountain - Red Coins"
+            },
+            {
+                "ref": "Painting Museum/Tall Mountain/Tall Mountain - Jump to the Lonely Mushroom",
+                "name": "Tall Mountain - Jump to the Lonely Mushroom"
+            },
+            {
+                "ref": "Painting Museum/Dream Castle/Dream Castle - Under the Grate",
+                "name": "Dream Castle - Under the Grate"
+            },
+            {
+                "ref": "Painting Museum/Dry Square/Dry Square - Behind the Lower Grate",
+                "name": "Dry Square - Behind the Lower Grate"
+            },
+            {
+                "ref": "Painting Museum/Dry Square/Dry Square - In the Cage",
+                "name": "Dry Square - In the Cage"
+            },
+            {
+                "ref": "Painting Museum/Dry Square/Dry Square - Yellow Box Secrets",
+                "name": "Dry Square - Yellow Box Secrets"
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "overview",
+                "x": 530,
+                "y": 90
+            }
+        ]
+    }
+]

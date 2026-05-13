@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Fake Lobby",
+        "chest_unopened_img": "/images/map_checks/star.png",
+        "chest_opened_img": "/images/map_checks/check.png",
+        "children": [
+            {
+                "name": "Mario's Maze",
+                "access_rules": [
+                    "fake_lobby_courses, ground_pound"
+                ],
+                "sections": [
+                    {
+                        "name": "Mario's Maze - Past the Mario Clones",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "fake_lobby",
+                        "x": 250,
+                        "y": 345
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Fake Lobby Courses",
+        "sections": [
+            {
+                "ref": "Fake Lobby/Mario's Maze/Mario's Maze - Past the Mario Clones",
+                "name": "Mario's Maze - Past the Mario Clones"
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "overview",
+                "x": 280,
+                "y": 240
+            }
+        ]
+    }
+]

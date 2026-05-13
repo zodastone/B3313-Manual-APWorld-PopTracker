@@ -1,0 +1,100 @@
+[
+    {
+        "name": "Courtyard (fabribated)",
+        "chest_unopened_img": "/images/map_checks/star.png",
+        "chest_opened_img": "/images/map_checks/check.png",
+        "children": [
+            {
+                "name": "Big Boo's Haunt (beta)",
+                "access_rules": [
+                    "courtyard_(fabricated)_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Big Boo's Haunt (beta) - Go on a Ghost Hunt",
+                        "item_count": 1,
+                        "access_rules": [
+                            "wall_kick"
+                        ]
+                    },
+                    {
+                        "name": "Big Boo's Haunt (beta) - Ride Big Boo's Merry-Go-Round",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Big Boo's Haunt (beta) - Big Boo's Balcony",
+                        "item_count": 1,
+                        "access_rules": [
+                            "wall_kick"
+                        ]
+                    },
+                    {
+                        "name": "Big Boo's Haunt (beta) - Eye to Eye in the Secret Room",
+                        "item_count": 1,
+                        "access_rules": [
+                            "vanish_cap, wall_kick"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "courtyard_fabricated",
+                        "x": 180,
+                        "y": 195
+                    }
+                ]
+            },
+            {
+                "name": "Checkerboard (fabricated)",
+                "access_rules": [
+                    "courtyard_(fabricated)_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Checkerboard (fabricated) - Free Star",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "courtyard_fabricated",
+                        "x": 350,
+                        "y": 195
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Courtyard (fabribated) Courses",
+        "sections": [
+            {
+                "ref": "Courtyard (fabribated)/Big Boo's Haunt (beta)/Big Boo's Haunt (beta) - Go on a Ghost Hunt",
+                "name": "Big Boo's Haunt (beta) - Go on a Ghost Hunt"
+            },
+            {
+                "ref": "Courtyard (fabribated)/Big Boo's Haunt (beta)/Big Boo's Haunt (beta) - Ride Big Boo's Merry-Go-Round",
+                "name": "Big Boo's Haunt (beta) - Ride Big Boo's Merry-Go-Round"
+            },
+            {
+                "ref": "Courtyard (fabribated)/Big Boo's Haunt (beta)/Big Boo's Haunt (beta) - Big Boo's Balcony",
+                "name": "Big Boo's Haunt (beta) - Big Boo's Balcony"
+            },
+            {
+                "ref": "Courtyard (fabribated)/Big Boo's Haunt (beta)/Big Boo's Haunt (beta) - Eye to Eye in the Secret Room",
+                "name": "Big Boo's Haunt (beta) - Eye to Eye in the Secret Room"
+            },
+            {
+                "ref": "Courtyard (fabribated)/Checkerboard (fabricated)/Checkerboard (fabricated) - Free Star",
+                "name": "Checkerboard (fabricated) - Free Star"
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "overview",
+                "x": 280,
+                "y": 30
+            }
+        ]
+    }
+]

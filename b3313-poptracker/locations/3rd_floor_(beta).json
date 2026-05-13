@@ -1,0 +1,263 @@
+[
+    {
+        "name": "3rd Floor (beta)",
+        "chest_unopened_img": "/images/map_checks/star.png",
+        "chest_opened_img": "/images/map_checks/check.png",
+        "children": [
+            {
+                "name": "athletic",
+                "access_rules": [
+                    "$HeightKick, 3rd_floor_(beta)_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "athletic - In the Box",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3f_beta",
+                        "x": 180,
+                        "y": 375
+                    }
+                ]
+            },
+            {
+                "name": "castle1",
+                "access_rules": [
+                    "$HeightKick, 3rd_floor_(beta)_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "castle1 - Star Chase",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$YamlEnabled|slope_movement, kick",
+                            "$DistLedgeGrab, $HeightDoubleJumpWallKick"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3f_beta",
+                        "x": 325,
+                        "y": 375
+                    }
+                ]
+            },
+            {
+                "name": "Minion Base",
+                "access_rules": [
+                    "3rd_floor_(beta)_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Minion Base - Silver Stars",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Minion Base - Top of the Tower",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3f_beta",
+                        "x": 185,
+                        "y": 160
+                    }
+                ]
+            },
+            {
+                "name": "Test Level",
+                "access_rules": [
+                    "3rd_floor_(beta)_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Test Level - Top of the Tower",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightDoubleJumpWallKick"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3f_beta",
+                        "x": 250,
+                        "y": 95
+                    }
+                ]
+            },
+            {
+                "name": "Tall Floating Fortress",
+                "access_rules": [
+                    "3rd_floor_(beta)_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Tall Floating Fortress - Top of the Tower",
+                        "item_count": 1,
+                        "access_rules": [
+                            "wall_kick"
+                        ]
+                    },
+                    {
+                        "name": "Tall Floating Fortress - Red Coins",
+                        "item_count": 1,
+                        "access_rules": [
+                            "ledge_grab",
+                            "wall_kick",
+                            "triple_jump"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3f_beta",
+                        "x": 355,
+                        "y": 220
+                    }
+                ]
+            },
+            {
+                "name": "Wing Cap by the Rainbow Highway",
+                "access_rules": [
+                    "3rd_floor_(beta)_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Wing Cap by the Rainbow Highway - Wing Cap Switch",
+                        "chest_unopened_img": "/images/map_checks/red_switch.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wing Cap by the Rainbow Highway - High in the Tower",
+                        "item_count": 1,
+                        "access_rules": [
+                            "wall_kick",
+                            "triple_jump, wing_cap"
+                        ]
+                    },
+                    {
+                        "name": "Wing Cap by the Rainbow Highway - Red Coins",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3f_beta",
+                        "x": 390,
+                        "y": 160
+                    }
+                ]
+            },
+            {
+                "name": "Cubic Greens",
+                "access_rules": [
+                    "3rd_floor_(beta)_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Cubic Greens - Top of the Course",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$DistWallKickLedgeGrab, $HeightBackflip"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3f_beta",
+                        "x": 355,
+                        "y": 70
+                    }
+                ]
+            },
+            {
+                "name": "castle2",
+                "access_rules": [
+                    "3rd_floor_(beta)_courses, vanish_cap"
+                ],
+                "sections": [
+                    {
+                        "name": "castle2 - Top of the Castle",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightBackflip"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3f_beta",
+                        "x": 355,
+                        "y": 30
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "3rd Floor (beta) Courses",
+        "sections": [
+            {
+                "ref": "3rd Floor (beta)/athletic/athletic - In the Box",
+                "name": "athletic - In the Box"
+            },
+            {
+                "ref": "3rd Floor (beta)/castle1/castle1 - Star Chase",
+                "name": "castle1 - Star Chase"
+            },
+            {
+                "ref": "3rd Floor (beta)/Minion Base/Minion Base - Silver Stars",
+                "name": "Minion Base - Silver Stars"
+            },
+            {
+                "ref": "3rd Floor (beta)/Minion Base/Minion Base - Top of the Tower",
+                "name": "Minion Base - Top of the Tower"
+            },
+            {
+                "ref": "3rd Floor (beta)/Test Level/Test Level - Top of the Tower",
+                "name": "Test Level - Top of the Tower"
+            },
+            {
+                "ref": "3rd Floor (beta)/Tall Floating Fortress/Tall Floating Fortress - Top of the Tower",
+                "name": "Tall Floating Fortress - Top of the Tower"
+            },
+            {
+                "ref": "3rd Floor (beta)/Tall Floating Fortress/Tall Floating Fortress - Red Coins",
+                "name": "Tall Floating Fortress - Red Coins"
+            },
+            {
+                "ref": "3rd Floor (beta)/Wing Cap by the Rainbow Highway/Wing Cap by the Rainbow Highway - Wing Cap Switch",
+                "name": "Wing Cap by the Rainbow Highway - Wing Cap Switch"
+            },
+            {
+                "ref": "3rd Floor (beta)/Wing Cap by the Rainbow Highway/Wing Cap by the Rainbow Highway - High in the Tower",
+                "name": "Wing Cap by the Rainbow Highway - High in the Tower"
+            },
+            {
+                "ref": "3rd Floor (beta)/Wing Cap by the Rainbow Highway/Wing Cap by the Rainbow Highway - Red Coins",
+                "name": "Wing Cap by the Rainbow Highway - Red Coins"
+            },
+            {
+                "ref": "3rd Floor (beta)/Cubic Greens/Cubic Greens - Top of the Course",
+                "name": "Cubic Greens - Top of the Course"
+            },
+            {
+                "ref": "3rd Floor (beta)/castle2/castle2 - Top of the Castle",
+                "name": "castle2 - Top of the Castle"
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "overview",
+                "x": 30,
+                "y": 60
+            }
+        ]
+    }
+]

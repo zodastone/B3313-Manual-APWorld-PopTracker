@@ -1,0 +1,168 @@
+[
+    {
+        "name": "Basement Annex",
+        "chest_unopened_img": "/images/map_checks/star.png",
+        "chest_opened_img": "/images/map_checks/check.png",
+        "children": [
+            {
+                "name": "Ghost House",
+                "access_rules": [
+                    "basement_annex_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Ghost House - On the Pedestal",
+                        "item_count": 1,
+                        "access_rules": [
+                            "wall_kick",
+                            "climb"
+                        ]
+                    },
+                    {
+                        "name": "Ghost House - Red Coins",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightDoubleJumpWallKick, wall_kick"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "basement_annex",
+                        "x": 130,
+                        "y": 150
+                    }
+                ]
+            },
+            {
+                "name": "Cozy Woods",
+                "access_rules": [
+                    "basement_annex_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Cozy Woods - Red Coins",
+                        "item_count": 1,
+                        "access_rules": [
+                            "ledge_grab"
+                        ]
+                    },
+                    {
+                        "name": "Koopa Hideout - Red Coins",
+                        "item_count": 1,
+                        "access_rules": [
+                            "wall_kick"
+                        ]
+                    },
+                    {
+                        "name": "Koopa Hideout - Kill the Koopas",
+                        "item_count": 1,
+                        "access_rules": [
+                            "wall_kick"
+                        ]
+                    },
+                    {
+                        "name": "Koopa Hideout - Beat Koopa the Quick",
+                        "item_count": 1,
+                        "access_rules": [
+                            "wall_kick"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "basement_annex",
+                        "x": 190,
+                        "y": 240
+                    }
+                ]
+            },
+            {
+                "name": "Carryboy Farmland",
+                "access_rules": [
+                    "basement_annex_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Carryboy Farmland - Top of the Tower",
+                        "item_count": 1,
+                        "access_rules": [
+                            "wall_kick"
+                        ]
+                    },
+                    {
+                        "name": "Carryboy Farmland - Red Coins",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightKick",
+                            "climb"
+                        ]
+                    },
+                    {
+                        "name": "Carryboy Farmland - Plant the Crops",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightKick",
+                            "climb"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "basement_annex",
+                        "x": 310,
+                        "y": 240
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Basement Annex Courses",
+        "sections": [
+            {
+                "ref": "Basement Annex/Ghost House/Ghost House - On the Pedestal",
+                "name": "Ghost House - On the Pedestal"
+            },
+            {
+                "ref": "Basement Annex/Ghost House/Ghost House - Red Coins",
+                "name": "Ghost House - Red Coins"
+            },
+            {
+                "ref": "Basement Annex/Cozy Woods/Cozy Woods - Red Coins",
+                "name": "Cozy Woods - Red Coins"
+            },
+            {
+                "ref": "Basement Annex/Cozy Woods/Koopa Hideout - Red Coins",
+                "name": "Koopa Hideout - Red Coins"
+            },
+            {
+                "ref": "Basement Annex/Cozy Woods/Koopa Hideout - Kill the Koopas",
+                "name": "Koopa Hideout - Kill the Koopas"
+            },
+            {
+                "ref": "Basement Annex/Cozy Woods/Koopa Hideout - Beat Koopa the Quick",
+                "name": "Koopa Hideout - Beat Koopa the Quick"
+            },
+            {
+                "ref": "Basement Annex/Carryboy Farmland/Carryboy Farmland - Top of the Tower",
+                "name": "Carryboy Farmland - Top of the Tower"
+            },
+            {
+                "ref": "Basement Annex/Carryboy Farmland/Carryboy Farmland - Red Coins",
+                "name": "Carryboy Farmland - Red Coins"
+            },
+            {
+                "ref": "Basement Annex/Carryboy Farmland/Carryboy Farmland - Plant the Crops",
+                "name": "Carryboy Farmland - Plant the Crops"
+            },
+        ],
+        "map_locations": [
+            {
+                "map": "overview",
+                "x": 30,
+                "y": 150
+            }
+        ]
+    }
+]

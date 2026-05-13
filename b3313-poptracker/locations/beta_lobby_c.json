@@ -1,0 +1,207 @@
+[
+    {
+        "name": "Beta Lobby C",
+        "chest_unopened_img": "/images/map_checks/star.png",
+        "chest_opened_img": "/images/map_checks/check.png",
+        "children": [
+            {
+                "name": "Blargg's Lava Realm",
+                "access_rules": [
+                    "beta_lobby_c_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Blargg's Lava Realm - Up the Lava Ramp",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blargg's Lava Realm - Silver Stars",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blargg's Fiery Fortress - Top of the Fortress",
+                        "item_count": 1,
+                        "access_rules": [
+                            "wall_kick"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "beta_lobby_c",
+                        "x": 355,
+                        "y": 175
+                    }
+                ]
+            },
+            {
+                "name": "Jolly Roger Bay (beta)",
+                "access_rules": [
+                    "beta_lobby_c_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Jolly Roger Bay (beta) - On the High Back Platform",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightSideFlip, ledge_grab",
+                            "$HeightSideFlip, triple_jump",
+                            "$HeightSideFlip, long_jump, wall_kick"
+                        ]
+                    },
+                    {
+                        "name": "Jolly Roger Bay (beta) - Treasure of the Ocean Cave",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Jolly Roger Bay (beta) - Red Coins",
+                        "item_count": 1,
+                        "access_rules": [
+                            "triple_jump",
+                            "$HeightBackflip, ledge_grab, metal_cap",
+                            "$HeightBackflip, long_jump, metal_cap, wall_kick"
+                        ]
+                    },
+                    {
+                        "name": "Jolly Roger Bay (beta) - Raise the Ship",
+                        "item_count": 1,
+                        "access_rules": [
+                            "metal_cap"
+                        ]
+                    },
+                    {
+                        "name": "Jolly Roger Bay (beta) - Ghost Ship in the Sky",
+                        "item_count": 1,
+                        "access_rules": [
+                            "metal_cap"
+                        ]
+                    },
+                    {
+                        "name": "Sunken Ghost Ship - Inside the Ship",
+                        "item_count": 1,
+                        "access_rules": [
+                            "metal_cap"
+                        ]
+                    },
+                    {
+                        "name": "Unagi's Tunnel - Clam Secrets",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Unagi's Tunnel - In the Box",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "beta_lobby_c",
+                        "x": 440,
+                        "y": 200
+                    }
+                ]
+            },
+            {
+                "name": "Bowser in the Dark World (Shoshinkai)",
+                "access_rules": [
+                    "beta_lobby_c_courses",
+                    "parallel_lobby_courses",
+                    "purple_lobby_and_upstairs_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Bowser in the Dark World (Shoshinkai) - Defeat Bowser",
+                        "chest_unopened_img": "/images/items/red_star.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "beta_lobby_c",
+                        "x": 255,
+                        "y": 120
+                    },
+                    {
+                        "map": "parallel_lobby",
+                        "x": 245,
+                        "y": 315
+                    },
+                    {
+                        "map": "parallel_lobby",
+                        "x": 190,
+                        "y": 58
+                    },
+                    {
+                        "map": "parallel_lobby",
+                        "x": 270,
+                        "y": 58
+                    },
+                    {
+                        "map": "purple",
+                        "x": 123,
+                        "y": 200
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Beta Lobby C Courses",
+        "sections": [
+            {
+                "ref": "Beta Lobby C/Blargg's Lava Realm/Blargg's Lava Realm - Up the Lava Ramp",
+                "name": "Blargg's Lava Realm - Up the Lava Ramp"
+            },
+            {
+                "ref": "Beta Lobby C/Blargg's Lava Realm/Blargg's Lava Realm - Silver Stars",
+                "name": "Blargg's Lava Realm - Silver Stars"
+            },
+            {
+                "ref": "Beta Lobby C/Blargg's Lava Realm/Blargg's Fiery Fortress - Top of the Fortress",
+                "name": "Blargg's Fiery Fortress - Top of the Fortress"
+            },
+            {
+                "ref": "Beta Lobby C/Jolly Roger Bay (beta)/Jolly Roger Bay (beta) - On the High Back Platform",
+                "name": "Jolly Roger Bay (beta) - On the High Back Platform"
+            },
+            {
+                "ref": "Beta Lobby C/Jolly Roger Bay (beta)/Jolly Roger Bay (beta) - Treasure of the Ocean Cave",
+                "name": "Jolly Roger Bay (beta) - Treasure of the Ocean Cave"
+            },
+            {
+                "ref": "Beta Lobby C/Jolly Roger Bay (beta)/Jolly Roger Bay (beta) - Red Coins",
+                "name": "Jolly Roger Bay (beta) - Red Coins"
+            },
+            {
+                "ref": "Beta Lobby C/Jolly Roger Bay (beta)/Jolly Roger Bay (beta) - Raise the Ship",
+                "name": "Jolly Roger Bay (beta) - Raise the Ship"
+            },
+            {
+                "ref": "Beta Lobby C/Jolly Roger Bay (beta)/Jolly Roger Bay (beta) - Ghost Ship in the Sky",
+                "name": "Jolly Roger Bay (beta) - Ghost Ship in the Sky"
+            },
+            {
+                "ref": "Beta Lobby C/Jolly Roger Bay (beta)/Sunken Ghost Ship - Inside the Ship",
+                "name": "Sunken Ghost Ship - Inside the Ship"
+            },
+            {
+                "ref": "Beta Lobby C/Jolly Roger Bay (beta)/Unagi's Tunnel - Clam Secrets",
+                "name": "Unagi's Tunnel - Clam Secrets"
+            },
+            {
+                "ref": "Beta Lobby C/Jolly Roger Bay (beta)/Unagi's Tunnel - In the Box",
+                "name": "Unagi's Tunnel - In the Box"
+            },
+            {
+                "ref": "Beta Lobby C/Bowser in the Dark World (Shoshinkai)/Bowser in the Dark World (Shoshinkai) - Defeat Bowser",
+                "name": "Bowser in the Dark World (Shoshinkai) - Defeat Bowser"
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "overview",
+                "x": 30,
+                "y": 240
+            }
+        ]
+    }
+]

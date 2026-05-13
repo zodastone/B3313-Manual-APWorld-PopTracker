@@ -1,0 +1,248 @@
+[
+    {
+        "name": "Plexal Lobby",
+        "chest_unopened_img": "/images/map_checks/star.png",
+        "chest_opened_img": "/images/map_checks/check.png",
+        "children": [
+            {
+                "name": "Big Boo's Haunted Forest",
+                "access_rules": [
+                    "plexal_lobby_courses",
+                    "vanilla_lobby_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Big Boo's Haunted Forest - Wall Kick up the Shaft",
+                        "item_count": 1,
+                        "access_rules": [
+                            "plexal_lobby_courses, wall_kick"
+                        ]
+                    },
+                    {
+                        "name": "Big Boo's Haunted Forest - Silver Stars",
+                        "item_count": 1,
+                        "access_rules": [
+                            "plexal_lobby_courses, $HeightKick"
+                        ]
+                    },
+                    {
+                        "name": "Big Boo's Haunted Forest - Bottom of the Slide",
+                        "item_count": 1,
+                        "access_rules": [
+                            "vanilla_lobby_courses",
+                            "vanish_cap"
+                        ]
+                    },
+                    {
+                        "name": "Big Boo's Haunted Forest - Defeat the Big Boo",
+                        "item_count": 1,
+                        "access_rules": [
+                            "vanish_cap"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "plexal_lobby",
+                        "x": 357,
+                        "y": 458
+                    },
+                    {
+                        "map": "vanilla_lobby",
+                        "x": 466,
+                        "y": 119
+                    }
+                ]
+            },
+            {
+                "name": "Grassy Highlands",
+                "access_rules": [
+                    "plexal_lobby_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Grassy Highlands - Top of the Tower",
+                        "item_count": 1,
+                        "access_rules": [
+                            "cannon_unlock_(grassy_highlands)",
+                            "climb",
+                            "$HeightWallKick"
+                        ]
+                    },
+                    {
+                        "name": "Grassy Highlands - Red Coins",
+                        "item_count": 1,
+                        "access_rules": [
+                            "cannon_unlock_(grassy_highlands)",
+                            "climb",
+                            "$HeightWallKick"
+                        ]
+                    },
+                    {
+                        "name": "Grassy Highlands - On the Left Cliff",
+                        "item_count": 1,
+                        "access_rules": [
+                            "cannon_unlock_(grassy_highlands)",
+                            "triple_jump",
+                            "$YamlEnabled|fly_guy, climb",
+                            "$HeightWallKick, $YamlEnabled|fly_guy"
+                        ]
+                    },
+                    {
+                        "name": "Grassy Highlands - Green Star on a High Platform",
+                        "chest_unopened_img": "/images/map_checks/green_star.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "cannon_unlock_(grassy_highlands), green_comet",
+                            "green_comet, wall_kick"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "plexal_lobby",
+                        "x": 377,
+                        "y": 290
+                    }
+                ]
+            },
+            {
+                "name": "Bob-omb Test Field",
+                "access_rules": [
+                    "plexal_lobby_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Bob-omb Test Field - Top of the Monolith",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bob-omb Test Field - Silver Stars",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "plexal_lobby",
+                        "x": 222,
+                        "y": 164
+                    }
+                ]
+            },
+            {
+                "name": "Goomba Hills",
+                "access_rules": [
+                    "plexal_lobby_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Goomba Hills - Shoot to the Floating Island",
+                        "item_count": 1,
+                        "access_rules": [
+                            "cannon_unlock_(goomba_hills)"
+                        ]
+                    },
+                    {
+                        "name": "Goomba Hills - Far Back Platform",
+                        "item_count": 1,
+                        "access_rules": [
+                            "cannon_unlock_(goomba_hills)",
+                            "$HeightWallKickLedgeGrab",
+                            "$YamlEnabled|slope_movement, kick"
+                        ]
+                    },
+                    {
+                        "name": "Goomba Hills - Ring Secrets",
+                        "item_count": 1,
+                        "access_rules": [
+                            "cannon_unlock_(goomba_hills)"
+                        ]
+                    },
+                    {
+                        "name": "Goomba Hills - Red Coins",
+                        "item_count": 1,
+                        "access_rules": [
+                            "cannon_unlock_(goomba_hills)",
+                            "side_flip, triple_jump, wall_kick"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "plexal_lobby",
+                        "x": 215,
+                        "y": 108
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Plexal Lobby Courses",
+        "sections": [
+            {
+                "ref": "Plexal Lobby/Big Boo's Haunted Forest/Big Boo's Haunted Forest - Wall Kick up the Shaft",
+                "name": "Big Boo's Haunted Forest - Wall Kick up the Shaft"
+            },
+            {
+                "ref": "Plexal Lobby/Big Boo's Haunted Forest/Big Boo's Haunted Forest - Silver Stars",
+                "name": "Big Boo's Haunted Forest - Silver Stars"
+            },
+            {
+                "ref": "Plexal Lobby/Big Boo's Haunted Forest/Big Boo's Haunted Forest - Bottom of the Slide",
+                "name": "Big Boo's Haunted Forest - Bottom of the Slide"
+            },
+            {
+                "ref": "Plexal Lobby/Big Boo's Haunted Forest/Big Boo's Haunted Forest - Defeat the Big Boo",
+                "name": "Big Boo's Haunted Forest - Defeat the Big Boo"
+            },
+            {
+                "ref": "Plexal Lobby/Grassy Highlands/Grassy Highlands - Top of the Tower",
+                "name": "Grassy Highlands - Top of the Tower"
+            },
+            {
+                "ref": "Plexal Lobby/Grassy Highlands/Grassy Highlands - Red Coins",
+                "name": "Grassy Highlands - Red Coins"
+            },
+            {
+                "ref": "Plexal Lobby/Grassy Highlands/Grassy Highlands - On the Left Cliff",
+                "name": "Grassy Highlands - On the Left Cliff"
+            },
+            {
+                "ref": "Plexal Lobby/Grassy Highlands/Grassy Highlands - Green Star on a High Platform",
+                "name": "Grassy Highlands - Green Star on a High Platform"
+            },
+            {
+                "ref": "Plexal Lobby/Bob-omb Test Field/Bob-omb Test Field - Top of the Monolith",
+                "name": "Bob-omb Test Field - Top of the Monolith"
+            },
+            {
+                "ref": "Plexal Lobby/Bob-omb Test Field/Bob-omb Test Field - Silver Stars",
+                "name": "Bob-omb Test Field - Silver Stars"
+            },
+            {
+                "ref": "Plexal Lobby/Goomba Hills/Goomba Hills - Shoot to the Floating Island",
+                "name": "Goomba Hills - Shoot to the Floating Island"
+            },
+            {
+                "ref": "Plexal Lobby/Goomba Hills/Goomba Hills - Far Back Platform",
+                "name": "Goomba Hills - Far Back Platform"
+            },
+            {
+                "ref": "Plexal Lobby/Goomba Hills/Goomba Hills - Ring Secrets",
+                "name": "Goomba Hills - Ring Secrets"
+            },
+            {
+                "ref": "Plexal Lobby/Goomba Hills/Goomba Hills - Red Coins",
+                "name": "Goomba Hills - Red Coins"
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "overview",
+                "x": 530,
+                "y": 210
+            }
+        ]
+    }
+]

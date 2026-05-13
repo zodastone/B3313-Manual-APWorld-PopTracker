@@ -1,0 +1,70 @@
+[
+    {
+        "name": "Castle Grounds",
+        "chest_unopened_img": "/images/map_checks/star.png",
+        "chest_opened_img": "/images/map_checks/check.png",
+        "children": [
+            {
+                "name": "Sunken Castle",
+                "access_rules": [
+                    "castle_grounds_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Sunken Castle - In the Cage",
+                        "item_count": 1,
+                        "access_rules": [
+                            "vanish_cap"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "castle_grounds",
+                        "x": 120,
+                        "y": 260
+                    }
+                ]
+            },
+            {
+                "name": "Eel Graveyard",
+                "access_rules": [
+                    "castle_grounds_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Eel Graveyard - Clam Secrets",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "castle_grounds",
+                        "x": 375,
+                        "y": 475
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Castle Grounds Courses",
+        "sections": [
+            {
+                "ref": "Castle Grounds/Sunken Castle/Sunken Castle - In the Cage",
+                "name": "Sunken Castle - In the Cage"
+            },
+            {
+                "ref": "Castle Grounds/Eel Graveyard/Eel Graveyard - Clam Secrets",
+                "name": "Eel Graveyard - Clam Secrets"
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "overview",
+                "x": 30,
+                "y": 420
+            }
+        ]
+    }
+]

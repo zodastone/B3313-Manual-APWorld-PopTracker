@@ -1,0 +1,237 @@
+[
+    {
+        "name": "Beta Lobby A",
+        "chest_unopened_img": "/images/map_checks/star.png",
+        "chest_opened_img": "/images/map_checks/check.png",
+        "children": [
+            {
+                "name": "Snow Slider (B-Roll)",
+                "access_rules": [
+                    "beta_lobby_a_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Snow Slider (B-Roll) - Bottom of the Mountain",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Snow Slider (B-Roll) - Lil' Penguin Lost",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "beta_lobby_a",
+                        "x": 75,
+                        "y": 200
+                    }
+                ]
+            },
+            {
+                "name": "Mountain (B-Roll)",
+                "access_rules": [
+                    "beta_lobby_a_courses, climb",
+                    "$HeightLedgeGrab, beta_lobby_a_courses, cannon_unlock_(mountain_(b-roll))",
+                    "$HeightLedgeGrab, $HeightWallKickLedgeGrab, beta_lobby_a_courses",
+                    "$HeightLedgeGrab, $YamlEnabled|slope_movement, beta_lobby_a_courses, dive, long_jump",
+                    "$HeightLedgeGrab, $YamlEnabled|slope_movement, beta_lobby_a_courses, dive, kick"
+                ],
+                "sections": [
+                    {
+                        "name": "Mountain (B-Roll) - Top of the Tower",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mountain (B-Roll) - Tower Hidden 1-Up Spot",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mountain (B-Roll) - On the Floating Platform",
+                        "item_count": 1,
+                        "access_rules": [
+                            "climb",
+                            "$HeightLedgeGrab, cannon_unlock_(mountain_(b-roll))",
+                            "$DistKick, $HeightLedgeGrab"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "beta_lobby_a",
+                        "x": 150,
+                        "y": 175
+                    }
+                ]
+            },
+            {
+                "name": "Fire Bubble (B-Roll)",
+                "access_rules": [
+                    "beta_lobby_a_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Fire Bubble (B-Roll) - Boil the Big Bully Spot",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fire Bubble (B-Roll) - Boil the Bullies",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "beta_lobby_a",
+                        "x": 355,
+                        "y": 175
+                    }
+                ]
+            },
+            {
+                "name": "Melting Magma Mound",
+                "access_rules": [
+                    "beta_lobby_a_courses",
+                    "beta_lobby_e_courses",
+                    "internal_sewer_system_courses",
+                    "vanilla_basement_maze_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Melting Magma Mound - Top of the Volcano",
+                        "item_count": 1,
+                        "access_rules": [
+                            "wall_kick"
+                        ]
+                    },
+                    {
+                        "name": "Melting Magma Mound - Red Coins",
+                        "item_count": 1,
+                        "access_rules": [
+                            "wall_kick"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "beta_lobby_a",
+                        "x": 355,
+                        "y": 150
+                    },
+                    {
+                        "map": "beta_lobby_e",
+                        "x": 355,
+                        "y": 150
+                    },
+                    {
+                        "map": "internal_sewer_system",
+                        "x": 70,
+                        "y": 270
+                    },
+                    {
+                        "map": "vanilla_basement",
+                        "x": 133,
+                        "y": 126
+                    }
+                ]
+            },
+            {
+                "name": "Water Land (Shoshinkai)",
+                "access_rules": [
+                    "beta_lobby_a_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Water Land (Shoshinkai) - Board Bowser's Sub",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Water Land (Shoshinkai) - Chests in the Current",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "beta_lobby_a",
+                        "x": 440,
+                        "y": 200
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Beta Lobby A Courses",
+        "sections": [
+            {
+                "ref": "Beta Lobby A/Snow Slider (B-Roll)/Snow Slider (B-Roll) - Bottom of the Mountain",
+                "name": "Snow Slider (B-Roll) - Bottom of the Mountain"
+            },
+            {
+                "ref": "Beta Lobby A/Snow Slider (B-Roll)/Snow Slider (B-Roll) - Lil' Penguin Lost",
+                "name": "Snow Slider (B-Roll) - Lil' Penguin Lost"
+            },
+            {
+                "ref": "Beta Lobby A/Mountain (B-Roll)/Mountain (B-Roll) - Top of the Tower",
+                "name": "Mountain (B-Roll) - Top of the Tower"
+            },
+            {
+                "ref": "Beta Lobby A/Mountain (B-Roll)/Mountain (B-Roll) - Tower Hidden 1-Up Spot",
+                "name": "Mountain (B-Roll) - Tower Hidden 1-Up Spot"
+            },
+            {
+                "ref": "Beta Lobby A/Mountain (B-Roll)/Mountain (B-Roll) - On the Floating Platform",
+                "name": "Mountain (B-Roll) - On the Floating Platform"
+            },
+            {
+                "ref": "Beta Lobby A/Fire Bubble (B-Roll)/Fire Bubble (B-Roll) - Boil the Big Bully Spot",
+                "name": "Fire Bubble (B-Roll) - Boil the Big Bully Spot"
+            },
+            {
+                "ref": "Beta Lobby A/Fire Bubble (B-Roll)/Fire Bubble (B-Roll) - Boil the Bullies",
+                "name": "Fire Bubble (B-Roll) - Boil the Bullies"
+            },
+            {
+                "ref": "Beta Lobby A/Melting Magma Mound/Melting Magma Mound - Top of the Volcano",
+                "name": "Melting Magma Mound - Top of the Volcano"
+            },
+            {
+                "ref": "Beta Lobby A/Melting Magma Mound/Melting Magma Mound - Red Coins",
+                "name": "Melting Magma Mound - Red Coins"
+            },
+            {
+                "ref": "Beta Lobby A/Water Land (Shoshinkai)/Water Land (Shoshinkai) - Board Bowser's Sub",
+                "name": "Water Land (Shoshinkai) - Board Bowser's Sub"
+            },
+            {
+                "ref": "Beta Lobby A/Water Land (Shoshinkai)/Water Land (Shoshinkai) - Chests in the Current",
+                "name": "Water Land (Shoshinkai) - Chests in the Current"
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "overview",
+                "x": 30,
+                "y": 180
+            }
+        ]
+    },
+    {
+        "name": "Internal Sewer System Courses",
+        "sections": [
+            {
+                "ref": "Beta Lobby A/Melting Magma Mound/Melting Magma Mound - Top of the Volcano",
+                "name": "Melting Magma Mound - Top of the Volcano"
+            },
+            {
+                "ref": "Beta Lobby A/Melting Magma Mound/Melting Magma Mound - Red Coins",
+                "name": "Melting Magma Mound - Red Coins"
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "overview",
+                "x": 280,
+                "y": 450
+            }
+        ]
+    }
+]

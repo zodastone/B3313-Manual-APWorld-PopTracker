@@ -1,0 +1,300 @@
+[
+    {
+        "name": "Challenge Lobby",
+        "chest_unopened_img": "/images/map_checks/star.png",
+        "chest_opened_img": "/images/map_checks/check.png",
+        "children": [
+            {
+                "name": "Tall Tall Treetops",
+                "access_rules": [
+                    "challenge_lobby_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Tall Tall Treetops - Top of the Grassy Ramps",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$DistKick",
+                            "cannon_unlock_(tall_tall_treetops), ledge_grab",
+                            "backflip, cannon_unlock_(tall_tall_treetops)",
+                            "cannon_unlock_(tall_tall_treetops), side_flip",
+                            "cannon_unlock_(tall_tall_treetops), triple_jump",
+                            "side_flip, wall_kick"
+                        ]
+                    },
+                    {
+                        "name": "Tall Tall Treetops - Top of the Highest Ramp",
+                        "item_count": 1,
+                        "access_rules": [
+                            "cannon_unlock_(tall_tall_treetops), ledge_grab",
+                            "backflip, cannon_unlock_(tall_tall_treetops)",
+                            "cannon_unlock_(tall_tall_treetops), side_flip",
+                            "cannon_unlock_(tall_tall_treetops), triple_jump"
+                        ]
+                    },
+                    {
+                        "name": "Tall Tall Treetops - On the High Center Platform",
+                        "item_count": 1,
+                        "access_rules": [
+                            "cannon_unlock_(tall_tall_treetops), ledge_grab",
+                            "backflip, cannon_unlock_(tall_tall_treetops)",
+                            "cannon_unlock_(tall_tall_treetops), side_flip",
+                            "cannon_unlock_(tall_tall_treetops), triple_jump"
+                        ]
+                    },
+                    {
+                        "name": "Tall Tall Treetops - Red Coins",
+                        "item_count": 1,
+                        "access_rules": [
+                            "cannon_unlock_(tall_tall_treetops), ledge_grab",
+                            "backflip, cannon_unlock_(tall_tall_treetops)",
+                            "cannon_unlock_(tall_tall_treetops), side_flip",
+                            "cannon_unlock_(tall_tall_treetops), triple_jump"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "challenge_lobby",
+                        "x": 155,
+                        "y": 280
+                    }
+                ]
+            },
+            {
+                "name": "Motos Factory",
+                "access_rules": [
+                    "challenge_lobby_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Motos Factory - Climb the Cogs",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Motos Factory - Raid the Vault",
+                        "item_count": 1,
+                        "access_rules": [
+                            "wall_kick"
+                        ]
+                    },
+                    {
+                        "name": "Motos Factory - Front Left Conveyor",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightSideFlip"
+                        ]
+                    },
+                    {
+                        "name": "Motos Factory - Middle Left Conveyor",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Motos Factory - Front Right Conveyor",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightBackflip"
+                        ]
+                    },
+                    {
+                        "name": "Motos Factory - Middle Right Conveyor",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$DistLongJump, $HeightLedgeGrab",
+                            "$HeightLedgeGrab, $YamlEnabled|lava_boost",
+                            "$HeightLedgeGrab, metal_cap"
+                        ]
+                    },
+                    {
+                        "name": "Motos Factory - Back Right Conveyor",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Motos Factory - Far Back Path",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Motos Factory - Behind the Grate",
+                        "item_count": 1,
+                        "access_rules": [
+                            "vanish_cap"
+                        ]
+                    },
+                    {
+                        "name": "Motos Factory - Red Coins",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightLedgeGrab"
+                        ]
+                    },
+                    {
+                        "name": "Motos Factory - Defeat the Giant Motos",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightLedgeGrab, ledge_grab, vanish_cap",
+                            "$HeightLedgeGrab, kick, vanish_cap"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "challenge_lobby",
+                        "x": 340,
+                        "y": 280
+                    }
+                ]
+            },
+            {
+                "name": "Tower of the Wing Cap (beta)",
+                "access_rules": [
+                    "challenge_lobby_courses",
+                    "plexal_upstairs_courses, wall_kick, ledge_grab",
+                    "plexal_upstairs_courses, wall_kick, side_flip, triple_jump"
+                ],
+                "sections": [
+                    {
+                        "name": "Tower of the Wing Cap (beta) - Wing Cap Switch",
+                        "chest_unopened_img": "/images/map_checks/red_switch.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "challenge_lobby_courses",
+                            "$DistLongJump, cannon_unlock_(tower_of_the_wing_cap_(beta))",
+                            "triple_jump, wing_cap"
+                        ]
+                    },
+                    {
+                        "name": "Tower of the Wing Cap (beta) - On a High Platform",
+                        "item_count": 1,
+                        "access_rules": [
+                            "challenge_lobby_courses",
+                            "$DistLongJump, wing_cap, cannon_unlock_(tower_of_the_wing_cap_(beta))",
+                            "$DistLongJump, wing_cap, triple_jump"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "challenge_lobby",
+                        "x": 250,
+                        "y": 200
+                    },
+                    {
+                        "map": "plexal_upstairs",
+                        "x": 329,
+                        "y": 272
+                    }
+                ]
+            },
+            {
+                "name": "Sky-High Pathway",
+                "access_rules": [
+                    "challenge_lobby_courses",
+                    "ledge_grab, plexal_upstairs_courses, wall_kick",
+                    "plexal_upstairs_courses, side_flip, triple_jump, wall_kick"
+                ],
+                "sections": [
+                    {
+                        "name": "Sky-High Pathway - By the Pipe",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "challenge_lobby",
+                        "x": 250,
+                        "y": 175
+                    },
+                    {
+                        "map": "plexal_upstairs",
+                        "x": 304,
+                        "y": 272
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Challenge Lobby Courses",
+        "sections": [
+            {
+                "ref": "Challenge Lobby/Tall Tall Treetops/Tall Tall Treetops - Top of the Grassy Ramps",
+                "name": "Tall Tall Treetops - Top of the Grassy Ramps"
+            },
+            {
+                "ref": "Challenge Lobby/Tall Tall Treetops/Tall Tall Treetops - Top of the Highest Ramp",
+                "name": "Tall Tall Treetops - Top of the Highest Ramp"
+            },
+            {
+                "ref": "Challenge Lobby/Tall Tall Treetops/Tall Tall Treetops - On the High Center Platform",
+                "name": "Tall Tall Treetops - On the High Center Platform"
+            },
+            {
+                "ref": "Challenge Lobby/Tall Tall Treetops/Tall Tall Treetops - Red Coins",
+                "name": "Tall Tall Treetops - Red Coins"
+            },
+            {
+                "ref": "Challenge Lobby/Motos Factory/Motos Factory - Climb the Cogs",
+                "name": "Motos Factory - Climb the Cogs"
+            },
+            {
+                "ref": "Challenge Lobby/Motos Factory/Motos Factory - Raid the Vault",
+                "name": "Motos Factory - Raid the Vault"
+            },
+            {
+                "ref": "Challenge Lobby/Motos Factory/Motos Factory - Front Left Conveyor",
+                "name": "Motos Factory - Front Left Conveyor"
+            },
+            {
+                "ref": "Challenge Lobby/Motos Factory/Motos Factory - Middle Left Conveyor",
+                "name": "Motos Factory - Middle Left Conveyor"
+            },
+            {
+                "ref": "Challenge Lobby/Motos Factory/Motos Factory - Front Right Conveyor",
+                "name": "Motos Factory - Front Right Conveyor"
+            },
+            {
+                "ref": "Challenge Lobby/Motos Factory/Motos Factory - Middle Right Conveyor",
+                "name": "Motos Factory - Middle Right Conveyor"
+            },
+            {
+                "ref": "Challenge Lobby/Motos Factory/Motos Factory - Back Right Conveyor",
+                "name": "Motos Factory - Back Right Conveyor"
+            },
+            {
+                "ref": "Challenge Lobby/Motos Factory/Motos Factory - Far Back Path",
+                "name": "Motos Factory - Far Back Path"
+            },
+            {
+                "ref": "Challenge Lobby/Motos Factory/Motos Factory - Behind the Grate",
+                "name": "Motos Factory - Behind the Grate"
+            },
+            {
+                "ref": "Challenge Lobby/Motos Factory/Motos Factory - Red Coins",
+                "name": "Motos Factory - Red Coins"
+            },
+            {
+                "ref": "Challenge Lobby/Motos Factory/Motos Factory - Defeat the Giant Motos",
+                "name": "Motos Factory - Defeat the Giant Motos"
+            },
+            {
+                "ref": "Challenge Lobby/Tower of the Wing Cap (beta)/Tower of the Wing Cap (beta) - Wing Cap Switch",
+                "name": "Tower of the Wing Cap (beta) - Wing Cap Switch"
+            },
+            {
+                "ref": "Challenge Lobby/Tower of the Wing Cap (beta)/Tower of the Wing Cap (beta) - On a High Platform",
+                "name": "Tower of the Wing Cap (beta) - On a High Platform"
+            },
+            {
+                "ref": "Challenge Lobby/Sky-High Pathway/Sky-High Pathway - By the Pipe",
+                "name": "Sky-High Pathway - By the Pipe"
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "overview",
+                "x": 30,
+                "y": 450
+            }
+        ]
+    }
+]

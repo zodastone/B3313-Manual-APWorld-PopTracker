@@ -1,0 +1,84 @@
+[
+    {
+        "name": "Crescent Castle",
+        "chest_unopened_img": "/images/map_checks/star.png",
+        "chest_opened_img": "/images/map_checks/check.png",
+        "children": [
+            {
+                "name": "Bountiful Beach",
+                "access_rules": [
+                    "crescent_castle_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Bountiful Beach - Top of the Cliff",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightKick"
+                        ]
+                    },
+                    {
+                        "name": "Bountiful Beach - Silver Stars",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightKick"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "crescent_castle",
+                        "x": 170,
+                        "y": 95
+                    }
+                ]
+            },
+            {
+                "name": "Tick Tock Blocks",
+                "access_rules": [
+                    "crescent_castle_courses, wall_kick"
+                ],
+                "sections": [
+                    {
+                        "name": "Tick Tock Blocks - End of the Course",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$DistLongJumpLedgeGrab, $HeightDoubleJumpWallKick"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "crescent_castle",
+                        "x": 305,
+                        "y": 145
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Crescent Castle Courses",
+        "sections": [
+            {
+                "ref": "Crescent Castle/Bountiful Beach/Bountiful Beach - Top of the Cliff",
+                "name": "Bountiful Beach - Top of the Cliff"
+            },
+            {
+                "ref": "Crescent Castle/Bountiful Beach/Bountiful Beach - Silver Stars",
+                "name": "Bountiful Beach - Silver Stars"
+            },
+            {
+                "ref": "Crescent Castle/Tick Tock Blocks/Tick Tock Blocks - End of the Course",
+                "name": "Tick Tock Blocks - End of the Course"
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "overview",
+                "x": 280,
+                "y": 60
+            }
+        ]
+    }
+]

@@ -1,0 +1,489 @@
+[
+    {
+        "name": "Plexal Basement",
+        "chest_unopened_img": "/images/map_checks/star.png",
+        "chest_opened_img": "/images/map_checks/check.png",
+        "children": [
+            {
+                "name": "Hazy Maze Cave (beta)",
+                "access_rules": [
+                    "plexal_basement_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Hazy Maze Cave (beta) - At the Lake",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$DistLongJump",
+                            "wall_kick"
+                        ]
+                    },
+                    {
+                        "name": "Hazy Maze Cave (beta) - Red Coins",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$DistLongJump, $DistWallKickLedgeGrab",
+                            "$DistWallKickLedgeGrab, wall_kick"
+                        ]
+                    },
+                    {
+                        "name": "Hazy Maze Cave (beta) - Navigate the Maze",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightKick"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "plexal_basement",
+                        "x": 135,
+                        "y": 145
+                    }
+                ]
+            },
+            {
+                "name": "Caldera Temple",
+                "access_rules": [
+                    "plexal_basement_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Caldera Temple - Top of the Temple",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$DistLedgeGrab"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "plexal_basement",
+                        "x": 63,
+                        "y": 107
+                    }
+                ]
+            },
+            {
+                "name": "Sandy Skyloft",
+                "access_rules": [
+                    "plexal_basement_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Sandy Skyloft - Climb the Stone Tower",
+                        "item_count": 1,
+                        "access_rules": [
+                            "triple_jump, wing_cap",
+                            "$YamlEnabled|slope_movement, kick, ledge_grab, side_flip, triple_jump, wall_kick",
+                            "$YamlEnabled|slope_movement, dive, ledge_grab, long_jump, side_flip, triple_jump, wall_kick"
+                        ]
+                    },
+                    {
+                        "name": "Sandy Skyloft - Under the Far Yellow Roof",
+                        "item_count": 1,
+                        "access_rules": [
+                            "triple_jump"
+                        ]
+                    },
+                    {
+                        "name": "Sandy Skyloft - Red Coins",
+                        "item_count": 1,
+                        "access_rules": [
+                            "triple_jump"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "plexal_basement",
+                        "x": 64,
+                        "y": 182
+                    }
+                ]
+            },
+            {
+                "name": "Bowser in the Fire Sea",
+                "access_rules": [
+                    "plexal_basement_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Bowser in the Fire Sea - Defeat Bowser",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Minion's Prison - Visit the Jailed Goombas",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$DistLedgeGrab, vanish_cap",
+                            "$HeightWallKick, vanish_cap"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "plexal_basement",
+                        "x": 180,
+                        "y": 375
+                    },
+                    {
+                        "map": "plexal_basement",
+                        "x": 207,
+                        "y": 242
+                    }
+                ]
+            },
+            {
+                "name": "Tiny-Huge Island (beta)",
+                "access_rules": [
+                    "plexal_basement_courses",
+                    "vanilla_and_mirrored_upstairs_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Tiny-Huge Island (beta) - Pluck the Piranha Flowers",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tiny-Huge Island (beta) - The Tip Top of the Huge Island",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tiny-Huge Island (beta) - Above the Huge Island Lake",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tiny-Huge Island (beta) - Above the Tiny Island Lake",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tiny-Huge Island (beta) - Red Coins",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wiggler's Cave - Make Wiggler Squirm",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wiggler's Cave - Silver Stars",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$DistKick",
+                            "$HeightBackflip"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "plexal_basement",
+                        "x": 208,
+                        "y": 302
+                    },
+                    {
+                        "map": "vanilla_upstairs",
+                        "x": 13,
+                        "y": 318
+                    },
+                    {
+                        "map": "vanilla_upstairs",
+                        "x": 485,
+                        "y": 318
+                    }
+                ]
+            },
+            {
+                "name": "Flooded Downtown",
+                "access_rules": [
+                    "plexal_basement_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Flooded Downtown - Yellow Box on a Building",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightDoubleJumpWallKick"
+                        ]
+                    },
+                    {
+                        "name": "Flooded Downtown - Free Star",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Flooded Downtown - Door Secrets",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "plexal_basement",
+                        "x": 295,
+                        "y": 200
+                    }
+                ]
+            },
+            {
+                "name": "Shifted Sand Land",
+                "access_rules": [
+                    "plexal_basement_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Shifted Sand Land - Red Coins",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightDoubleJumpWallKick"
+                        ]
+                    },
+                    {
+                        "name": "Shifted Sand Land - In a Box",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightDoubleJumpWallKick"
+                        ]
+                    },
+                    {
+                        "name": "Eyerok's Tomb - Defeat Eyerok",
+                        "chest_unopened_img": "/images/items/red_star.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightDoubleJumpWallKick"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "plexal_basement",
+                        "x": 260,
+                        "y": 200
+                    }
+                ]
+            },
+            {
+                "name": "Desert Maze",
+                "access_rules": [
+                    "plexal_basement_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Desert Maze - Top of the Flagpole",
+                        "item_count": 1,
+                        "access_rules": [
+                            "climb",
+                            "backflip",
+                            "side_flip"
+                        ]
+                    },
+                    {
+                        "name": "Desert Maze - Red Coins",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "plexal_basement",
+                        "x": 250,
+                        "y": 275
+                    }
+                ]
+            },
+            {
+                "name": "Toad Catacombs",
+                "access_rules": [
+                    "plexal_basement_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Toad Catacombs - Coffin Secrets",
+                        "chest_unopened_img": "/images/items/red_star.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "plexal_basement",
+                        "x": 190,
+                        "y": 137
+                    }
+                ]
+            },
+            {
+                "name": "Dry Town",
+                "access_rules": [
+                    "plexal_basement_courses",
+                    "plexal_upstairs_courses",
+                    "$HeightLedgeGrab, ledge_grab, vanilla_and_mirrored_upstairs_courses",
+                    "$HeightLedgeGrab, cannon_unlock_(wet-dry_world_(beta)), vanilla_and_mirrored_upstairs_courses",
+                    "$HeightLedgeGrab, triple_jump, vanilla_and_mirrored_upstairs_courses",
+                    "$YamlEnabled|slope_movement, kick, ledge_grab, vanilla_and_mirrored_upstairs_courses",
+                    "cannon_unlock_(wet-dry_world_(beta)), $YamlEnabled|slope_movement, kick, vanilla_and_mirrored_upstairs_courses",
+                    "$YamlEnabled|slope_movement, kick, triple_jump, vanilla_and_mirrored_upstairs_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Dry Town - Top of the Town",
+                        "item_count": 1,
+                        "access_rules": [
+                            "cannon_unlock_(dry_town)",
+                            "triple_jump, wing_cap",
+                            "$HeightDoubleJumpWallKick, $YamlEnabled|fast_swim"
+                        ]
+                    },
+                    {
+                        "name": "Dry Town - Door Secrets",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "plexal_basement",
+                        "x": 295,
+                        "y": 225
+                    },
+                    {
+                        "map": "plexal_upstairs",
+                        "x": 243,
+                        "y": 250
+                    },
+                    {
+                        "map": "vanilla_upstairs",
+                        "x": 383,
+                        "y": 460
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Plexal Basement Courses",
+        "sections": [
+            {
+                "ref": "Plexal Basement/Hazy Maze Cave (beta)/Hazy Maze Cave (beta) - At the Lake",
+                "name": "Hazy Maze Cave (beta) - At the Lake"
+            },
+            {
+                "ref": "Plexal Basement/Hazy Maze Cave (beta)/Hazy Maze Cave (beta) - Red Coins",
+                "name": "Hazy Maze Cave (beta) - Red Coins"
+            },
+            {
+                "ref": "Plexal Basement/Hazy Maze Cave (beta)/Hazy Maze Cave (beta) - Navigate the Maze",
+                "name": "Hazy Maze Cave (beta) - Navigate the Maze"
+            },
+            {
+                "ref": "Plexal Basement/Caldera Temple/Caldera Temple - Top of the Temple",
+                "name": "Caldera Temple - Top of the Temple"
+            },
+            {
+                "ref": "Plexal Basement/Sandy Skyloft/Sandy Skyloft - Climb the Stone Tower",
+                "name": "Sandy Skyloft - Climb the Stone Tower"
+            },
+            {
+                "ref": "Plexal Basement/Sandy Skyloft/Sandy Skyloft - Under the Far Yellow Roof",
+                "name": "Sandy Skyloft - Under the Far Yellow Roof"
+            },
+            {
+                "ref": "Plexal Basement/Sandy Skyloft/Sandy Skyloft - Red Coins",
+                "name": "Sandy Skyloft - Red Coins"
+            },
+            {
+                "ref": "Plexal Basement/Bowser in the Fire Sea/Bowser in the Fire Sea - Defeat Bowser",
+                "name": "Bowser in the Fire Sea - Defeat Bowser"
+            },
+            {
+                "ref": "Plexal Basement/Bowser in the Fire Sea/Minion's Prison - Visit the Jailed Goombas",
+                "name": "Minion's Prison - Visit the Jailed Goombas"
+            },
+            {
+                "ref": "Plexal Basement/Tiny-Huge Island (beta)/Tiny-Huge Island (beta) - Pluck the Piranha Flowers",
+                "name": "Tiny-Huge Island (beta) - Pluck the Piranha Flowers"
+            },
+            {
+                "ref": "Plexal Basement/Tiny-Huge Island (beta)/Tiny-Huge Island (beta) - The Tip Top of the Huge Island",
+                "name": "Tiny-Huge Island (beta) - The Tip Top of the Huge Island"
+            },
+            {
+                "ref": "Plexal Basement/Tiny-Huge Island (beta)/Tiny-Huge Island (beta) - Above the Huge Island Lake",
+                "name": "Tiny-Huge Island (beta) - Above the Huge Island Lake"
+            },
+            {
+                "ref": "Plexal Basement/Tiny-Huge Island (beta)/Tiny-Huge Island (beta) - Above the Tiny Island Lake",
+                "name": "Tiny-Huge Island (beta) - Above the Tiny Island Lake"
+            },
+            {
+                "ref": "Plexal Basement/Tiny-Huge Island (beta)/Tiny-Huge Island (beta) - Red Coins",
+                "name": "Tiny-Huge Island (beta) - Red Coins"
+            },
+            {
+                "ref": "Plexal Basement/Tiny-Huge Island (beta)/Wiggler's Cave - Make Wiggler Squirm",
+                "name": "Wiggler's Cave - Make Wiggler Squirm"
+            },
+            {
+                "ref": "Plexal Basement/Tiny-Huge Island (beta)/Wiggler's Cave - Silver Stars",
+                "name": "Wiggler's Cave - Silver Stars"
+            },
+            {
+                "ref": "Plexal Basement/Flooded Downtown/Flooded Downtown - Yellow Box on a Building",
+                "name": "Flooded Downtown - Yellow Box on a Building"
+            },
+            {
+                "ref": "Plexal Basement/Flooded Downtown/Flooded Downtown - Free Star",
+                "name": "Flooded Downtown - Free Star"
+            },
+            {
+                "ref": "Plexal Basement/Flooded Downtown/Flooded Downtown - Door Secrets",
+                "name": "Flooded Downtown - Door Secrets"
+            },
+            {
+                "ref": "Plexal Basement/Shifted Sand Land/Shifted Sand Land - Red Coins",
+                "name": "Shifted Sand Land - Red Coins"
+            },
+            {
+                "ref": "Plexal Basement/Shifted Sand Land/Shifted Sand Land - In a Box",
+                "name": "Shifted Sand Land - In a Box"
+            },
+            {
+                "ref": "Plexal Basement/Shifted Sand Land/Eyerok's Tomb - Defeat Eyerok",
+                "name": "Eyerok's Tomb - Defeat Eyerok"
+            },
+            {
+                "ref": "Plexal Basement/Desert Maze/Desert Maze - Top of the Flagpole",
+                "name": "Desert Maze - Top of the Flagpole"
+            },
+            {
+                "ref": "Plexal Basement/Desert Maze/Desert Maze - Red Coins",
+                "name": "Desert Maze - Red Coins"
+            },
+            {
+                "ref": "Plexal Basement/Toad Catacombs/Toad Catacombs - Coffin Secrets",
+                "name": "Toad Catacombs - Coffin Secrets"
+            },
+            {
+                "ref": "Floor 3B/Lethal Cavern/Lethal Cavern - Metal Cap Switch",
+                "name": "Lethal Cavern - Metal Cap Switch"
+            },
+            {
+                "ref": "Floor 3B/Lethal Cavern/Lethal Cavern - Near the Ominous Cave",
+                "name": "Lethal Cavern - Near the Ominous Cave"
+            },
+            {
+                "ref": "Floor 3B/Lethal Cavern/Lethal Cavern - Up the Lava Falls",
+                "name": "Lethal Cavern - Up the Lava Falls"
+            },
+            {
+                "ref": "Plexal Basement/Dry Town/Dry Town - Top of the Town",
+                "name": "Dry Town - Top of the Town"
+            },
+            {
+                "ref": "Plexal Basement/Dry Town/Dry Town - Door Secrets",
+                "name": "Dry Town - Door Secrets"
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "overview",
+                "x": 530,
+                "y": 150
+            }
+        ]
+    }
+]

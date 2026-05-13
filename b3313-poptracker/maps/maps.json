@@ -1,0 +1,308 @@
+[
+    {
+        "name": "overview",
+        "img": "images/maps/overview.png",
+        "location_size": 20,
+        "location_border_thickness": 1
+    },
+    {
+        "name": "3f_beta",
+        "img": "images/maps/3f_beta.png",
+        "location_size": 20,
+        "location_border_thickness": 1
+    },
+    {
+        "name": "4f",
+        "img": "images/maps/4f.png",
+        "location_size": 20,
+        "location_border_thickness": 1
+    },
+    {
+        "name": "4f_beta",
+        "img": "images/maps/4f_beta.png",
+        "location_size": 20,
+        "location_border_thickness": 1
+    },
+    {
+        "name": "basement_annex",
+        "img": "images/maps/basement_annex.png",
+        "location_size": 20,
+        "location_border_thickness": 1
+    },
+    {
+        "name": "beta_lobby_a",
+        "img": "images/maps/beta_lobby_a.png",
+        "location_size": 20,
+        "location_border_thickness": 1
+    },
+    {
+        "name": "beta_lobby_b",
+        "img": "images/maps/beta_lobby_b.png",
+        "location_size": 20,
+        "location_border_thickness": 1
+    },
+    {
+        "name": "beta_lobby_c",
+        "img": "images/maps/beta_lobby_c.png",
+        "location_size": 20,
+        "location_border_thickness": 1
+    },
+    {
+        "name": "beta_lobby_d",
+        "img": "images/maps/beta_lobby_d.png",
+        "location_size": 20,
+        "location_border_thickness": 1
+    },
+    {
+        "name": "beta_lobby_e",
+        "img": "images/maps/beta_lobby_e.png",
+        "location_size": 20,
+        "location_border_thickness": 1
+    },
+    {
+        "name": "bowser_domain",
+        "img": "images/maps/bowser_domain.png",
+        "location_size": 20,
+        "location_border_thickness": 1
+    },
+    {
+        "name": "bowser_floor",
+        "img": "images/maps/bowser_floor.png",
+        "location_size": 20,
+        "location_border_thickness": 1
+    },
+    {
+        "name": "castle_bathroom",
+        "img": "images/maps/castle_bathroom.png",
+        "location_size": 20,
+        "location_border_thickness": 1
+    },
+    {
+        "name": "castle_grounds",
+        "img": "images/maps/castle_grounds.png",
+        "location_size": 20,
+        "location_border_thickness": 1
+    },
+    {
+        "name": "challenge_lobby",
+        "img": "images/maps/challenge_lobby.png",
+        "location_size": 20,
+        "location_border_thickness": 1
+    },
+    {
+        "name": "courtyard_fabricated",
+        "img": "images/maps/courtyard_fabricated.png",
+        "location_size": 20,
+        "location_border_thickness": 1
+    },
+    {
+        "name": "crescent_castle",
+        "img": "images/maps/crescent_castle.png",
+        "location_size": 20,
+        "location_border_thickness": 1
+    },
+    {
+        "name": "crimson_hallway",
+        "img": "images/maps/crimson_hallway.png",
+        "location_size": 20,
+        "location_border_thickness": 1
+    },
+    {
+        "name": "cryptic_hideout",
+        "img": "images/maps/cryptic_hideout.png",
+        "location_size": 20,
+        "location_border_thickness": 1
+    },
+    {
+        "name": "elder_library",
+        "img": "images/maps/elder_library.png",
+        "location_size": 20,
+        "location_border_thickness": 1
+    },
+    {
+        "name": "fabricated_grounds",
+        "img": "images/maps/fabricated_grounds.png",
+        "location_size": 20,
+        "location_border_thickness": 1
+    },
+    {
+        "name": "fabricated_lobby",
+        "img": "images/maps/fabricated_lobby.png",
+        "location_size": 20,
+        "location_border_thickness": 1
+    },
+    {
+        "name": "fake_lobby",
+        "img": "images/maps/fake_lobby.png",
+        "location_size": 20,
+        "location_border_thickness": 1
+    },
+    {
+        "name": "floor_2b",
+        "img": "images/maps/floor_2b.png",
+        "location_size": 20,
+        "location_border_thickness": 1
+    },
+    {
+        "name": "floor_3b",
+        "img": "images/maps/floor_3b.png",
+        "location_size": 20,
+        "location_border_thickness": 1
+    },
+    {
+        "name": "floor_4b",
+        "img": "images/maps/floor_4b.png",
+        "location_size": 20,
+        "location_border_thickness": 1
+    },
+    {
+        "name": "genesis_basement",
+        "img": "images/maps/genesis_basement.png",
+        "location_size": 20,
+        "location_border_thickness": 1
+    },
+    {
+        "name": "hybrid_lobby",
+        "img": "images/maps/hybrid_lobby.png",
+        "location_size": 20,
+        "location_border_thickness": 1
+    },
+    {
+        "name": "internal_garden",
+        "img": "images/maps/internal_garden.png",
+        "location_size": 20,
+        "location_border_thickness": 1
+    },
+    {
+        "name": "internal_sewer_system",
+        "img": "images/maps/internal_sewer_system.png",
+        "location_size": 20,
+        "location_border_thickness": 1
+    },
+    {
+        "name": "main_map",
+        "img": "images/maps/main_map.png",
+        "location_size": 20,
+        "location_border_thickness": 1
+    },
+    {
+        "name": "nebula_lobby",
+        "img": "images/maps/nebula_lobby.png",
+        "location_size": 20,
+        "location_border_thickness": 1
+    },
+    {
+        "name": "orange_hall",
+        "img": "images/maps/orange_hall.png",
+        "location_size": 20,
+        "location_border_thickness": 1
+    },
+    {
+        "name": "overworld",
+        "img": "images/maps/overworld.png",
+        "location_size": 20,
+        "location_border_thickness": 1
+    },
+    {
+        "name": "painting_museum",
+        "img": "images/maps/painting_museum.png",
+        "location_size": 20,
+        "location_border_thickness": 1
+    },
+    {
+        "name": "parallel_lobby",
+        "img": "images/maps/parallel_lobby.png",
+        "location_size": 20,
+        "location_border_thickness": 1
+    },
+    {
+        "name": "plexal_basement",
+        "img": "images/maps/plexal_basement.png",
+        "location_size": 20,
+        "location_border_thickness": 1
+    },
+    {
+        "name": "plexal_hallway",
+        "img": "images/maps/plexal_hallway.png",
+        "location_size": 20,
+        "location_border_thickness": 1
+    },
+    {
+        "name": "plexal_lobby",
+        "img": "images/maps/plexal_lobby.png",
+        "location_size": 20,
+        "location_border_thickness": 1
+    },
+    {
+        "name": "plexal_upstairs",
+        "img": "images/maps/plexal_upstairs.png",
+        "location_size": 20,
+        "location_border_thickness": 1
+    },
+    {
+        "name": "polygonal chaos",
+        "img": "images/maps/polygonal chaos.png",
+        "location_size": 20,
+        "location_border_thickness": 1
+    },
+    {
+        "name": "purple",
+        "img": "images/maps/purple.png",
+        "location_size": 20,
+        "location_border_thickness": 1
+    },
+    {
+        "name": "royal_lobby",
+        "img": "images/maps/royal_lobby.png",
+        "location_size": 20,
+        "location_border_thickness": 1
+    },
+    {
+        "name": "silent_hall",
+        "img": "images/maps/silent_hall.png",
+        "location_size": 20,
+        "location_border_thickness": 1
+    },
+    {
+        "name": "star_road",
+        "img": "images/maps/star_road.png",
+        "location_size": 20,
+        "location_border_thickness": 1
+    },
+    {
+        "name": "stellar_tower",
+        "img": "images/maps/stellar_tower.png",
+        "location_size": 20,
+        "location_border_thickness": 1
+    },
+    {
+        "name": "uncanny_courtyard",
+        "img": "images/maps/uncanny_courtyard.png",
+        "location_size": 20,
+        "location_border_thickness": 1
+    },
+    {
+        "name": "vanilla_basement",
+        "img": "images/maps/vanilla_basement.png",
+        "location_size": 20,
+        "location_border_thickness": 1
+    },
+    {
+        "name": "vanilla_courtyard",
+        "img": "images/maps/vanilla_courtyard.png",
+        "location_size": 20,
+        "location_border_thickness": 1
+    },
+    {
+        "name": "vanilla_lobby",
+        "img": "images/maps/vanilla_lobby.png",
+        "location_size": 20,
+        "location_border_thickness": 1
+    },
+    {
+        "name": "vanilla_upstairs",
+        "img": "images/maps/vanilla_upstairs.png",
+        "location_size": 20,
+        "location_border_thickness": 1
+    }
+]

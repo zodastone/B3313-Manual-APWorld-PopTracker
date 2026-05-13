@@ -1,0 +1,273 @@
+[
+    {
+        "name": "Floor 4B",
+        "chest_unopened_img": "/images/map_checks/star.png",
+        "chest_opened_img": "/images/map_checks/check.png",
+        "children": [
+            {
+                "name": "Fly Guy's Hill",
+                "access_rules": [
+                    "floor_4b_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Fly Guy's Hill - In the Lighthouse Window",
+                        "item_count": 1,
+                        "access_rules": [
+                            "triple_jump, wing_cap",
+                            "cannon_unlock_(fly_guys_hill), wall_kick, wing_cap"
+                        ]
+                    },
+                    {
+                        "name": "Fly Guy's Hill - Red Coins",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightLedgeGrab"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "floor_4b",
+                        "x": 177,
+                        "y": 325
+                    }
+                ]
+            },
+            {
+                "name": "Peach's Secret Slide (beta)",
+                "access_rules": [
+                    "floor_4b_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Peach's Secret Slide (beta) - Bottom of the Slide",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "floor_4b",
+                        "x": 232,
+                        "y": 160
+                    }
+                ]
+            },
+            {
+                "name": "Dream Forest",
+                "access_rules": [
+                    "floor_4b_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Dream Forest - Above the Canopy",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightLedgeGrab, triple_jump",
+                            "$DistLedgeGrab, $HeightLedgeGrab, $YamlEnabled|fly_guy"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "floor_4b",
+                        "x": 275,
+                        "y": 185
+                    }
+                ]
+            },
+            {
+                "name": "Toxic Ruins",
+                "access_rules": [
+                    "floor_4b_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Toxic Ruins - Red Coins",
+                        "item_count": 1,
+                        "access_rules": [
+                            "triple_jump",
+                            "cannon_unlock_(toxic_ruins)",
+                            "$HeightLedgeGrab, long_jump",
+                            "$HeightLedgeGrab, $YamlEnabled|lava_boost"
+                        ]
+                    },
+                    {
+                        "name": "Toxic Ruins - Top of the Ruins",
+                        "item_count": 1,
+                        "access_rules": [
+                            "cannon_unlock_(toxic_ruins)"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "floor_4b",
+                        "x": 250,
+                        "y": 125
+                    }
+                ]
+            },
+            {
+                "name": "Dream Battlefield",
+                "access_rules": [
+                    "floor_4b_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Dream Battlefield - On the Fence",
+                        "item_count": 1,
+                        "access_rules": [
+                            "wall_kick"
+                        ]
+                    },
+                    {
+                        "name": "Dream Battlefield - Chip Off Whomp's Block",
+                        "item_count": 1,
+                        "access_rules": [
+                            "ground_pound, wall_kick"
+                        ]
+                    },
+                    {
+                        "name": "Dream Battlefield - On the Cliffside",
+                        "item_count": 1,
+                        "access_rules": [
+                            "triple_jump, wall_kick",
+                            "cannon_unlock_(dream_battlefield), wall_kick",
+                            "kick, $YamlEnabled|slope_movement, wall_kick"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "floor_4b",
+                        "x": 373,
+                        "y": 90
+                    }
+                ]
+            },
+            {
+                "name": "Water Cube",
+                "access_rules": [
+                    "floor_4b_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Water Cube - In the Side Room",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "floor_4b",
+                        "x": 485,
+                        "y": 165
+                    }
+                ]
+            },
+            {
+                "name": "Big Blue Skylands",
+                "access_rules": [
+                    "$HeightBackflip, floor_4b_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Big Blue Skylands - Red Coins",
+                        "item_count": 1,
+                        "access_rules": [
+                            "triple_jump, wing_cap",
+                            "cannon_unlock_(big_blue_skylands), wing_cap"
+                        ]
+                    },
+                    {
+                        "name": "Big Blue Skylands - The Big House in the Sky",
+                        "item_count": 1,
+                        "access_rules": [
+                            "triple_jump, wing_cap",
+                            "cannon_unlock_(big_blue_skylands), wing_cap"
+                        ]
+                    },
+                    {
+                        "name": "Big Blue Skylands - Atop a Spire",
+                        "item_count": 1,
+                        "access_rules": [
+                            "triple_jump, wing_cap",
+                            "$DistLedgeGrab, cannon_unlock_(big_blue_skylands)"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "floor_4b",
+                        "x": 345,
+                        "y": 383
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Floor 4B Courses",
+        "sections": [
+            {
+                "ref": "Floor 4B/Fly Guy's Hill/Fly Guy's Hill - In the Lighthouse Window",
+                "name": "Fly Guy's Hill - In the Lighthouse Window"
+            },
+            {
+                "ref": "Floor 4B/Fly Guy's Hill/Fly Guy's Hill - Red Coins",
+                "name": "Fly Guy's Hill - Red Coins"
+            },
+            {
+                "ref": "Floor 4B/Peach's Secret Slide (beta)/Peach's Secret Slide (beta) - Bottom of the Slide",
+                "name": "Peach's Secret Slide (beta) - Bottom of the Slide"
+            },
+            {
+                "ref": "Floor 4B/Dream Forest/Dream Forest - Above the Canopy",
+                "name": "Dream Forest - Above the Canopy"
+            },
+            {
+                "ref": "Floor 4B/Toxic Ruins/Toxic Ruins - Red Coins",
+                "name": "Toxic Ruins - Red Coins"
+            },
+            {
+                "ref": "Floor 4B/Toxic Ruins/Toxic Ruins - Top of the Ruins",
+                "name": "Toxic Ruins - Top of the Ruins"
+            },
+            {
+                "ref": "Floor 4B/Dream Battlefield/Dream Battlefield - On the Fence",
+                "name": "Dream Battlefield - On the Fence"
+            },
+            {
+                "ref": "Floor 4B/Dream Battlefield/Dream Battlefield - Chip Off Whomp's Block",
+                "name": "Dream Battlefield - Chip Off Whomp's Block"
+            },
+            {
+                "ref": "Floor 4B/Dream Battlefield/Dream Battlefield - On the Cliffside",
+                "name": "Dream Battlefield - On the Cliffside"
+            },
+            {
+                "ref": "Floor 4B/Water Cube/Water Cube - In the Side Room",
+                "name": "Water Cube - In the Side Room"
+            },
+            {
+                "ref": "Floor 4B/Big Blue Skylands/Big Blue Skylands - Red Coins",
+                "name": "Big Blue Skylands - Red Coins"
+            },
+            {
+                "ref": "Floor 4B/Big Blue Skylands/Big Blue Skylands - The Big House in the Sky",
+                "name": "Big Blue Skylands - The Big House in the Sky"
+            },
+            {
+                "ref": "Floor 4B/Big Blue Skylands/Big Blue Skylands - Atop a Spire",
+                "name": "Big Blue Skylands - Atop a Spire"
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "overview",
+                "x": 280,
+                "y": 330
+            }
+        ]
+    }
+]

@@ -1,0 +1,71 @@
+[
+    {
+        "name": "Vanilla Courtyard",
+        "chest_unopened_img": "/images/map_checks/star.png",
+        "chest_opened_img": "/images/map_checks/check.png",
+        "children": [
+            {
+                "name": "Big Boo's Haunt (vanilla)",
+                "access_rules": [
+                    "vanilla_courtyard_courses"
+                ],
+                "sections": [
+                    {
+                        "name": "Big Boo's Haunt (vanilla) - Big Boo's Balcony",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightWallKick"
+                        ]
+                    },
+                    {
+                        "name": "Big Boo's Haunt (vanilla) - Ride Big Boo's Merry-Go-Round",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Big Boo's Haunt (vanilla) - Go on a Ghost Hunt",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Big Boo's Haunt (vanilla) - Red Coins",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "vanilla_courtyard",
+                        "x": 180,
+                        "y": 195
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Vanilla Courtyard Courses",
+        "sections": [
+            {
+                "ref": "Vanilla Courtyard/Big Boo's Haunt (vanilla)/Big Boo's Haunt (vanilla) - Big Boo's Balcony",
+                "name": "Big Boo's Haunt (vanilla) - Big Boo's Balcony"
+            },
+            {
+                "ref": "Vanilla Courtyard/Big Boo's Haunt (vanilla)/Big Boo's Haunt (vanilla) - Ride Big Boo's Merry-Go-Round",
+                "name": "Big Boo's Haunt (vanilla) - Ride Big Boo's Merry-Go-Round"
+            },
+            {
+                "ref": "Vanilla Courtyard/Big Boo's Haunt (vanilla)/Big Boo's Haunt (vanilla) - Go on a Ghost Hunt",
+                "name": "Big Boo's Haunt (vanilla) - Go on a Ghost Hunt"
+            },
+            {
+                "ref": "Vanilla Courtyard/Big Boo's Haunt (vanilla)/Big Boo's Haunt (vanilla) - Red Coins",
+                "name": "Big Boo's Haunt (vanilla) - Red Coins"
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "overview",
+                "x": 780,
+                "y": 60
+            }
+        ]
+    }
+]
