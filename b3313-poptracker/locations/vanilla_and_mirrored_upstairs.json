@@ -288,6 +288,10 @@
             {
                 "ref": "Vanilla Lobby/Flying Fortress/Flying Fortress - Top of the Tower",
                 "name": "Flying Fortress - Top of the Tower"
+            },
+            {
+                "ref": "Beta Lobby B/wf.z64/wf.z64 - Top of the Tower",
+                "name": "wf.z64 - Top of the Tower"
             }
         ],
         "map_locations": [

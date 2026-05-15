@@ -150,8 +150,8 @@
                             "cannon_unlock_(whomps_kingdom)",
                             "climb",
                             "backflip",
-                            "wall_kick, triple_jump",
-                            "wall_kick, side_flip"
+                            "triple_jump",
+                            "wall_kick"
                         ]
                     },
                     {
@@ -161,8 +161,8 @@
                             "cannon_unlock_(whomps_kingdom)",
                             "climb",
                             "backflip",
-                            "wall_kick, triple_jump",
-                            "wall_kick, side_flip"
+                            "triple_jump",
+                            "wall_kick"
                         ]
                     },
                     {
@@ -186,15 +186,6 @@
                         "access_rules": [
                             "cannon_unlock_(whomps_kingdom), ground_pound"
                         ]
-                    },
-                    {
-                        "name": "wf.z64 - Top of the Tower",
-                        "chest_unopened_img": "/images/items/red_star.png",
-                        "item_count": 1,
-                        "access_rules": [
-                            "cannon_unlock_(whomps_kingdom), ledge_grab, side_flip, wall_kick",
-                            "ledge_grab, side_flip, triple_jump, wall_kick"
-                        ]
                     }
                 ],
                 "map_locations": [
@@ -202,6 +193,46 @@
                         "map": "beta_lobby_b",
                         "x": 150,
                         "y": 175
+                    }
+                ]
+            },
+            {
+                "name": "wf.z64",
+                "access_rules": [
+                    "beta_lobby_b_courses, cannon_unlock_(whomps_kingdom)",
+                    "beta_lobby_b_courses, triple_jump",
+                    "vanilla_lobby_courses, cannon_unlock_(flying_fortress)",
+                    "vanilla_lobby_courses, climb",
+                    "vanilla_lobby_courses, $HeightKick",
+                    "vanilla_and_mirrored_upstairs_courses, cannon_unlock_(flying_fortress)",
+                    "vanilla_and_mirrored_upstairs_courses, climb",
+                    "vanilla_and_mirrored_upstairs_courses, $HeightKick"
+                ],
+                "sections": [
+                    {
+                        "name": "wf.z64 - Top of the Tower",
+                        "chest_unopened_img": "/images/items/red_star.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "ledge_grab, side_flip, wall_kick"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "beta_lobby_b",
+                        "x": 150,
+                        "y": 150
+                    },
+                    {
+                        "map": "vanilla_lobby",
+                        "x": 357,
+                        "y": 140
+                    },
+                    {
+                        "map": "vanilla_upstairs",
+                        "x": 63,
+                        "y": 176
                     }
                 ]
             },
@@ -344,7 +375,7 @@
                 "name": "King Whomp's Battle Arena - Chip Off Whomp's Block"
             },
             {
-                "ref": "Beta Lobby B/Whomp's Kingdom/wf.z64 - Top of the Tower",
+                "ref": "Beta Lobby B/wf.z64/wf.z64 - Top of the Tower",
                 "name": "wf.z64 - Top of the Tower"
             },
             {
