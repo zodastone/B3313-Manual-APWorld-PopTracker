@@ -1,6 +1,8 @@
 [
     {
         "name": "Victory",
+        "chest_unopened_img": "/images/map_checks/star.png",
+        "chest_opened_img": "/images/map_checks/check.png",
         "children": [
             {
                 "name": "__start__",

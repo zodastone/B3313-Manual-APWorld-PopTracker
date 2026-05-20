@@ -333,13 +333,16 @@
                 "sections": [
                     {
                         "name": "Snowman's Frozen Desert - Top of the Mountain",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightKick"
+                        ]
                     },
                     {
                         "name": "Snowman's Frozen Desert - In the Deep Freeze",
                         "item_count": 1,
                         "access_rules": [
-                            "ground_pound"
+                            "$HeightKick, ground_pound"
                         ]
                     },
                     {

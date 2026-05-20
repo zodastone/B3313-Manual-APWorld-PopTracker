@@ -46,7 +46,7 @@
             {
                 "name": "Peach's Cell",
                 "access_rules": [
-                    "bowsers_floor_and_endgame_courses, $HeightKick"
+                    "bowsers_floor_and_endgame_courses"
                 ],
                 "sections": [
                     {
@@ -65,7 +65,7 @@
             {
                 "name": "Randomized Realm",
                 "access_rules": [
-                    "bowsers_floor_and_endgame_courses, $HeightKick"
+                    "bowsers_floor_and_endgame_courses"
                 ],
                 "sections": [
                     {
@@ -96,8 +96,8 @@
             {
                 "name": "Eternal Fort",
                 "access_rules": [
-                    "$HasEternalFortRedStars, bowsers_floor_and_endgame_courses, $HeightKick, triple_jump, wing_cap",
-                    "$HasEternalFortRedStars, bowsers_floor_and_endgame_courses, $HeightKick, ledge_grab, side_flip, triple_jump, wall_kick"
+                    "$HasEternalFortRedStars, bowsers_floor_and_endgame_courses, triple_jump, wing_cap",
+                    "$HasEternalFortRedStars, bowsers_floor_and_endgame_courses, ledge_grab, side_flip, triple_jump, wall_kick"
                 ],
                 "sections": [
                     {
@@ -108,11 +108,8 @@
                         ]
                     },
                     {
-                        "name": "Game Beaten",
-                        "item_count": 1,
-                        "access_rules": [
-                            "dead_bowser"
-                        ]
+                        "ref": "Victory/__start__/Game Beaten",
+                        "name": "Game Beaten"
                     }
                 ],
                 "map_locations": [
@@ -157,7 +154,7 @@
                 "name": "Eternal Fort - Defeat Bowser"
             },
             {
-                "ref": "Bowser's Floor and Endgame/Eternal Fort/Game Beaten",
+                "ref": "Victory/__start__/Game Beaten",
                 "name": "Game Beaten"
             }
         ],

@@ -79,10 +79,10 @@
                         "item_count": 1,
                         "access_rules": [
                             "cannon_unlock_(fire_field)",
-                            "$YamlEnabled|slope_movement, climb, kick",
-                            "$YamlEnabled|slope_movement, kick, long_jump",
-                            "$YamlEnabled|slope_movement, kick, triple_jump",
-                            "$YamlEnabled|lava_boost, $YamlEnabled|slope_movement, kick"
+                            "$YamlEnabled|slope_movement, climb",
+                            "$YamlEnabled|slope_movement, long_jump",
+                            "$YamlEnabled|slope_movement, triple_jump",
+                            "$YamlEnabled|lava_boost, $YamlEnabled|slope_movement"
                         ]
                     }
                 ],

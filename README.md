@@ -5,6 +5,7 @@ This is a [PopTracker](https://poptracker.github.io/) pack for the [B3313 Manual
 This pack contains maps for each unlockable overworld chunk, and additional tabs for overworld checks and an overview of all checks.
 
 Once connected to the multiworld server, this tracker can also serve as a client, i.e. checking off a location on the map will actually send the location.
+(Note: sending the victory condition is not currently supported; you'll need to use the manual client for this.)
 
 # Credits
 

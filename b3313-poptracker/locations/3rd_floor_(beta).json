@@ -33,7 +33,7 @@
                         "name": "castle1 - Star Chase",
                         "item_count": 1,
                         "access_rules": [
-                            "$YamlEnabled|slope_movement, kick",
+                            "$YamlEnabled|slope_movement",
                             "$DistLedgeGrab, $HeightDoubleJumpWallKick"
                         ]
                     }
