@@ -114,7 +114,10 @@
             {
                 "name": "Fish Tank",
                 "access_rules": [
-                    "$HeightLedgeGrab, vanilla_lobby_courses"
+                    "ledge_grab, vanilla_lobby_courses",
+                    "backflip, vanilla_lobby_courses",
+                    "side_flip, vanilla_lobby_courses",
+                    "triple_jump, vanilla_lobby_courses"
                 ],
                 "sections": [
                     {

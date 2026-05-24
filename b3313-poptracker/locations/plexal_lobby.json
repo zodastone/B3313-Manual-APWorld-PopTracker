@@ -22,7 +22,7 @@
                         "name": "Big Boo's Haunted Forest - Silver Stars",
                         "item_count": 1,
                         "access_rules": [
-                            "plexal_lobby_courses, $HeightKick"
+                            "plexal_lobby_courses, $HeightKick, vanish_cap"
                         ]
                     },
                     {

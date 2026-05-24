@@ -30,7 +30,8 @@
             {
                 "name": "Checkerboard",
                 "access_rules": [
-                    "$HeightWallKickLedgeGrab, uncanny_courtyard_courses"
+                    "triple_jump, wall_kick, ledge_grab, uncanny_courtyard_courses",
+                    "side_flip, wall_kick, ledge_grab, uncanny_courtyard_courses"
                 ],
                 "sections": [
                     {

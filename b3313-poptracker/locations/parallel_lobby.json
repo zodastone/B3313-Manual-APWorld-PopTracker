@@ -353,7 +353,10 @@
                         "chest_unopened_img": "/images/items/red_star.png",
                         "item_count": 1,
                         "access_rules": [
-                            "$HeightBackflip"
+                            "backflip",
+                            "side_flip",
+                            "triple_jump",
+                            "wall_kick, ledge_grab",
                         ]
                     }
                 ],
