@@ -22,7 +22,8 @@
                         "name": "Fly Guy's Hill - Red Coins",
                         "item_count": 1,
                         "access_rules": [
-                            "$HeightLedgeGrab"
+                            "$HeightBackflip",
+                            "$HeightLedgeGrab, $YamlEnabled|slope_movement"
                         ]
                     }
                 ],

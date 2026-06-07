@@ -7,7 +7,7 @@
             {
                 "name": "Yoshi's Beach",
                 "access_rules": [
-                    "star_road_courses"
+                    "star_road_courses, $HeightKick"
                 ],
                 "sections": [
                     {
@@ -65,7 +65,7 @@
             {
                 "name": "Ultra Battle Fort",
                 "access_rules": [
-                    "star_road_courses"
+                    "star_road_courses, $HeightKick"
                 ],
                 "sections": [
                     {
@@ -104,7 +104,7 @@
             {
                 "name": "Snow Tower",
                 "access_rules": [
-                    "star_road_courses"
+                    "star_road_courses, $HeightKick"
                 ],
                 "sections": [
                     {
@@ -141,7 +141,7 @@
             {
                 "name": "Wet-Dry Town",
                 "access_rules": [
-                    "star_road_courses"
+                    "star_road_courses, $HeightKick"
                 ],
                 "sections": [
                     {
@@ -176,7 +176,7 @@
             {
                 "name": "Corrupted Challenge",
                 "access_rules": [
-                    "star_road_courses"
+                    "star_road_courses, $HeightKick"
                 ],
                 "sections": [
                     {

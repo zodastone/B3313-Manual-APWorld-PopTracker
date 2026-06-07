@@ -92,19 +92,11 @@
                     },
                     {
                         "name": "Carryboy Farmland - Red Coins",
-                        "item_count": 1,
-                        "access_rules": [
-                            "$HeightKick",
-                            "climb"
-                        ]
+                        "item_count": 1
                     },
                     {
                         "name": "Carryboy Farmland - Plant the Crops",
-                        "item_count": 1,
-                        "access_rules": [
-                            "$HeightKick",
-                            "climb"
-                        ]
+                        "item_count": 1
                     }
                 ],
                 "map_locations": [

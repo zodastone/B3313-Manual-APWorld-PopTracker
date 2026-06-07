@@ -189,20 +189,18 @@
                         "name": "Uncanny Courtyard - MIPS 1",
                         "item_count": 1,
                         "access_rules": [
-                            "backflip",
-                            "side_flip",
-                            "triple_jump",
-                            "climb"
+                            "ledge_grab, climb",
+                            "ledge_grab, side_flip",
+                            "triple_jump"
                         ]
                     },
                     {
                         "name": "Uncanny Courtyard - MIPS 2",
                         "item_count": 1,
                         "access_rules": [
-                            "backflip",
-                            "side_flip",
-                            "triple_jump",
-                            "climb"
+                            "ledge_grab, climb",
+                            "ledge_grab, side_flip",
+                            "triple_jump"
                         ]
                     },
                     {

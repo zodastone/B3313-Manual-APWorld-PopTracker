@@ -55,7 +55,7 @@
                         "item_count": 1,
                         "access_rules": [
                             "cannon_unlock_(piranha_plant_garden), vanish_cap",
-                            "$HeightSideFlipLedgeGrab, vanish_cap"
+                            "$HeightWallKick, vanish_cap"
                         ]
                     },
                     {
@@ -63,7 +63,7 @@
                         "item_count": 1,
                         "access_rules": [
                             "cannon_unlock_(piranha_plant_garden)",
-                            "$HeightSideFlipLedgeGrab"
+                            "$HeightWallKick"
                         ]
                     }
                 ],
@@ -120,7 +120,7 @@
                         "item_count": 1,
                         "access_rules": [
                             "$DistWallKickLedgeGrab",
-                            "$YamlEnabled|slope_movement, kick, wall_kick"
+                            "$YamlEnabled|slope_movement, $DistLedgeGrab"
                         ]
                     },
                     {
@@ -135,7 +135,7 @@
                         "item_count": 1,
                         "access_rules": [
                             "$DistWallKickLedgeGrab",
-                            "$YamlEnabled|slope_movement, kick"
+                            "$YamlEnabled|slope_movement"
                         ]
                     },
                     {
@@ -143,7 +143,7 @@
                         "item_count": 1,
                         "access_rules": [
                             "$DistWallKickLedgeGrab",
-                            "$YamlEnabled|slope_movement, kick"
+                            "$YamlEnabled|slope_movement"
                         ]
                     },
                     {
@@ -151,13 +151,14 @@
                         "item_count": 1,
                         "access_rules": [
                             "$DistWallKickLedgeGrab",
-                            "$YamlEnabled|slope_movement, kick"
+                            "$YamlEnabled|slope_movement"
                         ]
                     },
                     {
                         "name": "Magic Mushroom Cave - Under the Rainbow Mushroom",
                         "item_count": 1,
                         "access_rules": [
+                            "$YamlEnabled|slope_movement, climb",
                             "$DistLedgeGrab, climb",
                             "$YamlEnabled|slope_movement, kick",
                             "$DistLedgeGrab, kick"

@@ -62,8 +62,7 @@
                         "chest_unopened_img": "/images/map_checks/green_star.png",
                         "item_count": 1,
                         "access_rules": [
-                            "$DistLongJump, $HeightBackflip, green_comet",
-                            "$DistLongJump, $YamlEnabled|lava_boost, green_comet"
+                            "$DistLongJump, $HeightBackflip, green_comet"
                         ]
                     }
                 ],
@@ -85,7 +84,8 @@
                         "name": "Rocky Trek - Top of the Mountain",
                         "item_count": 1,
                         "access_rules": [
-                            "$HeightWallKick"
+                            "$HeightWallKick",
+                            "$HeightLedgeGrab, climb"
                         ]
                     }
                 ],

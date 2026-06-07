@@ -15,7 +15,7 @@
                         "item_count": 1,
                         "access_rules": [
                             "triple_jump",
-                            "$DistKick, kick, $YamlEnabled|slope_movement",
+                            "$DistKick, $YamlEnabled|slope_movement",
                             "$DistKick, wall_kick",
                             "$DistLongJump, $HeightWallKick",
                             "$HeightWallKick, climb"

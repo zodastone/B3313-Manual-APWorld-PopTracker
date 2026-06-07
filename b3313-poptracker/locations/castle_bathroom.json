@@ -27,7 +27,7 @@
                         "item_count": 1,
                         "access_rules": [
                             "triple_jump",
-                            "$DistLongJump, $HeightLedgeGrab, cannon_unlock_(river_mountain_(beta))"
+                            "$DistLongJump, $HeightBackflip, cannon_unlock_(river_mountain_(beta))"
                         ]
                     }
                 ],

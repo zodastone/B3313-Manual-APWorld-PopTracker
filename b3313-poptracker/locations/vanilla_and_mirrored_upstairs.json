@@ -17,7 +17,7 @@
                             "cannon_unlock_(wet-dry_paradise)",
                             "$HeightDoubleJumpWallKick",
                             "$YamlEnabled|slope_movement, wall_kick",
-                            "$YamlEnabled|slope_movement, $HeightWallKick, climb"
+                            "$YamlEnabled|slope_movement, $HeightBackflip, climb"
                         ]
                     },
                     {
@@ -25,7 +25,8 @@
                         "item_count": 1,
                         "access_rules": [
                             "cannon_unlock_(wet-dry_paradise)",
-                            "$HeightWallKick"
+                            "$HeightWallKick",
+                            "$YamlEnabled|slope_movement, $HeightBackflip"
                         ]
                     },
                     {

@@ -33,7 +33,7 @@
                         "name": "Stone Island Pathway - End of the Course",
                         "item_count": 1,
                         "access_rules": [
-                            "$HeightBackflip"
+                            "$HeightWallKick"
                         ]
                     }
                 ],

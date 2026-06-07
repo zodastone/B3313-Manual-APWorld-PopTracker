@@ -190,7 +190,7 @@
                 "access_rules": [
                     "challenge_lobby_courses",
                     "ledge_grab, plexal_upstairs_courses, wall_kick",
-                    "plexal_upstairs_courses, side_flip, triple_jump, wall_kick"
+                    "plexal_upstairs_courses, triple_jump, wall_kick"
                 ],
                 "sections": [
                     {

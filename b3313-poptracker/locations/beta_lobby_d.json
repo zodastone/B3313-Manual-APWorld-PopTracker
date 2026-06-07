@@ -52,7 +52,8 @@
                         "access_rules": [
                             "climb, long_jump",
                             "$HeightSideFlip",
-                            "$HeightBackflip, $YamlEnabled|slope_movement, kick"
+                            "$HeightLedgeGrab, $YamlEnabled|slope_movement, kick",
+                            "$HeightLedgeGrab, $YamlEnabled|slope_movement, backflip"
                         ]
                     },
                     {
@@ -60,8 +61,9 @@
                         "item_count": 1,
                         "access_rules": [
                             "$HeightSideFlip",
-                            "$HeightBackflip, $YamlEnabled|slope_movement, kick",
-                            "$HeightBackflip, climb, long_jump"
+                            "$HeightLedgeGrab, $YamlEnabled|slope_movement, kick",
+                            "$HeightLedgeGrab, $YamlEnabled|slope_movement, backflip",
+                            "$HeightLedgeGrab, climb, long_jump"
                         ]
                     },
                     {
@@ -69,8 +71,9 @@
                         "item_count": 1,
                         "access_rules": [
                             "$HeightSideFlip",
-                            "$HeightBackflip, $YamlEnabled|slope_movement, kick",
-                            "$HeightBackflip, climb, long_jump"
+                            "$HeightLedgeGrab, $YamlEnabled|slope_movement, kick",
+                            "$HeightLedgeGrab, $YamlEnabled|slope_movement, backflip",
+                            "$HeightLedgeGrab, climb, long_jump"
                         ]
                     },
                     {
@@ -78,8 +81,9 @@
                         "item_count": 1,
                         "access_rules": [
                             "$HeightSideFlip",
-                            "$HeightBackflip, $YamlEnabled|slope_movement, kick",
-                            "$HeightBackflip, climb, long_jump"
+                            "$HeightLedgeGrab, $YamlEnabled|slope_movement, kick",
+                            "$HeightLedgeGrab, $YamlEnabled|slope_movement, backflip",
+                            "$HeightLedgeGrab, climb, long_jump"
                         ]
                     }
                 ],
@@ -100,9 +104,10 @@
                 "name": "Bob-omb Battlefield (beta)",
                 "access_rules": [
                     "vanilla_lobby_courses",
-                    "$HeightBackflip, $HeightSideFlip, beta_lobby_d_courses, cannon_unlock_(river_mountain)",
-                    "$HeightBackflip, $YamlEnabled|slope_movement, beta_lobby_d_courses, kick",
-                    "$HeightBackflip, beta_lobby_d_courses, cannon_unlock_(river_mountain), climb, long_jump"
+                    "$HeightLedgeGrab, $HeightSideFlip, beta_lobby_d_courses, cannon_unlock_(river_mountain)",
+                    "$HeightLedgeGrab, $YamlEnabled|slope_movement, beta_lobby_d_courses, kick",
+                    "$HeightLedgeGrab, $YamlEnabled|slope_movement, beta_lobby_d_courses, backflip",
+                    "$HeightLedgeGrab, beta_lobby_d_courses, cannon_unlock_(river_mountain), climb, long_jump"
                 ],
                 "sections": [
                     {
@@ -125,7 +130,7 @@
                         "name": "Chomp Caverns - Top of the Cavern",
                         "item_count": 1,
                         "access_rules": [
-                            "$HeightBackflip, $DistKick"
+                            "$HeightWallKick, $DistKick"
                         ]
                     }
                 ],

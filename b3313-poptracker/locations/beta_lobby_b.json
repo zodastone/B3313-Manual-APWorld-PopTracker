@@ -68,15 +68,15 @@
                         "name": "Cold Cold Crevasse - Top of the Area",
                         "item_count": 1,
                         "access_rules": [
-                            "$HeightWallKick"
+                            "wall_kick"
                         ]
                     },
                     {
                         "name": "Cold Cold Crevasse - Silver Stars",
                         "item_count": 1,
                         "access_rules": [
-                            "$DistLongJump, $HeightKick",
-                            "$HeightBackflip, $HeightKick"
+                            "$DistLongJump, $HeightLedgeGrab",
+                            "$HeightBackflip, $HeightLedgeGrab"
                         ]
                     }
                 ],

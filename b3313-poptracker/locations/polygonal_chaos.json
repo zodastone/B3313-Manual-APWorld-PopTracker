@@ -15,7 +15,7 @@
                         "item_count": 1,
                         "access_rules": [
                             "$YamlEnabled|slope_movement, kick, wall_kick",
-                            "$YamlEnabled|slope_movement, dive, side_flip, wall_kick",
+                            "$YamlEnabled|slope_movement, dive, wall_kick",
                             "ledge_grab, side_flip, triple_jump, wall_kick"
                         ]
                     },
@@ -24,7 +24,7 @@
                         "item_count": 1,
                         "access_rules": [
                             "$YamlEnabled|slope_movement, kick, triple_jump, wall_kick",
-                            "$YamlEnabled|slope_movement, dive, side_flip, triple_jump, wall_kick",
+                            "$YamlEnabled|slope_movement, dive, triple_jump, wall_kick",
                             "ledge_grab, side_flip, triple_jump, wall_kick"
                         ]
                     },

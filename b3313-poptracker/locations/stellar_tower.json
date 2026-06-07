@@ -54,7 +54,14 @@
                     },
                     {
                         "name": "Bob-omb Grassyfield - Tree Secrets",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [
+                            "climb",
+                            "backflip",
+                            "side_flip",
+                            "triple_jump",
+                            "$YamlEnabled|slope_movement"
+                        ]
                     }
                 ],
                 "map_locations": [

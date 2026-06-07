@@ -15,7 +15,7 @@
                         "item_count": 1,
                         "access_rules": [
                             "cannon_unlock_(sandstone_palace), vanish_cap",
-                            "$YamlEnabled|backwards_long_jump, cannon_unlock_(sandstone_palace)"
+                            "$YamlEnabled|backwards_long_jump, cannon_unlock_(sandstone_palace), long_jump"
                         ]
                     }
                 ],

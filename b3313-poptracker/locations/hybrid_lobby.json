@@ -26,7 +26,7 @@
                         "item_count": 1,
                         "access_rules": [
                             "dive, wall_kick",
-                            "$YamlEnabled|slope_movement, kick, wall_kick"
+                            "$YamlEnabled|slope_movement, wall_kick"
                         ]
                     },
                     {

@@ -75,8 +75,7 @@
                         "item_count": 1,
                         "access_rules": [
                             "triple_jump, wing_cap",
-                            "$YamlEnabled|slope_movement, kick, ledge_grab, side_flip, triple_jump, wall_kick",
-                            "$YamlEnabled|slope_movement, dive, ledge_grab, long_jump, side_flip, triple_jump, wall_kick"
+                            "$YamlEnabled|slope_movement, ledge_grab, triple_jump, wall_kick"
                         ]
                     },
                     {

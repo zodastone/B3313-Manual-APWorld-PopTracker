@@ -136,10 +136,7 @@
             {
                 "name": "Blazing Bullet Factory",
                 "access_rules": [
-                    "nebula_lobby_courses, vanish_cap, wall_kick",
-                    "ledge_grab, nebula_lobby_courses, vanish_cap",
-                    "backflip, nebula_lobby_courses, vanish_cap",
-                    "nebula_lobby_courses, side_flip, vanish_cap"
+                    "nebula_lobby_courses, vanish_cap, $HeightLedgeGrab"
                 ],
                 "sections": [
                     {

@@ -92,9 +92,9 @@
                             "cannon_unlock_(flying_fortress), wing_cap",
                             "side_flip",
                             "triple_jump",
-                            "$YamlEnabled|slope_movement, cannon_unlock_(flying_fortress), kick",
-                            "$YamlEnabled|slope_movement, climb, kick",
-                            "$HeightKick, $YamlEnabled|slope_movement, kick"
+                            "$YamlEnabled|slope_movement, cannon_unlock_(flying_fortress)",
+                            "$YamlEnabled|slope_movement, climb",
+                            "$HeightKick, $YamlEnabled|slope_movement"
                         ]
                     }
                 ],
