@@ -14,17 +14,18 @@
                         "name": "Grim Green Forest - Under the Canopy",
                         "item_count": 1,
                         "access_rules": [
-                            "ledge_grab",
-                            "backflip",
-                            "$DistKick, climb",
-                            "climb, wall_kick"
+                            "swim, ledge_grab",
+                            "swim, backflip",
+                            "$DistDoubleJump, ceiling_hang",
+                            "ceiling_hang, wall_kick"
                         ]
                     },
                     {
                         "name": "Grim Green Forest - Red Coins",
                         "item_count": 1,
                         "access_rules": [
-                            "$HeightLedgeGrab"
+                            "triple_jump",
+                            "swim, $HeightLedgeGrab"
                         ]
                     }
                 ],
@@ -53,7 +54,7 @@
                         "name": "Thwomp's Fortress - Silver Stars",
                         "item_count": 1,
                         "access_rules": [
-                            "$HeightBackflip",
+                            "$HeightDoubleJump",
                             "$YamlEnabled|lava_boost"
                         ]
                     },
@@ -84,8 +85,8 @@
                         "name": "Rocky Trek - Top of the Mountain",
                         "item_count": 1,
                         "access_rules": [
-                            "$HeightWallKick",
-                            "$HeightLedgeGrab, climb"
+                            "$HeightDoubleJumpLedgeGrab",
+                            "$HeightLedgeGrab, pole_climb"
                         ]
                     }
                 ],
@@ -107,7 +108,7 @@
                         "name": "Cave City - Elevate for Silver Stars",
                         "item_count": 1,
                         "access_rules": [
-                            "$HeightBackflip"
+                            "$HeightBackflip, $GroundBox"
                         ]
                     },
                     {

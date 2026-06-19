@@ -17,11 +17,19 @@
                     },
                     {
                         "name": "Jolly Roger Lagoon - In the Underwater Cave",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [
+                            "swim",
+                            "metal_cap"
+                        ]
                     },
                     {
                         "name": "Jolly Roger Lagoon - Red Coins",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [
+                            "swim",
+                            "metal_cap"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -36,23 +44,35 @@
                 "name": "Frosty Highlands",
                 "access_rules": [
                     "beta_lobby_b_courses",
-                    "$HeightBackflip, beta_lobby_d_courses"
+                    "$HeightLedgeGrab, beta_lobby_d_courses"
                 ],
                 "sections": [
                     {
                         "name": "Frosty Highlands - Top of the Mountain",
                         "item_count": 1,
                         "access_rules": [
-                            "triple_jump",
-                            "wall_kick"
+                            "beta_lobby_b_courses, triple_jump, shell",
+                            "beta_lobby_b_courses, wall_kick, shell",
+                            "beta_lobby_b_courses, triple_jump, $YamlEnabled|slope_movement",
+                            "beta_lobby_b_courses, wall_kick, $YamlEnabled|slope_movement",
+                            "beta_lobby_d_courses, $HeightBackflip, triple_jump, shell",
+                            "beta_lobby_d_courses, $HeightBackflip, wall_kick, shell",
+                            "beta_lobby_d_courses, $HeightBackflip, triple_jump, $YamlEnabled|slope_movement",
+                            "beta_lobby_d_courses, $HeightBackflip, wall_kick, $YamlEnabled|slope_movement"
                         ]
                     },
                     {
                         "name": "Frosty Highlands - Red Coins",
                         "item_count": 1,
                         "access_rules": [
-                            "triple_jump",
-                            "wall_kick"
+                            "$GroundBox, beta_lobby_b_courses, triple_jump, shell",
+                            "$GroundBox, beta_lobby_b_courses, wall_kick, shell",
+                            "$GroundBox, beta_lobby_b_courses, triple_jump, $YamlEnabled|slope_movement",
+                            "$GroundBox, beta_lobby_b_courses, wall_kick, $YamlEnabled|slope_movement",
+                            "$GroundBox, beta_lobby_d_courses, $HeightBackflip, triple_jump, shell",
+                            "$GroundBox, beta_lobby_d_courses, $HeightBackflip, wall_kick, shell",
+                            "$GroundBox, beta_lobby_d_courses, $HeightBackflip, triple_jump, $YamlEnabled|slope_movement",
+                            "$GroundBox, beta_lobby_d_courses, $HeightBackflip, wall_kick, $YamlEnabled|slope_movement"
                         ]
                     },
                     {
@@ -60,23 +80,35 @@
                         "chest_unopened_img": "/images/map_checks/green_star.png",
                         "item_count": 1,
                         "access_rules": [
-                            "green_comet, triple_jump",
-                            "green_comet, wall_kick"
+                            "green_comet, beta_lobby_b_courses, triple_jump, shell",
+                            "green_comet, beta_lobby_b_courses, wall_kick, shell",
+                            "green_comet, beta_lobby_b_courses, triple_jump, $YamlEnabled|slope_movement",
+                            "green_comet, beta_lobby_b_courses, wall_kick, $YamlEnabled|slope_movement",
+                            "green_comet, beta_lobby_d_courses, $HeightBackflip, triple_jump, shell",
+                            "green_comet, beta_lobby_d_courses, $HeightBackflip, wall_kick, shell",
+                            "green_comet, beta_lobby_d_courses, $HeightBackflip, triple_jump, $YamlEnabled|slope_movement",
+                            "green_comet, beta_lobby_d_courses, $HeightBackflip, wall_kick, $YamlEnabled|slope_movement"
                         ]
                     },
                     {
                         "name": "Cold Cold Crevasse - Top of the Area",
                         "item_count": 1,
                         "access_rules": [
-                            "wall_kick"
+                            "wall_kick, beta_lobby_b_courses, shell",
+                            "wall_kick, beta_lobby_b_courses, $YamlEnabled|slope_movement",
+                            "wall_kick, beta_lobby_d_courses, $HeightBackflip"
                         ]
                     },
                     {
                         "name": "Cold Cold Crevasse - Silver Stars",
                         "item_count": 1,
                         "access_rules": [
-                            "$DistLongJump, $HeightLedgeGrab",
-                            "$HeightBackflip, $HeightLedgeGrab"
+                            "$DistLongJump, $HeightLedgeGrab, beta_lobby_b_courses, shell",
+                            "$HeightBackflip, $HeightLedgeGrab, beta_lobby_b_courses, shell",
+                            "$DistLongJump, $HeightLedgeGrab, beta_lobby_b_courses, $YamlEnabled|slope_movement",
+                            "$HeightBackflip, $HeightLedgeGrab, beta_lobby_b_courses, $YamlEnabled|slope_movement",
+                            "$DistLongJump, $HeightLedgeGrab, beta_lobby_d_courses, $HeightBackflip",
+                            "$HeightBackflip, $HeightLedgeGrab, beta_lobby_d_courses, $HeightBackflip"
                         ]
                     }
                 ],
@@ -96,7 +128,8 @@
             {
                 "name": "Snowman's Land (beta)",
                 "access_rules": [
-                    "beta_lobby_b_courses",
+                    "beta_lobby_b_courses, shell",
+                    "beta_lobby_b_courses, $YamlEnabled|slope_movement",
                     "beta_lobby_d_courses"
                 ],
                 "sections": [
@@ -116,7 +149,7 @@
                         "item_count": 1,
                         "access_rules": [
                             "$HeightBackflip",
-                            "climb"
+                            "pole_climb"
                         ]
                     }
                 ],
@@ -148,7 +181,7 @@
                         "item_count": 1,
                         "access_rules": [
                             "cannon_unlock_(whomps_kingdom)",
-                            "climb",
+                            "pole_climb",
                             "backflip",
                             "triple_jump",
                             "wall_kick"
@@ -159,7 +192,7 @@
                         "item_count": 1,
                         "access_rules": [
                             "cannon_unlock_(whomps_kingdom)",
-                            "climb",
+                            "pole_climb",
                             "backflip",
                             "triple_jump",
                             "wall_kick"
@@ -202,10 +235,10 @@
                     "beta_lobby_b_courses, cannon_unlock_(whomps_kingdom)",
                     "beta_lobby_b_courses, triple_jump",
                     "vanilla_lobby_courses, cannon_unlock_(flying_fortress)",
-                    "vanilla_lobby_courses, climb",
+                    "vanilla_lobby_courses, pole_climb",
                     "vanilla_lobby_courses, $HeightKick",
                     "vanilla_and_mirrored_upstairs_courses, cannon_unlock_(flying_fortress)",
-                    "vanilla_and_mirrored_upstairs_courses, climb",
+                    "vanilla_and_mirrored_upstairs_courses, pole_climb",
                     "vanilla_and_mirrored_upstairs_courses, $HeightKick"
                 ],
                 "sections": [
@@ -246,7 +279,8 @@
                         "name": "Blazing Bully Base - Boil the Big Bully",
                         "item_count": 1,
                         "access_rules": [
-                            "wall_kick",
+                            "wall_kick, grab",
+                            "wall_kick, $YamlEnabled|slope_movement",
                             "triple_jump",
                             "metal_cap",
                             "$YamlEnabled|lava_boost"
@@ -267,7 +301,7 @@
                             "triple_jump, wing_cap",
                             "$HeightKick, kick",
                             "$HeightKick, ledge_grab",
-                            "$HeightKick, triple_jump",
+                            "$HeightKick, double_jump",
                             "$HeightKick, $YamlEnabled|lava_boost",
                             "$HeightKick, dive"
                         ]
@@ -278,7 +312,8 @@
                         "access_rules": [
                             "triple_jump, wing_cap",
                             "triple_jump, wall_kick",
-                            "long_jump, wall_kick",
+                            "long_jump, wall_kick, grab",
+                            "long_jump, wall_kick, $YamlEnabled|slope_movement",
                             "metal_cap, wall_kick",
                             "$YamlEnabled|lava_boost, wall_kick"
                         ]
@@ -288,8 +323,8 @@
                         "chest_unopened_img": "/images/items/red_star.png",
                         "item_count": 1,
                         "access_rules": [
-                            "wall_kick",
-                            "triple_jump, wing_cap"
+                            "grab, wall_kick",
+                            "grab, triple_jump, wing_cap"
                         ]
                     }
                 ],

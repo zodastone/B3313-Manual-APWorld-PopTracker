@@ -56,10 +56,10 @@
                         "name": "Bob-omb Grassyfield - Tree Secrets",
                         "item_count": 1,
                         "access_rules": [
-                            "climb",
+                            "pole_climb",
                             "backflip",
                             "side_flip",
-                            "triple_jump",
+                            "double_jump",
                             "$YamlEnabled|slope_movement"
                         ]
                     }
@@ -82,15 +82,20 @@
                         "name": "Misty Beach - Timed Box Secrets",
                         "item_count": 1,
                         "access_rules": [
-                            "metal_cap",
-                            "$YamlEnabled|hidden_stuff"
+                            "swim, metal_cap",
+                            "kick, metal_cap",
+                            "$DistDoubleJumpKick, metal_cap",
+                            "swim, $YamlEnabled|hidden_stuff"
                         ]
                     },
                     {
                         "name": "Misty Beach - On a Floating Island",
                         "item_count": 1,
                         "access_rules": [
-                            "cannon_unlock_(misty_beach)",
+                            "cannon_unlock_(misty_beach), swim",
+                            "cannon_unlock_(misty_beach), triple_jump",
+                            "cannon_unlock_(misty_beach), kick, metal_cap",
+                            "cannon_unlock_(misty_beach), $DistDoubleJumpKick, metal_cap",
                             "triple_jump, wing_cap"
                         ]
                     },
@@ -98,16 +103,22 @@
                         "name": "Misty Beach - Behind the Grate",
                         "item_count": 1,
                         "access_rules": [
-                            "vanish_cap"
+                            "swim, vanish_cap",
+                            "kick, metal_cap, vanish_cap",
+                            "$DistDoubleJumpKick, metal_cap, vanish_cap"
                         ]
                     },
                     {
                         "name": "Misty Beach - Inside the Mound",
                         "item_count": 1,
                         "access_rules": [
-                            "wall_kick",
-                            "cannon_unlock_(misty_beach)",
-                            "triple_jump, wing_cap"
+                            "cannon_unlock_(misty_beach), swim",
+                            "cannon_unlock_(misty_beach), triple_jump",
+                            "cannon_unlock_(misty_beach), kick, metal_cap",
+                            "cannon_unlock_(misty_beach), $DistDoubleJumpKick, metal_cap",
+                            "triple_jump, wing_cap",
+                            "wall_kick, $DistDoubleJumpKick",
+                            "wall_kick, swim"
                         ]
                     }
                 ],

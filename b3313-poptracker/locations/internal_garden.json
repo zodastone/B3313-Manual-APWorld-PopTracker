@@ -14,14 +14,14 @@
                         "name": "Bob-omb Tower - Top of the Tower",
                         "item_count": 1,
                         "access_rules": [
-                            "$HeightBackflip"
+                            "$HeightDoubleJump"
                         ]
                     },
                     {
                         "name": "Bob-omb Tower - Yellow Box Secrets",
                         "item_count": 1,
                         "access_rules": [
-                            "$HeightBackflip"
+                            "$HeightDoubleJump"
                         ]
                     }
                 ],

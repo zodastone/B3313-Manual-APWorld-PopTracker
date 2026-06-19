@@ -1,15 +1,13 @@
 {
   "tracker_broadcast": {
     "type": "array",
+    "h_alignment": "center",
     "orientation": "vertical",
     "content": [
       {
         "type": "layout",
-        "key": "moves"
-      },
-      {
-        "type": "layout",
-        "key": "misc"
+        "h_alignment": "center",
+        "key": "main_items_broadcast"
       },
       {
         "type": "group",
@@ -35,6 +33,43 @@
           "key": "cannons_broadcast"
         }
       }
+    ]
+  },
+  "main_items_broadcast": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_size": 40,
+    "item_margin": "2,2",
+    "margin": "35,0,3,3",
+    "rows": [
+      [
+          "double_jump",
+          "long_jump",
+          "backflip",
+          "side_flip",
+          "wall_kick"
+      ],
+      [
+          "dive",
+          "ground_pound",
+          "kick",
+          "pole_climb",
+          "ledge_grab"
+      ],
+      [
+          "punch",
+          "swim",
+          "wall_climb",
+          "ceiling_hang",
+          "shell"
+      ],
+      [
+          "wing_cap",
+          "metal_cap",
+          "vanish_cap",
+          "green_comet",
+          "red_star"
+      ]
     ]
   },
   "cannons_broadcast": {

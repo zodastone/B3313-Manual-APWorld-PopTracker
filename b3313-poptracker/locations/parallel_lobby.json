@@ -34,14 +34,20 @@
                 "sections": [
                     {
                         "name": "Treetop Ride - Red Coins",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [
+                            "shell",
+                            "$YamlEnabled|slope_movement",
+                            "wall_kick",
+                            "$DistDoubleJump, pole_climb"
+                        ]
                     },
                     {
                         "name": "Treetop Ride - Silver Stars",
                         "item_count": 1,
                         "access_rules": [
                             "wall_kick",
-                            "$DistKick, $HeightLedgeGrab, climb"
+                            "$DistDoubleJump, $HeightLedgeGrab, pole_climb"
                         ]
                     },
                     {
@@ -49,15 +55,15 @@
                         "item_count": 1,
                         "access_rules": [
                             "wall_kick",
-                            "$DistKick, climb"
+                            "$DistDoubleJump, pole_climb"
                         ]
                     },
                     {
                         "name": "Treetop Ride - Top of the Big Tree",
                         "item_count": 1,
                         "access_rules": [
-                            "climb, wall_kick",
-                            "climb, $DistKick"
+                            "pole_climb, wall_kick",
+                            "pole_climb, $DistDoubleJump"
                         ]
                     }
                 ],
@@ -77,7 +83,10 @@
                 "sections": [
                     {
                         "name": "Frosty Flowering Peak - Catch Ukiki",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [
+                            "grab"
+                        ]
                     },
                     {
                         "name": "Frosty Flowering Peak - Bottom of the Frosty Peak",
@@ -102,32 +111,32 @@
                         "name": "Steep Green Summit - Catch Ukiki",
                         "item_count": 1,
                         "access_rules": [
-                            "climb",
-                            "$YamlEnabled|slope_movement, kick, triple_jump"
+                            "grab, pole_climb",
+                            "grab, $YamlEnabled|slope_movement, kick, triple_jump"
                         ]
                     },
                     {
                         "name": "Steep Green Summit - Scale the Mountain",
                         "item_count": 1,
                         "access_rules": [
-                            "climb",
-                            "$HeightWallKick, $YamlEnabled|slope_movement, kick"
+                            "pole_climb",
+                            "$HeightDoubleJumpKick, $YamlEnabled|slope_movement, kick"
                         ]
                     },
                     {
                         "name": "Steep Green Summit - Mysterious Mountainside",
                         "item_count": 1,
                         "access_rules": [
-                            "$HeightKick, climb",
-                            "$HeightWallKick, $HeightKick, $YamlEnabled|slope_movement, kick"
+                            "$HeightKick, pole_climb",
+                            "$HeightDoubleJumpKick, $HeightKick, $YamlEnabled|slope_movement, kick"
                         ]
                     },
                     {
                         "name": "Monkey Slide (beta) - Four Corners Secret",
                         "item_count": 1,
                         "access_rules": [
-                            "$HeightKick, climb",
-                            "$HeightWallKick, $HeightKick, $YamlEnabled|slope_movement, kick"
+                            "$HeightKick, pole_climb",
+                            "$HeightDoubleJumpKick, $HeightKick, $YamlEnabled|slope_movement, kick"
                         ]
                     }
                 ],
@@ -142,7 +151,7 @@
             {
                 "name": "No Man's Land",
                 "access_rules": [
-                    "$HeightBackflip, parallel_lobby_courses, vanish_cap"
+                    "$HeightBackflip, parallel_lobby_courses, vanish_cap, $GroundBox"
                 ],
                 "sections": [
                     {
@@ -151,11 +160,17 @@
                     },
                     {
                         "name": "No Man's Land - Lil' Penguin Lost",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [
+                            "grab"
+                        ]
                     },
                     {
                         "name": "No Man's Land - Chill with the Bully",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [
+                            "grab"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -176,12 +191,15 @@
                         "name": "The City - Behind the Grate",
                         "item_count": 1,
                         "access_rules": [
-                            "vanish_cap"
+                            "vanish_cap, swim"
                         ]
                     },
                     {
                         "name": "The City - Destroy the Bob-omb's Books",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [
+                            "grab"
+                        ]
                     },
                     {
                         "name": "The City - Flood the Town",
@@ -194,7 +212,8 @@
                         "name": "The City - Kill the Top Bob-omb",
                         "item_count": 1,
                         "access_rules": [
-                            "wall_kick"
+                            "wall_kick, kick",
+                            "wall_kick, grab"
                         ]
                     }
                 ],
@@ -251,12 +270,14 @@
                         "name": "Hazy Memory Cave - Swimming Beast in the Cavern",
                         "item_count": 1,
                         "access_rules": [
-                            "$DistKick, $DistLongJump",
-                            "$DistLongJump, $HeightKick",
-                            "$DistKick, $YamlEnabled|fast_swim",
-                            "$HeightKick, $YamlEnabled|fast_swim",
-                            "$DistKick, $YamlEnabled|slope_movement, kick",
-                            "$HeightKick, $YamlEnabled|slope_movement, kick"
+                            "$DistDoubleJump, triple_jump",
+                            "$HeightKick, triple_jump",
+                            "$DistDoubleJump, swim, $YamlEnabled|fast_swim",
+                            "$HeightKick, swim, $YamlEnabled|fast_swim",
+                            "$DistDoubleJump, swim, long_jump",
+                            "$HeightKick, swim, long_jump",
+                            "$DistDoubleJump, swim, $YamlEnabled|slope_movement, kick",
+                            "$HeightKick, swim, $YamlEnabled|slope_movement, kick"
                         ]
                     },
                     {
@@ -272,8 +293,8 @@
                         "name": "Hazy Memory Cave - Metal Mario Can Move!",
                         "item_count": 1,
                         "access_rules": [
-                            "$DistKick",
-                            "$HeightKick"
+                            "swim, $DistDoubleJump",
+                            "swim, $HeightKick"
                         ]
                     },
                     {
@@ -307,7 +328,10 @@
                 "sections": [
                     {
                         "name": "Underwater Maze - End of the Maze",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [
+                            "swim"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -328,9 +352,9 @@
                         "name": "Frosty Mountains - Defeat the Giant Ice Motos",
                         "item_count": 1,
                         "access_rules": [
-                            "backflip",
-                            "side_flip",
-                            "triple_jump"
+                            "grab, backflip",
+                            "grab, side_flip",
+                            "grab, double_jump"
                         ]
                     }
                 ],
@@ -353,10 +377,10 @@
                         "chest_unopened_img": "/images/items/red_star.png",
                         "item_count": 1,
                         "access_rules": [
-                            "backflip",
-                            "side_flip",
-                            "triple_jump",
-                            "wall_kick, ledge_grab",
+                            "grab, backflip",
+                            "grab, side_flip",
+                            "grab, triple_jump",
+                            "grab, wall_kick, ledge_grab",
                         ]
                     }
                 ],
@@ -367,22 +391,6 @@
                         "y": 30
                     }
                 ]
-            }
-        ]
-    },
-    {
-        "name": " Courses",
-        "sections": [
-            {
-                "ref": "//",
-                "name": ""
-            },
-        ],
-        "map_locations": [
-            {
-                "map": "overview",
-                "x": 530,
-                "y": 120
             }
         ]
     },

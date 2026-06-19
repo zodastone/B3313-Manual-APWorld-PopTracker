@@ -1,12 +1,12 @@
 {
-    "moves": {
+    "main_items": {
         "type": "itemgrid",
         "h_alignment": "center",
         "item_size": 40,
-        "item_margin": "4,4",
+        "item_margin": "2,2",
         "rows": [
             [
-                "triple_jump",
+                "double_jump",
                 "long_jump",
                 "backflip",
                 "side_flip",
@@ -16,17 +16,16 @@
                 "dive",
                 "ground_pound",
                 "kick",
-                "climb",
+                "pole_climb",
                 "ledge_grab"
-            ]
-        ]
-    },
-    "misc": {
-        "type": "itemgrid",
-        "h_alignment": "center",
-        "item_size": 40,
-        "item_margin": "4,4",
-        "rows": [
+            ],
+            [
+                "punch",
+                "swim",
+                "wall_climb",
+                "ceiling_hang",
+                "shell"
+            ],
             [
                 "wing_cap",
                 "metal_cap",
@@ -158,25 +157,6 @@
                 "",
                 ""
             ]
-        ]
-    },
-    "tracker_items": {
-        "type": "array",
-        "orientation": "vertical",
-        "style": "wrap",
-        "content": [
-            {
-                "type": "layout",
-                "dropshadow": false,
-                "margin": 0,
-                "key": "moves"
-            },
-            {
-                "type": "layout",
-                "dropshadow": false,
-                "margin": 0,
-                "key": "misc"
-            }
         ]
     }
 }

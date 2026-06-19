@@ -18,7 +18,7 @@
                             "$DistKick, $YamlEnabled|slope_movement",
                             "$DistKick, wall_kick",
                             "$DistLongJump, $HeightWallKick",
-                            "$HeightWallKick, climb"
+                            "$HeightWallKick, pole_climb"
                         ]
                     }
                 ],

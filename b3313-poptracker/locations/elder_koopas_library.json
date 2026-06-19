@@ -27,7 +27,9 @@
                 "name": "Bedrock Magmas",
                 "access_rules": [
                     "elder_koopas_library_courses",
-                    "nebula_lobby_courses"
+                    "nebula_lobby_courses, shell",
+                    "nebula_lobby_courses, triple_jump",
+                    "nebula_lobby_courses, cannon_unlock_(blackrock_mountain)"
                 ],
                 "sections": [
                     {

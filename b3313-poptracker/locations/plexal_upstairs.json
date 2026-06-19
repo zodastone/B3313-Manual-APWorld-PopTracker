@@ -14,7 +14,7 @@
                         "name": "Rainbow Ride (beta) - Big House in the Sky",
                         "item_count": 1,
                         "access_rules": [
-                            "$DistKick, $HeightBackflip"
+                            "$DistDoubleJump, $HeightBackflip"
                         ]
                     }
                 ],
@@ -61,21 +61,24 @@
                 "sections": [
                     {
                         "name": "Creepy Cove - On the Sunken Ship",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [
+                            "swim"
+                        ]
                     },
                     {
                         "name": "Creepy Cove - Red Coins",
                         "item_count": 1,
                         "access_rules": [
-                            "ledge_grab",
-                            "triple_jump"
+                            "swim, ledge_grab",
+                            "swim, double_jump"
                         ]
                     },
                     {
                         "name": "Jolly Roger Coastline - Above the Lighthouse",
                         "item_count": 1,
                         "access_rules": [
-                            "cannon_unlock_(creepy_cove), wing_cap",
+                            "cannon_unlock_(creepy_cove), shell, wing_cap",
                             "triple_jump, wing_cap"
                         ]
                     },
@@ -88,7 +91,8 @@
                         "item_count": 1,
                         "access_rules": [
                             "triple_jump",
-                            "ledge_grab, side_flip"
+                            "ledge_grab, side_flip",
+                            "ledge_grab, double_jump"
                         ]
                     }
                 ],
@@ -119,8 +123,8 @@
                         "name": "Pleasant Pleasant Falls - Top of the Climb",
                         "item_count": 1,
                         "access_rules": [
-                            "cannon_unlock_(pleasant_pleasant_falls)",
-                            "$HeightWallKick"
+                            "cannon_unlock_(pleasant_pleasant_falls), $GroundBox",
+                            "$HeightWallKick, $GroundBox"
                         ]
                     },
                     {

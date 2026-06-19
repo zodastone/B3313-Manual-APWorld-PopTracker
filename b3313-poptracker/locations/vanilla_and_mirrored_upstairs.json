@@ -17,7 +17,7 @@
                             "cannon_unlock_(wet-dry_paradise)",
                             "$HeightDoubleJumpWallKick",
                             "$YamlEnabled|slope_movement, wall_kick",
-                            "$YamlEnabled|slope_movement, $HeightBackflip, climb"
+                            "$YamlEnabled|slope_movement, $HeightDoubleJump, pole_climb"
                         ]
                     },
                     {
@@ -79,26 +79,27 @@
                 "sections": [
                     {
                         "name": "Wet-Dry World (beta) - Yellow Box Secrets",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [
+                            "swim"
+                        ]
                     },
                     {
                         "name": "Wet-Dry World (beta) - Top of the Town",
                         "item_count": 1,
                         "access_rules": [
-                            "$HeightLedgeGrab",
-                            "kick"
+                            "swim, $HeightLedgeGrab",
+                            "swim, kick"
                         ]
                     },
                     {
                         "name": "Wet-Dry World (beta) - Behind the Grate",
                         "item_count": 1,
                         "access_rules": [
-                            "$HeightLedgeGrab, ledge_grab",
-                            "$HeightLedgeGrab, cannon_unlock_(wet-dry_world_(beta))",
-                            "$HeightLedgeGrab, triple_jump",
-                            "$YamlEnabled|slope_movement, kick, ledge_grab",
-                            "cannon_unlock_(wet-dry_world_(beta)), $YamlEnabled|slope_movement, kick",
-                            "$YamlEnabled|slope_movement, kick, triple_jump"
+                            "swim, ledge_grab",
+                            "swim, $HeightLedgeGrab, cannon_unlock_(wet-dry_world_(beta))",
+                            "swim, double_jump",
+                            "swim, cannon_unlock_(wet-dry_world_(beta)), $YamlEnabled|slope_movement, kick"
                         ]
                     }
                 ],
@@ -143,7 +144,7 @@
                         "name": "Clockwork Innards - Top of the Clock",
                         "item_count": 1,
                         "access_rules": [
-                            "$HeightBackflip, climb"
+                            "$HeightDoubleJump, pole_climb"
                         ]
                     }
                 ],
@@ -163,13 +164,16 @@
                 "sections": [
                     {
                         "name": "Fire Bubble 2 - End of the Maze",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [
+                            "shell"
+                        ]
                     },
                     {
                         "name": "Fire Bubble 2 - Climb the Structure",
                         "item_count": 1,
                         "access_rules": [
-                            "$HeightWallKick"
+                            "shell, $HeightDoubleJumpLedgeGrab"
                         ]
                     }
                 ],

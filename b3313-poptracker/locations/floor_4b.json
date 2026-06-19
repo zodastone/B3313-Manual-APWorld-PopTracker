@@ -14,15 +14,15 @@
                         "name": "Fly Guy's Hill - In the Lighthouse Window",
                         "item_count": 1,
                         "access_rules": [
-                            "triple_jump, wing_cap",
-                            "cannon_unlock_(fly_guys_hill), wall_kick, wing_cap"
+                            "triple_jump, wing_cap, $GroundBox",
+                            "cannon_unlock_(fly_guys_hill), wall_kick, wing_cap, $GroundBox"
                         ]
                     },
                     {
                         "name": "Fly Guy's Hill - Red Coins",
                         "item_count": 1,
                         "access_rules": [
-                            "$HeightBackflip",
+                            "$HeightDoubleJump",
                             "$HeightLedgeGrab, $YamlEnabled|slope_movement"
                         ]
                     }
@@ -88,16 +88,21 @@
                         "item_count": 1,
                         "access_rules": [
                             "triple_jump",
-                            "cannon_unlock_(toxic_ruins)",
+                            "cannon_unlock_(toxic_ruins), shell",
+                            "cannon_unlock_(toxic_ruins), long_jump",
+                            "cannon_unlock_(toxic_ruins), $YamlEnabled|slope_movement, $YamlEnabled|lava_boost",
                             "$HeightLedgeGrab, long_jump",
-                            "$HeightLedgeGrab, $YamlEnabled|lava_boost"
+                            "$HeightLedgeGrab, $YamlEnabled|lava_boost, shell",
+                            "$HeightLedgeGrab, $YamlEnabled|slope_movement, $YamlEnabled|lava_boost"
                         ]
                     },
                     {
                         "name": "Toxic Ruins - Top of the Ruins",
                         "item_count": 1,
                         "access_rules": [
-                            "cannon_unlock_(toxic_ruins)"
+                            "cannon_unlock_(toxic_ruins), shell",
+                            "cannon_unlock_(toxic_ruins), $DistLongJump",
+                            "cannon_unlock_(toxic_ruins), $YamlEnabled|slope_movement, $YamlEnabled|lava_boost"
                         ]
                     }
                 ],
@@ -155,7 +160,10 @@
                 "sections": [
                     {
                         "name": "Water Cube - In the Side Room",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [
+                            "swim"
+                        ]
                     }
                 ],
                 "map_locations": [

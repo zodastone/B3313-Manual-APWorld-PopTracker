@@ -14,21 +14,21 @@
                         "name": "Drip Drop Depths - Silver Stars",
                         "item_count": 1,
                         "access_rules": [
-                            "climb, triple_jump"
+                            "wall_climb, triple_jump"
                         ]
                     },
                     {
                         "name": "Drip Drop Depths - Behind the Grate",
                         "item_count": 1,
                         "access_rules": [
-                            "climb, vanish_cap"
+                            "swim, wall_climb, vanish_cap"
                         ]
                     },
                     {
                         "name": "Drip Drop Depths - Unagi's Cage",
                         "item_count": 1,
                         "access_rules": [
-                            "climb, vanish_cap"
+                            "swim, wall_climb, vanish_cap"
                         ]
                     }
                 ],

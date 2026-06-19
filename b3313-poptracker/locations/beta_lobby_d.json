@@ -19,7 +19,7 @@
                         "name": "River Mountain - Red Coins",
                         "item_count": 1,
                         "access_rules": [
-                            "cannon_unlock_(river_mountain)"
+                            "cannon_unlock_(river_mountain), $GroundBox"
                         ]
                     },
                     {
@@ -31,7 +31,10 @@
                     },
                     {
                         "name": "Inside the Summit - Defeat Prince Bob-omb",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [
+                            "grab"
+                        ]
                     },
                     {
                         "name": "Inside the Summit - Top of the Area",
@@ -42,7 +45,7 @@
                         "item_count": 1,
                         "access_rules": [
                             "$YamlEnabled|bomb_clip",
-                            "climb",
+                            "pole_climb",
                             "side_flip, wall_kick"
                         ]
                     },
@@ -50,40 +53,56 @@
                         "name": "Dark Downtown - Red Coins",
                         "item_count": 1,
                         "access_rules": [
-                            "climb, long_jump",
-                            "$HeightSideFlip",
-                            "$HeightLedgeGrab, $YamlEnabled|slope_movement, kick",
-                            "$HeightLedgeGrab, $YamlEnabled|slope_movement, backflip"
+                            "swim, pole_climb, long_jump",
+                            "swim, $HeightSideFlip",
+                            "swim, $YamlEnabled|slope_movement, backflip",
+                            "$DistKick, $HeightSideFlip",
+                            "double_jump",
+                            "$DistKick, $YamlEnabled|slope_movement, backflip",
+                            "$YamlEnabled|slope_movement, kick, $HeightLedgeGrab",
+                            "cannon_unlock_(river_mountain), wall_kick"
                         ]
                     },
                     {
                         "name": "Dark Downtown - By the Pipe",
                         "item_count": 1,
                         "access_rules": [
-                            "$HeightSideFlip",
-                            "$HeightLedgeGrab, $YamlEnabled|slope_movement, kick",
-                            "$HeightLedgeGrab, $YamlEnabled|slope_movement, backflip",
-                            "$HeightLedgeGrab, climb, long_jump"
+                            "$GroundBox, swim, $HeightLedgeGrab, pole_climb, long_jump",
+                            "$GroundBox, swim, $HeightSideFlip",
+                            "$GroundBox, swim, double_jump",
+                            "$GroundBox, swim, $YamlEnabled|slope_movement, backflip",
+                            "$GroundBox, swim, $HeightLedgeGrab, $YamlEnabled|slope_movement, kick",
+                            "$GroundBox, $HeightSideFlip, $DistLongJump",
+                            "$GroundBox, double_jump, $DistLongJump",
+                            "$GroundBox, $YamlEnabled|slope_movement, backflip, $DistLongJump",
+                            "$GroundBox, $HeightLedgeGrab, $YamlEnabled|slope_movement, kick, $DistLongJump"
                         ]
                     },
                     {
                         "name": "Ice Cold Warzone - Top of the Mountain",
                         "item_count": 1,
                         "access_rules": [
-                            "$HeightSideFlip",
-                            "$HeightLedgeGrab, $YamlEnabled|slope_movement, kick",
-                            "$HeightLedgeGrab, $YamlEnabled|slope_movement, backflip",
-                            "$HeightLedgeGrab, climb, long_jump"
+                            "swim, $HeightLedgeGrab, pole_climb, long_jump",
+                            "swim, $HeightSideFlip",
+                            "swim, double_jump",
+                            "swim, $YamlEnabled|slope_movement, backflip",
+                            "swim, $HeightLedgeGrab, $YamlEnabled|slope_movement, kick",
+                            "$HeightSideFlip, $DistLongJump",
+                            "double_jump, $DistLongJump",
+                            "$YamlEnabled|slope_movement, backflip, $DistLongJump",
+                            "$HeightLedgeGrab, $YamlEnabled|slope_movement, kick, $DistLongJump"
                         ]
                     },
                     {
                         "name": "Limitless Lighthouse - Top of the Lighthouse",
                         "item_count": 1,
                         "access_rules": [
-                            "$HeightSideFlip",
-                            "$HeightLedgeGrab, $YamlEnabled|slope_movement, kick",
-                            "$HeightLedgeGrab, $YamlEnabled|slope_movement, backflip",
-                            "$HeightLedgeGrab, climb, long_jump"
+                            "swim, $HeightLedgeGrab, pole_climb, long_jump",
+                            "swim, $HeightSideFlip",
+                            "swim, double_jump",
+                            "swim, $YamlEnabled|slope_movement, backflip",
+                            "swim, $HeightLedgeGrab, $YamlEnabled|slope_movement, kick",
+                            "triple_jump"
                         ]
                     }
                 ],
@@ -104,10 +123,12 @@
                 "name": "Bob-omb Battlefield (beta)",
                 "access_rules": [
                     "vanilla_lobby_courses",
-                    "$HeightLedgeGrab, $HeightSideFlip, beta_lobby_d_courses, cannon_unlock_(river_mountain)",
-                    "$HeightLedgeGrab, $YamlEnabled|slope_movement, beta_lobby_d_courses, kick",
-                    "$HeightLedgeGrab, $YamlEnabled|slope_movement, beta_lobby_d_courses, backflip",
-                    "$HeightLedgeGrab, beta_lobby_d_courses, cannon_unlock_(river_mountain), climb, long_jump"
+                    "beta_lobby_d_courses, swim, $HeightLedgeGrab, pole_climb, long_jump",
+                    "beta_lobby_d_courses, swim, $HeightSideFlip",
+                    "beta_lobby_d_courses, swim, double_jump",
+                    "beta_lobby_d_courses, swim, $YamlEnabled|slope_movement, backflip",
+                    "beta_lobby_d_courses, swim, $HeightLedgeGrab, $YamlEnabled|slope_movement, kick",
+                    "beta_lobby_d_courses, triple_jump"
                 ],
                 "sections": [
                     {
@@ -130,7 +151,7 @@
                         "name": "Chomp Caverns - Top of the Cavern",
                         "item_count": 1,
                         "access_rules": [
-                            "$HeightWallKick, $DistKick"
+                            "$HeightDoubleJumpKick, $DistKick"
                         ]
                     }
                 ],

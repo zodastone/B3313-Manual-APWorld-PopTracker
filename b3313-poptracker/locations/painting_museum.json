@@ -15,7 +15,7 @@
                         "item_count": 1,
                         "access_rules": [
                             "wall_kick",
-                            "climb",
+                            "wall_climb",
                             "$YamlEnabled|fly_guy"
                         ]
                     },
@@ -24,7 +24,7 @@
                         "item_count": 1,
                         "access_rules": [
                             "wall_kick",
-                            "climb"
+                            "wall_climb"
                         ]
                     },
                     {
@@ -32,7 +32,7 @@
                         "item_count": 1,
                         "access_rules": [
                             "wall_kick",
-                            "climb"
+                            "wall_climb"
                         ]
                     },
                     {
@@ -40,7 +40,7 @@
                         "item_count": 1,
                         "access_rules": [
                             "wall_kick",
-                            "climb"
+                            "wall_climb"
                         ]
                     }
                 ],
@@ -63,10 +63,14 @@
                         "chest_unopened_img": "/images/items/red_star.png",
                         "item_count": 1,
                         "access_rules": [
-                            "climb, ledge_grab, vanish_cap",
-                            "climb, ledge_grab, $YamlEnabled|hidden_stuff",
-                            "triple_jump, vanish_cap",
-                            "triple_jump, $YamlEnabled|hidden_stuff"
+                            "swim, wall_climb, ledge_grab, vanish_cap",
+                            "swim, wall_climb, ledge_grab, $YamlEnabled|hidden_stuff",
+                            "swim, triple_jump, vanish_cap",
+                            "swim, triple_jump, $YamlEnabled|hidden_stuff",
+                            "metal_cap, wall_climb, ledge_grab, vanish_cap",
+                            "metal_cap, wall_climb, ledge_grab, $YamlEnabled|hidden_stuff",
+                            "metal_cap, triple_jump, vanish_cap",
+                            "metal_cap, triple_jump, $YamlEnabled|hidden_stuff"
                         ]
                     }
                 ],
@@ -91,7 +95,7 @@
                             "vanish_cap, wall_kick",
                             "vanish_cap, $YamlEnabled|slope_movement, backflip",
                             "vanish_cap, $YamlEnabled|slope_movement, side_flip",
-                            "vanish_cap, $YamlEnabled|slope_movement, triple_jump"
+                            "vanish_cap, $YamlEnabled|slope_movement, double_jump"
                         ]
                     },
                     {

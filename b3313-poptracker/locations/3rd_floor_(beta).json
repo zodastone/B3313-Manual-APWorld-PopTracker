@@ -12,7 +12,10 @@
                 "sections": [
                     {
                         "name": "athletic - In the Box",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [
+                            "$GroundBox"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -110,7 +113,7 @@
                         "access_rules": [
                             "ledge_grab",
                             "wall_kick",
-                            "triple_jump"
+                            "double_jump"
                         ]
                     }
                 ],
@@ -186,7 +189,7 @@
                         "name": "castle2 - Top of the Castle",
                         "item_count": 1,
                         "access_rules": [
-                            "$HeightBackflip"
+                            "$HeightDoubleJump"
                         ]
                     }
                 ],

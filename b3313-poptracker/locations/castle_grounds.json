@@ -14,7 +14,7 @@
                         "name": "Sunken Castle - In the Cage",
                         "item_count": 1,
                         "access_rules": [
-                            "vanish_cap"
+                            "swim, vanish_cap, $GroundBox"
                         ]
                     }
                 ],
@@ -34,7 +34,10 @@
                 "sections": [
                     {
                         "name": "Eel Graveyard - Clam Secrets",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [
+                            "swim"
+                        ]
                     }
                 ],
                 "map_locations": [

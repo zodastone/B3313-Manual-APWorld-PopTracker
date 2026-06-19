@@ -33,7 +33,7 @@
                         "name": "Stone Island Pathway - End of the Course",
                         "item_count": 1,
                         "access_rules": [
-                            "$HeightWallKick"
+                            "$HeightDoubleJumpLedgeGrab"
                         ]
                     }
                 ],
@@ -53,7 +53,10 @@
                 "sections": [
                     {
                         "name": "Collision Test - In the Yellow Box",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [
+                            "$GroundBox"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -79,7 +82,7 @@
                         "item_count": 1,
                         "access_rules": [
                             "cannon_unlock_(fire_field)",
-                            "$YamlEnabled|slope_movement, climb",
+                            "$YamlEnabled|slope_movement, ceiling_hang",
                             "$YamlEnabled|slope_movement, long_jump",
                             "$YamlEnabled|slope_movement, triple_jump",
                             "$YamlEnabled|lava_boost, $YamlEnabled|slope_movement"

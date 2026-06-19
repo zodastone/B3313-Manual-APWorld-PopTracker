@@ -14,11 +14,11 @@
                         "name": "Tall Tall Treetops - Top of the Grassy Ramps",
                         "item_count": 1,
                         "access_rules": [
-                            "$DistKick",
+                            "$DistDoubleJump",
                             "cannon_unlock_(tall_tall_treetops), ledge_grab",
                             "backflip, cannon_unlock_(tall_tall_treetops)",
                             "cannon_unlock_(tall_tall_treetops), side_flip",
-                            "cannon_unlock_(tall_tall_treetops), triple_jump",
+                            "cannon_unlock_(tall_tall_treetops), double_jump",
                             "side_flip, wall_kick"
                         ]
                     },
@@ -29,7 +29,7 @@
                             "cannon_unlock_(tall_tall_treetops), ledge_grab",
                             "backflip, cannon_unlock_(tall_tall_treetops)",
                             "cannon_unlock_(tall_tall_treetops), side_flip",
-                            "cannon_unlock_(tall_tall_treetops), triple_jump"
+                            "cannon_unlock_(tall_tall_treetops), double_jump"
                         ]
                     },
                     {
@@ -39,7 +39,7 @@
                             "cannon_unlock_(tall_tall_treetops), ledge_grab",
                             "backflip, cannon_unlock_(tall_tall_treetops)",
                             "cannon_unlock_(tall_tall_treetops), side_flip",
-                            "cannon_unlock_(tall_tall_treetops), triple_jump"
+                            "cannon_unlock_(tall_tall_treetops), double_jump"
                         ]
                     },
                     {
@@ -49,7 +49,7 @@
                             "cannon_unlock_(tall_tall_treetops), ledge_grab",
                             "backflip, cannon_unlock_(tall_tall_treetops)",
                             "cannon_unlock_(tall_tall_treetops), side_flip",
-                            "cannon_unlock_(tall_tall_treetops), triple_jump"
+                            "cannon_unlock_(tall_tall_treetops), double_jump"
                         ]
                     }
                 ],
@@ -75,7 +75,8 @@
                         "name": "Motos Factory - Raid the Vault",
                         "item_count": 1,
                         "access_rules": [
-                            "wall_kick"
+                            "wall_kick, shell",
+                            "wall_kick, triple_jump"
                         ]
                     },
                     {
@@ -111,7 +112,11 @@
                     },
                     {
                         "name": "Motos Factory - Far Back Path",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [
+                            "shell",
+                            "$YamlEnabled|slope_movement, kick"
+                        ]
                     },
                     {
                         "name": "Motos Factory - Behind the Grate",
@@ -131,8 +136,8 @@
                         "name": "Motos Factory - Defeat the Giant Motos",
                         "item_count": 1,
                         "access_rules": [
-                            "$HeightLedgeGrab, ledge_grab, vanish_cap",
-                            "$HeightLedgeGrab, kick, vanish_cap"
+                            "$HeightLedgeGrab, ledge_grab, vanish_cap, grab",
+                            "$HeightLedgeGrab, kick, vanish_cap, grab"
                         ]
                     }
                 ],
@@ -149,7 +154,7 @@
                 "access_rules": [
                     "challenge_lobby_courses",
                     "plexal_upstairs_courses, wall_kick, ledge_grab",
-                    "plexal_upstairs_courses, wall_kick, side_flip, triple_jump"
+                    "plexal_upstairs_courses, wall_kick, double_jump"
                 ],
                 "sections": [
                     {
@@ -190,7 +195,7 @@
                 "access_rules": [
                     "challenge_lobby_courses",
                     "ledge_grab, plexal_upstairs_courses, wall_kick",
-                    "plexal_upstairs_courses, triple_jump, wall_kick"
+                    "plexal_upstairs_courses, double_jump, wall_kick"
                 ],
                 "sections": [
                     {

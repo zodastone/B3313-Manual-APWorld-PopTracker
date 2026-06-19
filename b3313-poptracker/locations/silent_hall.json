@@ -64,7 +64,8 @@
                         "name": "Vanish Cap within the Plexus - Behind the Back Grate",
                         "item_count": 1,
                         "access_rules": [
-                            "$HeightSideFlip, vanish_cap"
+                            "$HeightSideFlip, vanish_cap",
+                            "double_jump, vanish_cap"
                         ]
                     }
                 ],

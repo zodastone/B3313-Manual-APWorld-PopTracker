@@ -69,7 +69,7 @@
                         "chest_unopened_img": "/images/map_checks/green_star.png",
                         "item_count": 1,
                         "access_rules": [
-                            "green_comet"
+                            "green_comet, $GroundBox"
                         ]
                     },
                     {
@@ -93,7 +93,7 @@
                         "chest_unopened_img": "/images/map_checks/green_star.png",
                         "item_count": 1,
                         "access_rules": [
-                            "green_comet"
+                            "green_comet, $GroundBox"
                         ]
                     },
                     {
@@ -110,7 +110,7 @@
                         "chest_unopened_img": "/images/map_checks/green_star.png",
                         "item_count": 1,
                         "access_rules": [
-                            "green_comet, vanish_cap"
+                            "green_comet, vanish_cap, $GroundBox"
                         ]
                     },
                     {
@@ -127,7 +127,7 @@
                         "item_count": 1,
                         "access_rules": [
                             "green_comet, $YamlEnabled|slope_movement, kick, ledge_grab, side_flip, wall_kick",
-                            "climb, green_comet, ledge_grab, side_flip, triple_jump, wall_kick"
+                            "pole_climb, green_comet, ledge_grab, side_flip, triple_jump, wall_kick"
                         ]
                     },
                     {
@@ -189,18 +189,20 @@
                         "name": "Uncanny Courtyard - MIPS 1",
                         "item_count": 1,
                         "access_rules": [
-                            "ledge_grab, climb",
-                            "ledge_grab, side_flip",
-                            "triple_jump"
+                            "grab, ledge_grab, pole_climb",
+                            "grab, ledge_grab, side_flip",
+                            "grab, ledge_grab, double_jump",
+                            "grab, triple_jump"
                         ]
                     },
                     {
                         "name": "Uncanny Courtyard - MIPS 2",
                         "item_count": 1,
                         "access_rules": [
-                            "ledge_grab, climb",
-                            "ledge_grab, side_flip",
-                            "triple_jump"
+                            "grab, ledge_grab, pole_climb",
+                            "grab, ledge_grab, side_flip",
+                            "grab, ledge_grab, double_jump",
+                            "grab, triple_jump"
                         ]
                     },
                     {
@@ -208,7 +210,7 @@
                         "item_count": 1,
                         "access_rules": [
                             "wall_kick",
-                            "climb",
+                            "pole_climb",
                             "$YamlEnabled|hidden_stuff"
                         ]
                     }
@@ -229,8 +231,8 @@
                         "name": "Floor 2B - In the Box",
                         "item_count": 1,
                         "access_rules": [
-                            "$HeightBackflip",
-                            "$YamlEnabled|slope_movement"
+                            "$HeightBackflip, $GroundBox",
+                            "$YamlEnabled|slope_movement, $GroundBox"
                         ]
                     },
                     {
@@ -255,7 +257,7 @@
                         "name": "Orange Hall - Behind the Window",
                         "item_count": 1,
                         "access_rules": [
-                            "$HeightBackflip"
+                            "$HeightDoubleJump, $GroundBox"
                         ]
                     },
                     {
@@ -268,7 +270,11 @@
                     },
                     {
                         "name": "Toad's Hedge Maze - Red Coins",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [
+                            "swim",
+                            "$DistDoubleJumpKick"
+                        ]
                     },
                     {
                         "name": "Toad's Rec Room - Find the Right Box",
@@ -276,7 +282,10 @@
                     },
                     {
                         "name": "Basement Maze - Yellow Box on Blue Box",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [
+                            "$GroundBox"
+                        ]
                     }
                 ],
                 "map_locations": [

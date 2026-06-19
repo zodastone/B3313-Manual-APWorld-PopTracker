@@ -12,21 +12,30 @@
                 "sections": [
                     {
                         "name": "Water Land (B-Roll) - Through the Jet Stream",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [
+                            "swim"
+                        ]
                     },
                     {
                         "name": "Water Land (B-Roll) - Board Bowser's Sub",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [
+                            "swim"
+                        ]
                     },
                     {
                         "name": "Water Land (B-Roll) - Chests in the Current",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [
+                            "swim"
+                        ]
                     },
                     {
                         "name": "Inside the Submarine - Red Coins",
                         "item_count": 1,
                         "access_rules": [
-                            "climb, triple_jump"
+                            "swim, wall_climb, triple_jump"
                         ]
                     },
                     {
@@ -34,7 +43,7 @@
                         "chest_unopened_img": "/images/items/red_star.png",
                         "item_count": 1,
                         "access_rules": [
-                            "$HeightWallKick, climb"
+                            "swim, wall_climb, $HeightDoubleJumpLedgeGrab, grab"
                         ]
                     }
                 ],
@@ -79,7 +88,7 @@
                 "name": "Mountain (Shoshinkai)",
                 "access_rules": [
                     "beta_lobby_e_courses, cannon_unlock_(mountain_(shoshinkai))",
-                    "beta_lobby_e_courses, climb",
+                    "beta_lobby_e_courses, pole_climb",
                     "$HeightWallKickLedgeGrab, beta_lobby_e_courses",
                     "beta_lobby_e_courses, $YamlEnabled|slope_movement, dive, long_jump",
                     "$YamlEnabled|slope_movement, beta_lobby_e_courses, dive, kick"
@@ -91,14 +100,18 @@
                     },
                     {
                         "name": "Mountain (Shoshinkai) - Tower Hidden 1-Up Spot",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [
+                            "punch",
+                            "kick"
+                        ]
                     },
                     {
                         "name": "Mountain (Shoshinkai) - On the Floating Platform",
                         "item_count": 1,
                         "access_rules": [
                             "cannon_unlock_(mountain_(shoshinkai))",
-                            "climb",
+                            "pole_climb, ceiling_hang",
                             "$DistKick"
                         ]
                     }
@@ -123,7 +136,10 @@
                     },
                     {
                         "name": "Snow Slider (Shoshinkai) - Lil' Penguin Lost",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [
+                            "grab"
+                        ]
                     }
                 ],
                 "map_locations": [

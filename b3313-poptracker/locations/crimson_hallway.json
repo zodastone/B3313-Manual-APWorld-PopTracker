@@ -12,11 +12,17 @@
                 "sections": [
                     {
                         "name": "Aquarium Limbo - Bottom of the Aquarium",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [
+                            "swim"
+                        ]
                     },
                     {
                         "name": "Aquarium Limbo - Red Coins",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [
+                            "swim"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -36,7 +42,10 @@
                     {
                         "name": "Bowser's Checkered Madness - In the Box",
                         "chest_unopened_img": "/images/items/red_star.png",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [
+                            "$GroundBox"
+                        ]
                     }
                 ],
                 "map_locations": [

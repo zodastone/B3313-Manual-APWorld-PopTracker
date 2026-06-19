@@ -12,7 +12,10 @@
                 "sections": [
                     {
                         "name": "Water Land (fabricated) - Silver Stars",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [
+                            "swim"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -50,7 +53,7 @@
                 "name": "Mountain (fabricated)",
                 "access_rules": [
                     "cannon_unlock_(mountain_(fabricated)), fabricated_lobby_courses",
-                    "climb, fabricated_lobby_courses",
+                    "pole_climb, fabricated_lobby_courses",
                     "$HeightWallKickLedgeGrab, fabricated_lobby_courses",
                     "$YamlEnabled|slope_movement, dive, fabricated_lobby_courses, long_jump",
                     "$YamlEnabled|slope_movement, dive, fabricated_lobby_courses, kick"
@@ -65,7 +68,7 @@
                         "item_count": 1,
                         "access_rules": [
                             "cannon_unlock_(mountain_(fabricated))",
-                            "climb",
+                            "pole_climb, ceiling_hang",
                             "triple_jump"
                         ]
                     }
@@ -90,7 +93,10 @@
                     },
                     {
                         "name": "Snow Slider (fabricated) - Lil' Penguin Lost",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [
+                            "grab"
+                        ]
                     }
                 ],
                 "map_locations": [

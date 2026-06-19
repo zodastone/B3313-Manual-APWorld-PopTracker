@@ -7,11 +7,23 @@
         "codes": "dead_bowser"
     },
     {
-        "name": "Triple Jump",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/items/triple_jump.png",
-        "codes": "triple_jump"
+        "name": "Progressive Triple Jump",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/items/triple_jump.png",
+                "img_mods": "@disabled"
+            },
+            {
+                "img": "images/items/double_jump.png",
+                "codes": "double_jump"
+            },
+            {
+                "img": "images/items/triple_jump.png",
+                "codes": "triple_jump"
+            }
+        ]
     },
     {
         "name": "Long Jump",
@@ -63,11 +75,11 @@
         "codes": "kick"
     },
     {
-        "name": "Climb",
+        "name": "Pole Climb",
         "type": "toggle",
         "loop": "true",
-        "img": "images/items/climb.png",
-        "codes": "climb"
+        "img": "images/items/pole_climb.png",
+        "codes": "pole_climb"
     },
     {
         "name": "Ledge Grab",
@@ -75,6 +87,53 @@
         "loop": "true",
         "img": "images/items/ledge_grab.png",
         "codes": "ledge_grab"
+    },
+    {
+        "name": "Wall Climb",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/wall_climb.png",
+        "codes": "wall_climb"
+    },
+    {
+        "name": "Ceiling Hang",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/ceiling_hang.png",
+        "codes": "ceiling_hang"
+    },
+    {
+        "name": "Progressive Grab",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/items/grab.png",
+                "img_mods": "@disabled"
+            },
+            {
+                "img": "images/items/punch.png",
+                "codes": "punch"
+            },
+            {
+                "img": "images/items/grab.png",
+                "codes": "grab"
+            }
+        ]
+    },
+    {
+        "name": "Swim",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/swim.png",
+        "codes": "swim"
+    },
+    {
+        "name": "Shell",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/items/shell.png",
+        "codes": "shell"
     },
     {
         "name": "Wing Cap",

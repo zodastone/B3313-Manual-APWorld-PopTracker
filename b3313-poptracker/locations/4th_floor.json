@@ -14,14 +14,14 @@
                         "name": "Deep-Water Station - At the Midway Point",
                         "item_count": 1,
                         "access_rules": [
-                            "wall_kick"
+                            "wall_kick, swim"
                         ]
                     },
                     {
                         "name": "Deep-Water Station - In the Underwater Tunnel",
                         "item_count": 1,
                         "access_rules": [
-                            "wall_kick"
+                            "wall_kick, swim"
                         ]
                     }
                 ],

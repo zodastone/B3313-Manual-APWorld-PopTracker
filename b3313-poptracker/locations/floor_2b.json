@@ -14,7 +14,7 @@
                         "name": "Midnight Meadow - Silver Stars",
                         "item_count": 1,
                         "access_rules": [
-                            "$HeightWallKick"
+                            "$HeightDoubleJumpLedgeGrab"
                         ]
                     },
                     {
@@ -27,7 +27,10 @@
                     },
                     {
                         "name": "Midnight Meadow - Behind the Waterfall",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [
+                            "swim"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -55,7 +58,7 @@
                         "name": "Wiggler's Forest Fortress - Red Coins",
                         "item_count": 1,
                         "access_rules": [
-                            "$DistLongJump, $HeightLedgeGrab"
+                            "$DistLongJump, $HeightLedgeGrab, swim"
                         ]
                     }
                 ],
@@ -93,10 +96,10 @@
                 ],
                 "sections": [
                     {
-                        "name": "Goomboss Battle - Wall Kicks Will Work",
+                        "name": "Goomboss Battle - Climb Up the Shaft",
                         "item_count": 1,
                         "access_rules": [
-                            "climb"
+                            "wall_climb"
                         ]
                     },
                     {
@@ -111,8 +114,12 @@
                         "chest_unopened_img": "/images/items/red_star.png",
                         "item_count": 1,
                         "access_rules": [
-                            "climb",
-                            "triple_jump, wing_cap"
+                            "pole_climb, punch",
+                            "triple_jump, wing_cap, punch",
+                            "pole_climb, kick",
+                            "triple_jump, wing_cap, kick",
+                            "pole_climb, dive",
+                            "triple_jump, wing_cap, dive"
                         ]
                     }
                 ],
@@ -154,8 +161,8 @@
                 "name": "Sunshine Isles - Red Coins"
             },
             {
-                "ref": "Floor 2B/Goomboss Battle/Goomboss Battle - Wall Kicks Will Work",
-                "name": "Goomboss Battle - Wall Kicks Will Work"
+                "ref": "Floor 2B/Goomboss Battle/Goomboss Battle - Climb Up the Shaft",
+                "name": "Goomboss Battle - Climb Up the Shaft"
             },
             {
                 "ref": "Floor 2B/Goomboss Battle/Goomboss Battle - Red Coins",

@@ -41,7 +41,8 @@
                         "access_rules": [
                             "cannon_unlock_(yoshis_beach)",
                             "triple_jump, wing_cap",
-                            "climb"
+                            "$HeightDoubleJump, pole_climb",
+                            "grab, pole_climb"
                         ]
                     },
                     {
@@ -72,7 +73,7 @@
                         "name": "Ultra Battle Fort - Top of the Tower",
                         "item_count": 1,
                         "access_rules": [
-                            "cannon_unlock_(ultra_battle_fort), climb, wall_kick",
+                            "cannon_unlock_(ultra_battle_fort), pole_climb, wall_kick",
                             "cannon_unlock_(ultra_battle_fort), triple_jump, wall_kick"
                         ]
                     },
@@ -80,7 +81,7 @@
                         "name": "Ultra Battle Fort - Under the Thwomp",
                         "item_count": 1,
                         "access_rules": [
-                            "climb, ground_pound, wall_kick",
+                            "pole_climb, ground_pound, wall_kick",
                             "ground_pound, triple_jump, wall_kick"
                         ]
                     },
@@ -88,7 +89,7 @@
                         "name": "Piranha's Hidden Pillar - Make Piranha Squirm",
                         "item_count": 1,
                         "access_rules": [
-                            "climb, wall_kick",
+                            "pole_climb, wall_kick",
                             "triple_jump, wall_kick"
                         ]
                     }
@@ -123,7 +124,10 @@
                     },
                     {
                         "name": "Snow Tower - Lil' Penguin Lost",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [
+                            "grab"
+                        ]
                     },
                     {
                         "name": "Snow Tower - Bottom of the Slide",
@@ -148,21 +152,26 @@
                         "name": "Wet-Dry Town - Top of the Town",
                         "item_count": 1,
                         "access_rules": [
-                            "triple_jump",
-                            "backflip, ledge_grab, metal_cap",
-                            "kick, ledge_grab, metal_cap"
+                            "triple_jump, swim",
+                            "triple_jump, pole_climb",
+                            "swim, double_jump, ledge_grab, metal_cap",
+                            "swim, backflip, ledge_grab, metal_cap",
+                            "swim, kick, ledge_grab, metal_cap"
                         ]
                     },
                     {
                         "name": "Wet-Dry Town - Quick Race Through Downtown",
                         "item_count": 1,
                         "access_rules": [
-                            "climb"
+                            "swim, pole_climb"
                         ]
                     },
                     {
                         "name": "Wet-Dry Town - Red Coins",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [
+                            "swim, $GroundBox"
+                        ]
                     },
                 ],
                 "map_locations": [
@@ -183,6 +192,8 @@
                         "name": "Corrupted Challenge - Green Demon Chase",
                         "item_count": 1,
                         "access_rules": [
+                            "long_jump, double_jump",
+                            "dive, double_jump",
                             "long_jump, wall_kick",
                             "dive, wall_kick",
                             "ledge_grab, long_jump",

@@ -7,28 +7,33 @@
             {
                 "name": "Wet-Dry Moat",
                 "access_rules": [
-                    "fabricated_castle_grounds_courses, ledge_grab",
-                    "fabricated_castle_grounds_courses, $YamlEnabled|hidden_stuff, climb, kick",
-                    "fabricated_castle_grounds_courses, $YamlEnabled|hidden_stuff, climb, triple_jump",
+                    "fabricated_castle_grounds_courses, swim, ledge_grab",
+                    "fabricated_castle_grounds_courses, $YamlEnabled|hidden_stuff, ceiling_hang, kick",
+                    "fabricated_castle_grounds_courses, $YamlEnabled|hidden_stuff, ceiling_hang, ledge_grab",
+                    "fabricated_castle_grounds_courses, $YamlEnabled|hidden_stuff, ceiling_hang, triple_jump",
                 ],
                 "sections": [
                     {
                         "name": "Wet-Dry Moat - On a Floating Platform",
                         "item_count": 1,
                         "access_rules": [
-                            "$HeightLedgeGrab"
+                            "swim, $HeightLedgeGrab",
+                            "$DistKick, $HeightBackflip"
                         ]
                     },
                     {
                         "name": "Wet-Dry Moat - Behind the Grate",
                         "item_count": 1,
                         "access_rules": [
-                            "$HeightLedgeGrab"
+                            "swim, $HeightLedgeGrab"
                         ]
                     },
                     {
                         "name": "Wet-Dry Moat - Red Coins",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [
+                            "swim"
+                        ]
                     }
                 ],
                 "map_locations": [

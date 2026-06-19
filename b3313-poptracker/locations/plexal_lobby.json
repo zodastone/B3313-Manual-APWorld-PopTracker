@@ -22,7 +22,7 @@
                         "name": "Big Boo's Haunted Forest - Silver Stars",
                         "item_count": 1,
                         "access_rules": [
-                            "plexal_lobby_courses, $HeightKick, vanish_cap"
+                            "plexal_lobby_courses, $HeightKick, vanish_cap, $GroundBox"
                         ]
                     },
                     {
@@ -30,14 +30,15 @@
                         "item_count": 1,
                         "access_rules": [
                             "vanilla_lobby_courses",
-                            "vanish_cap"
+                            "vanish_cap, $GroundBox"
                         ]
                     },
                     {
                         "name": "Big Boo's Haunted Forest - Defeat the Big Boo",
                         "item_count": 1,
                         "access_rules": [
-                            "vanish_cap"
+                            "vanish_cap, vanilla_lobby_courses",
+                            "vanish_cap, $GroundBox"
                         ]
                     }
                 ],
@@ -65,7 +66,7 @@
                         "item_count": 1,
                         "access_rules": [
                             "cannon_unlock_(grassy_highlands)",
-                            "climb",
+                            "wall_climb",
                             "$HeightWallKick"
                         ]
                     },
@@ -74,7 +75,7 @@
                         "item_count": 1,
                         "access_rules": [
                             "cannon_unlock_(grassy_highlands)",
-                            "climb",
+                            "wall_climb",
                             "$HeightWallKick"
                         ]
                     },
@@ -84,7 +85,7 @@
                         "access_rules": [
                             "cannon_unlock_(grassy_highlands)",
                             "triple_jump",
-                            "$YamlEnabled|fly_guy, climb",
+                            "$YamlEnabled|fly_guy, wall_climb",
                             "$HeightWallKick, $YamlEnabled|fly_guy"
                         ]
                     },
@@ -147,7 +148,9 @@
                         "item_count": 1,
                         "access_rules": [
                             "cannon_unlock_(goomba_hills)",
-                            "$HeightWallKickLedgeGrab",
+                            "swim, wall_kick",
+                            "$DistLongJumpLedgeGrab, wall_kick",
+                            "$YamlEnabled|slope_movement, wall_kick",
                             "$YamlEnabled|slope_movement, kick"
                         ]
                     },

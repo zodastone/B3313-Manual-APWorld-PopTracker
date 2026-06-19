@@ -14,30 +14,44 @@
                         "name": "Chroma Tundra (beta) - Top of the Frozen Tower",
                         "item_count": 1,
                         "access_rules": [
-                            "triple_jump, wall_kick",
-                            "climb, wall_kick"
+                            "$GroundBox, triple_jump, wall_kick",
+                            "$GroundBox, pole_climb, wall_kick"
                         ]
                     },
                     {
                         "name": "Shifting Sand Land (beta) - Top of the Pyramid",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [
+                            "shell",
+                            "$DistKick",
+                            "cannon_unlock_(shifting_sand_land_(beta))"
+                        ]
                     },
                     {
                         "name": "Shifting Sand Land (beta) - Stomp on the Condor",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [
+                            "shell",
+                            "$DistKick",
+                            "cannon_unlock_(shifting_sand_land_(beta))"
+                        ]
                     },
                     {
                         "name": "Pyramid of Old - Climb the Inside of the Pyramid",
                         "item_count": 1,
                         "access_rules": [
-                            "$HeightBackflip, climb"
+                            "shell, $HeightBackflip, pole_climb",
+                            "$DistKick, $HeightBackflip, pole_climb",
+                            "cannon_unlock_(shifting_sand_land_(beta)), $HeightBackflip, pole_climb"
                         ]
                     },
                     {
                         "name": "Pyramid of Old - Wall Kick Spot",
                         "item_count": 1,
                         "access_rules": [
-                            "wall_kick"
+                            "shell, wall_kick",
+                            "$DistKick, wall_kick",
+                            "cannon_unlock_(shifting_sand_land_(beta)), wall_kick"
                         ]
                     }
                 ],
@@ -66,21 +80,22 @@
                         "name": "Cave Dungeon - Red Coins",
                         "item_count": 1,
                         "access_rules": [
-                            "climb"
+                            "wall_climb, ceiling_hang"
                         ]
                     },
                     {
                         "name": "Cave Dungeon - Silver Stars",
                         "item_count": 1,
                         "access_rules": [
-                            "climb"
+                            "wall_kick, ceiling_hang",
+                            "pole_climb, ceiling_hang"
                         ]
                     },
                     {
                         "name": "Cave Dungeon - Behind the Grate",
                         "item_count": 1,
                         "access_rules": [
-                            "climb, vanish_cap"
+                            "vanish_cap, wall_climb, ceiling_hang"
                         ]
                     },
                     {

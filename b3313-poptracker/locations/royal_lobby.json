@@ -16,7 +16,10 @@
                     },
                     {
                         "name": "Salty Salty Shore - Red Coins",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [
+                            "swim"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -38,8 +41,8 @@
                         "item_count": 1,
                         "access_rules": [
                             "cannon_unlock_(piranha_plant_garden)",
-                            "climb",
-                            "$HeightBackflip"
+                            "pole_climb",
+                            "$HeightDoubleJump"
                         ]
                     },
                     {
@@ -54,8 +57,8 @@
                         "name": "Piranha's Igloo - Behind the Glass",
                         "item_count": 1,
                         "access_rules": [
-                            "cannon_unlock_(piranha_plant_garden), vanish_cap",
-                            "$HeightWallKick, vanish_cap"
+                            "cannon_unlock_(piranha_plant_garden), vanish_cap, $GroundBox",
+                            "$HeightWallKick, vanish_cap, $GroundBox"
                         ]
                     },
                     {
@@ -83,7 +86,12 @@
                 "sections": [
                     {
                         "name": "Downtown City - Flood the City",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [
+                            "swim",
+                            "$DistLongJump",
+                            "$YamlEnabled|slope_movement"
+                        ]
                     },
                     {
                         "name": "Downtown City - Red Coins",
@@ -134,8 +142,8 @@
                         "name": "Tall Tall Mountain (beta) - Catch Ukiki",
                         "item_count": 1,
                         "access_rules": [
-                            "$DistWallKickLedgeGrab",
-                            "$YamlEnabled|slope_movement"
+                            "$DistWallKickLedgeGrab, grab",
+                            "$YamlEnabled|slope_movement, grab"
                         ]
                     },
                     {
@@ -158,8 +166,8 @@
                         "name": "Magic Mushroom Cave - Under the Rainbow Mushroom",
                         "item_count": 1,
                         "access_rules": [
-                            "$YamlEnabled|slope_movement, climb",
-                            "$DistLedgeGrab, climb",
+                            "$YamlEnabled|slope_movement, ceiling_hang",
+                            "$DistLedgeGrab, ceiling_hang",
                             "$YamlEnabled|slope_movement, kick",
                             "$DistLedgeGrab, kick"
                         ]

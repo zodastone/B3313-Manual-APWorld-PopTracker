@@ -16,7 +16,10 @@
                     },
                     {
                         "name": "Snow Slider (B-Roll) - Lil' Penguin Lost",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [
+                            "grab"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -30,7 +33,7 @@
             {
                 "name": "Mountain (B-Roll)",
                 "access_rules": [
-                    "beta_lobby_a_courses, climb",
+                    "beta_lobby_a_courses, pole_climb",
                     "$HeightLedgeGrab, beta_lobby_a_courses, cannon_unlock_(mountain_(b-roll))",
                     "$HeightLedgeGrab, $HeightWallKickLedgeGrab, beta_lobby_a_courses",
                     "$HeightLedgeGrab, $YamlEnabled|slope_movement, beta_lobby_a_courses, dive, long_jump",
@@ -43,15 +46,19 @@
                     },
                     {
                         "name": "Mountain (B-Roll) - Tower Hidden 1-Up Spot",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [
+                            "punch",
+                            "kick"
+                        ]
                     },
                     {
                         "name": "Mountain (B-Roll) - On the Floating Platform",
                         "item_count": 1,
                         "access_rules": [
-                            "climb",
-                            "$HeightLedgeGrab, cannon_unlock_(mountain_(b-roll))",
-                            "$DistKick, $HeightLedgeGrab"
+                            "pole_climb, ceiling_hang",
+                            "cannon_unlock_(mountain_(b-roll))",
+                            "$DistKick"
                         ]
                     }
                 ],
@@ -141,11 +148,17 @@
                 "sections": [
                     {
                         "name": "Water Land (Shoshinkai) - Board Bowser's Sub",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [
+                            "swim"
+                        ]
                     },
                     {
                         "name": "Water Land (Shoshinkai) - Chests in the Current",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [
+                            "swim"
+                        ]
                     }
                 ],
                 "map_locations": [

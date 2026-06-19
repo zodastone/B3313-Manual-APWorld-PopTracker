@@ -14,7 +14,7 @@
                         "name": "Bob-omb Village - Top of the Path",
                         "item_count": 1,
                         "access_rules": [
-                            "$HeightBackflip",
+                            "$HeightDoubleJump",
                             "$YamlEnabled|slope_movement"
                         ]
                     },
@@ -22,7 +22,7 @@
                         "name": "Bob-omb Village - Red Coins",
                         "item_count": 1,
                         "access_rules": [
-                            "$HeightBackflip",
+                            "$HeightDoubleJump",
                             "$YamlEnabled|slope_movement"
                         ]
                     },
@@ -30,7 +30,7 @@
                         "name": "Bob-omb Village - House Secrets",
                         "item_count": 1,
                         "access_rules": [
-                            "$HeightBackflip",
+                            "$HeightDoubleJump",
                             "$YamlEnabled|slope_movement"
                         ]
                     }
@@ -81,7 +81,7 @@
                         "item_count": 1,
                         "access_rules": [
                             "triple_jump, wing_cap",
-                            "triple_jump, climb, ledge_grab, side_flip, wall_kick"
+                            "triple_jump, pole_climb, ledge_grab, side_flip, wall_kick"
                         ]
                     }
                 ],
@@ -104,7 +104,7 @@
                         "name": "Eternal Fort - Defeat Bowser",
                         "item_count": 1,
                         "access_rules": [
-                            "climb, $DistLedgeGrab"
+                            "wall_climb, $DistLedgeGrab, grab"
                         ]
                     },
                     {

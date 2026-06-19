@@ -14,8 +14,8 @@
                         "name": "Hazy Maze Cave (beta) - At the Lake",
                         "item_count": 1,
                         "access_rules": [
-                            "$DistLongJump",
-                            "wall_kick"
+                            "swim, $DistLongJump",
+                            "swim, wall_kick"
                         ]
                     },
                     {
@@ -30,7 +30,7 @@
                         "name": "Hazy Maze Cave (beta) - Navigate the Maze",
                         "item_count": 1,
                         "access_rules": [
-                            "$HeightKick"
+                            "$HeightKick, $GroundBox"
                         ]
                     }
                 ],
@@ -109,14 +109,17 @@
                 "sections": [
                     {
                         "name": "Bowser in the Fire Sea - Defeat Bowser",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [
+                            "grab"
+                        ]
                     },
                     {
                         "name": "Minion's Prison - Visit the Jailed Goombas",
                         "item_count": 1,
                         "access_rules": [
-                            "$DistLedgeGrab, vanish_cap",
-                            "$HeightWallKick, vanish_cap"
+                            "grab, $DistLedgeGrab, vanish_cap",
+                            "grab, $HeightWallKick, vanish_cap"
                         ]
                     }
                 ],
@@ -136,8 +139,15 @@
             {
                 "name": "Tiny-Huge Island (beta)",
                 "access_rules": [
-                    "plexal_basement_courses",
-                    "vanilla_and_mirrored_upstairs_courses"
+                    "plexal_basement_courses, shell",
+                    "plexal_basement_courses, $YamlEnabled|slope_movement, kick",
+                    "plexal_basement_courses, wing_cap, triple_jump, $GroundBox",
+                    "plexal_basement_courses, swim, cannon_unlock_(tiny_huge_island_(beta))",
+                    "plexal_basement_courses, swim, triple_jump",
+                    "vanilla_and_mirrored_upstairs_courses, shell",
+                    "vanilla_and_mirrored_upstairs_courses, $YamlEnabled|slope_movement, kick",
+                    "vanilla_and_mirrored_upstairs_courses, swim, cannon_unlock_(tiny_huge_island_(beta))",
+                    "vanilla_and_mirrored_upstairs_courses, $HeightDoubleJump"
                 ],
                 "sections": [
                     {
@@ -146,11 +156,23 @@
                     },
                     {
                         "name": "Tiny-Huge Island (beta) - The Tip Top of the Huge Island",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [
+                            "shell",
+                            "$YamlEnabled|slope_movement, kick",
+                            "$HeightBackflip",
+                            "wing_cap, $GroundBox, swim, cannon_unlock_(tiny_huge_island_(beta))"
+                        ]
                     },
                     {
                         "name": "Tiny-Huge Island (beta) - Above the Huge Island Lake",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [
+                            "shell",
+                            "$DistDoubleJump",
+                            "swim, cannon_unlock_(tiny_huge_island_(beta))",
+                            "swim, $HeightBackflip"
+                        ]
                     },
                     {
                         "name": "Tiny-Huge Island (beta) - Above the Tiny Island Lake",
@@ -158,11 +180,24 @@
                     },
                     {
                         "name": "Tiny-Huge Island (beta) - Red Coins",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [
+                            "shell",
+                            "wing_cap, triple_jump, $GroundBox",
+                            "$DistLongJump, $YamlEnabled|slope_movement, kick",
+                            "$DistLongJump, swim, cannon_unlock_(tiny_huge_island_(beta))",
+                            "swim, triple_jump"
+                        ]
                     },
                     {
                         "name": "Wiggler's Cave - Make Wiggler Squirm",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [
+                            "shell",
+                            "$YamlEnabled|slope_movement, kick",
+                            "$HeightBackflip",
+                            "wing_cap, $GroundBox, swim, cannon_unlock_(tiny_huge_island_(beta))"
+                        ]
                     },
                     {
                         "name": "Wiggler's Cave - Silver Stars",
@@ -201,16 +236,22 @@
                         "name": "Flooded Downtown - Yellow Box on a Building",
                         "item_count": 1,
                         "access_rules": [
-                            "$HeightDoubleJumpWallKick"
+                            "swim, $HeightDoubleJumpWallKick"
                         ]
                     },
                     {
                         "name": "Flooded Downtown - Free Star",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [
+                            "swim"
+                        ]
                     },
                     {
                         "name": "Flooded Downtown - Door Secrets",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [
+                            "swim"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -238,7 +279,7 @@
                         "name": "Shifted Sand Land - In a Box",
                         "item_count": 1,
                         "access_rules": [
-                            "$HeightDoubleJumpWallKick"
+                            "$HeightDoubleJumpWallKick, $GroundBox"
                         ]
                     },
                     {
@@ -268,7 +309,7 @@
                         "name": "Desert Maze - Top of the Flagpole",
                         "item_count": 1,
                         "access_rules": [
-                            "climb",
+                            "pole_climb",
                             "backflip",
                             "side_flip"
                         ]
@@ -289,13 +330,16 @@
             {
                 "name": "Toad Catacombs",
                 "access_rules": [
-                    "plexal_basement_courses"
+                    "plexal_basement_courses, swim"
                 ],
                 "sections": [
                     {
                         "name": "Toad Catacombs - Coffin Secrets",
                         "chest_unopened_img": "/images/items/red_star.png",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [
+                            "swim"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -309,14 +353,12 @@
             {
                 "name": "Dry Town",
                 "access_rules": [
-                    "plexal_basement_courses",
+                    "plexal_basement_courses, swim",
                     "plexal_upstairs_courses",
-                    "$HeightLedgeGrab, ledge_grab, vanilla_and_mirrored_upstairs_courses",
-                    "$HeightLedgeGrab, cannon_unlock_(wet-dry_world_(beta)), vanilla_and_mirrored_upstairs_courses",
-                    "$HeightLedgeGrab, triple_jump, vanilla_and_mirrored_upstairs_courses",
-                    "$YamlEnabled|slope_movement, kick, ledge_grab, vanilla_and_mirrored_upstairs_courses",
-                    "cannon_unlock_(wet-dry_world_(beta)), $YamlEnabled|slope_movement, kick, vanilla_and_mirrored_upstairs_courses",
-                    "$YamlEnabled|slope_movement, kick, triple_jump, vanilla_and_mirrored_upstairs_courses"
+                    "swim, ledge_grab, vanilla_and_mirrored_upstairs_courses",
+                    "swim, $HeightLedgeGrab, cannon_unlock_(wet-dry_world_(beta)), vanilla_and_mirrored_upstairs_courses",
+                    "swim, double_jump, vanilla_and_mirrored_upstairs_courses",
+                    "swim, cannon_unlock_(wet-dry_world_(beta)), $YamlEnabled|slope_movement, kick, vanilla_and_mirrored_upstairs_courses"
                 ],
                 "sections": [
                     {
@@ -325,7 +367,7 @@
                         "access_rules": [
                             "cannon_unlock_(dry_town)",
                             "triple_jump, wing_cap",
-                            "$HeightDoubleJumpWallKick, $YamlEnabled|fast_swim"
+                            "$HeightDoubleJumpWallKick, swim, $YamlEnabled|fast_swim"
                         ]
                     },
                     {

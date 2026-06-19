@@ -57,26 +57,42 @@
                     },
                     {
                         "name": "Dire Bubble - Silver Stars",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [
+                            "shell, swim",
+                            "shell, $DistLongJumpLedgeGrab",
+                            "swim, $YamlEnabled|slope_movement, kick"
+                        ]
                     },
                     {
                         "name": "Dire Bubble - Below the Grate",
                         "item_count": 1,
                         "access_rules": [
-                            "vanish_cap"
+                            "swim, vanish_cap"
                         ]
                     },
                     {
                         "name": "Dire Bubble - The Manta Ray's Reward",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [
+                            "swim"
+                        ]
                     },
                     {
                         "name": "Dire Bubble - Save the Drowning Goomba",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [
+                            "swim, grab"
+                        ]
                     },
                     {
                         "name": "Dire Bubble - Defeat the Chuckyas",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [
+                            "swim, grab, ledge_grab",
+                            "swim, grab, shell",
+                            "swim, grab, $DistLongJump"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -90,7 +106,7 @@
             {
                 "name": "Skyhigh Pipelands",
                 "access_rules": [
-                    "$DistKick, nebula_lobby_courses, wall_kick"
+                    "$DistDoubleJump, nebula_lobby_courses, wall_kick"
                 ],
                 "sections": [
                     {
@@ -136,7 +152,7 @@
             {
                 "name": "Blazing Bullet Factory",
                 "access_rules": [
-                    "nebula_lobby_courses, vanish_cap, $HeightLedgeGrab"
+                    "nebula_lobby_courses, vanish_cap, $GroundBox, $HeightLedgeGrab"
                 ],
                 "sections": [
                     {
@@ -151,7 +167,7 @@
                         "name": "Blazing Bullet Factory - Red Coins",
                         "item_count": 1,
                         "access_rules": [
-                            "$HeightWallKickLedgeGrab"
+                            "$HeightWallKickLedgeGrab, swim"
                         ]
                     },
                     {
@@ -160,7 +176,11 @@
                     },
                     {
                         "name": "Scorched Tar Land - Red Coins",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [
+                            "shell",
+                            "triple_jump"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -209,7 +229,7 @@
                         "access_rules": [
                             "triple_jump",
                             "long_jump, $YamlEnabled|slope_movement",
-                            "long_jump, climb, wall_kick"
+                            "long_jump, wall_climb, wall_kick"
                         ]
                     },
                     {
@@ -218,7 +238,7 @@
                         "access_rules": [
                             "triple_jump",
                             "long_jump, ledge_grab, $YamlEnabled|slope_movement",
-                            "long_jump, ledge_grab, climb, wall_kick"
+                            "long_jump, ledge_grab, wall_climb, wall_kick"
                         ]
                     }
                 ],
@@ -238,11 +258,21 @@
                 "sections": [
                     {
                         "name": "Blackrock Mountain - Across the Teeter-Totter Platform",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [
+                            "shell",
+                            "$DistKick",
+                            "cannon_unlock_(blackrock_mountain)"
+                        ]
                     },
                     {
                         "name": "Blackrock Mountain - Top of the Mountain",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [
+                            "shell",
+                            "triple_jump",
+                            "cannon_unlock_(blackrock_mountain)"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -256,7 +286,9 @@
             {
                 "name": "Wet-Dry Ruins",
                 "access_rules": [
-                    "nebula_lobby_courses"
+                    "nebula_lobby_courses, triple_jump",
+                    "nebula_lobby_courses, double_jump, kick",
+                    "nebula_lobby_courses, $HeightBackflip, swim"
                 ],
                 "sections": [
                     {
@@ -271,24 +303,21 @@
                         "name": "Wet-Dry Ruins - Top of the Flooded Ruins",
                         "item_count": 1,
                         "access_rules": [
-                            "$DistLongJump, climb, wall_kick",
-                            "$DistLongJump, climb, ledge_grab, side_flip"
+                            "$DistLongJump, pole_climb, wall_kick, $GroundBox",
+                            "$DistLongJump, pole_climb, ledge_grab, side_flip, $GroundBox"
                         ]
                     },
                     {
                         "name": "Wet-Dry Ruins - Inside the House",
                         "item_count": 1,
                         "access_rules": [
-                            "$HeightBackflip, climb",
-                            "$HeightBackflip, $YamlEnabled|hidden_stuff"
+                            "swim, $HeightBackflip, ceiling_hang",
+                            "swim, $HeightBackflip, $YamlEnabled|hidden_stuff"
                         ]
                     },
                     {
                         "name": "Wet-Dry Ruins - Red Coins",
-                        "item_count": 1,
-                        "access_rules": [
-                            "$HeightBackflip"
-                        ]
+                        "item_count": 1
                     }
                 ],
                 "map_locations": [
@@ -344,7 +373,10 @@
                     },
                     {
                         "name": "Snowman's Frozen Desert - Pillar Secrets",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [
+                            "shell"
+                        ]
                     }
                 ],
                 "map_locations": [

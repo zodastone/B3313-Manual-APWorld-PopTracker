@@ -14,7 +14,7 @@
                         "name": "Bowser in the Dark World (December '95) - Defeat Bowser",
                         "item_count": 1,
                         "access_rules": [
-                            "$HeightLedgeGrab"
+                            "$HeightLedgeGrab, grab"
                         ]
                     }
                 ],
@@ -34,7 +34,10 @@
                 "sections": [
                     {
                         "name": "Cool Cool Mountain (beta) - Lil' Penguin Lost",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [
+                            "grab"
+                        ]
                     },
                     {
                         "name": "Cool Cool Mountain (beta) - Red Coin Star Spot",
@@ -71,9 +74,12 @@
                         "name": "Flying Fortress - Tower Hidden 1-Up Spot",
                         "item_count": 1,
                         "access_rules": [
-                            "cannon_unlock_(flying_fortress)",
-                            "climb",
-                            "$HeightKick"
+                            "punch, cannon_unlock_(flying_fortress)",
+                            "punch, pole_climb",
+                            "punch, $HeightKick",
+                            "kick, cannon_unlock_(flying_fortress)",
+                            "kick, pole_climb",
+                            "kick, $HeightKick"
                         ]
                     },
                     {
@@ -81,7 +87,7 @@
                         "item_count": 1,
                         "access_rules": [
                             "cannon_unlock_(flying_fortress)",
-                            "climb",
+                            "pole_climb",
                             "$HeightKick"
                         ]
                     },
@@ -93,7 +99,7 @@
                             "side_flip",
                             "triple_jump",
                             "$YamlEnabled|slope_movement, cannon_unlock_(flying_fortress)",
-                            "$YamlEnabled|slope_movement, climb",
+                            "$YamlEnabled|slope_movement, pole_climb",
                             "$HeightKick, $YamlEnabled|slope_movement"
                         ]
                     }
@@ -117,12 +123,15 @@
                     "ledge_grab, vanilla_lobby_courses",
                     "backflip, vanilla_lobby_courses",
                     "side_flip, vanilla_lobby_courses",
-                    "triple_jump, vanilla_lobby_courses"
+                    "double_jump, vanilla_lobby_courses"
                 ],
                 "sections": [
                     {
                         "name": "Fish Tank - Red Coins",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [
+                            "swim"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -141,25 +150,31 @@
                 "sections": [
                     {
                         "name": "Jolly Roger Docks - On the Ship",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [
+                            "swim"
+                        ]
                     },
                     {
                         "name": "Jolly Roger Docks - Red Coins",
                         "item_count": 1,
                         "access_rules": [
-                            "wall_kick",
-                            "triple_jump"
+                            "swim, wall_kick",
+                            "swim, triple_jump"
                         ]
                     },
                     {
                         "name": "Jolly Roger Docks - Map Secrets",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [
+                            "swim"
+                        ]
                     },
                     {
                         "name": "Jolly Roger Docks - Climb the Back Room",
                         "item_count": 1,
                         "access_rules": [
-                            "$DistLongJump, wall_kick"
+                            "swim, $DistLongJump, wall_kick"
                         ]
                     }
                 ],
