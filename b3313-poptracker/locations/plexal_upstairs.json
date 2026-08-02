@@ -43,6 +43,30 @@
                     {
                         "name": "Lavish Lava Mountain - Bottom of the Fiery Mountain",
                         "item_count": 1
+                    },
+                    {
+                        "name": "Lavish Lava Mountain - ? Box Near Penguin Spot (Fiery)",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Lavish Lava Mountain - ? Box at Star Marker Spot (Fiery 1 of 2)",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Lavish Lava Mountain - ? Box at Star Marker Spot (Fiery 2 of 2)",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Lavish Lava Mountain - ? Box at End of Slide (Fiery)",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1
                     }
                 ],
                 "map_locations": [
@@ -78,21 +102,24 @@
                         "name": "Jolly Roger Coastline - Above the Lighthouse",
                         "item_count": 1,
                         "access_rules": [
-                            "cannon_unlock_(creepy_cove), shell, wing_cap",
-                            "triple_jump, wing_cap"
+                            "swim, cannon_unlock_(creepy_cove), shell, wing_cap",
+                            "swim, triple_jump, wing_cap"
                         ]
                     },
                     {
                         "name": "Jolly Roger Coastline - Stone Arch Secrets",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [
+                            "swim"
+                        ]
                     },
                     {
                         "name": "Inside the Sunken Ship - On the Highest Platform",
                         "item_count": 1,
                         "access_rules": [
-                            "triple_jump",
-                            "ledge_grab, side_flip",
-                            "ledge_grab, double_jump"
+                            "swim, triple_jump",
+                            "swim, ledge_grab, side_flip",
+                            "swim, ledge_grab, double_jump"
                         ]
                     }
                 ],
@@ -133,6 +160,40 @@
                         "access_rules": [
                             "cannon_unlock_(pleasant_pleasant_falls)",
                             "$HeightWallKick"
+                        ]
+                    },
+                    {
+                        "name": "Pleasant Pleasant Falls - ? Box by Left Wall",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pleasant Pleasant Falls - ? Box by Left Waterfalls",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pleasant Pleasant Falls - ? Box North of Start",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pleasant Pleasant Falls - ? Box East of Star Marker",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pleasant Pleasant Falls - ? Box Halfway up the Climb",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "cannon_unlock_(pleasant_pleasant_falls)",
+                            "$HeightBackflip"
                         ]
                     }
                 ],
@@ -208,6 +269,22 @@
                 "name": "Lavish Lava Mountain - Bottom of the Fiery Mountain"
             },
             {
+                "ref": "Plexal Upstairs/Lavish Lava Mountain/Lavish Lava Mountain - ? Box Near Penguin Spot (Fiery)",
+                "name": "Lavish Lava Mountain - ? Box at Green Mountain Star Spot (Fiery)"
+            },
+            {
+                "ref": "Plexal Upstairs/Lavish Lava Mountain/Lavish Lava Mountain - ? Box at Star Marker Spot (Fiery 1 of 2)",
+                "name": "Lavish Lava Mountain - ? Box at Star Marker Spot (Fiery 1 of 2)"
+            },
+            {
+                "ref": "Plexal Upstairs/Lavish Lava Mountain/Lavish Lava Mountain - ? Box at Star Marker Spot (Fiery 2 of 2)",
+                "name": "Lavish Lava Mountain - ? Box at Star Marker Spot (Fiery 2 of 2)"
+            },
+            {
+                "ref": "Plexal Upstairs/Lavish Lava Mountain/Lavish Lava Mountain - ? Box at End of Slide (Fiery)",
+                "name": "Lavish Lava Mountain - ? Box at End of Slide (Fiery)"
+            },
+            {
                 "ref": "Plexal Upstairs/Creepy Cove/Creepy Cove - On the Sunken Ship",
                 "name": "Creepy Cove - On the Sunken Ship"
             },
@@ -240,12 +317,36 @@
                 "name": "Pleasant Pleasant Falls - Red Coins"
             },
             {
+                "ref": "Plexal Upstairs/Pleasant Pleasant Falls/Pleasant Pleasant Falls - ? Box by Left Wall",
+                "name": "Pleasant Pleasant Falls - ? Box by Left Wall"
+            },
+            {
+                "ref": "Plexal Upstairs/Pleasant Pleasant Falls/Pleasant Pleasant Falls - ? Box by Left Waterfalls",
+                "name": "Pleasant Pleasant Falls - ? Box by Left Waterfalls"
+            },
+            {
+                "ref": "Plexal Upstairs/Pleasant Pleasant Falls/Pleasant Pleasant Falls - ? Box North of Start",
+                "name": "Pleasant Pleasant Falls - ? Box North of Start"
+            },
+            {
+                "ref": "Plexal Upstairs/Pleasant Pleasant Falls/Pleasant Pleasant Falls - ? Box East of Star Marker",
+                "name": "Pleasant Pleasant Falls - ? Box by Star Marker"
+            },
+            {
+                "ref": "Plexal Upstairs/Pleasant Pleasant Falls/Pleasant Pleasant Falls - ? Box Halfway up the Climb",
+                "name": "Pleasant Pleasant Falls - ? Box Halfway up the Climb"
+            },
+            {
                 "ref": "Plexal Basement/Dry Town/Dry Town - Top of the Town",
                 "name": "Dry Town - Top of the Town"
             },
             {
                 "ref": "Plexal Basement/Dry Town/Dry Town - Door Secrets",
                 "name": "Dry Town - Door Secrets"
+            },
+            {
+                "ref": "Plexal Basement/Dry Town/Dry Town - ? Box in Back-Right Area",
+                "name": "Dry Town - ? Box in Back-Right Area"
             },
             {
                 "ref": "Plexal Upstairs/Big Boo's Fortress/Big Boo's Fortress - Behind Luigi's Mirror",

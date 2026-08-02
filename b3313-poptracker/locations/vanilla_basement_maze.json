@@ -37,6 +37,17 @@
                         ]
                     },
                     {
+                        "name": "Shifting Sand Land (beta) - ? Box Near Pyramid Entrance",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "shell",
+                            "$DistKick",
+                            "cannon_unlock_(shifting_sand_land_(beta))"
+                        ]
+                    },
+                    {
                         "name": "Pyramid of Old - Climb the Inside of the Pyramid",
                         "item_count": 1,
                         "access_rules": [
@@ -131,6 +142,10 @@
             {
                 "ref": "Vanilla Basement Maze/Chroma Tundra (beta)/Shifting Sand Land (beta) - Stomp on the Condor",
                 "name": "Shifting Sand Land (beta) - Stomp on the Condor"
+            },
+            {
+                "ref": "Vanilla Basement Maze/Chroma Tundra (beta)/Shifting Sand Land (beta) - ? Box Near Pyramid Entrance",
+                "name": "Shifting Sand Land (beta) - ? Box Near Pyramid Entrance"
             },
             {
                 "ref": "Vanilla Basement Maze/Chroma Tundra (beta)/Pyramid of Old - Climb the Inside of the Pyramid",

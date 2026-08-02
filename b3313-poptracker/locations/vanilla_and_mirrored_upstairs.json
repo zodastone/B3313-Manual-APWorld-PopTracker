@@ -101,6 +101,51 @@
                             "swim, double_jump",
                             "swim, cannon_unlock_(wet-dry_world_(beta)), $YamlEnabled|slope_movement, kick"
                         ]
+                    },
+                    {
+                        "name": "Wet-Dry World (beta) - ? Box with Secret (1 of 5)",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "swim"
+                        ]
+                    },
+                    {
+                        "name": "Wet-Dry World (beta) - ? Box with Secret (2 of 5)",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "swim"
+                        ]
+                    },
+                    {
+                        "name": "Wet-Dry World (beta) - ? Box with Secret (3 of 5)",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "swim"
+                        ]
+                    },
+                    {
+                        "name": "Wet-Dry World (beta) - ? Box with Secret (4 of 5)",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "swim"
+                        ]
+                    },
+                    {
+                        "name": "Wet-Dry World (beta) - ? Box with Secret (5 of 5)",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "swim"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -124,6 +169,30 @@
                     {
                         "name": "Grassy Snowy Summit - Breathtaking View from the Bridge",
                         "item_count": 1
+                    },
+                    {
+                        "name": "Grassy Snowy Summit - ? Box at Lowest Part (Grassy)",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Grassy Snowy Summit - ? Box Midway up Vines on Left (Grassy)",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Grassy Snowy Summit - ? Box at Lowest Part (Snowy)",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Grassy Snowy Summit - ? Box Midway up Vines on Left (Snowy)",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1
                     }
                 ],
                 "map_locations": [
@@ -137,7 +206,7 @@
             {
                 "name": "Clockwork Innards",
                 "access_rules": [
-                    "vanilla_and_mirrored_upstairs_courses"
+                    "vanilla_and_mirrored_upstairs_courses, $GroundBox"
                 ],
                 "sections": [
                     {
@@ -223,12 +292,36 @@
                 "name": "Wet-Dry World (beta) - Behind the Grate"
             },
             {
+                "ref": "Vanilla and Mirrored Upstairs/Wet-Dry World (beta)/Wet-Dry World (beta) - ? Box with Secret (1 of 5)",
+                "name": "Wet-Dry World (beta) - ? Box with Secret (1 of 5)"
+            },
+            {
+                "ref": "Vanilla and Mirrored Upstairs/Wet-Dry World (beta)/Wet-Dry World (beta) - ? Box with Secret (2 of 5)",
+                "name": "Wet-Dry World (beta) - ? Box with Secret (2 of 5)"
+            },
+            {
+                "ref": "Vanilla and Mirrored Upstairs/Wet-Dry World (beta)/Wet-Dry World (beta) - ? Box with Secret (3 of 5)",
+                "name": "Wet-Dry World (beta) - ? Box with Secret (3 of 5)"
+            },
+            {
+                "ref": "Vanilla and Mirrored Upstairs/Wet-Dry World (beta)/Wet-Dry World (beta) - ? Box with Secret (4 of 5)",
+                "name": "Wet-Dry World (beta) - ? Box with Secret (4 of 5)"
+            },
+            {
+                "ref": "Vanilla and Mirrored Upstairs/Wet-Dry World (beta)/Wet-Dry World (beta) - ? Box with Secret (5 of 5)",
+                "name": "Wet-Dry World (beta) - ? Box with Secret (5 of 5)"
+            },
+            {
                 "ref": "Plexal Basement/Dry Town/Dry Town - Top of the Town",
                 "name": "Dry Town - Top of the Town"
             },
             {
                 "ref": "Plexal Basement/Dry Town/Dry Town - Door Secrets",
                 "name": "Dry Town - Door Secrets"
+            },
+            {
+                "ref": "Plexal Basement/Dry Town/Dry Town - ? Box in Back-Right Area",
+                "name": "Dry Town - ? Box in Back-Right Area"
             },
             {
                 "ref": "Plexal Basement/Tiny-Huge Island (beta)/Tiny-Huge Island (beta) - Pluck the Piranha Flowers",
@@ -251,6 +344,18 @@
                 "name": "Tiny-Huge Island (beta) - Red Coins"
             },
             {
+                "ref": "Plexal Basement/Tiny-Huge Island (beta)/Tiny-Huge Island (beta) - ? Box at Top of Mid-Size Island",
+                "name": "Tiny-Huge Island (beta) - ? Box at Top of Mid-Size Island"
+            },
+            {
+                "ref": "Plexal Basement/Tiny-Huge Island (beta)/Tiny-Huge Island (beta) - ? Box Near Mid-Size Start",
+                "name": "Tiny-Huge Island (beta) - ? Box Near Mid-Size Start"
+            },
+            {
+                "ref": "Plexal Basement/Tiny-Huge Island (beta)/Tiny-Huge Island (beta) - ? Box Near Tiny Koopa the Quick Flag Spot",
+                "name": "Tiny-Huge Island (beta) - ? Box Near Tiny Koopa the Quick Flag Spot"
+            },
+            {
                 "ref": "Plexal Basement/Tiny-Huge Island (beta)/Wiggler's Cave - Make Wiggler Squirm",
                 "name": "Wiggler's Cave - Make Wiggler Squirm"
             },
@@ -265,6 +370,22 @@
             {
                 "ref": "Vanilla and Mirrored Upstairs/Grassy Snowy Summit/Grassy Snowy Summit - Breathtaking View from the Bridge",
                 "name": "Grassy Snowy Summit - Breathtaking View from the Bridge"
+            },
+            {
+                "ref": "Vanilla and Mirrored Upstairs/Grassy Snowy Summit/Grassy Snowy Summit - ? Box at Lowest Part (Grassy)",
+                "name": "Grassy Snowy Summit - ? Box at Lowest Part (Grassy)"
+            },
+            {
+                "ref": "Vanilla and Mirrored Upstairs/Grassy Snowy Summit/Grassy Snowy Summit - ? Box Midway up Vines on Left (Grassy)",
+                "name": "Grassy Snowy Summit - ? Box Midway up Vines on Left (Grassy)"
+            },
+            {
+                "ref": "Vanilla and Mirrored Upstairs/Grassy Snowy Summit/Grassy Snowy Summit - ? Box at Lowest Part (Snowy)",
+                "name": "Grassy Snowy Summit - ? Box at Lowest Part (Snowy)"
+            },
+            {
+                "ref": "Vanilla and Mirrored Upstairs/Grassy Snowy Summit/Grassy Snowy Summit - ? Box Midway up Vines on Left (Snowy)",
+                "name": "Grassy Snowy Summit - ? Box Midway up Vines on Left (Snowy)"
             },
             {
                 "ref": "Vanilla and Mirrored Upstairs/Clockwork Innards/Clockwork Innards - Top of the Clock",
@@ -293,6 +414,14 @@
             {
                 "ref": "Vanilla Lobby/Flying Fortress/Flying Fortress - Top of the Tower",
                 "name": "Flying Fortress - Top of the Tower"
+            },
+            {
+                "ref": "Vanilla Lobby/Flying Fortress/Flying Fortress - ? Box by Lower Thwomp",
+                "name": "Flying Fortress - ? Box by Lower Thwomp"
+            },
+            {
+                "ref": "Vanilla Lobby/Flying Fortress/Flying Fortress - ? Box by Collapsing Bridge",
+                "name": "Flying Fortress - ? Box by Collapsing Bridge"
             },
             {
                 "ref": "Beta Lobby B/wf.z64/wf.z64 - Top of the Tower",

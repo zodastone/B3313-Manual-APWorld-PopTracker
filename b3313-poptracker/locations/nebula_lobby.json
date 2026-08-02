@@ -138,7 +138,10 @@
                     },
                     {
                         "name": "Chomp's Cloudy Isles - Red Coins",
-                        "item_count": 1
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightKick"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -152,7 +155,9 @@
             {
                 "name": "Blazing Bullet Factory",
                 "access_rules": [
-                    "nebula_lobby_courses, vanish_cap, $GroundBox, $HeightLedgeGrab"
+                    "nebula_lobby_courses, vanish_cap, kick, $HeightLedgeGrab",
+                    "nebula_lobby_courses, vanish_cap, punch, $HeightLedgeGrab",
+                    "nebula_lobby_courses, vanish_cap, ground_pound, $HeightLedgeGrab"
                 ],
                 "sections": [
                     {
@@ -240,6 +245,18 @@
                             "long_jump, ledge_grab, $YamlEnabled|slope_movement",
                             "long_jump, ledge_grab, wall_climb, wall_kick"
                         ]
+                    },
+                    {
+                        "name": "Rustic Swampland - ? Box in Bottom Back Area",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rustic Swampland - ? Box Near Star Marker",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1
                     }
                 ],
                 "map_locations": [
@@ -311,8 +328,8 @@
                         "name": "Wet-Dry Ruins - Inside the House",
                         "item_count": 1,
                         "access_rules": [
-                            "swim, $HeightBackflip, ceiling_hang",
-                            "swim, $HeightBackflip, $YamlEnabled|hidden_stuff"
+                            "swim, ceiling_hang",
+                            "swim, $YamlEnabled|hidden_stuff"
                         ]
                     },
                     {
@@ -361,14 +378,16 @@
                         "name": "Snowman's Frozen Desert - Top of the Mountain",
                         "item_count": 1,
                         "access_rules": [
-                            "$HeightKick"
+                            "$HeightKick",
+                            "shell"
                         ]
                     },
                     {
                         "name": "Snowman's Frozen Desert - In the Deep Freeze",
                         "item_count": 1,
                         "access_rules": [
-                            "$HeightKick, ground_pound"
+                            "$HeightKick, ground_pound",
+                            "shell, ground_pound"
                         ]
                     },
                     {
@@ -477,6 +496,14 @@
                 "name": "Rustic Swampland - Red Coins"
             },
             {
+                "ref": "Nebula Lobby/Rustic Swampland/Rustic Swampland - ? Box in Bottom Back Area",
+                "name": "Rustic Swampland - ? Box in Bottom Back Area"
+            },
+            {
+                "ref": "Nebula Lobby/Rustic Swampland/Rustic Swampland - ? Box Near Star Marker",
+                "name": "Rustic Swampland - ? Box Near Star Marker"
+            },
+            {
                 "ref": "Nebula Lobby/Blackrock Mountain/Blackrock Mountain - Across the Teeter-Totter Platform",
                 "name": "Blackrock Mountain - Across the Teeter-Totter Platform"
             },
@@ -491,6 +518,10 @@
             {
                 "ref": "Elder Koopa's Library/Bedrock Magmas/Bedrock Magmas - Top of the Course",
                 "name": "Bedrock Magmas - Top of the Course"
+            },
+            {
+                "ref": "Elder Koopa's Library/Bedrock Magmas/Bedrock Magmas - ? Box During Early Climb",
+                "name": "Bedrock Magmas - ? Box During Early Climb"
             },
             {
                 "ref": "Nebula Lobby/Wet-Dry Ruins/Wet-Dry Ruins - Climb the Blue Pillar",

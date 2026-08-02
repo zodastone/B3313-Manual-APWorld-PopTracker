@@ -16,6 +16,24 @@
                         "access_rules": [
                             "$HeightLedgeGrab, grab"
                         ]
+                    },
+                    {
+                        "name": "Bowser in the Dark World (December '95) - ? Box on the Way (1 of 2)",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightLedgeGrab"
+                        ]
+                    },
+                    {
+                        "name": "Bowser in the Dark World (December '95) - ? Box on the Way (2 of 2)",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightLedgeGrab"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -102,6 +120,18 @@
                             "$YamlEnabled|slope_movement, pole_climb",
                             "$HeightKick, $YamlEnabled|slope_movement"
                         ]
+                    },
+                    {
+                        "name": "Flying Fortress - ? Box by Lower Thwomp",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Flying Fortress - ? Box by Collapsing Bridge",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1
                     }
                 ],
                 "map_locations": [
@@ -212,6 +242,14 @@
                 "name": "Bowser in the Dark World (December '95) - Defeat Bowser"
             },
             {
+                "ref": "Vanilla Lobby/Bowser in the Dark World (beta)/Bowser in the Dark World (December '95) - ? Box on the Way (1 of 2)",
+                "name": "Bowser in the Dark World (December '95) - ? Box on the Way (1 of 2)"
+            },
+            {
+                "ref": "Vanilla Lobby/Bowser in the Dark World (beta)/Bowser in the Dark World (December '95) - ? Box on the Way (2 of 2)",
+                "name": "Bowser in the Dark World (December '95) - ? Box on the Way (2 of 2)"
+            },
+            {
                 "ref": "Beta Lobby D/Bob-omb Battlefield (beta)/Bob-omb Battlefield (beta) - Top of the Mountain",
                 "name": "Bob-omb Battlefield (beta) - Top of the Mountain"
             },
@@ -228,6 +266,10 @@
                 "name": "Chomp Caverns - Top of the Cavern"
             },
             {
+                "ref": "Beta Lobby D/Bob-omb Battlefield (beta)/Chomp Caverns - ? Box on Green Platform",
+                "name": "Chomp Caverns - ? Box on Green Platform"
+            },
+            {
                 "ref": "Beta Lobby D/River Mountain/River Mountain - Top of the Mountain",
                 "name": "River Mountain - Top of the Mountain"
             },
@@ -238,6 +280,10 @@
             {
                 "ref": "Beta Lobby D/River Mountain/River Mountain - Shoot to the Island in the Sky",
                 "name": "River Mountain - Shoot to the Island in the Sky"
+            },
+            {
+                "ref": "Beta Lobby D/River Mountain/River Mountain - ? Box Near Cannon Near Start",
+                "name": "River Mountain - ? Box Near Cannon Near Start"
             },
             {
                 "ref": "Beta Lobby D/River Mountain/Inside the Summit - Defeat Prince Bob-omb",
@@ -294,6 +340,14 @@
             {
                 "ref": "Vanilla Lobby/Flying Fortress/Flying Fortress - Top of the Tower",
                 "name": "Flying Fortress - Top of the Tower"
+            },
+            {
+                "ref": "Vanilla Lobby/Flying Fortress/Flying Fortress - ? Box by Lower Thwomp",
+                "name": "Flying Fortress - ? Box by Lower Thwomp"
+            },
+            {
+                "ref": "Vanilla Lobby/Flying Fortress/Flying Fortress - ? Box by Collapsing Bridge",
+                "name": "Flying Fortress - ? Box by Collapsing Bridge"
             },
             {
                 "ref": "Beta Lobby B/wf.z64/wf.z64 - Top of the Tower",

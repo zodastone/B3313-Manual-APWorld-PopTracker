@@ -40,9 +40,9 @@
                         "name": "Piranha Plant Garden - Top of the Mountain",
                         "item_count": 1,
                         "access_rules": [
-                            "cannon_unlock_(piranha_plant_garden)",
-                            "pole_climb",
-                            "$HeightDoubleJump"
+                            "$GroundBox, cannon_unlock_(piranha_plant_garden)",
+                            "$GroundBox, pole_climb",
+                            "$GroundBox, $HeightDoubleJump"
                         ]
                     },
                     {
@@ -50,6 +50,45 @@
                         "item_count": 1,
                         "access_rules": [
                             "cannon_unlock_(piranha_plant_garden), wing_cap",
+                            "cannon_unlock_(piranha_plant_garden), ground_pound",
+                            "cannon_unlock_(piranha_plant_garden), dive",
+                            "triple_jump, wing_cap"
+                        ]
+                    },
+                    {
+                        "name": "Piranha Plant Garden - ? Box Near Bottom Piranha Statue",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Piranha Plant Garden - ? Box Near Pipe",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "cannon_unlock_(piranha_plant_garden)",
+                            "$HeightWallKick"
+                        ]
+                    },
+                    {
+                        "name": "Piranha Plant Garden - ? Box at Top of the Mountain",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$GroundBox, cannon_unlock_(piranha_plant_garden)",
+                            "$GroundBox, pole_climb",
+                            "$GroundBox, $HeightDoubleJump"
+                        ]
+                    },
+                    {
+                        "name": "Piranha Plant Garden - ? Box on Floating Island",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "cannon_unlock_(piranha_plant_garden)",
                             "triple_jump, wing_cap"
                         ]
                     },
@@ -155,6 +194,51 @@
                         ]
                     },
                     {
+                        "name": "Tall Tall Mountain (beta) - ? Box at Start",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tall Tall Mountain (beta) - ? Box at Waterfall Bottom",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$DistWallKickLedgeGrab",
+                            "$YamlEnabled|slope_movement"
+                        ]
+                    },
+                    {
+                        "name": "Tall Tall Mountain (beta) - ? Box Near Goomba Stack",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "triple_jump"
+                        ]
+                    },
+                    {
+                        "name": "Tall Tall Mountain (beta) - ? Box by Bottom Monkey",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$DistWallKickLedgeGrab",
+                            "$YamlEnabled|slope_movement"
+                        ]
+                    },
+                    {
+                        "name": "Tall Tall Mountain (beta) - ? Box at Summit",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$DistWallKickLedgeGrab",
+                            "$YamlEnabled|slope_movement"
+                        ]
+                    },
+                    {
                         "name": "Magic Mushroom Cave - Top of the Rainbow Mushroom",
                         "item_count": 1,
                         "access_rules": [
@@ -170,6 +254,16 @@
                             "$DistLedgeGrab, ceiling_hang",
                             "$YamlEnabled|slope_movement, kick",
                             "$DistLedgeGrab, kick"
+                        ]
+                    },
+                    {
+                        "name": "Magic Mushroom Cave - ? Box by the Door",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$DistWallKickLedgeGrab",
+                            "$YamlEnabled|slope_movement"
                         ]
                     }
                 ],
@@ -201,6 +295,22 @@
             {
                 "ref": "Royal Lobby/Piranha Plant Garden/Piranha Plant Garden - Red Coins",
                 "name": "Piranha Plant Garden - Red Coins"
+            },
+            {
+                "ref": "Royal Lobby/Piranha Plant Garden/Piranha Plant Garden - ? Box Near Bottom Piranha Statue",
+                "name": "Piranha Plant Garden - ? Box Near Bottom Piranha Statue"
+            },
+            {
+                "ref": "Royal Lobby/Piranha Plant Garden/Piranha Plant Garden - ? Box Near Pipe",
+                "name": "Piranha Plant Garden - ? Box Near Pipe"
+            },
+            {
+                "ref": "Royal Lobby/Piranha Plant Garden/Piranha Plant Garden - ? Box at Top of the Mountain",
+                "name": "Piranha Plant Garden - ? Box at Top of the Mountain"
+            },
+            {
+                "ref": "Royal Lobby/Piranha Plant Garden/Piranha Plant Garden - ? Box on Floating Island",
+                "name": "Piranha Plant Garden - ? Box on Floating Island"
             },
             {
                 "ref": "Royal Lobby/Piranha Plant Garden/Piranha's Igloo - Behind the Glass",
@@ -243,12 +353,36 @@
                 "name": "Tall Tall Mountain (beta) - Mysterious Mountainside"
             },
             {
+                "ref": "Royal Lobby/Tall Tall Mountain (beta)/Tall Tall Mountain (beta) - ? Box at Start",
+                "name": "Tall Tall Mountain (beta) - ? Box at Start"
+            },
+            {
+                "ref": "Royal Lobby/Tall Tall Mountain (beta)/Tall Tall Mountain (beta) - ? Box at Waterfall Bottom",
+                "name": "Tall Tall Mountain (beta) - ? Box at Waterfall Bottom"
+            },
+            {
+                "ref": "Royal Lobby/Tall Tall Mountain (beta)/Tall Tall Mountain (beta) - ? Box Near Goomba Stack",
+                "name": "Tall Tall Mountain (beta) - ? Box Near Goomba Stack"
+            },
+            {
+                "ref": "Royal Lobby/Tall Tall Mountain (beta)/Tall Tall Mountain (beta) - ? Box by Bottom Monkey",
+                "name": "Tall Tall Mountain (beta) - ? Box by Bottom Monkey"
+            },
+            {
+                "ref": "Royal Lobby/Tall Tall Mountain (beta)/Tall Tall Mountain (beta) - ? Box at Summit",
+                "name": "Tall Tall Mountain (beta) - ? Box at Summit"
+            },
+            {
                 "ref": "Royal Lobby/Tall Tall Mountain (beta)/Magic Mushroom Cave - Top of the Rainbow Mushroom",
                 "name": "Magic Mushroom Cave - Top of the Rainbow Mushroom"
             },
             {
                 "ref": "Royal Lobby/Tall Tall Mountain (beta)/Magic Mushroom Cave - Under the Rainbow Mushroom",
                 "name": "Magic Mushroom Cave - Under the Rainbow Mushroom"
+            },
+            {
+                "ref": "Royal Lobby/Tall Tall Mountain (beta)/Magic Mushroom Cave - ? Box by the Door",
+                "name": "Magic Mushroom Cave - ? Box by the Door"
             }
         ],
         "map_locations": [

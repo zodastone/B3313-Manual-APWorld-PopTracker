@@ -48,7 +48,7 @@
                     {
                         "map": "overworld",
                         "x": 155,
-                        "y": 190
+                        "y": 160
                     }
                 ]
             },
@@ -143,7 +143,7 @@
                     {
                         "map": "overworld",
                         "x": 155,
-                        "y": 220
+                        "y": 190
                     }
                 ]
             },
@@ -171,6 +171,107 @@
                         "access_rules": [
                             "triple_jump, wing_cap"
                         ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 155,
+                        "y": 220
+                    }
+                ]
+            },
+            {
+                "name": "Toad's Rec Room",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Toad's Rec Room - Find the Right Box",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Toad's Rec Room - ? Box with Filler (1 of 14)",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Toad's Rec Room - ? Box with Filler (2 of 14)",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Toad's Rec Room - ? Box with Filler (3 of 14)",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Toad's Rec Room - ? Box with Filler (4 of 14)",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Toad's Rec Room - ? Box with Filler (5 of 14)",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Toad's Rec Room - ? Box with Filler (6 of 14)",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Toad's Rec Room - ? Box with Filler (7 of 14)",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Toad's Rec Room - ? Box with Filler (8 of 14)",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Toad's Rec Room - ? Box with Filler (9 of 14)",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Toad's Rec Room - ? Box with Filler (10 of 14)",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Toad's Rec Room - ? Box with Filler (11 of 14)",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Toad's Rec Room - ? Box with Filler (12 of 14)",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Toad's Rec Room - ? Box with Filler (13 of 14)",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Toad's Rec Room - ? Box with Filler (14 of 14)",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1
                     }
                 ],
                 "map_locations": [
@@ -213,6 +314,51 @@
                             "pole_climb",
                             "$YamlEnabled|hidden_stuff"
                         ]
+                    },
+                    {
+                        "name": "Uncanny Courtyard - ? Box by Battle Fort (Peaceful)",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Uncanny Courtyard - ? Box by Battle Fort (Windy)",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Uncanny Courtyard - ? Box on Ground Level of Maze (1 of 4)",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Uncanny Courtyard - ? Box on Ground Level of Maze (2 of 4)",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Uncanny Courtyard - ? Box on Ground Level of Maze (3 of 4)",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Uncanny Courtyard - ? Box on Ground Level of Maze (4 of 4)",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Uncanny Courtyard - ? Box Containing Green Star",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "wall_kick"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -224,7 +370,7 @@
                 ]
             },
             {
-                "name": "Miscellaneous",
+                "name": "Miscellaneous Stars",
                 "access_rules": [],
                 "sections": [
                     {
@@ -277,10 +423,6 @@
                         ]
                     },
                     {
-                        "name": "Toad's Rec Room - Find the Right Box",
-                        "item_count": 1
-                    },
-                    {
                         "name": "Basement Maze - Yellow Box on Blue Box",
                         "item_count": 1,
                         "access_rules": [
@@ -293,6 +435,41 @@
                         "map": "overworld",
                         "x": 155,
                         "y": 310
+                    }
+                ]
+            },
+            {
+                "name": "Miscellaneous ? Boxes",
+                "visibility_rules": "$YamlEnabled|filler_boxes",
+                "chest_unopened_img": "/images/map_checks/filler_box.png",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Aventura Lobby - ? Box by the Bob-omb",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Floor 3B - ? Box Near Toad",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Purple Castle - ? Box in Soft Sand Area",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Solar Tower - ? Box by Wing Cap",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 155,
+                        "y": 340
                     }
                 ]
             }
@@ -386,6 +563,66 @@
                 "name": "Stellar Tower - Red Coins"
             },
             {
+                "ref": "Overworld/Toad's Rec Room/Toad's Rec Room - Find the Right Box",
+                "name": "Toad's Rec Room - Find the Right Box"
+            },
+            {
+                "ref": "Overworld/Toad's Rec Room/Toad's Rec Room - ? Box with Filler (1 of 14)",
+                "name": "Toad's Rec Room - ? Box with Filler (1 of 14)"
+            },
+            {
+                "ref": "Overworld/Toad's Rec Room/Toad's Rec Room - ? Box with Filler (2 of 14)",
+                "name": "Toad's Rec Room - ? Box with Filler (2 of 14)"
+            },
+            {
+                "ref": "Overworld/Toad's Rec Room/Toad's Rec Room - ? Box with Filler (3 of 14)",
+                "name": "Toad's Rec Room - ? Box with Filler (3 of 14)"
+            },
+            {
+                "ref": "Overworld/Toad's Rec Room/Toad's Rec Room - ? Box with Filler (4 of 14)",
+                "name": "Toad's Rec Room - ? Box with Filler (4 of 14)"
+            },
+            {
+                "ref": "Overworld/Toad's Rec Room/Toad's Rec Room - ? Box with Filler (5 of 14)",
+                "name": "Toad's Rec Room - ? Box with Filler (5 of 14)"
+            },
+            {
+                "ref": "Overworld/Toad's Rec Room/Toad's Rec Room - ? Box with Filler (6 of 14)",
+                "name": "Toad's Rec Room - ? Box with Filler (6 of 14)"
+            },
+            {
+                "ref": "Overworld/Toad's Rec Room/Toad's Rec Room - ? Box with Filler (7 of 14)",
+                "name": "Toad's Rec Room - ? Box with Filler (7 of 14)"
+            },
+            {
+                "ref": "Overworld/Toad's Rec Room/Toad's Rec Room - ? Box with Filler (8 of 14)",
+                "name": "Toad's Rec Room - ? Box with Filler (8 of 14)"
+            },
+            {
+                "ref": "Overworld/Toad's Rec Room/Toad's Rec Room - ? Box with Filler (9 of 14)",
+                "name": "Toad's Rec Room - ? Box with Filler (9 of 14)"
+            },
+            {
+                "ref": "Overworld/Toad's Rec Room/Toad's Rec Room - ? Box with Filler (10 of 14)",
+                "name": "Toad's Rec Room - ? Box with Filler (10 of 14)"
+            },
+            {
+                "ref": "Overworld/Toad's Rec Room/Toad's Rec Room - ? Box with Filler (11 of 14)",
+                "name": "Toad's Rec Room - ? Box with Filler (11 of 14)"
+            },
+            {
+                "ref": "Overworld/Toad's Rec Room/Toad's Rec Room - ? Box with Filler (12 of 14)",
+                "name": "Toad's Rec Room - ? Box with Filler (12 of 14)"
+            },
+            {
+                "ref": "Overworld/Toad's Rec Room/Toad's Rec Room - ? Box with Filler (13 of 14)",
+                "name": "Toad's Rec Room - ? Box with Filler (13 of 14)"
+            },
+            {
+                "ref": "Overworld/Toad's Rec Room/Toad's Rec Room - ? Box with Filler (14 of 14)",
+                "name": "Toad's Rec Room - ? Box with Filler (14 of 14)"
+            },
+            {
                 "ref": "Overworld/Uncanny Courtyard/Uncanny Courtyard - MIPS 1",
                 "name": "Uncanny Courtyard - MIPS 1"
             },
@@ -398,44 +635,84 @@
                 "name": "Uncanny Courtyard - Red Coins"
             },
             {
-                "ref": "Overworld/Miscellaneous/Floor 2B - In the Box",
+                "ref": "Overworld/Uncanny Courtyard/Uncanny Courtyard - ? Box by Battle Fort (Peaceful)",
+                "name": "Uncanny Courtyard - ? Box by Battle Fort (Peaceful)"
+            },
+            {
+                "ref": "Overworld/Uncanny Courtyard/Uncanny Courtyard - ? Box by Battle Fort (Windy)",
+                "name": "Uncanny Courtyard - ? Box by Battle Fort (Windy)"
+            },
+            {
+                "ref": "Overworld/Uncanny Courtyard/Uncanny Courtyard - ? Box on Ground Level of Maze (1 of 4)",
+                "name": "Uncanny Courtyard - ? Box on Ground Level of Maze (1 of 4)"
+            },
+            {
+                "ref": "Overworld/Uncanny Courtyard/Uncanny Courtyard - ? Box on Ground Level of Maze (2 of 4)",
+                "name": "Uncanny Courtyard - ? Box on Ground Level of Maze (2 of 4)"
+            },
+            {
+                "ref": "Overworld/Uncanny Courtyard/Uncanny Courtyard - ? Box on Ground Level of Maze (3 of 4)",
+                "name": "Uncanny Courtyard - ? Box on Ground Level of Maze (3 of 4)"
+            },
+            {
+                "ref": "Overworld/Uncanny Courtyard/Uncanny Courtyard - ? Box on Ground Level of Maze (4 of 4)",
+                "name": "Uncanny Courtyard - ? Box on Ground Level of Maze (4 of 4)"
+            },
+            {
+                "ref": "Overworld/Uncanny Courtyard/Uncanny Courtyard - ? Box Containing Green Star",
+                "name": "Uncanny Courtyard - ? Box Containing Green Star"
+            },
+            {
+                "ref": "Overworld/Miscellaneous Stars/Floor 2B - In the Box",
                 "name": "Floor 2B - In the Box"
             },
             {
-                "ref": "Overworld/Miscellaneous/Imperfect Sanctuary Lobby - Follow Peach's Call",
+                "ref": "Overworld/Miscellaneous Stars/Imperfect Sanctuary Lobby - Follow Peach's Call",
                 "name": "Imperfect Sanctuary Lobby - Follow Peach's Call"
             },
             {
-                "ref": "Overworld/Miscellaneous/Mr. I's Maze - Silver Stars",
+                "ref": "Overworld/Miscellaneous Stars/Mr. I's Maze - Silver Stars",
                 "name": "Mr. I's Maze - Silver Stars"
             },
             {
-                "ref": "Overworld/Miscellaneous/Nightmare Basement - Past the SSL Wall",
+                "ref": "Overworld/Miscellaneous Stars/Nightmare Basement - Past the SSL Wall",
                 "name": "Nightmare Basement - Past the SSL Wall"
             },
             {
-                "ref": "Overworld/Miscellaneous/Orange Hall - Behind the Window",
+                "ref": "Overworld/Miscellaneous Stars/Orange Hall - Behind the Window",
                 "name": "Orange Hall - Behind the Window"
             },
             {
-                "ref": "Overworld/Miscellaneous/Plexal Hallway - Off the Back Ledge",
+                "ref": "Overworld/Miscellaneous Stars/Plexal Hallway - Off the Back Ledge",
                 "name": "Plexal Hallway - Off the Back Ledge"
             },
             {
-                "ref": "Overworld/Miscellaneous/The Star - Silver Stars",
+                "ref": "Overworld/Miscellaneous Stars/The Star - Silver Stars",
                 "name": "The Star - Silver Stars"
             },
             {
-                "ref": "Overworld/Miscellaneous/Toad's Hedge Maze - Red Coins",
+                "ref": "Overworld/Miscellaneous Stars/Toad's Hedge Maze - Red Coins",
                 "name": "Toad's Hedge Maze - Red Coins"
             },
             {
-                "ref": "Overworld/Miscellaneous/Toad's Rec Room - Find the Right Box",
-                "name": "Toad's Rec Room - Find the Right Box"
+                "ref": "Overworld/Miscellaneous Stars/Basement Maze - Yellow Box on Blue Box",
+                "name": "Basement Maze - Yellow Box on Blue Box"
             },
             {
-                "ref": "Overworld/Miscellaneous/Basement Maze - Yellow Box on Blue Box",
-                "name": "Basement Maze - Yellow Box on Blue Box"
+                "ref": "Overworld/Miscellaneous ? Boxes/Aventura Lobby - ? Box by the Bob-omb",
+                "name": "Aventura Lobby - ? Box by the Bob-omb"
+            },
+            {
+                "ref": "Overworld/Miscellaneous ? Boxes/Floor 3B - ? Box Near Toad",
+                "name": "Floor 3B - ? Box Near Toad"
+            },
+            {
+                "ref": "Overworld/Miscellaneous ? Boxes/Purple Castle - ? Box in Soft Sand Area",
+                "name": "Purple Castle - ? Box in Soft Sand Area"
+            },
+            {
+                "ref": "Overworld/Miscellaneous ? Boxes/Solar Tower - ? Box by Wing Cap",
+                "name": "Solar Tower - ? Box by Wing Cap"
             }
         ],
         "map_locations": [

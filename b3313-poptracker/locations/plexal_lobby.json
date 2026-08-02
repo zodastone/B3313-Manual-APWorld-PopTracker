@@ -97,6 +97,12 @@
                             "cannon_unlock_(grassy_highlands), green_comet",
                             "green_comet, wall_kick"
                         ]
+                    },
+                    {
+                        "name": "Grassy Highlands - ? Box Near Start",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1
                     }
                 ],
                 "map_locations": [
@@ -168,6 +174,24 @@
                             "cannon_unlock_(goomba_hills)",
                             "side_flip, triple_jump, wall_kick"
                         ]
+                    },
+                    {
+                        "name": "Goomba Hills - ? Box at Start",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Goomba Hills - ? Box Right of Start",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Goomba Hills - ? Box Near Bottom Cannon",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1
                     }
                 ],
                 "map_locations": [
@@ -216,6 +240,10 @@
                 "name": "Grassy Highlands - Green Star on a High Platform"
             },
             {
+                "ref": "Plexal Lobby/Grassy Highlands/Grassy Highlands - ? Box Near Start",
+                "name": "Grassy Highlands - ? Box Near Start"
+            },
+            {
                 "ref": "Plexal Lobby/Bob-omb Test Field/Bob-omb Test Field - Top of the Monolith",
                 "name": "Bob-omb Test Field - Top of the Monolith"
             },
@@ -238,6 +266,18 @@
             {
                 "ref": "Plexal Lobby/Goomba Hills/Goomba Hills - Red Coins",
                 "name": "Goomba Hills - Red Coins"
+            },
+            {
+                "ref": "Plexal Lobby/Goomba Hills/Goomba Hills - ? Box at Start",
+                "name": "Goomba Hills - ? Box at Start"
+            },
+            {
+                "ref": "Plexal Lobby/Goomba Hills/Goomba Hills - ? Box Right of Start",
+                "name": "Goomba Hills - ? Box Right of Start"
+            },
+            {
+                "ref": "Plexal Lobby/Goomba Hills/Goomba Hills - ? Box Near Bottom Cannon",
+                "name": "Goomba Hills - ? Box Near Bottom Cannon"
             }
         ],
         "map_locations": [

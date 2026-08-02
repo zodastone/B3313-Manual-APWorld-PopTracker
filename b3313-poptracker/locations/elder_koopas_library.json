@@ -42,6 +42,12 @@
                         "access_rules": [
                             "$HeightLedgeGrab"
                         ]
+                    },
+                    {
+                        "name": "Bedrock Magmas - ? Box During Early Climb",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1
                     }
                 ],
                 "map_locations": [
@@ -73,6 +79,10 @@
             {
                 "ref": "Elder Koopa's Library/Bedrock Magmas/Bedrock Magmas - Top of the Course",
                 "name": "Bedrock Magmas - Top of the Course"
+            },
+            {
+                "ref": "Elder Koopa's Library/Bedrock Magmas/Bedrock Magmas - ? Box During Early Climb",
+                "name": "Bedrock Magmas - ? Box During Early Climb"
             }
         ],
         "map_locations": [

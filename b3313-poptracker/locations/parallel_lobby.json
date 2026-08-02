@@ -127,16 +127,22 @@
                         "name": "Steep Green Summit - Mysterious Mountainside",
                         "item_count": 1,
                         "access_rules": [
-                            "$HeightKick, pole_climb",
-                            "$HeightDoubleJumpKick, $HeightKick, $YamlEnabled|slope_movement, kick"
+                            "kick, pole_climb",
+                            "ledge_grab, pole_climb",
+                            "backflip, pole_climb",
+                            "double_jump, pole_climb",
+                            "$HeightDoubleJumpKick, $YamlEnabled|slope_movement, kick"
                         ]
                     },
                     {
                         "name": "Monkey Slide (beta) - Four Corners Secret",
                         "item_count": 1,
                         "access_rules": [
-                            "$HeightKick, pole_climb",
-                            "$HeightDoubleJumpKick, $HeightKick, $YamlEnabled|slope_movement, kick"
+                            "kick, pole_climb",
+                            "ledge_grab, pole_climb",
+                            "backflip, pole_climb",
+                            "double_jump, pole_climb",
+                            "$HeightDoubleJumpKick, $YamlEnabled|slope_movement, kick"
                         ]
                     }
                 ],
@@ -310,6 +316,16 @@
                         "access_rules": [
                             "wall_kick"
                         ]
+                    },
+                    {
+                        "name": "Hazy Memory Cave - ? Box Near Elevator to Lake",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$DistDoubleJump",
+                            "$HeightKick"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -380,7 +396,7 @@
                             "grab, backflip",
                             "grab, side_flip",
                             "grab, triple_jump",
-                            "grab, wall_kick, ledge_grab",
+                            "grab, wall_kick, ledge_grab"
                         ]
                     }
                 ],
@@ -500,6 +516,10 @@
             {
                 "ref": "Parallel Lobby/Hazy Memory Cave/Hazy Memory Cave - Watch for Rolling Rocks",
                 "name": "Hazy Memory Cave - Watch for Rolling Rocks"
+            },
+            {
+                "ref": "Parallel Lobby/Hazy Memory Cave/Hazy Memory Cave - ? Box Near Elevator to Lake",
+                "name": "Hazy Memory Cave - ? Box Near Elevator to Lake"
             },
             {
                 "ref": "Parallel Lobby/Underwater Maze/Underwater Maze - End of the Maze",

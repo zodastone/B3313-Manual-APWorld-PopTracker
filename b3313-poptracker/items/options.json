@@ -46,6 +46,13 @@
         "max_quantity": 33
     },
     {
+        "name": "filler_boxes",
+        "loop": true,
+        "codes": "filler_boxes",
+        "type": "toggle",
+        "img": "images/map_checks/filler_box.png"
+    },
+    {
         "name": "slope_movement",
         "loop": true,
         "codes": "slope_movement",

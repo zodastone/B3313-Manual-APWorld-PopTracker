@@ -31,6 +31,12 @@
                         "access_rules": [
                             "$HeightLedgeGrab"
                         ]
+                    },
+                    {
+                        "name": "Big Boo's Haunt (vanilla) - ? Box Behind the House",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1
                     }
                 ],
                 "map_locations": [
@@ -61,6 +67,10 @@
             {
                 "ref": "Vanilla Courtyard/Big Boo's Haunt (vanilla)/Big Boo's Haunt (vanilla) - Red Coins",
                 "name": "Big Boo's Haunt (vanilla) - Red Coins"
+            },
+            {
+                "ref": "Vanilla Courtyard/Big Boo's Haunt (vanilla)/Big Boo's Haunt (vanilla) - ? Box Behind the House",
+                "name": "Big Boo's Haunt (vanilla) - ? Box Behind the House"
             }
         ],
         "map_locations": [

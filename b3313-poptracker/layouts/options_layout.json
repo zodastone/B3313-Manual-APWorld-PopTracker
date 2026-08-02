@@ -15,6 +15,12 @@
             "margin": 10,
             "rows": [
                 [
+                    "red_star_locations",
+                    "total_red_stars",
+                    "eternal_fort_red_stars",
+                    "filler_boxes"
+                ],
+                [
                     "slope_movement",
                     "hidden_stuff",
                     "lava_boost",
@@ -24,12 +30,6 @@
                     "backwards_long_jump",
                     "fly_guy",
                     "fast_swim",
-                    ""
-                ],
-                [
-                    "red_star_locations",
-                    "total_red_stars",
-                    "eternal_fort_red_stars",
                     ""
                 ]
             ]

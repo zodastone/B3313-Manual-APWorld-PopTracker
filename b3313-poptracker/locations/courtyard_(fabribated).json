@@ -34,6 +34,12 @@
                         "access_rules": [
                             "vanish_cap, wall_kick"
                         ]
+                    },
+                    {
+                        "name": "Big Boo's Haunt (beta) - ? Box Behind the House",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1
                     }
                 ],
                 "map_locations": [
@@ -83,6 +89,10 @@
             {
                 "ref": "Courtyard (fabribated)/Big Boo's Haunt (beta)/Big Boo's Haunt (beta) - Eye to Eye in the Secret Room",
                 "name": "Big Boo's Haunt (beta) - Eye to Eye in the Secret Room"
+            },
+            {
+                "ref": "Courtyard (fabribated)/Big Boo's Haunt (beta)/Big Boo's Haunt (beta) - ? Box Behind the House",
+                "name": "Big Boo's Haunt (beta) - ? Box Behind the House"
             },
             {
                 "ref": "Courtyard (fabribated)/Checkerboard (fabricated)/Checkerboard (fabricated) - Free Star",

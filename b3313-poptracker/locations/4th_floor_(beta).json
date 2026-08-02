@@ -13,6 +13,12 @@
                     {
                         "name": "yajimatest - In the Yellow Box",
                         "item_count": 1
+                    },
+                    {
+                        "name": "yajimatest - ? Box on the Right",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1
                     }
                 ],
                 "map_locations": [
@@ -244,6 +250,10 @@
             {
                 "ref": "4th Floor (beta)/yajimatest/yajimatest - In the Yellow Box",
                 "name": "yajimatest - In the Yellow Box"
+            },
+            {
+                "ref": "4th Floor (beta)/yajimatest/yajimatest - ? Box on the Right",
+                "name": "yajimatest - ? Box on the Right"
             },
             {
                 "ref": "4th Floor (beta)/Stone Island Pathway/Stone Island Pathway - End of the Course",

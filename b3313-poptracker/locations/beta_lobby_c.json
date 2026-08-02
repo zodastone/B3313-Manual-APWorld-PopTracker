@@ -141,11 +141,6 @@
                     },
                     {
                         "map": "parallel_lobby",
-                        "x": 245,
-                        "y": 315
-                    },
-                    {
-                        "map": "parallel_lobby",
                         "x": 190,
                         "y": 58
                     },

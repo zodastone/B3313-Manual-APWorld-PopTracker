@@ -39,6 +39,15 @@
                         ]
                     },
                     {
+                        "name": "Inside the Submarine - ? Box by the Gate",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "swim"
+                        ]
+                    },
+                    {
                         "name": "Bowser in the Sub - Defeat Bowser",
                         "chest_unopened_img": "/images/items/red_star.png",
                         "item_count": 1,
@@ -170,6 +179,10 @@
             {
                 "ref": "Beta Lobby E/Water Land (B-Roll)/Inside the Submarine - Red Coins",
                 "name": "Inside the Submarine - Red Coins"
+            },
+            {
+                "ref": "Beta Lobby E/Water Land (B-Roll)/Inside the Submarine - ? Box by the Gate",
+                "name": "Inside the Submarine - ? Box by the Gate"
             },
             {
                 "ref": "Beta Lobby E/Water Land (B-Roll)/Bowser in the Sub - Defeat Bowser",

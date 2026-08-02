@@ -64,8 +64,7 @@
                         "name": "Dream Forest - Above the Canopy",
                         "item_count": 1,
                         "access_rules": [
-                            "$HeightLedgeGrab, triple_jump",
-                            "$DistLedgeGrab, $HeightLedgeGrab, $YamlEnabled|fly_guy"
+                            "triple_jump"
                         ]
                     }
                 ],

@@ -83,7 +83,17 @@
                             "triple_jump, wing_cap",
                             "triple_jump, pole_climb, ledge_grab, side_flip, wall_kick"
                         ]
-                    }
+                    },
+                    {
+                        "name": "Randomized Realm - ? Box Near 4th Piranha",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "triple_jump, wing_cap",
+                            "triple_jump, ledge_grab, side_flip, wall_kick"
+                        ]
+                    },
                 ],
                 "map_locations": [
                     {
@@ -148,6 +158,10 @@
             {
                 "ref": "Bowser's Floor and Endgame/Randomized Realm/Randomized Realm - Red Coins",
                 "name": "Randomized Realm - Red Coins"
+            },
+            {
+                "ref": "Bowser's Floor and Endgame/Randomized Realm/Randomized Realm - ? Box Near 4th Piranha",
+                "name": "Randomized Realm - ? Box Near 4th Piranha"
             },
             {
                 "ref": "Bowser's Floor and Endgame/Eternal Fort/Eternal Fort - Defeat Bowser",

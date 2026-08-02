@@ -86,6 +86,16 @@
                         ]
                     },
                     {
+                        "name": "Ultra Battle Fort - ? Box Above Wall Kick Wall",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$GroundBox, pole_climb, wall_kick",
+                            "$GroundBox, triple_jump, wall_kick"
+                        ]
+                    },
+                    {
                         "name": "Piranha's Hidden Pillar - Make Piranha Squirm",
                         "item_count": 1,
                         "access_rules": [
@@ -173,6 +183,36 @@
                             "swim, $GroundBox"
                         ]
                     },
+                    {
+                        "name": "Wet-Dry Town - ? Box on Gray House",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wet-Dry Town - ? Box on White House",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "swim",
+                            "double_jump, ledge_grab",
+                            "triple_jump",
+                            "wall_kick",
+                            "pole_climb, ledge_grab",
+                            "pole_climb, kick",
+                            "pole_climb, $HeightDoubleJump",
+                        ]
+                    },
+                    {
+                        "name": "Wet-Dry Town - ? Box Inside White House",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$GroundBox"
+                        ]
+                    }
                 ],
                 "map_locations": [
                     {
@@ -273,6 +313,10 @@
                 "name": "Ultra Battle Fort - Under the Thwomp"
             },
             {
+                "ref": "Star Road/Ultra Battle Fort/Ultra Battle Fort - ? Box Above Wall Kick Wall",
+                "name": "Ultra Battle Fort - ? Box Above Wall Kick Wall"
+            },
+            {
                 "ref": "Star Road/Ultra Battle Fort/Piranha's Hidden Pillar - Make Piranha Squirm",
                 "name": "Piranha's Hidden Pillar - Make Piranha Squirm"
             },
@@ -303,6 +347,18 @@
             {
                 "ref": "Star Road/Wet-Dry Town/Wet-Dry Town - Red Coins",
                 "name": "Wet-Dry Town - Red Coins"
+            },
+            {
+                "ref": "Star Road/Wet-Dry Town/Wet-Dry Town - ? Box on Gray House",
+                "name": "Wet-Dry Town - ? Box on Gray House"
+            },
+            {
+                "ref": "Star Road/Wet-Dry Town/Wet-Dry Town - ? Box on White House",
+                "name": "Wet-Dry Town - ? Box on White House"
+            },
+            {
+                "ref": "Star Road/Wet-Dry Town/Wet-Dry Town - ? Box Inside White House",
+                "name": "Wet-Dry Town - ? Box Inside White House"
             },
             {
                 "ref": "Star Road/Corrupted Challenge/Corrupted Challenge - Green Demon Chase",

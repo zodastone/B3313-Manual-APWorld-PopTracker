@@ -84,6 +84,67 @@
                         "access_rules": [
                             "$HeightWallKickLedgeGrab"
                         ]
+                    },
+                    {
+                        "name": "Test Level - ? Box on Ground Level",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Test Level - ? Box on First Green Platform",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightBackflip",
+                            "$YamlEnabled|fly_guy"
+                        ]
+                    },
+                    {
+                        "name": "Test Level - ? Box During Wall Kick Climb (1 of 2)",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightWallKickLedgeGrab"
+                        ]
+                    },
+                    {
+                        "name": "Test Level - ? Box During Wall Kick Climb (2 of 2)",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightWallKickLedgeGrab"
+                        ]
+                    },
+                    {
+                        "name": "Test Level - ? Box in 1st Open Area (1 of 2)",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightWallKickLedgeGrab"
+                        ]
+                    },
+                    {
+                        "name": "Test Level - ? Box in 1st Open Area (2 of 2)",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightWallKickLedgeGrab"
+                        ]
+                    },
+                    {
+                        "name": "Test Level - ? Box in 2nd Open Area",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "$HeightWallKickLedgeGrab"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -182,7 +243,7 @@
             {
                 "name": "castle2",
                 "access_rules": [
-                    "3rd_floor_(beta)_courses, vanish_cap"
+                    "3rd_floor_(beta)_courses, vanish_cap, $GroundBox"
                 ],
                 "sections": [
                     {
@@ -225,6 +286,34 @@
             {
                 "ref": "3rd Floor (beta)/Test Level/Test Level - Top of the Tower",
                 "name": "Test Level - Top of the Tower"
+            },
+            {
+                "ref": "3rd Floor (beta)/Test Level/Test Level - ? Box on Ground Level",
+                "name": "Test Level - ? Box on Ground Level"
+            },
+            {
+                "ref": "3rd Floor (beta)/Test Level/Test Level - ? Box on First Green Platform",
+                "name": "Test Level - ? Box on First Green Platform"
+            },
+            {
+                "ref": "3rd Floor (beta)/Test Level/Test Level - ? Box During Wall Kick Climb (1 of 2)",
+                "name": "Test Level - ? Box During Wall Kick Climb (1 of 2)"
+            },
+            {
+                "ref": "3rd Floor (beta)/Test Level/Test Level - ? Box During Wall Kick Climb (2 of 2)",
+                "name": "Test Level - ? Box During Wall Kick Climb (2 of 2)"
+            },
+            {
+                "ref": "3rd Floor (beta)/Test Level/Test Level - ? Box in 1st Open Area (1 of 2)",
+                "name": "Test Level - ? Box in 1st Open Area (1 of 2)"
+            },
+            {
+                "ref": "3rd Floor (beta)/Test Level/Test Level - ? Box in 1st Open Area (2 of 2)",
+                "name": "Test Level - ? Box in 1st Open Area (2 of 2)"
+            },
+            {
+                "ref": "3rd Floor (beta)/Test Level/Test Level - ? Box in 2nd Open Area",
+                "name": "Test Level - ? Box in 2nd Open Area"
             },
             {
                 "ref": "3rd Floor (beta)/Tall Floating Fortress/Tall Floating Fortress - Top of the Tower",

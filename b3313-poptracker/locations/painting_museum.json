@@ -65,12 +65,8 @@
                         "access_rules": [
                             "swim, wall_climb, ledge_grab, vanish_cap",
                             "swim, wall_climb, ledge_grab, $YamlEnabled|hidden_stuff",
-                            "swim, triple_jump, vanish_cap",
-                            "swim, triple_jump, $YamlEnabled|hidden_stuff",
                             "metal_cap, wall_climb, ledge_grab, vanish_cap",
-                            "metal_cap, wall_climb, ledge_grab, $YamlEnabled|hidden_stuff",
-                            "metal_cap, triple_jump, vanish_cap",
-                            "metal_cap, triple_jump, $YamlEnabled|hidden_stuff"
+                            "metal_cap, wall_climb, ledge_grab, $YamlEnabled|hidden_stuff"
                         ]
                     }
                 ],
@@ -110,6 +106,51 @@
                         "item_count": 1,
                         "access_rules": [
                             "vanish_cap, wall_kick"
+                        ]
+                    },
+                    {
+                        "name": "Dry Square - ? Box with Secret (Bottom)",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Dry Square - ? Box with Secret (2nd Tier 1 of 2)",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "wall_kick",
+                            "$YamlEnabled|slope_movement"
+                        ]
+                    },
+                    {
+                        "name": "Dry Square - ? Box with Secret (2nd Tier 2 of 2)",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "wall_kick",
+                            "$YamlEnabled|slope_movement"
+                        ]
+                    },
+                    {
+                        "name": "Dry Square - ? Box with Secret (3rd Tier)",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "wall_kick",
+                            "$YamlEnabled|slope_movement"
+                        ]
+                    },
+                    {
+                        "name": "Dry Square - ? Box with Secret (Top)",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "wall_kick"
                         ]
                     }
                 ],
@@ -157,6 +198,26 @@
             {
                 "ref": "Painting Museum/Dry Square/Dry Square - Yellow Box Secrets",
                 "name": "Dry Square - Yellow Box Secrets"
+            },
+            {
+                "ref": "Painting Museum/Dry Square/Dry Square - ? Box with Secret (Bottom)",
+                "name": "Dry Square - ? Box with Secret (Bottom)"
+            },
+            {
+                "ref": "Painting Museum/Dry Square/Dry Square - ? Box with Secret (2nd Tier 1 of 2)",
+                "name": "Dry Square - ? Box with Secret (2nd Tier 1 of 2)"
+            },
+            {
+                "ref": "Painting Museum/Dry Square/Dry Square - ? Box with Secret (2nd Tier 2 of 2)",
+                "name": "Dry Square - ? Box with Secret (2nd Tier 2 of 2)"
+            },
+            {
+                "ref": "Painting Museum/Dry Square/Dry Square - ? Box with Secret (3rd Tier)",
+                "name": "Dry Square - ? Box with Secret (3rd Tier)"
+            },
+            {
+                "ref": "Painting Museum/Dry Square/Dry Square - ? Box with Secret (Top)",
+                "name": "Dry Square - ? Box with Secret (Top)"
             }
         ],
         "map_locations": [

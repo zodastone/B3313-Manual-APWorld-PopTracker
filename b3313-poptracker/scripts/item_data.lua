@@ -1,6 +1,6 @@
 ITEM_GROUPS = {
 	["Victory Items"] = {"dead_bowser"},
-	["Moves"] = {"progressive_triple_jump", "long_jump", "backflip", "side_flip", "wall_kick", "dive", "ground_pound", "kick", "pole_climb", "ledge_grab", "wall_climb", "ceiling_hang", "progressive_grab", "swim", "shell"},
+	["Moves"] = {"double_jump", "long_jump", "backflip", "side_flip", "wall_kick", "dive", "ground_pound", "kick", "pole_climb", "ledge_grab", "wall_climb", "ceiling_hang", "punch", "swim", "shell"},
 	["Caps"] = {"wing_cap", "metal_cap", "vanish_cap"},
 	["Comets"] = {"green_comet"},
 	["Red Stars"] = {"red_star"},

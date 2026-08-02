@@ -91,11 +91,24 @@
                         ]
                     },
                     {
+                        "name": "Frosty Highlands - ? Box Near Pipe",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "beta_lobby_b_courses, shell, $GroundBox",
+                            "beta_lobby_b_courses, $YamlEnabled|slope_movement, $GroundBox",
+                            "beta_lobby_b_courses, $DistDoubleJump, $GroundBox",
+                            "beta_lobby_d_courses, $HeightLedgeGrab, $GroundBox"
+                        ]
+                    },
+                    {
                         "name": "Cold Cold Crevasse - Top of the Area",
                         "item_count": 1,
                         "access_rules": [
                             "wall_kick, beta_lobby_b_courses, shell",
                             "wall_kick, beta_lobby_b_courses, $YamlEnabled|slope_movement",
+                            "wall_kick, beta_lobby_b_courses, $DistDoubleJump",
                             "wall_kick, beta_lobby_d_courses, $HeightBackflip"
                         ]
                     },
@@ -107,6 +120,8 @@
                             "$HeightBackflip, $HeightLedgeGrab, beta_lobby_b_courses, shell",
                             "$DistLongJump, $HeightLedgeGrab, beta_lobby_b_courses, $YamlEnabled|slope_movement",
                             "$HeightBackflip, $HeightLedgeGrab, beta_lobby_b_courses, $YamlEnabled|slope_movement",
+                            "$DistLongJump, $HeightLedgeGrab, beta_lobby_b_courses, $DistDoubleJump",
+                            "$HeightBackflip, $HeightLedgeGrab, beta_lobby_b_courses, $DistDoubleJump",
                             "$DistLongJump, $HeightLedgeGrab, beta_lobby_d_courses, $HeightBackflip",
                             "$HeightBackflip, $HeightLedgeGrab, beta_lobby_d_courses, $HeightBackflip"
                         ]
@@ -128,8 +143,7 @@
             {
                 "name": "Snowman's Land (beta)",
                 "access_rules": [
-                    "beta_lobby_b_courses, shell",
-                    "beta_lobby_b_courses, $YamlEnabled|slope_movement",
+                    "beta_lobby_b_courses",
                     "beta_lobby_d_courses"
                 ],
                 "sections": [
@@ -151,7 +165,13 @@
                             "$HeightBackflip",
                             "pole_climb"
                         ]
-                    }
+                    },
+                    {
+                        "name": "Snowman's Land (beta) - ? Box Near Start",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1
+                    },
                 ],
                 "map_locations": [
                     {
@@ -191,12 +211,30 @@
                         "name": "Whomp's Kingdom - Red Coins",
                         "item_count": 1,
                         "access_rules": [
-                            "cannon_unlock_(whomps_kingdom)",
-                            "pole_climb",
-                            "backflip",
-                            "triple_jump",
-                            "wall_kick"
+                            "cannon_unlock_(whomps_kingdom), $GroundBox",
+                            "pole_climb, $GroundBox",
+                            "backflip, $GroundBox",
+                            "triple_jump, $GroundBox",
+                            "wall_kick, $GroundBox"
                         ]
+                    },
+                    {
+                        "name": "Whomp's Kingdom - ? Box by Start (1 of 2)",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Whomp's Kingdom - ? Box by Start (2 of 2)",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Whomp's Kingdom - ? Box by SMG2 Bonus Warp",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1
                     },
                     {
                         "name": "Whomp's Prison - In a Jail Cell",
@@ -319,6 +357,65 @@
                         ]
                     },
                     {
+                        "name": "Blazing Bully Base - ? Box at Middle of Climb (Light)",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "triple_jump, wing_cap",
+                            "wall_kick"
+                        ]
+                    },
+                    {
+                        "name": "Blazing Bully Base - ? Box Near High Platform Star (Light)",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "triple_jump, wing_cap",
+                            "wall_kick"
+                        ]
+                    },
+                    {
+                        "name": "Blazing Bully Base - ? Box on Left Side (Dark)",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "kick",
+                            "ledge_grab",
+                            "dive",
+                            "double_jump",
+                            "$YamlEnabled|lava_boost"
+                        ]
+                    },
+                    {
+                        "name": "Blazing Bully Base - ? Box at Start of Climb (Dark)",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "kick",
+                            "ledge_grab",
+                            "dive",
+                            "double_jump",
+                            "$YamlEnabled|lava_boost"
+                        ]
+                    },
+                    {
+                        "name": "Blazing Bully Base - ? Box at Middle of Climb (Dark)",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "kick",
+                            "ledge_grab",
+                            "dive",
+                            "double_jump",
+                            "$YamlEnabled|lava_boost"
+                        ]
+                    },
+                    {
                         "name": "Bowser Inside the Volcano - Defeat Bowser",
                         "chest_unopened_img": "/images/items/red_star.png",
                         "item_count": 1,
@@ -366,6 +463,10 @@
                 "name": "Frosty Highlands - Green Star on the Chimney"
             },
             {
+                "ref": "Beta Lobby B/Frosty Highlands/Frosty Highlands - ? Box Near Pipe",
+                "name": "Frosty Highlands - ? Box Near Pipe"
+            },
+            {
                 "ref": "Beta Lobby B/Frosty Highlands/Cold Cold Crevasse - Top of the Area",
                 "name": "Cold Cold Crevasse - Top of the Area"
             },
@@ -386,6 +487,10 @@
                 "name": "Snowman's Land (beta) - Silver Stars"
             },
             {
+                "ref": "Beta Lobby B/Snowman's Land (beta)/Snowman's Land (beta) - ? Box Near Start",
+                "name": "Snowman's Land (beta) - ? Box Near Start"
+            },
+            {
                 "ref": "Beta Lobby B/Whomp's Kingdom/Whomp's Kingdom - SMG2 Bonus Area",
                 "name": "Whomp's Kingdom - SMG2 Bonus Area"
             },
@@ -396,6 +501,18 @@
             {
                 "ref": "Beta Lobby B/Whomp's Kingdom/Whomp's Kingdom - Red Coins",
                 "name": "Whomp's Kingdom - Red Coins"
+            },
+            {
+                "ref": "Beta Lobby B/Whomp's Kingdom/Whomp's Kingdom - ? Box by Start (1 of 2)",
+                "name": "Whomp's Kingdom - ? Box by Start (1 of 2)"
+            },
+            {
+                "ref": "Beta Lobby B/Whomp's Kingdom/Whomp's Kingdom - ? Box by Start (2 of 2)",
+                "name": "Whomp's Kingdom - ? Box by Start (2 of 2)"
+            },
+            {
+                "ref": "Beta Lobby B/Whomp's Kingdom/Whomp's Kingdom - ? Box by SMG2 Bonus Warp",
+                "name": "Whomp's Kingdom - ? Box by SMG2 Bonus Warp"
             },
             {
                 "ref": "Beta Lobby B/Whomp's Kingdom/Whomp's Prison - In a Jail Cell",
@@ -428,6 +545,26 @@
             {
                 "ref": "Beta Lobby B/Blazing Bully Base/Blazing Bully Base - Red Coins",
                 "name": "Blazing Bully Base - Red Coins"
+            },
+            {
+                "ref": "Beta Lobby B/Blazing Bully Base/Blazing Bully Base - ? Box at Middle of Climb (Light)",
+                "name": "Blazing Bully Base - ? Box at Middle of Climb (Light)"
+            },
+            {
+                "ref": "Beta Lobby B/Blazing Bully Base/Blazing Bully Base - ? Box Near High Platform Star (Light)",
+                "name": "Blazing Bully Base - ? Box Near High Platform Star (Light)"
+            },
+            {
+                "ref": "Beta Lobby B/Blazing Bully Base/Blazing Bully Base - ? Box on Left Side (Dark)",
+                "name": "Blazing Bully Base - ? Box on Left Side (Dark)"
+            },
+            {
+                "ref": "Beta Lobby B/Blazing Bully Base/Blazing Bully Base - ? Box at Start of Climb (Dark)",
+                "name": "Blazing Bully Base - ? Box at Start of Climb (Dark)"
+            },
+            {
+                "ref": "Beta Lobby B/Blazing Bully Base/Blazing Bully Base - ? Box at Middle of Climb (Dark)",
+                "name": "Blazing Bully Base - ? Box at Middle of Climb (Dark)"
             },
             {
                 "ref": "Beta Lobby B/Blazing Bully Base/Bowser Inside the Volcano - Defeat Bowser",

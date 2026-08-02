@@ -23,6 +23,36 @@
                         "access_rules": [
                             "$HeightDoubleJump"
                         ]
+                    },
+                    {
+                        "name": "Bob-omb Tower - ? Box with Secret (1 of 5)",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bob-omb Tower - ? Box with Secret (2 of 5)",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bob-omb Tower - ? Box with Secret (3 of 5)",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bob-omb Tower - ? Box with Secret (4 of 5)",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bob-omb Tower - ? Box with Secret (5 of 5)",
+                        "visibility_rules": "$YamlEnabled|filler_boxes",
+                        "chest_unopened_img": "/images/map_checks/filler_box.png",
+                        "item_count": 1
                     }
                 ],
                 "map_locations": [
@@ -45,6 +75,26 @@
             {
                 "ref": "Internal Garden/Bob-omb Tower/Bob-omb Tower - Yellow Box Secrets",
                 "name": "Bob-omb Tower - Yellow Box Secrets"
+            },
+            {
+                "ref": "Internal Garden/Bob-omb Tower/Bob-omb Tower - ? Box with Secret (1 of 5)",
+                "name": "Bob-omb Tower - ? Box with Secret (1 of 5)"
+            },
+            {
+                "ref": "Internal Garden/Bob-omb Tower/Bob-omb Tower - ? Box with Secret (2 of 5)",
+                "name": "Bob-omb Tower - ? Box with Secret (2 of 5)"
+            },
+            {
+                "ref": "Internal Garden/Bob-omb Tower/Bob-omb Tower - ? Box with Secret (3 of 5)",
+                "name": "Bob-omb Tower - ? Box with Secret (3 of 5)"
+            },
+            {
+                "ref": "Internal Garden/Bob-omb Tower/Bob-omb Tower - ? Box with Secret (4 of 5)",
+                "name": "Bob-omb Tower - ? Box with Secret (4 of 5)"
+            },
+            {
+                "ref": "Internal Garden/Bob-omb Tower/Bob-omb Tower - ? Box with Secret (5 of 5)",
+                "name": "Bob-omb Tower - ? Box with Secret (5 of 5)"
             }
         ],
         "map_locations": [
